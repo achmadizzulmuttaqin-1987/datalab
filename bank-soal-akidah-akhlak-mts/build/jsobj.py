@@ -192,6 +192,11 @@ def extract_register(src: str) -> dict:
     return parse_value(_Reader(_slice_call(src, "window.BSRegister")))
 
 
+def extract_addtypes(src: str) -> dict:
+    """Ambil objek pada window.BSAddTypes({...}) — tipe soal tambahan satu bab."""
+    return parse_value(_Reader(_slice_call(src, "window.BSAddTypes")))
+
+
 def extract_index(src: str) -> list:
     """Ambil array pada window.__BS.index = [...]."""
     a = src.find("window.__BS.index")
