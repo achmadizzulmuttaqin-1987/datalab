@@ -104,3 +104,25 @@ def reorder_options(q: dict, target: int, rng: random.Random) -> dict:
 
 def stem_key(text: str, n: int = 70) -> str:
     return re.sub(r"\s+", " ", text or "").strip()[:n]
+
+
+# ---------- berkas tipe soal tambahan (window.BSAddTypes) ----------
+HEADER_TYPES = re.compile(
+    r"\A(?P<head>.*?window\.BSAddTypes\(\{.*?'essay':\[)", re.S
+)
+TYPE_ORDER = ("pgk", "bs", "singkat", "essay")
+
+
+def dumps_types(bab: dict) -> str:
+    """Serialisasi satu berkas tipe soal, menjaga format kutip tunggal."""
+    parts = [f"'id':{dumps(bab['id'])}"]
+    for k in TYPE_ORDER:
+        arr = bab.get(k, []) or []
+        body = ",\n".join(dumps_question(q) for q in arr)
+        parts.append(f"'{k}':[\n{body}\n]")
+    return "window.BSAddTypes({\n" + ",\n".join(parts) + "\n});\n"
+
+
+def write_types(path: Path, bab: dict, header_comment: str = "") -> None:
+    text = (header_comment + "\n" if header_comment else "") + dumps_types(bab)
+    path.write_text(text, encoding="utf-8")
