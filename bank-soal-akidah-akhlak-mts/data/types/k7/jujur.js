@@ -2,6 +2,8 @@
    10 PGK (2 jawaban benar) + 10 Benar/Salah + 10 Jawaban Singkat + 5 Essay.
    Seluruh soal HOTS dan orisinal. */
 
+
+
 window.BSAddTypes({
 'id':'k7-jujur',
 'pgk':[
