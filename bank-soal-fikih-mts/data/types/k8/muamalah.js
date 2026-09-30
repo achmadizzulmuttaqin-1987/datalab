@@ -1,4 +1,4 @@
-/* Kelas VIII - Semester 1 - Muamalah (Jual Beli, Khiyar, Qirad)
+/* Kelas VIII - Semester 2 - Muamalah (Jual Beli, Khiyar, Qirad)
    10 PGK (2 jawaban benar) + 10 Benar/Salah + 10 Jawaban Singkat + 5 Esai.
    Semua soal HOTS, original, selaras KMA 183/2019. */
 window.BSAddTypes({
