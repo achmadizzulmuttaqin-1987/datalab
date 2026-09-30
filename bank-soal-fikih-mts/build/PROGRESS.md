@@ -58,7 +58,7 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k9/haji-umrah — Haji & Umrah (Pendalaman Manasik)
 [x] k9/muamalah-modern — Muamalah: Jual Beli Terlarang & Kontemporer
 [x] k9/riba-bank — Riba, Bank, Rahn & Hutang Piutang
-[ ] k9/asuransi — Asuransi Syariah (Takaful)
+[x] k9/asuransi — Asuransi Syariah (Takaful)
 [ ] k9/koperasi — Koperasi Syariah & Mudharabah
 [ ] k9/waris-hitung — Perhitungan Waris (Ilmu Faraid)
 [ ] k9/nikah — Pernikahan dalam Islam
