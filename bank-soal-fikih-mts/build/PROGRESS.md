@@ -37,8 +37,8 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k7/salat-fardu — Salat Fardu, Adzan & Iqamah
 [x] k7/salat-sunnah — Salat Sunnah Muakkad & Ghairu Muakkad
 [x] k7/salat-berjamaah — Salat Berjamaah & Munfarid
-[ ] k7/salat-darurat — Salat dalam Keadaan Darurat
-[ ] k7/salat-jumat — Salat Jumat
+[x] k7/salat-darurat — Salat dalam Keadaan Darurat
+[x] k7/salat-jumat — Salat Jumat
 [ ] k7/salat-jamak — Salat Jama', Qasar, & Khauf
 [ ] k7/salat-idain — Salat Idain (Idulfitri & Iduladha)
 [ ] k7/salat-sunah-lain — Salat Sunah Berjamaah & Munfarid Lainnya
