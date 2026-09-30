@@ -51,7 +51,7 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k8/qurban — Qurban dan Akikah
 [x] k8/muamalah — Muamalah (Jual Beli, Khiyar, Qirad)
 [x] k8/riba — Riba, Bank & Rahn
-[ ] k8/waris — Hukum Waris dalam Islam
+[x] k8/waris — Hukum Waris dalam Islam
 [ ] k8/hikmah-ibadah — Hikmah Ibadah Mahdah & Ghairu Mahdah
 [ ] k9/sembelihan — Penyembelihan Hewan
 [ ] k9/qurban-akikah — Qurban dan Akikah (Pendalaman)
