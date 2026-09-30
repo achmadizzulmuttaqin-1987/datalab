@@ -40,12 +40,12 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k7/salat-darurat — Salat dalam Keadaan Darurat
 [x] k7/salat-jumat — Salat Jumat
 [x] k7/salat-jamak — Salat Jama', Qasar, & Khauf
-[ ] k7/salat-idain — Salat Idain (Idulfitri & Iduladha)
-[ ] k7/salat-sunah-lain — Salat Sunah Berjamaah & Munfarid Lainnya
-[ ] k7/adab-masjid — Adab Masuk Masjid & Zikir
-[ ] k8/sujud — Sujud Sahwi, Tilawah & Syukur
-[ ] k8/puasa — Puasa Wajib dan Puasa Sunah
-[ ] k8/zakat — Zakat Fitrah & Zakat Mal
+[x] k7/salat-idain — Salat Idain (Idulfitri & Iduladha)
+[x] k7/salat-sunah-lain — Salat Sunah Berjamaah & Munfarid Lainnya
+[x] k7/adab-masjid — Adab Masuk Masjid & Zikir
+[x] k8/sujud — Sujud Sahwi, Tilawah & Syukur
+[x] k8/puasa — Puasa Wajib dan Puasa Sunah
+[x] k8/zakat — Zakat Fitrah & Zakat Mal
 [ ] k8/haji — Haji dan Umrah
 [ ] k8/makanan — Makanan & Minuman Halal-Haram
 [ ] k8/qurban — Qurban dan Akikah
