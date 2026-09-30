@@ -80,5 +80,7 @@ dan harus bebas apostrof.
   Benar/Salah tepat 5 Benar dan 5 Salah per bab.
 - Output: `Bank-Soal-Akidah-Akhlak-MTs-1file.html` (±5,4 MB) — `validate.py`
   dan uji asap Node atas HTML jadi keduanya lulus.
-- Fikih: 0 dari 30 bab; infrastruktur masih versi lama dan perlu disalin
-  dari proyek Akidah Akhlak sebelum penulisan soal tipe baru dimulai.
+- Fikih: **30 dari 30 bab selesai** — 1.050 soal tipe baru (300 PGK, 300
+  Benar/Salah, 300 jawaban singkat, 150 esai) sehingga total isi
+  `Bank-Soal-Fikih-MTs-1file.html` menjadi 2.550 soal. Seluruh pemeriksaan
+  lulus di kedua proyek.

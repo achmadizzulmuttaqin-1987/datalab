@@ -59,10 +59,10 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k9/muamalah-modern — Muamalah: Jual Beli Terlarang & Kontemporer
 [x] k9/riba-bank — Riba, Bank, Rahn & Hutang Piutang
 [x] k9/asuransi — Asuransi Syariah (Takaful)
-[ ] k9/koperasi — Koperasi Syariah & Mudharabah
-[ ] k9/waris-hitung — Perhitungan Waris (Ilmu Faraid)
-[ ] k9/nikah — Pernikahan dalam Islam
-[ ] k9/hikmah-syariat — Hikmah & Implementasi Syariat
+[x] k9/koperasi — Koperasi Syariah & Mudharabah
+[x] k9/waris-hitung — Perhitungan Waris (Ilmu Faraid)
+[x] k9/nikah — Pernikahan dalam Islam
+[x] k9/hikmah-syariat — Hikmah & Implementasi Syariat
 
 ## Kemajuan terakhir
 
@@ -75,4 +75,13 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
   soal, karena soal berstimulus (kutipan dalil, tabel, kasus) sah memakai
   batang yang sama selama stimulusnya berbeda. Perbaikan yang sama diterapkan
   pada proyek Akidah Akhlak.
-- Soal tipe baru: 0 dari 1.050.
+- Soal tipe baru: **1.050 dari 1.050 — SELESAI (30/30 bab)**.
+  Rinciannya 300 PGK (4 opsi, tepat 2 jawaban benar; pasangan kunci
+  AB/AC/AD/BC/BD/CD terbagi rata), 300 Benar/Salah (tepat 150 Benar dan
+  150 Salah), 300 jawaban singkat (1-4 kata, dilengkapi `accepted`), serta
+  150 esai (kunci, rubrik minimal 2 butir, penjelasan; tidak dinilai otomatis).
+- Total isi `Bank-Soal-Fikih-MTs-1file.html` kini 2.550 soal
+  (1.500 pilihan ganda + 1.050 tipe baru).
+- Setiap bab melewati `lint_types.py`, `balance_types.py --bab`, `validate.py`,
+  `dup_check.py` (A-E nol), `dup_stem.py`, lalu `build.py` dan
+  `build/smoke_built.mjs` (SEMUA PEMERIKSAAN LULUS).
