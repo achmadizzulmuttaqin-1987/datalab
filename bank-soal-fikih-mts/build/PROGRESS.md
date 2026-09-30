@@ -47,7 +47,7 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 [x] k8/puasa — Puasa Wajib dan Puasa Sunah
 [x] k8/zakat — Zakat Fitrah & Zakat Mal
 [x] k8/haji — Haji dan Umrah
-[ ] k8/makanan — Makanan & Minuman Halal-Haram
+[x] k8/makanan — Makanan & Minuman Halal-Haram
 [ ] k8/qurban — Qurban dan Akikah
 [ ] k8/muamalah — Muamalah (Jual Beli, Khiyar, Qirad)
 [ ] k8/riba — Riba, Bank & Rahn
