@@ -33,10 +33,10 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 
 ## Status — Fikih MTs (30 bab)
 
-[ ] k7/thaharah — Thaharah (Bersuci)
-[ ] k7/salat-fardu — Salat Fardu, Adzan & Iqamah
-[ ] k7/salat-sunnah — Salat Sunnah Muakkad & Ghairu Muakkad
-[ ] k7/salat-berjamaah — Salat Berjamaah & Munfarid
+[x] k7/thaharah — Thaharah (Bersuci)
+[x] k7/salat-fardu — Salat Fardu, Adzan & Iqamah
+[x] k7/salat-sunnah — Salat Sunnah Muakkad & Ghairu Muakkad
+[x] k7/salat-berjamaah — Salat Berjamaah & Munfarid
 [ ] k7/salat-darurat — Salat dalam Keadaan Darurat
 [ ] k7/salat-jumat — Salat Jumat
 [ ] k7/salat-jamak — Salat Jama', Qasar, & Khauf
