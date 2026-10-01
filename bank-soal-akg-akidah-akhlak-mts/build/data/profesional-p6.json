@@ -1,0 +1,368 @@
+{
+  "berkas": "profesional-p6",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-101",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Perbedaan makna Ar-Rahman dan Ar-Rahim dalam asmaul husna adalah ...",
+      "opsi": [
+        "Ar-Rahman mencakup semua makhluk, sedangkan Ar-Rahim khusus orang beriman",
+        "Ar-Rahman khusus orang beriman, sedangkan Ar-Rahim mencakup semua makhluk",
+        "Ar-Rahman berarti Maha Kuat, sedangkan Ar-Rahim berarti Maha Tinggi",
+        "Ar-Rahman berarti Maha Adil, sedangkan Ar-Rahim berarti Maha Bijaksana"
+      ],
+      "kunci": 0,
+      "bahasan": "Ar-Rahman menunjuk kasih sayang Allah yang meliputi seluruh makhluk di dunia, sedangkan Ar-Rahim menunjuk kasih sayang khusus bagi orang beriman di akhirat."
+    },
+    {
+      "id": "PRO-102",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Nama Allah Al-Malik menunjukkan bahwa Allah ...",
+      "opsi": [
+        "Maha Pemberi rezeki kepada seluruh makhluk-Nya",
+        "Maha Raja yang menguasai dan mengatur segala sesuatu",
+        "Maha Mendengar seluruh ucapan para hamba-Nya",
+        "Maha Penyayang kepada seluruh makhluk-Nya"
+      ],
+      "kunci": 1,
+      "bahasan": "Al-Malik berarti Maha Raja atau Maha Penguasa. Seluruh kerajaan langit dan bumi berada dalam kekuasaan dan pengaturan Allah."
+    },
+    {
+      "id": "PRO-103",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Meneladani sifat Al-Quddus dalam kehidupan sehari-hari diwujudkan dengan ...",
+      "opsi": [
+        "menjaga kesucian hati dan perbuatan dari segala yang tercela",
+        "memperbanyak harta agar dapat bersedekah setiap hari",
+        "menampilkan ibadah agar dilihat banyak orang",
+        "menuntut orang lain agar berlaku suci seperti dirinya"
+      ],
+      "kunci": 0,
+      "bahasan": "Al-Quddus berarti Maha Suci. Meneladaninya berarti menjaga kebersihan hati, lisan, dan perbuatan dari dosa serta sifat tercela."
+    },
+    {
+      "id": "PRO-104",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Meneladani sifat Al-Hakim bagi peserta didik tampak pada perilaku ...",
+      "opsi": [
+        "berbicara keras agar pendapatnya selalu diikuti",
+        "berpikir bijak dan menempatkan sesuatu pada tempatnya",
+        "mengikuti pendapat terbanyak tanpa menimbang benar salah",
+        "memutuskan perkara sesuai keuntungan pribadinya"
+      ],
+      "kunci": 1,
+      "bahasan": "Al-Hakim berarti Maha Bijaksana. Meneladaninya dilakukan dengan berpikir jernih, adil, dan menempatkan segala sesuatu secara tepat."
+    },
+    {
+      "id": "PRO-105",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pernyataan yang tepat tentang larangan menyerupakan Allah dengan makhluk?",
+      "opsi": [
+        "Allah dapat digambarkan persis seperti makhluk yang paling mulia.",
+        "Allah tidak memiliki kesamaan dengan makhluk pada zat, sifat, maupun perbuatan.",
+        "Akal manusia terbatas sehingga tidak boleh menggambarkan wujud Allah.",
+        "Menggambarkan Allah dengan patung termasuk ibadah yang utama."
+      ],
+      "kunci": [
+        1,
+        2
+      ],
+      "bahasan": "Tanzih menegaskan Allah berbeda dari makhluk. Akal manusia terbatas sehingga dilarang menggambarkan wujud Allah, dan penggambaran dengan patung bertentangan dengan tauhid."
+    },
+    {
+      "id": "PRO-106",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Salah satu hikmah mempelajari dan memahami asmaul husna adalah ...",
+      "opsi": [
+        "lebih mengenal Allah lalu meneladani sifat-Nya sesuai kemampuan",
+        "dapat menuntut Allah agar mengabulkan semua keinginan",
+        "menjadi tahu urutan nama-nama Allah yang paling utama",
+        "mampu menghitung jumlah nama Allah dengan tepat"
+      ],
+      "kunci": 0,
+      "bahasan": "Mengenal asmaul husna menuntut dua hal sekaligus: menambah pengetahuan tentang Allah dan meneladani sifat-sifat mulia-Nya dalam batas kemampuan manusia."
+    },
+    {
+      "id": "PRO-107",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Kalimat tauhid la ilaha illallah menegaskan bahwa ...",
+      "opsi": [
+        "seluruh makhluk memiliki kekuatan yang setara dengan Allah",
+        "manusia bebas menyembah tuhan mana pun yang diyakini",
+        "para nabi dan wali berhak menerima ibadah manusia",
+        "tidak ada tuhan yang berhak disembah selain Allah"
+      ],
+      "kunci": 3,
+      "bahasan": "Kalimat tauhid menafikan segala sesembahan selain Allah dan menetapkan bahwa hanya Allah yang berhak disembah, sehingga menutup segala bentuk syirik."
+    },
+    {
+      "id": "PRO-108",
+      "topik": "Iman kepada Allah dan Asmaul Husna",
+      "tipe": "pg",
+      "teks": "Dua kalimat syahadat memuat dua pokok pengakuan, yaitu ...",
+      "opsi": [
+        "kewajiban salat lima waktu dan puasa Ramadan",
+        "pengakuan terhadap para malaikat dan kitab Allah",
+        "pengesaan Allah dan penerimaan kerasulan Muhammad",
+        "kesaksian tentang hari akhir dan surga neraka"
+      ],
+      "kunci": 2,
+      "bahasan": "Syahadat menegaskan dua hal pokok: tidak ada tuhan selain Allah dan Muhammad adalah rasul-Nya, yang menjadi pintu masuk seluruh keislaman seseorang."
+    },
+    {
+      "id": "PRO-109",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Tugas malaikat Mikail adalah ...",
+      "opsi": [
+        "menyampaikan wahyu kepada para nabi dan rasul",
+        "mengatur rezeki dan menurunkan hujan kepada makhluk",
+        "mencabut nyawa seluruh makhluk saat ajal tiba",
+        "meniup sangkakala pada hari kiamat kelak"
+      ],
+      "kunci": 1,
+      "bahasan": "Mikail bertugas mengatur rezeki dan menurunkan hujan, sedangkan Jibril menyampaikan wahyu, Izrail mencabut nyawa, dan Israfil meniup sangkakala."
+    },
+    {
+      "id": "PRO-110",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Tugas malaikat Munkar dan Nakir adalah ...",
+      "opsi": [
+        "mencatat amal baik dan buruk manusia setiap waktu",
+        "menjaga pintu surga dan pintu neraka",
+        "mengatur pembagian rezeki seluruh makhluk",
+        "bertanya kepada manusia di dalam alam kubur"
+      ],
+      "kunci": 3,
+      "bahasan": "Munkar dan Nakir bertanya kepada manusia di alam kubur tentang keimanannya, sedangkan pencatat amal adalah Raqib dan Atid."
+    },
+    {
+      "id": "PRO-111",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Salah satu bukti kebenaran Al-Quran sebagai kitab Allah adalah ...",
+      "opsi": [
+        "kitab ini diturunkan dalam bahasa yang paling mudah",
+        "kitab ini hanya berlaku bagi umat pada masa tertentu",
+        "kitab ini ditulis ulang oleh setiap generasi umat",
+        "isi dan kemurniannya terjaga serta sesuai ilmu pengetahuan"
+      ],
+      "kunci": 3,
+      "bahasan": "Al-Quran terpelihara keasliannya sejak diturunkan dan isinya tidak bertentangan dengan penemuan ilmu pengetahuan yang sahih, sehingga menjadi bukti kebenarannya."
+    },
+    {
+      "id": "PRO-112",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pgk",
+      "teks": "Manakah DUA hikmah beriman kepada kitab-kitab Allah?",
+      "opsi": [
+        "Menganggap kitab sebelumnya tidak pernah diturunkan Allah.",
+        "Menjadikan Al-Quran sebagai pedoman dan rujukan dalam bertindak.",
+        "Mencukupkan diri dengan menyimpan kitab tanpa membacanya.",
+        "Meneladani ajaran kitab suci dan menjauhi larangan Allah."
+      ],
+      "kunci": [
+        1,
+        3
+      ],
+      "bahasan": "Iman kepada kitab menuntut penghayatan dan pengamalan: Al-Quran dijadikan pedoman hidup serta ajarannya diteladani. Mengingkari kitab sebelumnya atau menyimpan kitab tanpa membacanya bertentangan dengan iman itu."
+    },
+    {
+      "id": "PRO-113",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Sifat jaiz bagi para rasul adalah ...",
+      "opsi": [
+        "sifat yang mustahil terjadi pada rasul dan wajib ditolak",
+        "sifat manusiawi yang boleh ada pada rasul seperti makan dan sakit",
+        "sifat kesempurnaan yang hanya dimiliki oleh Allah",
+        "sifat khusus yang hanya dimiliki oleh para malaikat"
+      ],
+      "kunci": 1,
+      "bahasan": "Selain sifat wajib dan mustahil, rasul juga memiliki sifat jaiz, yaitu sifat-sifat kemanusiaan yang tidak mengurangi kemuliaan kenabian mereka."
+    },
+    {
+      "id": "PRO-114",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Mukjizat Nabi Musa membelah laut menunjukkan bahwa mukjizat ...",
+      "opsi": [
+        "terjadi karena kekuatan sihir yang dimiliki para nabi",
+        "dihasilkan dari latihan berat yang dilakukan para nabi",
+        "terjadi dengan izin Allah sebagai bukti kebenaran kenabian",
+        "merupakan hasil bantuan jin yang tunduk kepada nabi"
+      ],
+      "kunci": 2,
+      "bahasan": "Mukjizat adalah kejadian luar biasa yang terjadi dengan izin Allah untuk membuktikan kebenaran kenabian, bukan hasil sihir, latihan, atau bantuan makhluk halus."
+    },
+    {
+      "id": "PRO-115",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Yaumul mahsyar adalah peristiwa pada hari akhir ketika ...",
+      "opsi": [
+        "seluruh manusia berkumpul setelah dibangkitkan dari kubur",
+        "seluruh amal perbuatan manusia dihitung satu per satu",
+        "amal baik dan buruk manusia ditimbang dengan adil",
+        "manusia menerima balasan berupa surga atau neraka"
+      ],
+      "kunci": 0,
+      "bahasan": "Yaumul mahsyar adalah hari berkumpulnya seluruh manusia di satu tempat setelah dibangkitkan, sebelum memasuki tahapan perhitungan dan penimbangan amal."
+    },
+    {
+      "id": "PRO-116",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Mizan pada hari kiamat berfungsi untuk ...",
+      "opsi": [
+        "mencatat seluruh perbuatan manusia selama hidup di dunia",
+        "memisahkan manusia menurut asal daerahnya masing-masing",
+        "menentukan lamanya manusia hidup di dunia",
+        "menimbang amal baik dan buruk manusia dengan seadil-adilnya"
+      ],
+      "kunci": 3,
+      "bahasan": "Mizan adalah timbangan amal pada hari kiamat. Tidak ada penimbangan yang zalim, karena Allah menetapkan seluruh perhitungan secara adil."
+    },
+    {
+      "id": "PRO-117",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Ketetapan Allah yang pasti terjadi dan tidak mungkin diubah oleh manusia disebut ...",
+      "opsi": [
+        "takdir mualak",
+        "ikhtiar manusia",
+        "takdir mubram",
+        "tawakal hamba"
+      ],
+      "kunci": 2,
+      "bahasan": "Takdir mubram bersifat pasti dan tidak dapat diubah, misalnya kelahiran, kematian, dan jenis kelamin. Adapun takdir mualak berkaitan dengan usaha manusia."
+    },
+    {
+      "id": "PRO-118",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pgk",
+      "teks": "Manakah DUA peristiwa yang termasuk tanda kiamat sugra?",
+      "opsi": [
+        "Hancurnya seluruh alam semesta beserta isinya.",
+        "Ditiupnya sangkakala oleh malaikat Israfil.",
+        "Kematian seseorang yang terjadi di sekitar kita.",
+        "Bencana alam yang merusak sebagian wilayah."
+      ],
+      "kunci": [
+        2,
+        3
+      ],
+      "bahasan": "Kiamat sugra bersifat sebagian, misalnya kematian individu dan bencana yang terbatas. Kehancuran seluruh alam dan peniupan sangkakala termasuk tanda kiamat kubra."
+    },
+    {
+      "id": "PRO-119",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Sikap yang tepat ketika ditimpa musibah sesuai tuntunan iman kepada qadar adalah ...",
+      "opsi": [
+        "mengeluh kepada semua orang agar mendapat simpati",
+        "menyalahkan takdir atas kejadian yang menimpa dirinya",
+        "bersabar, berusaha bangkit, dan meyakini ada hikmah di baliknya",
+        "berhenti berusaha karena semuanya sudah ditentukan Allah"
+      ],
+      "kunci": 2,
+      "bahasan": "Iman kepada qadar melahirkan sikap sabar, tawakal, dan optimis untuk bangkit. Mengeluh, menyalahkan takdir, dan berhenti berusaha bukan sikap seorang mukmin."
+    },
+    {
+      "id": "PRO-120",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Kedudukan doa dan usaha dalam kaitannya dengan takdir adalah ...",
+      "opsi": [
+        "cara mengubah takdir mubram yang sudah pasti terjadi",
+        "pengganti usaha yang tidak mampu dilakukan manusia",
+        "jalan pintas mendapat hasil tanpa bekerja keras",
+        "ikhtiar yang diperintahkan dan tidak bertentangan dengan takdir"
+      ],
+      "kunci": 3,
+      "bahasan": "Doa dan usaha adalah bagian dari takdir Allah. Keduanya wajib dilakukan, sedangkan hasil akhir sepenuhnya diserahkan kepada ketetapan Allah."
+    },
+    {
+      "id": "PRO-121",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pg",
+      "teks": "Pada masa Nabi dan para sahabat, pembahasan akidah belum menjadi ilmu tersendiri karena ...",
+      "opsi": [
+        "kaum muslimin belum mengenal dasar-dasar keimanan",
+        "ilmu kalam baru dikenal setelah datangnya masa penjajahan",
+        "persoalan akidah tidak menarik perhatian kaum muslimin",
+        "pembahasan akidah masih menyatu dengan Al-Quran dan hadis"
+      ],
+      "kunci": 3,
+      "bahasan": "Pada masa awal Islam, akidah dipahami langsung dari Al-Quran dan sunah tanpa perdebatan. Ilmu kalam berkembang sebagai disiplin tersendiri setelah munculnya berbagai persoalan baru."
+    },
+    {
+      "id": "PRO-122",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pg",
+      "teks": "Tokoh yang dikenal sebagai pendiri aliran Muktazilah adalah ...",
+      "opsi": [
+        "Abul Hasan al-Asyari",
+        "Wasil bin Atha",
+        "Abu Mansur al-Maturidi",
+        "Ahmad bin Hanbal"
+      ],
+      "kunci": 1,
+      "bahasan": "Muktazilah tumbuh dari kelompok Wasil bin Atha di Basrah. Adapun al-Asyari dan al-Maturidi adalah tokoh Ahlussunnah, sedangkan Ahmad bin Hanbal dikenal sebagai imam ahlul hadis."
+    },
+    {
+      "id": "PRO-123",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pg",
+      "teks": "Pandangan Ahlussunnah tentang pelaku dosa besar yang masih mengucapkan syahadat adalah ...",
+      "opsi": [
+        "tetap mukmin yang fasik dan urusannya diserahkan kepada Allah",
+        "otomatis menjadi kafir dan wajib diperangi sampai bertobat",
+        "tetap mukmin tanpa dosa dan tidak perlu bertobat",
+        "pasti kekal di neraka tanpa kemungkinan ampunan"
+      ],
+      "kunci": 0,
+      "bahasan": "Ahlussunnah bersikap moderat: pelaku dosa besar tidak dikafirkan sebagaimana pandangan Khawarij, juga tidak dianggap tanpa dosa sebagaimana Murjiah, namun tetap berpeluang mendapat ampunan."
+    },
+    {
+      "id": "PRO-124",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pandangan yang menjadi ciri aliran Muktazilah?",
+      "opsi": [
+        "Meyakini pelaku dosa besar berada di antara mukmin dan kafir.",
+        "Menyatakan manusia bertanggung jawab atas perbuatannya dan Allah Maha Adil.",
+        "Menyatakan bahwa iman cukup di dalam hati meskipun tanpa amal.",
+        "Menyatakan manusia tidak memiliki kebebasan sama sekali dalam berbuat."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Manzilah baina manzilatain dan penegasan keadilan Allah serta tanggung jawab manusia termasuk lima ajaran Muktazilah. Anggapan iman cukup di hati adalah pandangan Murjiah, sedangkan peniadaan kebebasan manusia adalah pandangan Jabariyah."
+    },
+    {
+      "id": "PRO-125",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pg",
+      "teks": "Sikap moderat dalam menyikapi perbedaan pendapat ilmu kalam ditunjukkan dengan ...",
+      "opsi": [
+        "mengikuti satu aliran saja dan menolak seluruh pandangan lain",
+        "menghargai perbedaan cabang dan berpegang pada Al-Quran serta hadis",
+        "mencampuradukkan seluruh ajaran tanpa menimbang dasar dalilnya",
+        "menghindari pembahasan akidah agar tidak terjadi perbedaan"
+      ],
+      "kunci": 1,
+      "bahasan": "Moderasi berarti tetap berpegang pada sumber utama ajaran Islam, menghargai perbedaan pada perkara cabang, serta menghindari sikap ekstrem dan takfir."
+    }
+  ]
+}
