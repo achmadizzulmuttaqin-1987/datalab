@@ -84,3 +84,16 @@ dan harus bebas apostrof.
   Benar/Salah, 300 jawaban singkat, 150 esai) sehingga total isi
   `Bank-Soal-Fikih-MTs-1file.html` menjadi 2.550 soal. Seluruh pemeriksaan
   lulus di kedua proyek.
+
+## Pemerataan panjang opsi jawaban (Akidah Akhlak) — SELESAI
+- Tindakan: meringkas hanya teks opsi jawaban benar pada seluruh soal PG
+  (1.600 butir) dan PGK (320 butir) dari 32 bab; kunci/indeks, distraktor,
+  penjelasan, serta soal singkat/Benar-Salah/esai tidak diubah.
+- Hasil: **0 butir timpang** pada ambang 4 kata untuk PG maupun PGK.
+- PGK: rata-rata panjang opsi benar 19,3 kata vs opsi salah 19,1 kata;
+  selisih >= 2 kata tinggal 68 butir (21,2%).
+- Alat kerja: `len_check.py`, `len_dump.py`, `len_sample.py`,
+  `shorten_apply.py` (PG) dan `pgk_len.py`, `pgk_apply.py` (PGK).
+- Verifikasi: `validate.py` (2.720 soal), `dup_check.py`,
+  `balance_types.py`, `build.py`, dan `build/smoke_built.mjs` lulus;
+  `Bank-Soal-Akidah-Akhlak-MTs-1file.html` menjadi ±4,8 MB.
