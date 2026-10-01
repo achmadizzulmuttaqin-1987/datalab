@@ -43,3 +43,8 @@ Setiap butir memuat: id, topik, kategori, tipe, batang soal, empat opsi, kunci, 
 - Soal disusun sebagai bahan latihan mandiri; tidak mewakili naskah, penilaian, atau kebijakan resmi pihak mana pun.
 - Jadwal dan ketentuan resmi AKG mengikuti pengumuman Kementerian Agama dan kantor wilayah masing-masing.
 - Kisah teladan disajikan secara ringkas berdasarkan riwayat yang masyhur; rincian sanad tidak dibahas dalam bank soal latihan.
+
+## Uji antarmuka
+
+- `build/test_app.mjs` (jsdom, opsional) memeriksa 15 hal: lima tab, tabel kisi-kisi, sepuluh seksi rangkuman, 150 butir pada tab kunci, alur latihan (soal tampil, empat opsi, umpan balik dan kunci muncul, navigasi), penyimpanan progres di localStorage, kotak pencarian, dan data 11 soal PGK.
+- Hasil: seluruh 15 pemeriksaan lulus.
