@@ -9,11 +9,11 @@
       "teks": "Akhlak menurut Al-Ghazali adalah ...",
       "opsi": [
         "kebiasaan yang dilakukan karena paksaan orang lain semata",
-        "perbuatan baik yang hanya tampak di hadapan orang banyak",
         "sifat tertanam kuat dalam jiwa yang melahirkan perbuatan dengan mudah",
+        "perbuatan baik yang hanya tampak di hadapan orang banyak",
         "pengetahuan tentang aturan hukum yang bersifat wajib dan sunah"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Menurut Al-Ghazali, akhlak adalah keadaan jiwa yang mantap sehingga perbuatan lahir dengan mudah. Apabila perbuatannya baik, disebut akhlak terpuji; jika buruk, akhlak tercela."
     },
     {
@@ -23,11 +23,11 @@
       "teks": "Secara bahasa, akhlak merupakan bentuk jamak dari kata khulqun yang berarti ...",
       "opsi": [
         "kejadian atau penciptaan fisik",
-        "budi pekerti atau tingkah laku",
         "aturan ibadah dan muamalah",
+        "budi pekerti atau tingkah laku",
         "perintah dan larangan"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Khulqun berarti budi pekerti atau tingkah laku. Akhlak mencakup keadaan batin yang tercermin pada sikap dan perbuatan sehari-hari."
     },
     {
@@ -65,11 +65,11 @@
       "teks": "Menjaga kebersihan dan kesehatan diri serta tidak melakukan perbuatan yang merusak tubuh merupakan wujud akhlak ...",
       "opsi": [
         "kepada Allah",
-        "kepada diri sendiri",
         "kepada orang tua",
-        "kepada lingkungan"
+        "kepada lingkungan",
+        "kepada diri sendiri"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Akhlak kepada diri sendiri antara lain memelihara amanah tubuh: menjaga kebersihan, kesehatan, waktu, dan menjauhi perbuatan yang merusak diri."
     },
     {
@@ -79,11 +79,11 @@
       "teks": "Berbaik sangka terhadap perilaku orang lain tanpa bukti yang jelas disebut ...",
       "opsi": [
         "suuzan",
-        "husnuzan",
         "tahayul",
+        "husnuzan",
         "khurafat"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Husnuzan adalah berbaik sangka, sedangkan suuzan adalah berburuk sangka. Islam melarang suuzan karena dapat merusak persaudaraan."
     },
     {
@@ -94,10 +94,10 @@
       "opsi": [
         "menuliskan nama di dinding kelas agar dikenal",
         "mengambil bunga taman untuk hadiah tanpa izin",
-        "merawat tanaman, membuang sampah pada tempatnya, dan menghemat air",
-        "menumpuk sampah di sudut ruang kelas"
+        "menumpuk sampah di sudut ruang kelas",
+        "merawat tanaman, membuang sampah pada tempatnya, dan menghemat air"
       ],
-      "kunci": 2,
+      "kunci": 3,
       "bahasan": "Akhlak kepada lingkungan dilakukan dengan merawat dan melestarikan alam serta menjaga kebersihan sebagai bentuk tanggung jawab sebagai khalifah di bumi."
     },
     {
@@ -107,11 +107,11 @@
       "teks": "Mempercayai ramalan dan jimat yang menjanjikan keselamatan termasuk perbuatan ...",
       "opsi": [
         "tawakal yang dianjurkan Islam",
-        "ikhtiar yang dibolehkan",
         "tahayul dan khurafat yang dapat merusak akidah",
+        "ikhtiar yang dibolehkan",
         "hikmah yang bermanfaat"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Tahayul dan khurafat adalah keyakinan takhayul tanpa dasar ajaran Islam; mempercayainya dapat merusak akidah karena menyandarkan keselamatan kepada selain Allah."
     },
     {
@@ -120,12 +120,12 @@
       "tipe": "pg",
       "teks": "Membicarakan keburukan orang lain yang benar-benar ada, sementara orang tersebut tidak menyukainya, disebut ...",
       "opsi": [
-        "ghibah",
         "namimah",
         "fitnah",
-        "hasad"
+        "hasad",
+        "ghibah"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Ghibah adalah membicarakan keburukan orang lain sesuai kenyataan; apabila ditambah hal yang tidak benar, perbuatan itu berubah menjadi fitnah."
     },
     {
@@ -134,12 +134,12 @@
       "tipe": "pg",
       "teks": "Perbuatan menyebarkan perkataan seseorang kepada pihak lain dengan maksud membuat mereka bermusuhan disebut ...",
       "opsi": [
-        "namimah",
         "ghibah",
         "husnuzan",
+        "namimah",
         "tawadu"
       ],
-      "kunci": 0,
+      "kunci": 2,
       "bahasan": "Namimah atau adu domba bertujuan memicu permusuhan antarpihak. Islam mengancam pelakunya dengan tidak masuk surga sebagaimana peringatan dalam hadis."
     },
     {
@@ -148,12 +148,12 @@
       "tipe": "pg",
       "teks": "Rasa tidak senang melihat keberhasilan orang lain dan berharap nikmat itu hilang darinya disebut hasad. Cara mengatasi sifat ini adalah ...",
       "opsi": [
-        "menjauhi orang yang berhasil agar tidak teringat",
         "bersyukur, mendoakan kebaikan orang lain, dan meneladani keberhasilannya",
+        "menjauhi orang yang berhasil agar tidak teringat",
         "berusaha menjatuhkan orang tersebut agar terlihat sederajat",
         "menyebarkan berita yang merendahkan prestasinya"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Hasad diobati dengan syukur, doa kebaikan bagi orang lain, dan semangat meneladani prestasi tanpa niat menjatuhkan."
     },
     {
@@ -162,12 +162,12 @@
       "tipe": "pg",
       "teks": "Sikap sombong karena merasa lebih pandai, kaya, atau tinggi kedudukan disebut takabur. Lawan sifat takabur adalah ...",
       "opsi": [
-        "tawadu",
         "qanaah",
+        "tawadu",
         "sabar",
         "hilm"
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "Tawadu adalah sikap rendah hati tanpa merasa lebih tinggi dari orang lain, sekaligus menyadari bahwa segala kelebihan adalah karunia Allah."
     },
     {
@@ -176,12 +176,12 @@
       "tipe": "pg",
       "teks": "Melakukan suatu kebaikan agar dipuji orang lain disebut riya, sedangkan bangga berlebihan terhadap diri sendiri dan amalnya disebut ...",
       "opsi": [
-        "ghurur",
         "ujub",
+        "ghurur",
         "ananiah",
         "israf"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Ujub adalah kagum dan bangga berlebihan pada diri sendiri hingga melupakan peran Allah; keduanya merusak keikhlasan amal."
     },
     {
@@ -205,11 +205,11 @@
       "teks": "Membelanjakan harta secara berlebihan untuk hal yang tidak bermanfaat disebut ...",
       "opsi": [
         "qanaah dan zuhud",
+        "israf dan tabzir",
         "infak dan sedekah",
-        "tawakal dan syukur",
-        "israf dan tabzir"
+        "tawakal dan syukur"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Israf adalah berlebih-lebihan dalam penggunaan, tabzir adalah memboroskan untuk hal sia-sia. Islam menganjurkan hidup sederhana dan berimbang."
     },
     {
@@ -234,10 +234,10 @@
       "opsi": [
         "qanaah",
         "ikhtiar",
-        "tafakur",
-        "tawakal"
+        "tawakal",
+        "tafakur"
       ],
-      "kunci": 3,
+      "kunci": 2,
       "bahasan": "Tawakal adalah menyerahkan hasil kepada Allah setelah menempuh usaha terbaik. Tanpa ikhtiar, sikap semacam itu bukan tawakal, melainkan malas yang dibungkus alasan."
     },
     {
@@ -246,12 +246,12 @@
       "tipe": "pg",
       "teks": "Sikap merasa cukup dan rela dengan pemberian Allah serta tidak tamak terhadap harta orang lain disebut ...",
       "opsi": [
-        "qanaah",
         "israf",
+        "qanaah",
         "bakhil",
         "takabur"
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "Qanaah adalah sikap merasa cukup dengan rezeki yang halal dan tetap berusaha; ia berbeda dengan pasrah tanpa usaha maupun sifat tamak."
     },
     {
@@ -261,11 +261,11 @@
       "teks": "Seorang peserta didik gagal dalam seleksi olimpiade. Sikap yang mencerminkan optimis adalah ...",
       "opsi": [
         "menyalahkan keadaan lalu berhenti mencoba sama sekali",
-        "menyebarkan kabar kegagalan orang lain agar terlihat sama",
         "melakukan evaluasi diri, memperbaiki cara belajar, dan tetap berdoa",
+        "menyebarkan kabar kegagalan orang lain agar terlihat sama",
         "menyembunyikan kegagalan dengan berdusta kepada orang tua"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Optimis didahului evaluasi diri dan ikhtiar perbaikan; berputus asa termasuk akhlak tercela karena mendustakan keluasan rahmat Allah."
     },
     {
@@ -288,12 +288,12 @@
       "tipe": "pg",
       "teks": "Birrul walidain berarti ...",
       "opsi": [
-        "berbakti kepada kedua orang tua dengan hormat dan kasih sayang",
         "menghormati guru sebagaimana menghormati orang tua sendiri",
+        "berbakti kepada kedua orang tua dengan hormat dan kasih sayang",
         "menyayangi saudara kandung dan kerabat dekat setiap waktu",
         "menjaga hubungan baik dengan tetangga di sekitar rumah"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Birrul walidain adalah berbakti kepada kedua orang tua; hukumnya wajib dan merupakan akhlak paling utama setelah tauhid, sebagaimana isyarat QS Al-Isra ayat 23 sampai 24."
     },
     {
@@ -317,11 +317,11 @@
       "teks": "Ketika bertamu ke rumah orang lain, adab yang tepat adalah ...",
       "opsi": [
         "masuk langsung tanpa memberi salam agar tidak membuang waktu",
-        "memberi salam, mengetuk pintu dengan sopan, dan masuk setelah dipersilakan",
         "membawa banyak teman tanpa memberi tahu tuan rumah",
-        "mengambil keputusan sendiri untuk menginap beberapa hari"
+        "mengambil keputusan sendiri untuk menginap beberapa hari",
+        "memberi salam, mengetuk pintu dengan sopan, dan masuk setelah dipersilakan"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Adab bertamu antara lain mengucapkan salam, meminta izin, masuk setelah dipersilakan, serta menjaga sikap dan waktu selama bertamu."
     },
     {
@@ -331,11 +331,11 @@
       "teks": "Salah satu adab bermedia sosial yang mencerminkan akhlak terpuji adalah ...",
       "opsi": [
         "menyebarkan berita tanpa memeriksa kebenarannya",
-        "berkomentar dengan kata-kata kasar agar tampak berani",
         "mengunggah konten yang sopan serta memverifikasi informasi sebelum membagikannya",
+        "berkomentar dengan kata-kata kasar agar tampak berani",
         "membuka aib teman untuk bahan lelucon"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Adab bermedia sosial meliputi tabayun atau verifikasi informasi, penggunaan bahasa yang santun, dan menjaga kehormatan orang lain di ruang digital."
     },
     {
@@ -344,14 +344,14 @@
       "tipe": "pgk",
       "teks": "Manakah DUA cara yang tepat untuk menumbuhkan akhlak terpuji pada peserta didik?",
       "opsi": [
-        "Membiasakan perilaku baik secara berulang melalui keteladanan guru dan seluruh warga madrasah.",
-        "Memberi umpan balik dan penghargaan yang tulus ketika peserta didik menunjukkan perilaku terpuji.",
         "Menakut-nakuti peserta didik dengan ancaman fisik agar patuh.",
-        "Menampilkan profil negatif peserta didik agar menjadi pelajaran bagi temannya."
+        "Menampilkan profil negatif peserta didik agar menjadi pelajaran bagi temannya.",
+        "Membiasakan perilaku baik secara berulang melalui keteladanan guru dan seluruh warga madrasah.",
+        "Memberi umpan balik dan penghargaan yang tulus ketika peserta didik menunjukkan perilaku terpuji."
       ],
       "kunci": [
-        0,
-        1
+        2,
+        3
       ],
       "bahasan": "Pembinaan akhlak berlangsung melalui pembiasaan, keteladanan, dan penguatan positif yang hangat, bukan ancaman fisik atau mempermalukan peserta didik."
     }

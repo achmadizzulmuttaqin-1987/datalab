@@ -9,11 +9,11 @@
       "teks": "Secara istilah, akidah adalah ...",
       "opsi": [
         "kebiasaan yang dilakukan berulang-ulang dan tanpa sadar",
+        "keyakinan teguh dalam hati yang terwujud dalam ucapan dan perbuatan",
         "kumpulan aturan hukum ibadah dan muamalah harian",
-        "ilmu tentang tata cara membaca Al-Quran dengan tartil",
-        "keyakinan teguh dalam hati yang terwujud dalam ucapan dan perbuatan"
+        "ilmu tentang tata cara membaca Al-Quran dengan tartil"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Akidah berasal dari kata aqada yang berarti mengikat atau mempercayai dengan kuat. Akidah adalah keyakinan mendasar yang teguh di dalam hati dan tampak pada perilaku."
     },
     {
@@ -22,12 +22,12 @@
       "tipe": "pg",
       "teks": "Ruang lingkup mata pelajaran Akidah Akhlak di MTs meliputi ...",
       "opsi": [
-        "rukun iman, akhlak terpuji dan tercela, adab, serta kisah teladan",
         "hanya sejarah para nabi dan tokoh Islam",
         "keterampilan berbahasa Arab dan menulis kaligrafi",
-        "hukum fikih ibadah dan muamalah secara rinci dan luas"
+        "hukum fikih ibadah dan muamalah secara rinci dan luas",
+        "rukun iman, akhlak terpuji dan tercela, adab, serta kisah teladan"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Akidah Akhlak membina keyakinan (rukun iman) sekaligus akhlak dan adab; kisah teladan berfungsi memperkuat pemahaman dan pembiasaan, sementara fikih dibahas pada mata pelajaran tersendiri."
     },
     {
@@ -37,11 +37,11 @@
       "teks": "Tujuan utama pembelajaran Akidah Akhlak di madrasah adalah ...",
       "opsi": [
         "menambah hafalan dalil sebanyak mungkin setiap pekan",
-        "menyiapkan peserta didik menjadi ulama besar di masa depan",
         "membentuk pribadi muslim yang beriman dan berakhlak mulia",
-        "menguasai sejarah kebudayaan Islam secara menyeluruh dan rinci"
+        "menguasai sejarah kebudayaan Islam secara menyeluruh dan rinci",
+        "menyiapkan peserta didik menjadi ulama besar di masa depan"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Akidah Akhlak diarahkan pada pembentukan pribadi beriman dan berakhlak mulia. Hafalan dalil bukan tujuan akhir, melainkan sarana penguat keyakinan dan perilaku."
     },
     {
@@ -92,12 +92,12 @@
       "tipe": "pg",
       "teks": "Keyakinan bahwa Allah memiliki nama-nama dan sifat-sifat kesempurnaan yang tidak boleh disamakan dengan makhluk disebut tauhid ...",
       "opsi": [
+        "asma wa sifat",
         "rububiyah",
         "uluhiyah",
-        "ubudiyah",
-        "asma wa sifat"
+        "ubudiyah"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Tauhid asma wa sifat menegaskan kesempurnaan nama dan sifat Allah serta menolak penyerupaan-Nya dengan makhluk (tanzih)."
     },
     {
@@ -120,14 +120,14 @@
       "tipe": "pgk",
       "teks": "Manakah DUA pernyataan yang tepat tentang tauhid dan syirik?",
       "opsi": [
-        "Tauhid menjadikan ibadah, doa, dan pengharapan hanya tertuju kepada Allah.",
         "Syirik asghar sama hukumnya dengan syirik akbar, yaitu mengeluarkan dari Islam.",
-        "Selama seseorang mengakui Allah Pencipta, ibadah kepada selain Allah tidak dianggap syirik.",
-        "Syirik akbar dapat mengeluarkan seseorang dari keislaman, sedangkan syirik asghar merusak keikhlasan amal."
+        "Tauhid menjadikan ibadah, doa, dan pengharapan hanya tertuju kepada Allah.",
+        "Syirik akbar dapat mengeluarkan seseorang dari keislaman, sedangkan syirik asghar merusak keikhlasan amal.",
+        "Selama seseorang mengakui Allah Pencipta, ibadah kepada selain Allah tidak dianggap syirik."
       ],
       "kunci": [
-        0,
-        3
+        1,
+        2
       ],
       "bahasan": "Inti tauhid adalah mengesakan Allah dalam rububiyah, uluhiyah, serta asma wa sifat. Syirik dibedakan menjadi akbar dan asghar; mengakui Allah sebagai Pencipta tidak menghapus syirik apabila ibadah ditujukan kepada selain-Nya."
     },
@@ -138,11 +138,11 @@
       "teks": "Sifat wujud bagi Allah berarti ...",
       "opsi": [
         "Allah baru diciptakan setelah alam semesta ada",
-        "Allah berada pada suatu tempat tertentu di langit",
         "Allah ada tanpa memerlukan tempat dan waktu, keberadaan-Nya mutlak",
+        "Allah berada pada suatu tempat tertentu di langit",
         "Allah hanya ada ketika diingat oleh hamba-Nya"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Wujud adalah sifat nafsiyah: Allah pasti ada secara mutlak, tidak didahului ketiadaan dan tidak bergantung pada tempat atau waktu."
     },
     {
@@ -167,10 +167,10 @@
       "opsi": [
         "mukhalafatu lil hawadisi",
         "wahdaniyah",
-        "qiyamuhu binafsihi",
-        "qudrah"
+        "qudrah",
+        "qiyamuhu binafsihi"
       ],
-      "kunci": 2,
+      "kunci": 3,
       "bahasan": "Qiyamuhu binafsihi berarti Allah berdiri sendiri, tidak membutuhkan tempat, alat, atau pertolongan pihak lain."
     },
     {
@@ -180,11 +180,11 @@
       "teks": "Allah tidak sama dengan makhluk, baik dalam zat, sifat, maupun perbuatan-Nya. Pernyataan ini sejalan dengan sifat ...",
       "opsi": [
         "wujud",
-        "sama dan bashar",
         "mukhalafatu lil hawadisi",
+        "sama dan bashar",
         "kaunuhu samian"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Mukhalafatu lil hawadisi berarti Allah berbeda dari segala yang baru atau makhluk; karena itu Allah tidak boleh dibayangkan menyerupai ciptaan-Nya."
     },
     {
@@ -194,11 +194,11 @@
       "teks": "Keesaan Allah yang tidak terbagi, tidak berbilang, dan tidak ada sekutu bagi-Nya merupakan sifat ...",
       "opsi": [
         "iradah",
-        "wahdaniyah",
         "ilmu",
+        "wahdaniyah",
         "hayat"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Wahdaniyah menegaskan bahwa Allah Maha Esa: tidak berbilang, tidak terbagi, dan tidak memiliki sekutu dalam zat, sifat, maupun perbuatan-Nya."
     },
     {
@@ -207,12 +207,12 @@
       "tipe": "pg",
       "teks": "Sifat mustahil yang menjadi lawan sifat wujud adalah ...",
       "opsi": [
+        "adam",
         "hudus",
         "fana",
-        "adam",
         "mumatsalah"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Adam berarti tidak ada, dan mustahil bagi Allah. Hudus berarti baru, lawan qidam; fana berarti binasa, lawan baqa."
     },
     {
@@ -222,11 +222,11 @@
       "teks": "Sifat jaiz bagi Allah adalah ...",
       "opsi": [
         "wajib adanya bagi Allah secara mutlak",
-        "boleh bagi Allah membuat atau tidak membuat yang mungkin",
         "mustahil adanya bagi Allah selamanya",
+        "boleh bagi Allah membuat atau tidak membuat yang mungkin",
         "sifat yang hanya dimiliki oleh para rasul"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Sifat jaiz Allah adalah fi lu kulli mumkinin au tarkuhu: Allah bebas menciptakan atau tidak menciptakan sesuatu yang mungkin menurut kehendak-Nya."
     },
     {
@@ -264,11 +264,11 @@
       "teks": "Makna As-Samad dalam surah Al-Ikhlas adalah ...",
       "opsi": [
         "Allah Maha Pencipta alam semesta",
+        "Allah yang menjadi tumpuan dan dibutuhkan segala sesuatu",
         "Allah Maha Pengampun segala dosa",
-        "Allah Maha Pemberi rezeki kepada makhluk-Nya",
-        "Allah yang menjadi tumpuan dan dibutuhkan segala sesuatu"
+        "Allah Maha Pemberi rezeki kepada makhluk-Nya"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "As-Samad berarti Allah Maha Dibutuhkan: segala sesuatu bergantung kepada-Nya, sedangkan Allah tidak membutuhkan apa pun."
     },
     {
@@ -278,11 +278,11 @@
       "teks": "Meneladani sifat Al-Ghaffar dalam kehidupan sehari-hari diwujudkan dengan ...",
       "opsi": [
         "menuntut setiap kesalahan dibalas setimpal",
-        "memarahi orang yang bersalah agar tidak mengulanginya",
         "gemar memaafkan kesalahan orang lain dan tidak menyimpan dendam",
+        "memarahi orang yang bersalah agar tidak mengulanginya",
         "menyembunyikan kesalahan orang lain meski merugikan"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Meneladani Al-Ghaffar berarti membiasakan diri memaafkan dan menutupi kesalahan orang lain sesuai kemampuan sebagai hamba, tanpa menyimpan dendam."
     },
     {
@@ -293,10 +293,10 @@
       "opsi": [
         "Al-Fatihah",
         "Al-Falaq",
-        "An-Nas",
-        "Al-Ikhlas"
+        "Al-Ikhlas",
+        "An-Nas"
       ],
-      "kunci": 3,
+      "kunci": 2,
       "bahasan": "QS Al-Ikhlas menegaskan Allah Maha Esa, Maha Dibutuhkan, tidak beranak dan tidak diperanakkan, serta tidak ada yang setara dengan-Nya."
     },
     {
@@ -306,11 +306,11 @@
       "teks": "Kata rabbil alamin dalam QS Al-Fatihah ayat 2 menunjukkan makna ...",
       "opsi": [
         "Allah Maha Penyayang kepada seluruh makhluk",
-        "Allah pemelihara dan pengatur seluruh alam, sebagai bukti tauhid rububiyah",
         "Allah satu-satunya tempat memohon ampunan",
+        "Allah pemelihara dan pengatur seluruh alam, sebagai bukti tauhid rububiyah",
         "Allah yang menghisab perbuatan manusia pada hari kiamat"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Rabbil alamin berarti Tuhan pemelihara seluruh alam, menegaskan keesaan Allah dalam memelihara dan mengatur makhluk-Nya, yaitu tauhid rububiyah."
     },
     {
@@ -319,12 +319,12 @@
       "tipe": "pg",
       "teks": "Ayat Kursi menegaskan bahwa Allah Mahahidup dan berdiri sendiri serta tidak mengantuk dan tidak tidur. Penegasan itu menolak sifat mustahil bagi Allah, yaitu ...",
       "opsi": [
+        "mautun dan ihtiyaju lighairihi",
         "adam dan hudus",
         "fana dan taaddud",
-        "jahlun dan karahah",
-        "mautun dan ihtiyaju lighairihi"
+        "jahlun dan karahah"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Mautun berarti mati, lawan sifat hayat; ihtiyaju lighairihi berarti memerlukan pihak lain, lawan qiyamuhu binafsihi. Ayat Kursi menegaskan Allah Mahahidup dan tidak memerlukan apa pun."
     },
     {
@@ -334,11 +334,11 @@
       "teks": "Salah satu hikmah beriman kepada Allah yang tampak dalam perilaku peserta didik adalah ...",
       "opsi": [
         "berani berbuat curang ketika tidak ada guru",
-        "putus asa ketika doanya belum dikabulkan",
         "tenteram menghadapi masalah dan termotivasi beramal saleh",
+        "putus asa ketika doanya belum dikabulkan",
         "mengharapkan pujian dari teman atas setiap kebaikan"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Iman kepada Allah melahirkan ketenangan hati, kesadaran diawasi Allah (muraqabah), serta semangat beramal saleh dan menjauhi larangan-Nya."
     },
     {

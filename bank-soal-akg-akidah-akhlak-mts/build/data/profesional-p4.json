@@ -23,11 +23,11 @@
       "teks": "Peristiwa peletakan kembali Hajar Aswad setelah renovasi Kabah diselesaikan Nabi Muhammad dengan cara ...",
       "opsi": [
         "memilih kabilah paling kaya untuk mengangkat batu itu",
-        "menyerahkan urusan kepada kabilah Quraisy yang paling berkuasa",
         "memberi keputusan bahwa seluruh kabilah mengangkat batu tersebut bersama melalui kain",
+        "menyerahkan urusan kepada kabilah Quraisy yang paling berkuasa",
         "membiarkan batu tersebut hingga terjadi perang saudara"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Nabi Muhammad, yang saat itu belum menjadi rasul, berhasil mencegah pertikaian dengan usulan bijak: Hajar Aswad diletakkan di atas kain dan diangkat bersama seluruh kabilah. Ini teladan berpikir jernih dan adil."
     },
     {
@@ -36,12 +36,12 @@
       "tipe": "pg",
       "teks": "Abu Bakar ash-Shiddiq langsung mempercayai peristiwa Isra Miraj yang disampaikan Nabi Muhammad, sehingga ia mendapat gelar ash-Shiddiq yang berarti ...",
       "opsi": [
-        "yang berani",
         "yang membenarkan",
+        "yang berani",
         "yang dermawan",
         "yang zuhud"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Ash-Shiddiq berarti yang membenarkan. Keteguhan iman Abu Bakar tanpa keraguan menjadi teladan kesetiaan dan kepercayaan penuh kepada Rasulullah."
     },
     {
@@ -50,12 +50,12 @@
       "tipe": "pg",
       "teks": "Kisah Umar bin Khattab yang mengangkat sendiri karung gandum untuk keluarga yang kelaparan menunjukkan keteladanan ...",
       "opsi": [
-        "tanggung jawab pemimpin terhadap rakyatnya",
         "keberanian dalam berperang",
         "kedermawanan menginfakkan seluruh hartanya",
+        "tanggung jawab pemimpin terhadap rakyatnya",
         "keteguhan dalam beribadah malam"
       ],
-      "kunci": 0,
+      "kunci": 2,
       "bahasan": "Umar bin Khattab menunjukkan bahwa pemimpin bertanggung jawab langsung atas kesejahteraan rakyatnya, bukan sekadar memerintah dari jauh."
     },
     {
@@ -78,12 +78,12 @@
       "tipe": "pg",
       "teks": "Ketika hijrah ke Madinah, Ali bin Abi Thalib bersedia tidur di tempat tidur Nabi Muhammad shallallahu alaihi wasallam. Kisah ini meneladankan ...",
       "opsi": [
-        "keberanian dan pengorbanan membela Rasulullah",
         "kedermawanan membagi harta",
         "kecerdasan berdebat dengan musuh",
-        "kesabaran mengurus keluarga"
+        "kesabaran mengurus keluarga",
+        "keberanian dan pengorbanan membela Rasulullah"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Ali bin Abi Thalib menunjukkan keberanian dan pengorbanan luar biasa ketika bersedia menanggung risiko berbahaya demi keselamatan Rasulullah."
     },
     {
@@ -106,12 +106,12 @@
       "tipe": "pg",
       "teks": "Salman Al-Farisi mengusulkan penggalian parit sebagai pertahanan dalam Perang Khandaq. Keteladanan yang tampak adalah ...",
       "opsi": [
-        "kecerdasan berpikir dan pengabdian kepada umat",
         "kedermawanan membagi harta rampasan",
+        "kecerdasan berpikir dan pengabdian kepada umat",
         "keberanian berduel dengan musuh",
         "kefasihan berbahasa Arab"
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "Salman Al-Farisi meneladankan kecerdasan dan dedikasi; gagasannya menyelamatkan kaum muslimin dan menunjukkan bahwa kebaikan boleh diambil dari pengalaman siapa pun selama selaras syariat."
     },
     {
@@ -120,12 +120,12 @@
       "tipe": "pg",
       "teks": "Khadijah binti Khuwailid mengorbankan harta untuk menopang dakwah Rasulullah. Keteladanan yang tampak adalah ...",
       "opsi": [
-        "keberanian tampil di medan perang",
         "kemurahan hati mendukung perjuangan kebaikan",
+        "keberanian tampil di medan perang",
         "kecerdasan menghafal hadis",
         "ketegasan menegakkan hukum"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Khadijah meneladankan kemurahan hati, kesetiaan, dan dukungan moril serta materiil bagi perjuangan dakwah di masa awal."
     },
     {

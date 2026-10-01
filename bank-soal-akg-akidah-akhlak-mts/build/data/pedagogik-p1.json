@@ -8,12 +8,12 @@
       "tipe": "pg",
       "teks": "Peserta didik MTs umumnya berusia 12 sampai 15 tahun. Menurut Piaget, mereka berada pada tahap perkembangan kognitif ...",
       "opsi": [
-        "operasional formal, yaitu mampu berpikir abstrak dan hipotetis",
         "sensori motorik, yaitu belajar melalui gerak dan indra",
         "praoperasional, yaitu berpikir dengan simbol dan imajinasi",
-        "operasional konkret, yaitu berpikir logis pada benda nyata"
+        "operasional konkret, yaitu berpikir logis pada benda nyata",
+        "operasional formal, yaitu mampu berpikir abstrak dan hipotetis"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Usia 11 tahun ke atas memasuki tahap operasional formal: mampu berpikir abstrak, hipotetis, dan deduktif. Inilah dasar mengapa materi akidah yang bersifat abstrak dapat diajarkan dengan analogi dan penalaran."
     },
     {
@@ -22,12 +22,12 @@
       "tipe": "pg",
       "teks": "Seorang peserta didik menaati tata tertib madrasah semata-mata karena takut mendapat hukuman. Menurut Kohlberg, penalaran moral peserta didik ini berada pada tahap ...",
       "opsi": [
+        "orientasi hukuman dan kepatuhan",
         "orientasi relativis instrumental",
         "orientasi kesepakatan bersama",
-        "orientasi prinsip etika universal",
-        "orientasi hukuman dan kepatuhan"
+        "orientasi prinsip etika universal"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Tahap orientasi hukuman dan kepatuhan termasuk tingkat prakonvensional: kepatuhan didorong rasa takut akan hukuman, belum ada kesadaran nilai."
     },
     {
@@ -51,11 +51,11 @@
       "teks": "Seorang peserta didik lebih mudah memahami materi Akidah Akhlak ketika disajikan melalui bagan, mind map, dan gambar berwarna. Gaya belajar yang dominan pada peserta didik tersebut adalah ...",
       "opsi": [
         "auditori",
-        "visual",
         "kinestetik",
+        "visual",
         "taktil"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Gaya belajar visual menonjol pada peserta didik yang cepat menangkap informasi melalui gambar, warna, bagan, dan simbol visual."
     },
     {
@@ -64,12 +64,12 @@
       "tipe": "pg",
       "teks": "Seorang peserta didik kelas VII memiliki kecerdasan normal, tetapi sering tertukar saat membaca huruf yang mirip dan lambat merangkai kata. Gejala tersebut paling mungkin menunjukkan kesulitan belajar ...",
       "opsi": [
+        "disleksia, yaitu kesulitan membaca",
         "disgrafia, yaitu kesulitan menulis",
         "diskalkulia, yaitu kesulitan berhitung",
-        "dispraksia, yaitu kesulitan koordinasi gerak",
-        "disleksia, yaitu kesulitan membaca"
+        "dispraksia, yaitu kesulitan koordinasi gerak"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Disleksia adalah gangguan spesifik dalam membaca: mengenali huruf, merangkai suku kata, dan kelancaran membaca, meskipun kecerdasan peserta didik normal."
     },
     {
@@ -93,11 +93,11 @@
       "teks": "Guru memberi contoh dan bantuan penuh di awal, lalu secara bertahap mengurangi bantuan seiring meningkatnya kemampuan peserta didik. Strategi ini sesuai dengan konsep ...",
       "opsi": [
         "reinforcement dari Skinner",
-        "scaffolding dalam zona perkembangan proksimal dari Vygotsky",
         "advance organizer dari Ausubel",
-        "operant conditioning dari Pavlov"
+        "operant conditioning dari Pavlov",
+        "scaffolding dalam zona perkembangan proksimal dari Vygotsky"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Scaffolding adalah bantuan terstruktur yang dikurangi bertahap di dalam zona perkembangan proksimal (ZPD), sesuai teori sosio-kultural Vygotsky."
     },
     {
@@ -106,14 +106,14 @@
       "tipe": "pgk",
       "teks": "Manakah DUA pernyataan yang mencerminkan pembelajaran konstruktivistik?",
       "opsi": [
-        "Materi disampaikan satu arah agar seluruh peserta didik menerima informasi yang sama.",
         "Peserta didik membangun pemahaman sendiri melalui pengalaman, diskusi, dan refleksi.",
-        "Pengetahuan dipandang sebagai salinan utuh dari pikiran guru kepada peserta didik.",
-        "Guru berperan sebagai fasilitator yang menyediakan pengalaman belajar bermakna."
+        "Materi disampaikan satu arah agar seluruh peserta didik menerima informasi yang sama.",
+        "Guru berperan sebagai fasilitator yang menyediakan pengalaman belajar bermakna.",
+        "Pengetahuan dipandang sebagai salinan utuh dari pikiran guru kepada peserta didik."
       ],
       "kunci": [
-        1,
-        3
+        0,
+        2
       ],
       "bahasan": "Konstruktivistik menempatkan peserta didik sebagai pembangun pengetahuan aktif dan guru sebagai fasilitator; penyampaian satu arah dan transfer pengetahuan utuh adalah ciri pandangan behavioristik-tradisional."
     },
@@ -123,12 +123,12 @@
       "tipe": "pg",
       "teks": "Pendekatan belajar yang menekankan pentingnya pembelajaran bermakna, penerimaan tanpa syarat, dan pengembangan potensi unik setiap peserta didik dikemukakan oleh ...",
       "opsi": [
-        "Carl Rogers",
         "Ivan Pavlov",
         "B. F. Skinner",
+        "Carl Rogers",
         "Robert Gagne"
       ],
-      "kunci": 0,
+      "kunci": 2,
       "bahasan": "Carl Rogers adalah tokoh utama psikologi humanistik: belajar bermakna, hubungan yang hangat, dan memanusiakan peserta didik."
     },
     {
@@ -137,12 +137,12 @@
       "tipe": "pg",
       "teks": "Guru mengawali pelajaran dengan peta konsep sederhana tentang rukun iman sebelum masuk ke materi rinci. Strategi pengatur awal seperti ini dalam teori Ausubel disebut ...",
       "opsi": [
-        "advance organizer",
         "drill and practice",
         "shaping",
-        "brainstorming bebas"
+        "brainstorming bebas",
+        "advance organizer"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Advance organizer adalah pengatur awal yang menghubungkan pengetahuan baru dengan struktur kognitif yang sudah dimiliki agar belajar menjadi bermakna."
     },
     {
@@ -151,12 +151,12 @@
       "tipe": "pg",
       "teks": "Implementasi Kurikulum Merdeka pada madrasah berpedoman pada capaian pembelajaran yang memuat kompetensi dan lingkup materi, termasuk mata pelajaran Akidah Akhlak. Ketentuan tersebut termuat dalam ...",
       "opsi": [
-        "KMA Nomor 347 Tahun 2022 tentang Pedoman Implementasi Kurikulum Merdeka pada Madrasah",
         "KMA Nomor 183 Tahun 2019 tentang Kurikulum PAI dan Bahasa Arab",
+        "KMA Nomor 347 Tahun 2022 tentang Pedoman Implementasi Kurikulum Merdeka pada Madrasah",
         "Permendikbud Nomor 37 Tahun 2018 tentang KI dan KD",
         "Permendiknas Nomor 22 Tahun 2006 tentang Standar Isi"
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "KMA 347 Tahun 2022 menjadi pedoman implementasi Kurikulum Merdeka pada madrasah dengan acuan capaian pembelajaran (CP) per mata pelajaran."
     },
     {
@@ -165,12 +165,12 @@
       "tipe": "pg",
       "teks": "Urutan perencanaan pembelajaran dalam Kurikulum Merdeka yang paling tepat adalah ...",
       "opsi": [
+        "capaian pembelajaran, tujuan pembelajaran, alur tujuan pembelajaran, modul ajar",
         "tujuan pembelajaran, capaian pembelajaran, alur tujuan, modul ajar",
         "capaian pembelajaran, alur tujuan pembelajaran, tujuan pembelajaran, modul ajar",
-        "capaian pembelajaran, tujuan pembelajaran, alur tujuan pembelajaran, modul ajar",
         "modul ajar, capaian pembelajaran, tujuan pembelajaran, alur tujuan pembelajaran"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Guru menurunkan capaian pembelajaran (CP) menjadi tujuan pembelajaran (TP), menyusun alur tujuan pembelajaran (ATP), lalu mengembangkan modul ajar beserta asesmennya."
     },
     {
@@ -180,11 +180,11 @@
       "teks": "Rumusan tujuan pembelajaran yang baik sekurang-kurangnya memuat dua komponen utama, yaitu ...",
       "opsi": [
         "metode mengajar dan alokasi waktu",
-        "kompetensi yang terukur dan lingkup materi yang jelas",
         "media pembelajaran dan jumlah peserta didik",
+        "kompetensi yang terukur dan lingkup materi yang jelas",
         "jenis asesmen dan sumber belajar"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Tujuan pembelajaran minimal memuat kompetensi (kemampuan yang dapat diamati dan diukur) serta lingkup materi; variasi dan konteks dapat ditambahkan bila perlu."
     },
     {
@@ -209,10 +209,10 @@
       "opsi": [
         "relevansi",
         "kontinuitas",
-        "fleksibilitas",
-        "efektivitas"
+        "efektivitas",
+        "fleksibilitas"
       ],
-      "kunci": 2,
+      "kunci": 3,
       "bahasan": "Fleksibilitas berarti kurikulum memberi ruang penyesuaian terhadap kondisi peserta didik, madrasah, dan perkembangan zaman tanpa meninggalkan tujuan."
     },
     {
@@ -221,12 +221,12 @@
       "tipe": "pg",
       "teks": "Kegiatan projek penguatan profil pelajar Pancasila dan profil pelajar rahmatan lil alamin (P5-PPRA) di madrasah bertujuan ...",
       "opsi": [
-        "menguatkan karakter dan kompetensi melalui pembelajaran lintas disiplin",
         "menambah jam pelajaran pada setiap mata pelajaran",
         "menggantikan seluruh asesmen sumatif pada semua mata pelajaran",
-        "meningkatkan jumlah tugas rumah seluruh peserta didik"
+        "meningkatkan jumlah tugas rumah seluruh peserta didik",
+        "menguatkan karakter dan kompetensi melalui pembelajaran lintas disiplin"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "P5-PPRA dirancang untuk penguatan karakter dan kompetensi melalui projek tematik lintas mata pelajaran, bukan untuk menambah beban jam pelajaran atau menggantikan asesmen sumatif."
     },
     {
@@ -235,14 +235,14 @@
       "tipe": "pgk",
       "teks": "Manakah DUA pernyataan yang tepat tentang modul ajar dalam Kurikulum Merdeka?",
       "opsi": [
-        "Modul ajar wajib identik antara seluruh madrasah agar penilaian seragam secara nasional.",
         "Modul ajar memuat tujuan pembelajaran, langkah kegiatan, dan asesmen secara utuh.",
         "Modul ajar bersifat luwes dan dapat disesuaikan dengan karakteristik peserta didik serta kondisi madrasah.",
+        "Modul ajar wajib identik antara seluruh madrasah agar penilaian seragam secara nasional.",
         "Modul ajar cukup memuat daftar materi tanpa perlu langkah kegiatan pembelajaran."
       ],
       "kunci": [
-        1,
-        2
+        0,
+        1
       ],
       "bahasan": "Modul ajar memuat komponen lengkap (tujuan, langkah, asesmen, media, refleksi) dan bersifat luwes; keseragaman nasional bukan syarat, apalagi modul tanpa langkah pembelajaran."
     },
@@ -266,12 +266,12 @@
       "tipe": "pg",
       "teks": "Guru menyajikan beberapa kasus perilaku sosial, lalu peserta didik menganalisis, menemukan pola, dan menyimpulkan nilai akhlak yang terkandung di dalamnya tanpa diberi konsep terlebih dahulu. Model pembelajaran yang digunakan adalah ...",
       "opsi": [
-        "discovery learning",
         "ceramah interaktif",
         "drill and practice",
-        "demonstrasi terpimpin"
+        "demonstrasi terpimpin",
+        "discovery learning"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Discovery learning menempatkan peserta didik menemukan konsep sendiri melalui rangsangan, perumusan masalah, pengumpulan dan pengolahan data, verifikasi, lalu generalisasi."
     },
     {
@@ -282,10 +282,10 @@
       "opsi": [
         "materi disampaikan bertahap dari mudah ke sulit dengan latihan berulang",
         "peserta didik menghafal definisi dan dalil sebelum berdiskusi",
-        "guru mendemonstrasikan keterampilan lalu peserta didik menirunya",
-        "pembelajaran dimulai dari masalah kontekstual yang menuntut penyelidikan dan penyelesaian"
+        "pembelajaran dimulai dari masalah kontekstual yang menuntut penyelidikan dan penyelesaian",
+        "guru mendemonstrasikan keterampilan lalu peserta didik menirunya"
       ],
-      "kunci": 3,
+      "kunci": 2,
       "bahasan": "PBL menggunakan masalah autentik dan tidak terstruktur sebagai titik awal; peserta didik belajar melalui investigasi dan penyelesaian masalah, bukan hafalan awal."
     },
     {
@@ -294,12 +294,12 @@
       "tipe": "pg",
       "teks": "Pembelajaran yang menuntut peserta didik menghasilkan karya atau produk nyata sebagai bukti pemahaman, misalnya poster kampanye anti ghibah, merupakan penerapan model ...",
       "opsi": [
-        "project based learning",
         "inquiry learning",
         "expository learning",
-        "cooperative script"
+        "cooperative script",
+        "project based learning"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Project based learning berfokus pada penyelesaian proyek dan menghasilkan produk atau karya sebagai bukti capaian kompetensi."
     },
     {
@@ -309,13 +309,13 @@
       "teks": "Manakah DUA penerapan pembelajaran berdiferensiasi yang tepat di kelas Akidah Akhlak?",
       "opsi": [
         "Memberi soal dan tugas yang sama persis kepada semua peserta didik tanpa variasi apa pun.",
+        "Memindahkan peserta didik yang lambat ke kelas lain agar tidak menghambat temannya.",
         "Menyediakan pilihan cara memahami materi, misalnya membaca, menonton, atau berdiskusi kelompok.",
-        "Memberi tingkat kesulitan tugas yang berbeda sesuai kesiapan belajar peserta didik.",
-        "Memindahkan peserta didik yang lambat ke kelas lain agar tidak menghambat temannya."
+        "Memberi tingkat kesulitan tugas yang berbeda sesuai kesiapan belajar peserta didik."
       ],
       "kunci": [
-        1,
-        2
+        2,
+        3
       ],
       "bahasan": "Diferensiasi menyesuaikan konten, proses, atau produk sesuai kesiapan, minat, dan profil belajar; bukan menyeragamkan tanpa variasi, apalagi memindahkan peserta didik."
     },
@@ -327,10 +327,10 @@
       "opsi": [
         "menyampaikan definisi panjang untuk dihafal",
         "memberikan tes lisan tanpa penjelasan konsep",
-        "menggunakan analogi dan contoh peran malaikat dalam kehidupan",
-        "menugaskan membaca buku sebanyak mungkin tanpa pendampingan"
+        "menugaskan membaca buku sebanyak mungkin tanpa pendampingan",
+        "menggunakan analogi dan contoh peran malaikat dalam kehidupan"
       ],
-      "kunci": 2,
+      "kunci": 3,
       "bahasan": "Konsep abstrak lebih mudah dipahami melalui analogi, visualisasi, dan contoh konkret yang dikaitkan dengan pengalaman peserta didik."
     },
     {
@@ -340,11 +340,11 @@
       "teks": "Kegiatan pengelolaan kelas yang paling tepat dilakukan guru pada awal tahun pelajaran adalah ...",
       "opsi": [
         "memberi hukuman berat kepada peserta didik yang melanggar agar jera",
-        "menetapkan kesepakatan aturan, rutinitas, dan harapan perilaku bersama peserta didik",
         "membiarkan peserta didik menyesuaikan diri sendiri tanpa aturan",
-        "mengabaikan pelanggaran kecil agar suasana tetap santai"
+        "mengabaikan pelanggaran kecil agar suasana tetap santai",
+        "menetapkan kesepakatan aturan, rutinitas, dan harapan perilaku bersama peserta didik"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Pengelolaan kelas yang efektif bersifat preventif: kesepakatan aturan dan rutinitas jelas sejak awal lebih ampuh mencegah masalah daripada hukuman atau pembiaran."
     },
     {
@@ -353,12 +353,12 @@
       "tipe": "pg",
       "teks": "Setelah guru mengajukan pertanyaan, peserta didik terdiam lama. Tindakan guru yang paling tepat adalah ...",
       "opsi": [
-        "memberi waktu berpikir beberapa saat dan menyediakan pertanyaan penuntun",
         "langsung menunjuk peserta didik yang dipandang mampu menjawab",
         "mengulang pertanyaan dengan nada lebih keras lalu menuntut jawaban segera",
-        "melewati pertanyaan tersebut dan melanjutkan materi berikutnya"
+        "melewati pertanyaan tersebut dan melanjutkan materi berikutnya",
+        "memberi waktu berpikir beberapa saat dan menyediakan pertanyaan penuntun"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Guru perlu memberi waktu tunggu (wait time) 3 sampai 5 detik dan pertanyaan penuntun agar peserta didik berkesempatan mengolah informasi sebelum menjawab."
     }
   ]

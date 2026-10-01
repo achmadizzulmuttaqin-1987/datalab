@@ -35,9 +35,9 @@ if (DATA) {
   const soal = DATA.soal || [];
   const ped = soal.filter((s) => s.kategori === "pedagogik").length;
   const pro = soal.filter((s) => s.kategori === "profesional").length;
-  check("jumlah soal = 150", soal.length === 150, String(soal.length));
-  check("pedagogik = 50", ped === 50, String(ped));
-  check("profesional = 100", pro === 100, String(pro));
+  check("jumlah soal = 300", soal.length === 300, String(soal.length));
+  check("pedagogik = 150", ped === 150, String(ped));
+  check("profesional = 150", pro === 150, String(pro));
 
   const ids = new Set();
   let dup = 0, badKey = 0, badOpt = 0, noBahasan = 0, badTipe = 0;

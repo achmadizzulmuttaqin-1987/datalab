@@ -5,18 +5,18 @@ Aplikasi web **satu berkas** untuk latihan mandiri menghadapi Asesmen Kompetensi
 ## Catatan penting tentang keaslian soal
 
 - Naskah asli AKG **tidak dipublikasikan** oleh Kementerian Agama, sehingga tidak ada soal resmi tahun lalu yang dapat disalin atau diunduh. Bank soal ini **bukan** salinan soal ujian.
-- Seluruh **150 soal** pada aplikasi ini adalah **soal latihan yang ditulis orisinal**, disusun mengikuti format, komposisi, dan kisi-kisi resmi AKG madrasah. Aplikasi ini bukan produk resmi Kementerian Agama.
+- Seluruh **300 soal** pada aplikasi ini adalah **soal latihan yang ditulis orisinal**, disusun mengikuti format, komposisi, dan kisi-kisi resmi AKG madrasah. Aplikasi ini bukan produk resmi Kementerian Agama.
 - Dasar penyusunan: juknis dan kisi-kisi AKG Direktorat Jenderal Pendidikan Islam (kompetensi pedagogik dan profesional, 60 butir per paket), Permendiknas Nomor 16 Tahun 2007, KMA Nomor 183 Tahun 2019, dan KMA Nomor 347 Tahun 2022.
 
 ## Isi bank soal
 
 | Bagian | Jumlah | Keterangan |
 | --- | --- | --- |
-| Pedagogik | 50 butir | karakteristik peserta didik, teori belajar, kurikulum, desain pembelajaran, penilaian, PTK, teknologi |
-| Profesional Akidah Akhlak | 100 butir | akidah, akhlak, adab, kisah teladan, ilmu kalam, dan pembelajaran Akidah Akhlak |
-| **Total** | **150 butir** | 139 pilihan ganda dan 11 pilihan ganda kompleks (dua jawaban benar) |
+| Pedagogik | 150 butir | karakteristik peserta didik, teori belajar, kurikulum, desain pembelajaran, potensi peserta didik, komunikasi, penilaian, PTK, teknologi, profesi dan etika guru, serta bimbingan dan konseling |
+| Profesional Akidah Akhlak | 150 butir | akidah, asmaul husna, malaikat-kitab-rasul, hari akhir dan qadha qadar, ilmu kalam, akhlak dan tasawuf, adab kontemporer, kisah teladan, serta pembelajaran Akidah Akhlak |
+| **Total** | **300 butir** | 266 pilihan ganda dan 34 pilihan ganda kompleks (dua jawaban benar) |
 
-Komposisi tersebut mengikuti perbandingan AKG jenjang MTs, yaitu pedagogik berbanding profesional sekitar 1 banding 2.
+Perbandingan pedagogik dan profesional dibuat 1 banding 1 agar kedua ranah terlatih seimbang. Komposisi resmi AKG jenjang MTs sendiri memuat 20 butir pedagogik dan 40 butir profesional pada setiap paket soal.
 
 Setiap butir memuat kunci jawaban dan pembahasan. Aplikasi juga memuat **kisi-kisi AKG** dan **rangkuman materi 10 seksi** sebagai bekal belajar.
 
@@ -28,7 +28,7 @@ Setiap butir memuat kunci jawaban dan pembahasan. Aplikasi juga memuat **kisi-ki
 - Progres jawaban tersimpan otomatis di peramban (tanpa internet) dan dapat dihapus.
 - Tab **Kunci dan Pembahasan** memuat seluruh soal dengan pencarian.
 - Tombol **Cetak / Simpan PDF**: seluruh rangkuman dan kunci dapat dicetak ke PDF dari peramban.
-- Berkas tunggal: CSS, JavaScript, data soal, dan seluruh aset tertanam (sekitar 126 KB).
+- Berkas tunggal: CSS, JavaScript, data soal, dan seluruh aset tertanam (sekitar 214 KB).
 
 ## Cara memakai
 
@@ -68,7 +68,7 @@ node build/smoke_app.mjs Bank-Soal-AKG-Akidah-Akhlak-MTs-1file.html   # uji asap
 ## Mutu yang dijaga
 
 - Semua butir memuat empat opsi, opsi tidak kembar, dan kunci sesuai tipe soal.
-- Sebaran kunci pilihan ganda merata: A=35, B=35, C=35, D=34.
-- Pasangan kunci pilihan ganda kompleks merata pada enam kombinasi.
+- Sebaran kunci pilihan ganda merata: A=67, B=67, C=66, D=66.
+- Pasangan kunci pilihan ganda kompleks merata pada enam kombinasi: AB=6, AC=6, AD=6, BC=6, BD=5, CD=5.
 - Panjang opsi jawaban benar tidak menyolok dibandingkan distraktor (0 butir timpang pada ambang 4 kata).
 - Batang soal unik dan setiap butir memiliki pembahasan.

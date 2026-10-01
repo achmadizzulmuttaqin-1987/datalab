@@ -24,7 +24,7 @@ const ok = (label, cond, extra) => {
 ok("5 tab tersedia", d.querySelectorAll(".tab").length === 5);
 ok("tabel kisi-kisi terisi", d.querySelectorAll("#kisi-body tbody tr").length === 2);
 ok("rangkuman 10 seksi", d.querySelectorAll("#materi-body details").length === 10);
-ok("kunci memuat 150 butir", d.querySelectorAll("#kunci-body .kunciitem").length === 150);
+ok("kunci memuat 300 butir", d.querySelectorAll("#kunci-body .kunciitem").length === 300);
 ok("chip statistik terisi", (d.getElementById("meta-stat").textContent || "").includes("150"));
 
 // --- latihan ---
@@ -50,7 +50,7 @@ ok("navigasi Sebelumnya aktif", ![...d.querySelectorAll("#quiz-area .btn")].find
 ok("progres tersimpan di localStorage", (w.localStorage.getItem("akg-akidah-akhlak-mts-v1") || "").length > 20);
 ok("kotak pencarian kunci ada", !!d.querySelector("#kunci-body input"));
 const data = JSON.parse(html.match(/<script id="akg-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
-ok("11 soal PGK terdata", data.soal.filter((s) => s.tipe === "pgk").length === 11);
+ok("34 soal PGK terdata", data.soal.filter((s) => s.tipe === "pgk").length === 34);
 
 console.log(fail ? "\nUJI ANTARMUKA GAGAL (" + fail + ")" : "\nSEMUA UJI ANTARMUKA LULUS");
 process.exit(fail ? 1 : 0);

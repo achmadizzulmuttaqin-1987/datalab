@@ -8,12 +8,12 @@
       "tipe": "pg",
       "teks": "Guru menemukan peserta didik percaya kepada ramalan zodiak daring dan menyimpan jimat. Langkah awal yang paling tepat sebagai guru Akidah Akhlak adalah ...",
       "opsi": [
+        "mengajak berdialog dengan kasih, menjelaskan bahaya syirik, dan membimbing",
         "mempermalukan peserta didik di depan kelas agar jera dan tidak menulari teman",
         "menyita seluruh barang peserta didik tanpa penjelasan dan langsung melaporkannya",
-        "mengajak berdialog dengan kasih, menjelaskan bahaya syirik, dan membimbing",
         "membiarkan saja karena ramalan hanyalah hiburan yang tidak berdampak apa pun"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Penanganan miskonsepsi akidah harus edukatif dan berorientasi perbaikan: dialog yang hangat, penjelasan dalil yang jelas, serta pembinaan pembiasaan, bukan mempermalukan atau membiarkan."
     },
     {
@@ -23,11 +23,11 @@
       "teks": "Agar peserta didik tidak sekadar hafal asmaul husna, guru merancang kegiatan pembiasaan meneladani sifat tersebut dalam kehidupan sehari-hari. Kegiatan yang paling tepat untuk meneladani Ar-Rahman adalah ...",
       "opsi": [
         "menghafalkan urutan asmaul husna dengan lagu setiap pagi",
+        "membiasakan berbagi kasih sayang dan membantu teman",
         "menuliskan arti semua asmaul husna di buku catatan",
-        "menghitung jumlah asmaul husna yang telah dihafal",
-        "membiasakan berbagi kasih sayang dan membantu teman"
+        "menghitung jumlah asmaul husna yang telah dihafal"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Penghayatan asmaul husna menuntut pembiasaan perilaku yang mencerminkan sifat Allah sesuai batas kemampuan hamba. Hafalan dan pencatatan menjadi sarana, bukan tujuan akhir."
     },
     {
@@ -36,12 +36,12 @@
       "tipe": "pg",
       "teks": "Seorang peserta didik membayangkan Allah seperti makhluk yang duduk di atas langit. Cara guru menanggapi miskonsepsi tersebut dengan tepat adalah ...",
       "opsi": [
+        "menjelaskan sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia peserta didik",
         "menyuruh peserta didik menghafalkan sifat mustahil tanpa penjelasan apa pun",
         "menjawab bahwa hal tersebut tidak perlu dipikirkan karena dilarang bertanya",
-        "menyakinkan bahwa bayangan itu benar karena tergambar indah dalam angan",
-        "menjelaskan sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia peserta didik"
+        "menyakinkan bahwa bayangan itu benar karena tergambar indah dalam angan"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Konsep tanzih (penyucian Allah dari penyerupaan dengan makhluk) dijelaskan melalui sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia, bukan dengan hafalan tanpa makna atau melarang bertanya."
     },
     {
@@ -51,11 +51,11 @@
       "teks": "Guru ingin mengukur level kemampuan menganalisis pada materi akhlak tercela. Bentuk soal yang paling tepat adalah ...",
       "opsi": [
         "minta peserta didik menyebutkan lima macam akhlak tercela beserta artinya",
-        "menyajikan kasus nyata perilaku siswa untuk dianalisis dan diperbaiki",
         "minta peserta didik menyalin definisi ghibah dari buku teks pelajaran",
+        "menyajikan kasus nyata perilaku siswa untuk dianalisis dan diperbaiki",
         "berikan tebak-tebakan istilah akhlak tanpa konteks yang jelas"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Level menganalisis (C4) menuntut peserta didik memecah informasi dan menemukan hubungan, misalnya menganalisis kasus nyata. Menyebutkan, menyalin, dan menebak belum melampaui level mengingat atau memahami."
     },
     {
@@ -78,12 +78,12 @@
       "tipe": "pg",
       "teks": "Menghargai perbedaan pendapat dan tidak memaksakan pandangan kepada orang lain disebut ...",
       "opsi": [
-        "tasamuh",
         "taawun",
         "tawadu",
-        "takaful"
+        "takaful",
+        "tasamuh"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Tasamuh adalah sikap toleran dan menghargai perbedaan. Taawun adalah tolong-menolong, tawadu adalah rendah hati, dan takaful adalah saling menanggung atau peduli."
     },
     {
@@ -93,11 +93,11 @@
       "teks": "Kerja sama saling membantu dalam kebaikan, seperti membersihkan kelas bersama, merupakan pengamalan sikap ...",
       "opsi": [
         "tasamuh",
-        "taawun",
         "tabzir",
-        "tahayul"
+        "tahayul",
+        "taawun"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Taawun adalah tolong-menolong dalam kebaikan dan takwa, sebagaimana perintah QS Al-Maidah ayat 2, serta menjadi dasar budaya gotong royong di madrasah."
     },
     {
@@ -107,11 +107,11 @@
       "teks": "Menjaga barang titipan teman dan mengembalikannya dengan lengkap merupakan wujud sifat ...",
       "opsi": [
         "sakha",
-        "qanaah",
         "amanah",
+        "qanaah",
         "hilm"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Amanah berarti dapat dipercaya dalam menjalankan tanggung jawab, termasuk menjaga titipan dan menunaikan tugas dengan jujur."
     },
     {
@@ -120,12 +120,12 @@
       "tipe": "pg",
       "teks": "Konsisten dan teguh dalam berbuat baik serta beribadah meskipun menghadapi godaan disebut ...",
       "opsi": [
-        "istiqamah",
         "qanaah",
         "tasamuh",
-        "mujahadah"
+        "mujahadah",
+        "istiqamah"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Istiqamah adalah sikap teguh dan berkesinambungan dalam kebaikan, bukan semangat sesaat yang cepat surut."
     },
     {
@@ -135,11 +135,11 @@
       "teks": "Seorang peserta didik diejek temannya karena membawa bekal sederhana. Respons yang mencerminkan akhlak terpuji adalah ...",
       "opsi": [
         "membalas ejekan dengan kata-kata yang lebih kasar lagi",
+        "menahan amarah dan menempuh cara yang santun atau melapor kepada guru",
         "merusak barang milik teman yang mengejek tersebut",
-        "berhenti membawa bekal dan meminta uang lebih banyak kepada orang tua",
-        "menahan amarah dan menempuh cara yang santun atau melapor kepada guru"
+        "berhenti membawa bekal dan meminta uang lebih banyak kepada orang tua"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Menahan amarah dan membalas kejahatan dengan kebaikan, atau menempuh jalur yang tepat seperti melapor kepada guru, adalah wujud akhlak terpuji dan meneladani sifat sabar serta pemaaf."
     },
     {
@@ -149,11 +149,11 @@
       "teks": "Teman sekelas tidak membalas salam yang diucapkan seorang peserta didik. Sikap husnuzan yang tepat adalah ...",
       "opsi": [
         "menyimpulkan bahwa teman itu sombong dan memutuskan tidak menyapanya lagi",
-        "menyebarkan kabar bahwa teman tersebut tidak sopan",
         "menduga teman tidak mendengar atau sedang sibuk, lalu tetap menyapa",
+        "menyebarkan kabar bahwa teman tersebut tidak sopan",
         "membalas dengan tidak memberi salam kepada siapa pun"
       ],
-      "kunci": 2,
+      "kunci": 1,
       "bahasan": "Husnuzan berarti berbaik sangka dan mencari kemungkinan terbaik sebelum menilai buruk. Sikap ini menjaga persaudaraan dan menghindari suuzan yang dilarang agama."
     },
     {
@@ -176,12 +176,12 @@
       "tipe": "pg",
       "teks": "Seorang peserta didik merasa malu karena ayahnya bekerja sebagai pemulung saat mengantar ke madrasah. Nasihat guru yang mencerminkan akhlak kepada orang tua adalah ...",
       "opsi": [
-        "menjelaskan keutamaan bekerja halal dan besarnya bakti kepada orang tua",
         "menyarankan ayahnya berhenti bekerja agar anak tidak merasa malu",
         "menyuruh peserta didik menghindari pertemuan dengan orang tua di depan teman",
-        "menyampaikan bahwa pekerjaan orang tuanya memang pantas disesali"
+        "menyampaikan bahwa pekerjaan orang tuanya memang pantas disesali",
+        "menjelaskan keutamaan bekerja halal dan besarnya bakti kepada orang tua"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Birrul walidain menuntut sikap hormat dan bersyukur atas pengorbanan orang tua tanpa memandang jenis pekerjaan yang halal; guru membimbing peserta didik menyadari hal itu dengan penuh kasih."
     },
     {
@@ -190,12 +190,12 @@
       "tipe": "pg",
       "teks": "Peran guru sebagai teladan akhlak (uswah hasanah) bagi peserta didik paling tepat diwujudkan melalui ...",
       "opsi": [
-        "menampilkan konsistensi ucapan dan perbuatan, misalnya datang tepat waktu",
         "menyampaikan materi tentang kejujuran tanpa perlu menerapkannya di luar kelas",
         "mengharuskan peserta didik menghafal dalil tentang akhlak mulia setiap hari",
+        "menampilkan konsistensi ucapan dan perbuatan, misalnya datang tepat waktu",
         "memberikan banyak tugas tertulis agar peserta didik tetap sibuk"
       ],
-      "kunci": 0,
+      "kunci": 2,
       "bahasan": "Dalam pendidikan akhlak, keteladanan lebih kuat daripada sekadar pengajaran. Konsistensi ucapan dan perbuatan guru adalah kurikulum tersembunyi yang paling membekas."
     },
     {

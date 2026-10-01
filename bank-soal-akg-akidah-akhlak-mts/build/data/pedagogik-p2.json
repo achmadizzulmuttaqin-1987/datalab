@@ -50,12 +50,12 @@
       "tipe": "pg",
       "teks": "Bentuk layanan madrasah yang paling tepat untuk mengembangkan bakat peserta didik yang menonjol dalam seni kaligrafi adalah ...",
       "opsi": [
+        "menyediakan ekstrakurikuler atau pengayaan yang sesuai minatnya",
         "menambah jam pelajaran matematika setiap pekan",
         "memberi tugas rumah lebih banyak pada semua mata pelajaran",
-        "menyediakan ekstrakurikuler atau pengayaan yang sesuai minatnya",
         "memindahkannya ke kelas unggulan tanpa dasar pertimbangan apa pun"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Pengembangan bakat dilayani melalui pengayaan dan kegiatan yang relevan dengan minat dan potensi peserta didik, termasuk kesempatan berkompetisi secara sehat."
     },
     {
@@ -65,11 +65,11 @@
       "teks": "Seorang peserta didik tergolong lambat menerima materi namun tidak mengalami hambatan intelektual. Tindakan guru yang paling tepat adalah ...",
       "opsi": [
         "menyebut peserta didik tersebut sebagai anak bodoh di depan kelas",
+        "memberi tugas lebih mudah, waktu yang longgar, dan pendampingan",
         "menaikkan kelasnya tanpa mempertimbangkan capaian belajarnya",
-        "membiarkannya belajar sendiri agar tumbuh mandiri tanpa bantuan",
-        "memberi tugas lebih mudah, waktu yang longgar, dan pendampingan"
+        "membiarkannya belajar sendiri agar tumbuh mandiri tanpa bantuan"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Peserta didik lambat belajar memerlukan penyesuaian waktu, tugas bertahap, dan pendampingan. Pelabelan justru merusak rasa percaya diri dan bertentangan dengan etika guru."
     },
     {
@@ -80,10 +80,10 @@
       "opsi": [
         "langsung menyalahkan peserta didik karena dianggap terlalu sensitif",
         "menyuruh peserta didik melupakan masalahnya dan kembali belajar",
-        "mendengarkan dengan penuh perhatian, menenangkan, dan menanyakan kronologi tanpa menghakimi",
-        "mengumumkan masalah tersebut di depan kelas agar semua tahu"
+        "mengumumkan masalah tersebut di depan kelas agar semua tahu",
+        "mendengarkan dengan penuh perhatian, menenangkan, dan menanyakan kronologi tanpa menghakimi"
       ],
-      "kunci": 2,
+      "kunci": 3,
       "bahasan": "Komunikasi efektif dimulai dengan mendengarkan aktif, menunjukkan empati, dan menggali informasi tanpa menghakimi sebelum menentukan tindak lanjut."
     },
     {
@@ -92,12 +92,12 @@
       "tipe": "pg",
       "teks": "Kalimat yang paling mencerminkan umpan balik konstruktif kepada peserta didik yang lupa mengerjakan tugas adalah ...",
       "opsi": [
-        "Tugasmu belum selesai. Boleh ceritakan kendalamu agar kita cari solusinya?",
         "Kamu memang pemalas dan tidak punya masa depan.",
+        "Tugasmu belum selesai. Boleh ceritakan kendalamu agar kita cari solusinya?",
         "Sebaiknya kamu pindah ke kelas lain saja jika begini caranya.",
         "Semua temanmu sudah selesai, kamu saja yang selalu gagal."
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "Umpan balik konstruktif bersifat spesifik pada perilaku atau hasil kerja, disampaikan dengan santun, dan mengarahkan pada perbaikan tanpa merendahkan pribadi peserta didik."
     },
     {
@@ -106,12 +106,12 @@
       "tipe": "pg",
       "teks": "Seorang peserta didik menjawab pertanyaan dengan konsep yang keliru di depan kelas. Tindakan guru yang paling tepat adalah ...",
       "opsi": [
+        "mengapresiasi keberaniannya menjawab, lalu memberi pertanyaan penuntun menuju jawaban yang benar",
         "menyatakan jawaban itu salah total agar tidak menyesatkan teman",
         "menyuruh peserta didik lain menghafalkan jawaban yang benar",
-        "mengapresiasi keberaniannya menjawab, lalu memberi pertanyaan penuntun menuju jawaban yang benar",
         "menjatuhkan nilai sikap peserta didik tersebut"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Guru mengapresiasi usaha dan memberi bantuan bertahap (scaffolding) agar peserta didik menemukan jawaban yang tepat; menyalahkan dapat mematikan keberanian mencoba."
     },
     {
@@ -122,12 +122,12 @@
       "opsi": [
         "Membandingkan peserta didik dengan kakak kelasnya agar termotivasi.",
         "Mendengarkan dengan penuh perhatian sebelum memberi tanggapan.",
-        "Menegur dengan kata-kata kasar agar peserta didik jera dan segan.",
-        "Menyampaikan kritik pada karya atau perilaku tanpa merendahkan pribadi peserta didik."
+        "Menyampaikan kritik pada karya atau perilaku tanpa merendahkan pribadi peserta didik.",
+        "Menegur dengan kata-kata kasar agar peserta didik jera dan segan."
       ],
       "kunci": [
         1,
-        3
+        2
       ],
       "bahasan": "Komunikasi positif menekankan mendengarkan aktif dan kritik yang fokus pada perilaku atau karya. Membandingkan dan berkata kasar merusak harga diri serta hubungan guru dan peserta didik."
     },
@@ -151,12 +151,12 @@
       "tipe": "pg",
       "teks": "Asesmen yang dilakukan pada awal pembelajaran Akidah Akhlak untuk memetakan kemampuan awal dan latar belakang peserta didik disebut asesmen ...",
       "opsi": [
+        "diagnostik",
         "formatif",
         "sumatif",
-        "diagnostik",
         "sertifikasi"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Asesmen diagnostik (kognitif dan nonkognitif) dilaksanakan di awal untuk mengenali kemampuan awal, kesulitan, dan kondisi peserta didik sebagai dasar penyesuaian pembelajaran."
     },
     {
@@ -166,11 +166,11 @@
       "teks": "Perbedaan utama asesmen formatif dan sumatif terletak pada ...",
       "opsi": [
         "jumlah butir soal yang digunakan pada setiap ulangan",
-        "tujuan dan waktu pelaksanaannya di dalam proses belajar",
         "tingkat kesulitan butir soal yang digunakan",
+        "tujuan dan waktu pelaksanaannya di dalam proses belajar",
         "ada tidaknya pengawas saat asesmen dilaksanakan"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Asesmen formatif berlangsung sepanjang proses untuk memberi umpan balik dan perbaikan pembelajaran; asesmen sumatif mengukur capaian pembelajaran pada akhir periode."
     },
     {
@@ -194,11 +194,11 @@
       "teks": "Rubrik analitik untuk menilai portofolio peserta didik memuat ...",
       "opsi": [
         "satu skor total tanpa penjelasan rinci",
-        "daftar kriteria dengan deskripsi tingkat capaian kinerja",
         "nilai seluruh teman sekelas secara keseluruhan",
-        "jumlah kesalahan yang dilakukan peserta didik saja"
+        "jumlah kesalahan yang dilakukan peserta didik saja",
+        "daftar kriteria dengan deskripsi tingkat capaian kinerja"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Rubrik analitik merinci kriteria penilaian dan deskriptor level kinerja sehingga umpan balik lebih jelas dan penilaian lebih objektif."
     },
     {
@@ -207,12 +207,12 @@
       "tipe": "pg",
       "teks": "Setelah dianalisis, sebuah butir soal pilihan ganda memiliki pengecoh yang tidak dipilih oleh satu pun peserta didik. Tindakan yang paling tepat adalah ...",
       "opsi": [
-        "membiarkan pengecoh itu agar format soal tetap empat opsi",
         "merevisi atau mengganti pengecoh tersebut dengan pengecoh yang berfungsi",
+        "membiarkan pengecoh itu agar format soal tetap empat opsi",
         "menghapus butir soal dari perangkat penilaian",
         "menaikkan nilai seluruh peserta didik"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Pengecoh yang tidak berfungsi harus direvisi atau diganti karena tidak membantu mengukur pemahaman; pengecoh idealnya dipilih oleh sebagian peserta didik."
     },
     {
@@ -238,12 +238,12 @@
       "tipe": "pg",
       "teks": "Dalam Kurikulum Merdeka, kriteria ketercapaian tujuan pembelajaran (KKTP) berfungsi untuk ...",
       "opsi": [
+        "menentukan ketuntasan tujuan pembelajaran beserta tindak lanjutnya",
         "menggantikan seluruh pelaksanaan asesmen sumatif",
         "menetapkan peringkat hasil belajar seluruh peserta didik di kelas",
-        "menentukan standar biaya pendidikan madrasah",
-        "menentukan ketuntasan tujuan pembelajaran beserta tindak lanjutnya"
+        "menentukan standar biaya pendidikan madrasah"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "KKTP menjadi acuan ketuntasan tujuan pembelajaran dengan pendekatan interval nilai atau rubrik, disertai deskripsi tindak lanjut remedial atau pengayaan."
     },
     {
@@ -252,12 +252,12 @@
       "tipe": "pg",
       "teks": "Setelah asesmen sumatif, sebagian peserta didik belum mencapai kriteria ketercapaian. Tindak lanjut yang paling tepat adalah ...",
       "opsi": [
+        "memberikan remedial yang terarah dan pengayaan bagi yang tuntas",
         "melanjutkan ke materi berikutnya tanpa perlakuan khusus",
         "mengulang seluruh materi dari awal untuk semua peserta didik",
-        "menurunkan kriteria ketercapaian agar semua dinyatakan tuntas",
-        "memberikan remedial yang terarah dan pengayaan bagi yang tuntas"
+        "menurunkan kriteria ketercapaian agar semua dinyatakan tuntas"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Hasil asesmen ditindaklanjuti secara diferensial: remedial bagi yang belum tuntas dan pengayaan bagi yang sudah tuntas, bukan menurunkan standar atau mengabaikan hasil."
     },
     {
@@ -296,10 +296,10 @@
       "opsi": [
         "bertujuan menguji teori untuk dipublikasikan secara luas",
         "menggunakan sampel acak berskala besar dan luas",
-        "memerlukan laboratorium khusus serta peralatan canggih",
-        "dilakukan guru untuk memperbaiki mutu pembelajaran di kelasnya"
+        "dilakukan guru untuk memperbaiki mutu pembelajaran di kelasnya",
+        "memerlukan laboratorium khusus serta peralatan canggih"
       ],
-      "kunci": 3,
+      "kunci": 2,
       "bahasan": "PTK bersifat praktis dan lokal: guru meneliti kelasnya sendiri bersama teman sejawat untuk memperbaiki mutu pembelajaran, bukan untuk generalisasi teori berskala luas."
     },
     {
@@ -309,11 +309,11 @@
       "teks": "Langkah paling awal yang harus dilakukan guru sebelum menyusun PTK adalah ...",
       "opsi": [
         "menyusun instrumen observasi secara rinci dan lengkap",
-        "mengidentifikasi dan menganalisis masalah nyata di kelas",
         "menulis laporan hasil penelitian tindakan",
+        "mengidentifikasi dan menganalisis masalah nyata di kelas",
         "menentukan jadwal publikasi ilmiah jurnal"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "PTK selalu berangkat dari masalah nyata di kelas. Identifikasi dan analisis masalah menjadi dasar perumusan masalah, hipotesis tindakan, dan perencanaan siklus."
     },
     {
@@ -337,13 +337,13 @@
       "teks": "Manakah DUA prinsip pemanfaatan teknologi pembelajaran yang tepat bagi guru madrasah?",
       "opsi": [
         "Memilih aplikasi atau media sesuai tujuan pembelajaran serta mudah diakses peserta didik.",
-        "Memanfaatkan teknologi untuk mempercepat umpan balik dan memperkaya interaksi belajar.",
         "Mengganti seluruh interaksi tatap muka dengan pembelajaran berbasis layar agar modern.",
-        "Menggunakan aplikasi paling mahal dan paling populer sebagai ukuran kualitas guru."
+        "Menggunakan aplikasi paling mahal dan paling populer sebagai ukuran kualitas guru.",
+        "Memanfaatkan teknologi untuk mempercepat umpan balik dan memperkaya interaksi belajar."
       ],
       "kunci": [
         0,
-        1
+        3
       ],
       "bahasan": "Teknologi dipilih berdasarkan keselarasan dengan tujuan, aksesibilitas, dan manfaat pedagogisnya; kemodernan atau harga aplikasi bukan indikator utama."
     },
@@ -353,12 +353,12 @@
       "tipe": "pg",
       "teks": "Madrasah memiliki keterbatasan jaringan internet. Guru tetap ingin memanfaatkan media audiovisual dalam pembelajaran Akidah Akhlak. Solusi paling tepat adalah ...",
       "opsi": [
+        "menyiapkan media luring yang telah diunduh lalu merancang aktivitas tanpa jaringan",
         "membatalkan penggunaan media dan kembali berceramah penuh waktu",
         "meminta peserta didik membeli paket data sendiri di rumah",
-        "menyiapkan media luring yang telah diunduh lalu merancang aktivitas tanpa jaringan",
         "mengganti mata pelajaran Akidah Akhlak dengan mata pelajaran lain yang praktis"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Guru kreatif menyiasati keterbatasan dengan menyiapkan media luring dan merancang aktivitas yang tetap bermakna, bukan meniadakan media atau membebani peserta didik."
     }
   ]

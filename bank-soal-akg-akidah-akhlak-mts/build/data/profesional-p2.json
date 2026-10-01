@@ -22,12 +22,12 @@
       "tipe": "pg",
       "teks": "Tugas utama malaikat Jibril adalah ...",
       "opsi": [
+        "menyampaikan wahyu kepada para nabi dan rasul",
         "membagi rezeki dan menurunkan hujan",
         "meniup sangkakala pada hari kiamat",
-        "mencabut nyawa seluruh makhluk",
-        "menyampaikan wahyu kepada para nabi dan rasul"
+        "mencabut nyawa seluruh makhluk"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Jibril bertugas menyampaikan wahyu; Mikail mengurus rezeki dan hujan; Israfil meniup sangkakala; Izrail mencabut nyawa."
     },
     {
@@ -36,12 +36,12 @@
       "tipe": "pg",
       "teks": "Dua malaikat yang bertugas mencatat amal baik dan amal buruk manusia adalah ...",
       "opsi": [
-        "Raqib dan Atid",
         "Munkar dan Nakir",
         "Malik dan Ridwan",
-        "Israfil dan Izrail"
+        "Israfil dan Izrail",
+        "Raqib dan Atid"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Raqib mencatat amal baik dan Atid mencatat amal buruk. Munkar dan Nakir bertanya di alam kubur; Malik penjaga neraka; Ridwan penjaga surga."
     },
     {
@@ -51,11 +51,11 @@
       "teks": "Hikmah beriman kepada malaikat yang paling tampak dalam pembinaan akhlak peserta didik adalah ...",
       "opsi": [
         "merasa bebas berbuat apa saja karena belum ada hisab",
+        "berhati-hati dalam berkata dan berbuat karena yakin amalnya selalu dicatat",
         "mengharap pahala hanya pada kegiatan tertentu",
-        "menjauhi pergaulan karena takut diawasi teman",
-        "berhati-hati dalam berkata dan berbuat karena yakin amalnya selalu dicatat"
+        "menjauhi pergaulan karena takut diawasi teman"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Kesadaran bahwa setiap amal dicatat malaikat menumbuhkan sikap muraqabah, kejujuran, dan kehati-hatian dalam berperilaku."
     },
     {
@@ -64,14 +64,14 @@
       "tipe": "pgk",
       "teks": "Manakah DUA pernyataan yang tepat tentang malaikat?",
       "opsi": [
-        "Malaikat adalah makhluk gaib yang selalu patuh kepada Allah.",
         "Malaikat dapat dipanggil dan dimintai pertolongan manusia.",
-        "Sepuluh malaikat wajib diketahui beserta tugasnya.",
-        "Malaikat diciptakan dari api dan memiliki hawa nafsu seperti manusia."
+        "Malaikat adalah makhluk gaib yang selalu patuh kepada Allah.",
+        "Malaikat diciptakan dari api dan memiliki hawa nafsu seperti manusia.",
+        "Sepuluh malaikat wajib diketahui beserta tugasnya."
       ],
       "kunci": [
-        0,
-        2
+        1,
+        3
       ],
       "bahasan": "Malaikat adalah makhluk gaib dari cahaya yang selalu taat; sepuluh malaikat wajib diketahui beserta tugasnya. Meminta pertolongan kepada malaikat dan anggapan bahwa malaikat dari api serta berhawa nafsu adalah keliru."
     },
@@ -83,10 +83,10 @@
       "opsi": [
         "Musa alaihissalam",
         "Isa alaihissalam",
-        "Ibrahim alaihissalam",
-        "Dawud alaihissalam"
+        "Dawud alaihissalam",
+        "Ibrahim alaihissalam"
       ],
-      "kunci": 3,
+      "kunci": 2,
       "bahasan": "Zabur diturunkan kepada Dawud, Taurat kepada Musa, Injil kepada Isa, dan Al-Quran kepada Nabi Muhammad shallallahu alaihi wasallam."
     },
     {
@@ -96,11 +96,11 @@
       "teks": "Wahyu Allah yang diturunkan kepada Nabi Ibrahim dan Nabi Musa dalam bentuk lembaran-lembaran singkat disebut ...",
       "opsi": [
         "zabur",
+        "suhuf",
         "taurat",
-        "shahifah Madinah",
-        "suhuf"
+        "shahifah Madinah"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Suhuf adalah lembaran wahyu yang diturunkan kepada Nabi Ibrahim dan Nabi Musa, sebagaimana disebutkan dalam QS Al-Ala dan QS An-Najm."
     },
     {
@@ -109,12 +109,12 @@
       "tipe": "pg",
       "teks": "Kedudukan Al-Quran terhadap kitab-kitab sebelumnya adalah ...",
       "opsi": [
-        "melengkapi sebagian ajaran lalu menghapus seluruhnya tanpa jejak",
         "sebagai kitab penyempurna dan penutup yang menjadi pedoman utama umat Islam",
+        "melengkapi sebagian ajaran lalu menghapus seluruhnya tanpa jejak",
         "kitab tambahan yang kedudukannya lebih rendah dari Injil",
         "kitab khusus untuk para nabi saja"
       ],
-      "kunci": 1,
+      "kunci": 0,
       "bahasan": "Al-Quran adalah kitab terakhir yang menyempurnakan dan menjaga pokok ajaran kitab sebelumnya, serta berlaku untuk seluruh manusia sampai akhir zaman."
     },
     {
@@ -124,11 +124,11 @@
       "teks": "Salah satu bentuk pengamalan iman kepada kitab Allah bagi peserta didik adalah ...",
       "opsi": [
         "menyimpan Al-Quran di lemari agar tidak rusak",
-        "menjadikan Al-Quran sebagai pedoman perilaku dan membacanya secara rutin",
         "mempercayai ramalan bintang dari buku tertentu",
+        "menjadikan Al-Quran sebagai pedoman perilaku dan membacanya secara rutin",
         "menggunakan ayat Al-Quran untuk mencari keuntungan pribadi"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Iman kepada kitab menuntut pembacaan, pemahaman, dan penerapan isinya dalam kehidupan, bukan sekadar menyimpan atau menyalahgunakannya."
     },
     {
@@ -137,12 +137,12 @@
       "tipe": "pg",
       "teks": "Kelompok rasul yang memiliki keteguhan luar biasa dan dijuluki ulul azmi adalah ...",
       "opsi": [
-        "Nuh, Ibrahim, Musa, Isa, dan Muhammad",
         "Adam, Idris, Hud, Saleh, dan Syuaib",
         "Yusuf, Yakub, Ishak, Ismail, dan Luth",
+        "Nuh, Ibrahim, Musa, Isa, dan Muhammad",
         "Dawud, Sulaiman, Ilyas, Ilyasa, dan Zakaria"
       ],
-      "kunci": 0,
+      "kunci": 2,
       "bahasan": "Ulul azmi adalah lima rasul yang paling teguh menghadapi ujian: Nuh, Ibrahim, Musa, Isa, dan Muhammad shallallahu alaihi wasallam."
     },
     {
@@ -151,12 +151,12 @@
       "tipe": "pg",
       "teks": "Sifat wajib rasul yang berarti dapat dipercaya dan lawannya adalah khianat adalah ...",
       "opsi": [
-        "amanah",
         "siddiq",
         "tablig",
-        "fatanah"
+        "fatanah",
+        "amanah"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Amanah berarti terpercaya, lawannya khianat. Siddiq berarti benar dan lawannya kizb; tablig berarti menyampaikan dan lawannya kitman; fatanah berarti cerdas dan lawannya baladah."
     },
     {
@@ -165,12 +165,12 @@
       "tipe": "pg",
       "teks": "Kemampuan luar biasa yang diberikan Allah kepada para nabi sebagai bukti kenabian disebut ...",
       "opsi": [
+        "mukjizat",
         "karamah",
         "istidraj",
-        "mukjizat",
         "sihir"
       ],
-      "kunci": 2,
+      "kunci": 0,
       "bahasan": "Mukjizat adalah kejadian luar biasa pada nabi sebagai bukti kebenaran kenabian. Karamah diberikan kepada wali, istidraj justru bentuk tipuan yang melenakan."
     },
     {
@@ -180,11 +180,11 @@
       "teks": "Tujuan utama Allah mengutus para rasul kepada umat manusia adalah ...",
       "opsi": [
         "mengumpulkan kekayaan dan kekuasaan duniawi",
-        "membimbing manusia mengenal Allah dan hidup sesuai petunjuk-Nya",
         "menghapus seluruh tradisi umat sebelumnya tanpa penjelasan",
+        "membimbing manusia mengenal Allah dan hidup sesuai petunjuk-Nya",
         "menjadikan manusia takluk kepada penguasa tertentu"
       ],
-      "kunci": 1,
+      "kunci": 2,
       "bahasan": "Rasul diutus sebagai pembawa kabar gembira dan pemberi peringatan, membimbing manusia kepada tauhid dan akhlak mulia."
     },
     {
@@ -193,12 +193,12 @@
       "tipe": "pg",
       "teks": "Yaumul hisab adalah peristiwa pada hari akhir ketika ...",
       "opsi": [
+        "manusia dihadapkan kepada perhitungan amal perbuatannya",
         "seluruh manusia dibangkitkan dari kubur",
         "amal manusia ditimbang dengan mizan",
-        "manusia melewati titian sirat",
-        "manusia dihadapkan kepada perhitungan amal perbuatannya"
+        "manusia melewati titian sirat"
       ],
-      "kunci": 3,
+      "kunci": 0,
       "bahasan": "Yaumul ba ats adalah hari kebangkitan, yaumul hisab adalah hari perhitungan amal, mizan adalah penimbangan, dan sirat adalah titian yang harus dilewati."
     },
     {
@@ -208,11 +208,11 @@
       "teks": "Perbedaan kiamat sugra dan kiamat kubra adalah ...",
       "opsi": [
         "kiamat sugra selalu terjadi setelah kiamat kubra",
-        "kiamat sugra bersifat sebagian, sedangkan kiamat kubra menghancurkan seluruh alam",
         "kiamat sugra hanya terjadi pada orang beriman, sedangkan kiamat kubra pada semua makhluk",
-        "kiamat sugra tidak diyakini dalam ajaran Islam mana pun"
+        "kiamat sugra tidak diyakini dalam ajaran Islam mana pun",
+        "kiamat sugra bersifat sebagian, sedangkan kiamat kubra menghancurkan seluruh alam"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Kiamat sugra adalah kematian atau bencana yang bersifat sebagian, sedangkan kiamat kubra adalah kehancuran total alam semesta saat sangkakala ditiup."
     },
     {
@@ -221,12 +221,12 @@
       "tipe": "pg",
       "teks": "Hikmah beriman kepada hari akhir bagi peserta didik antara lain ...",
       "opsi": [
-        "rajin beramal saleh dan menjauhi perbuatan tercela",
         "menunda tobat karena merasa masih muda",
         "mengumpulkan harta sebanyak mungkin tanpa memperhatikan cara",
-        "bersikap pesimis terhadap kehidupan dunia yang sementara"
+        "bersikap pesimis terhadap kehidupan dunia yang sementara",
+        "rajin beramal saleh dan menjauhi perbuatan tercela"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Iman kepada hari akhir menumbuhkan kesadaran pertanggungjawaban, semangat beramal saleh, kejujuran, dan kesegeraan bertobat."
     },
     {
@@ -236,11 +236,11 @@
       "teks": "Ketetapan Allah sejak zaman azali tentang segala sesuatu yang akan terjadi pada makhluk-Nya disebut ...",
       "opsi": [
         "qadar",
-        "qadha",
         "ikhtiar",
-        "tawakal"
+        "tawakal",
+        "qadha"
       ],
-      "kunci": 1,
+      "kunci": 3,
       "bahasan": "Qadha adalah ketetapan Allah sejak azali, sedangkan qadar adalah perwujudan atau berlakuannya ketetapan itu pada makhluk dalam ukuran tertentu."
     },
     {
@@ -250,11 +250,11 @@
       "teks": "Contoh takdir mualak yang dapat diubah manusia dengan ikhtiar dan doa adalah ...",
       "opsi": [
         "kelahiran seseorang ke dunia",
+        "prestasi belajar yang diraih melalui usaha sungguh-sungguh",
         "kematian yang telah ditentukan waktunya",
-        "jenis kelamin seseorang sejak lahir",
-        "prestasi belajar yang diraih melalui usaha sungguh-sungguh"
+        "jenis kelamin seseorang sejak lahir"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Takdir mualak (mubram tidak; mualak berarti tergantung) berkaitan dengan hal yang dapat berubah melalui usaha, doa, dan keadaan, seperti prestasi, rezeki, dan kesehatan. Kelahiran, kematian, dan jenis kelamin termasuk takdir mubram."
     },
     {
@@ -278,13 +278,13 @@
       "teks": "Manakah DUA pernyataan yang tepat tentang qadha dan qadar?",
       "opsi": [
         "Takdir mubram dapat diubah manusia dengan usaha keras apa pun.",
-        "Beriman kepada qadar berarti manusia bebas berbuat tanpa pertanggungjawaban.",
         "Qadha adalah ketetapan Allah sejak azali, sedangkan qadar adalah perwujudan ketetapan itu pada makhluk.",
-        "Takdir mualak dapat berubah melalui ikhtiar, doa, dan perubahan keadaan."
+        "Takdir mualak dapat berubah melalui ikhtiar, doa, dan perubahan keadaan.",
+        "Beriman kepada qadar berarti manusia bebas berbuat tanpa pertanggungjawaban."
       ],
       "kunci": [
-        2,
-        3
+        1,
+        2
       ],
       "bahasan": "Qadha adalah ketetapan azali dan qadar adalah realisasinya. Takdir mubram tidak dapat diubah, sedangkan takdir mualak berkaitan dengan usaha dan doa; iman kepada qadar justru menuntut tanggung jawab."
     },
@@ -294,12 +294,12 @@
       "tipe": "pg",
       "teks": "Ilmu yang membahas akidah Islam dengan menggunakan dalil naqli dan aqli, serta sering disebut ilmu tauhid atau usuluddin, adalah ...",
       "opsi": [
-        "ilmu kalam",
         "ilmu fikih",
         "ilmu hadis",
-        "ilmu akhlak"
+        "ilmu akhlak",
+        "ilmu kalam"
       ],
-      "kunci": 0,
+      "kunci": 3,
       "bahasan": "Ilmu kalam membahas akidah dengan dalil naqli (wahyu) dan aqli (rasional), dan dikenal pula sebagai ilmu tauhid atau usuluddin."
     },
     {
@@ -309,11 +309,11 @@
       "teks": "Aliran kalam yang dikenal paling keras dan mudah mengkafirkan pelaku dosa besar serta keluar dari barisan Ali bin Abi Thalib adalah ...",
       "opsi": [
         "Murjiah",
+        "Khawarij",
         "Muktazilah",
-        "Asyariyah",
-        "Khawarij"
+        "Asyariyah"
       ],
-      "kunci": 3,
+      "kunci": 1,
       "bahasan": "Khawarij berpendapat bahwa pelaku dosa besar menjadi kafir dan wajib diperangi; sikap takfir yang keras ini bertentangan dengan sikap moderat Ahlussunnah."
     },
     {
@@ -322,12 +322,12 @@
       "tipe": "pg",
       "teks": "Aliran yang menangguhkan atau menyerahkan penghukuman pelaku dosa besar kepada Allah dan menekankan bahwa iman cukup di dalam hati adalah ...",
       "opsi": [
-        "Murjiah",
         "Khawarij",
+        "Murjiah",
         "Qadariyah",
         "Syiah"
       ],
-      "kunci": 0,
+      "kunci": 1,
       "bahasan": "Murjiah (dari irja yang berarti menangguhkan) menolak pengkafiran pelaku dosa besar dan berlebihan dalam menekankan iman di hati, sehingga melupakan amal."
     },
     {
