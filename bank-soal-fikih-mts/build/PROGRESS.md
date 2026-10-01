@@ -85,3 +85,24 @@ Infrastruktur telah disalin dari proyek Akidah Akhlak: engine multi-tipe pada
 - Setiap bab melewati `lint_types.py`, `balance_types.py --bab`, `validate.py`,
   `dup_check.py` (A-E nol), `dup_stem.py`, lalu `build.py` dan
   `build/smoke_built.mjs` (SEMUA PEMERIKSAAN LULUS).
+
+## Pemerataan panjang opsi jawaban (Fikih) — SELESAI
+- Latar: pada soal PG dan PGK, teks opsi jawaban benar rata-rata lebih panjang
+  daripada distraktor sehingga kunci mudah ditebak tanpa menguasai materi.
+- Tindakan: hanya teks opsi jawaban benar yang diringkas — kunci/indeks
+  (`answer`/`answers`), distraktor, penjelasan, stimulus, serta soal
+  singkat/Benar-Salah/esai sama sekali tidak diubah.
+- Hasil: dari 1.269 PG dan 184 PGK yang timpang, kini **0 butir timpang**
+  (ambang 4 kata) untuk PG 1.500 butir maupun PGK 300 butir.
+- PGK: rata-rata panjang opsi benar 20,4 kata vs opsi salah 23,3 kata;
+  selisih >= 2 kata tinggal 65 butir (21,7%), >= 3 kata 34 butir (11,3%),
+  >= 4 kata 0 butir.
+- Alat kerja (salinan identik dari proyek Akidah Akhlak):
+  `len_check.py`, `len_dump.py`, `len_sample.py`, `shorten_apply.py` (PG)
+  dan `pgk_len.py`, `pgk_apply.py` (PGK); patch per bab disimpan di
+  `/home/user/patches/fikih-<kelas>-<slug>.json` dan `fikih-pgk-...json`.
+- Verifikasi akhir: `lint_types.py`, `validate.py` (2.550 soal),
+  `dup_check.py` (nol soal kembar), `balance_types.py --check`
+  (pgk 300, bs 300 = 150 B/150 S, pasangan kunci 60/60/60/60/30/30,
+  batang unik 2.550), `build.py`, dan `build/smoke_built.mjs` — semua lulus.
+- Output akhir: `Bank-Soal-Fikih-MTs-1file.html` (2.550 soal, ±3,7 MB).
