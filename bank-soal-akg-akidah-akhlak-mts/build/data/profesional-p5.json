@@ -1,0 +1,216 @@
+{
+  "berkas": "profesional-p5",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-086",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Guru menemukan peserta didik percaya kepada ramalan zodiak daring dan menyimpan jimat. Langkah awal yang paling tepat sebagai guru Akidah Akhlak adalah ...",
+      "opsi": [
+        "mempermalukan peserta didik di depan kelas agar jera dan tidak menulari teman",
+        "menyita seluruh barang peserta didik tanpa penjelasan dan langsung melaporkannya",
+        "mengajak berdialog dengan kasih, menjelaskan bahaya syirik, dan membimbing",
+        "membiarkan saja karena ramalan hanyalah hiburan yang tidak berdampak apa pun"
+      ],
+      "kunci": 2,
+      "bahasan": "Penanganan miskonsepsi akidah harus edukatif dan berorientasi perbaikan: dialog yang hangat, penjelasan dalil yang jelas, serta pembinaan pembiasaan, bukan mempermalukan atau membiarkan."
+    },
+    {
+      "id": "PRO-087",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Agar peserta didik tidak sekadar hafal asmaul husna, guru merancang kegiatan pembiasaan meneladani sifat tersebut dalam kehidupan sehari-hari. Kegiatan yang paling tepat untuk meneladani Ar-Rahman adalah ...",
+      "opsi": [
+        "menghafalkan urutan asmaul husna dengan lagu setiap pagi",
+        "menuliskan arti semua asmaul husna di buku catatan",
+        "menghitung jumlah asmaul husna yang telah dihafal",
+        "membiasakan berbagi kasih sayang dan membantu teman"
+      ],
+      "kunci": 3,
+      "bahasan": "Penghayatan asmaul husna menuntut pembiasaan perilaku yang mencerminkan sifat Allah sesuai batas kemampuan hamba. Hafalan dan pencatatan menjadi sarana, bukan tujuan akhir."
+    },
+    {
+      "id": "PRO-088",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik membayangkan Allah seperti makhluk yang duduk di atas langit. Cara guru menanggapi miskonsepsi tersebut dengan tepat adalah ...",
+      "opsi": [
+        "menyuruh peserta didik menghafalkan sifat mustahil tanpa penjelasan apa pun",
+        "menjawab bahwa hal tersebut tidak perlu dipikirkan karena dilarang bertanya",
+        "menyakinkan bahwa bayangan itu benar karena tergambar indah dalam angan",
+        "menjelaskan sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia peserta didik"
+      ],
+      "kunci": 3,
+      "bahasan": "Konsep tanzih (penyucian Allah dari penyerupaan dengan makhluk) dijelaskan melalui sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia, bukan dengan hafalan tanpa makna atau melarang bertanya."
+    },
+    {
+      "id": "PRO-089",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Guru ingin mengukur level kemampuan menganalisis pada materi akhlak tercela. Bentuk soal yang paling tepat adalah ...",
+      "opsi": [
+        "minta peserta didik menyebutkan lima macam akhlak tercela beserta artinya",
+        "menyajikan kasus nyata perilaku siswa untuk dianalisis dan diperbaiki",
+        "minta peserta didik menyalin definisi ghibah dari buku teks pelajaran",
+        "berikan tebak-tebakan istilah akhlak tanpa konteks yang jelas"
+      ],
+      "kunci": 1,
+      "bahasan": "Level menganalisis (C4) menuntut peserta didik memecah informasi dan menemukan hubungan, misalnya menganalisis kasus nyata. Menyebutkan, menyalin, dan menebak belum melampaui level mengingat atau memahami."
+    },
+    {
+      "id": "PRO-090",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Guru mengajarkan iman kepada hari akhir kepada peserta didik remaja. Pendekatan yang paling tepat adalah ...",
+      "opsi": [
+        "menampilkan gambar azab yang mengerikan terus-menerus agar peserta didik ketakutan",
+        "menyampaikan gambaran hari akhir secara seimbang dan kontekstual",
+        "cukup menyuruh menghafal urutan peristiwa akhirat tanpa pembahasan",
+        "menghindari topik hari akhir karena menakutkan bagi remaja"
+      ],
+      "kunci": 1,
+      "bahasan": "Pembelajaran hari akhir dikembangkan secara seimbang: menumbuhkan harapan, kesadaran pertanggungjawaban, dan motivasi beramal saleh, tanpa menakut-nakuti berlebihan atau menghindari materi."
+    },
+    {
+      "id": "PRO-091",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Menghargai perbedaan pendapat dan tidak memaksakan pandangan kepada orang lain disebut ...",
+      "opsi": [
+        "tasamuh",
+        "taawun",
+        "tawadu",
+        "takaful"
+      ],
+      "kunci": 0,
+      "bahasan": "Tasamuh adalah sikap toleran dan menghargai perbedaan. Taawun adalah tolong-menolong, tawadu adalah rendah hati, dan takaful adalah saling menanggung atau peduli."
+    },
+    {
+      "id": "PRO-092",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Kerja sama saling membantu dalam kebaikan, seperti membersihkan kelas bersama, merupakan pengamalan sikap ...",
+      "opsi": [
+        "tasamuh",
+        "taawun",
+        "tabzir",
+        "tahayul"
+      ],
+      "kunci": 1,
+      "bahasan": "Taawun adalah tolong-menolong dalam kebaikan dan takwa, sebagaimana perintah QS Al-Maidah ayat 2, serta menjadi dasar budaya gotong royong di madrasah."
+    },
+    {
+      "id": "PRO-093",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Menjaga barang titipan teman dan mengembalikannya dengan lengkap merupakan wujud sifat ...",
+      "opsi": [
+        "sakha",
+        "qanaah",
+        "amanah",
+        "hilm"
+      ],
+      "kunci": 2,
+      "bahasan": "Amanah berarti dapat dipercaya dalam menjalankan tanggung jawab, termasuk menjaga titipan dan menunaikan tugas dengan jujur."
+    },
+    {
+      "id": "PRO-094",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Konsisten dan teguh dalam berbuat baik serta beribadah meskipun menghadapi godaan disebut ...",
+      "opsi": [
+        "istiqamah",
+        "qanaah",
+        "tasamuh",
+        "mujahadah"
+      ],
+      "kunci": 0,
+      "bahasan": "Istiqamah adalah sikap teguh dan berkesinambungan dalam kebaikan, bukan semangat sesaat yang cepat surut."
+    },
+    {
+      "id": "PRO-095",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik diejek temannya karena membawa bekal sederhana. Respons yang mencerminkan akhlak terpuji adalah ...",
+      "opsi": [
+        "membalas ejekan dengan kata-kata yang lebih kasar lagi",
+        "merusak barang milik teman yang mengejek tersebut",
+        "berhenti membawa bekal dan meminta uang lebih banyak kepada orang tua",
+        "menahan amarah dan menempuh cara yang santun atau melapor kepada guru"
+      ],
+      "kunci": 3,
+      "bahasan": "Menahan amarah dan membalas kejahatan dengan kebaikan, atau menempuh jalur yang tepat seperti melapor kepada guru, adalah wujud akhlak terpuji dan meneladani sifat sabar serta pemaaf."
+    },
+    {
+      "id": "PRO-096",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Teman sekelas tidak membalas salam yang diucapkan seorang peserta didik. Sikap husnuzan yang tepat adalah ...",
+      "opsi": [
+        "menyimpulkan bahwa teman itu sombong dan memutuskan tidak menyapanya lagi",
+        "menyebarkan kabar bahwa teman tersebut tidak sopan",
+        "menduga teman tidak mendengar atau sedang sibuk, lalu tetap menyapa",
+        "membalas dengan tidak memberi salam kepada siapa pun"
+      ],
+      "kunci": 2,
+      "bahasan": "Husnuzan berarti berbaik sangka dan mencari kemungkinan terbaik sebelum menilai buruk. Sikap ini menjaga persaudaraan dan menghindari suuzan yang dilarang agama."
+    },
+    {
+      "id": "PRO-097",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Berbicara kepada siapa pun dengan kata-kata yang benar, jujur, dan tidak menyakitkan merupakan pengamalan ...",
+      "opsi": [
+        "qaulan kariman",
+        "qaulan maisuran",
+        "qaulan sadidan",
+        "qaulan layyinan"
+      ],
+      "kunci": 2,
+      "bahasan": "Qaulan sadidan berarti perkataan yang benar dan jujur. Al-Quran juga mengajarkan qaulan kariman (perkataan mulia, terutama kepada orang tua), qaulan maisuran (perkataan yang pantas dan melegakan), serta qaulan layyinan (perkataan lembut)."
+    },
+    {
+      "id": "PRO-098",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik merasa malu karena ayahnya bekerja sebagai pemulung saat mengantar ke madrasah. Nasihat guru yang mencerminkan akhlak kepada orang tua adalah ...",
+      "opsi": [
+        "menjelaskan keutamaan bekerja halal dan besarnya bakti kepada orang tua",
+        "menyarankan ayahnya berhenti bekerja agar anak tidak merasa malu",
+        "menyuruh peserta didik menghindari pertemuan dengan orang tua di depan teman",
+        "menyampaikan bahwa pekerjaan orang tuanya memang pantas disesali"
+      ],
+      "kunci": 0,
+      "bahasan": "Birrul walidain menuntut sikap hormat dan bersyukur atas pengorbanan orang tua tanpa memandang jenis pekerjaan yang halal; guru membimbing peserta didik menyadari hal itu dengan penuh kasih."
+    },
+    {
+      "id": "PRO-099",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Peran guru sebagai teladan akhlak (uswah hasanah) bagi peserta didik paling tepat diwujudkan melalui ...",
+      "opsi": [
+        "menampilkan konsistensi ucapan dan perbuatan, misalnya datang tepat waktu",
+        "menyampaikan materi tentang kejujuran tanpa perlu menerapkannya di luar kelas",
+        "mengharuskan peserta didik menghafal dalil tentang akhlak mulia setiap hari",
+        "memberikan banyak tugas tertulis agar peserta didik tetap sibuk"
+      ],
+      "kunci": 0,
+      "bahasan": "Dalam pendidikan akhlak, keteladanan lebih kuat daripada sekadar pengajaran. Konsistensi ucapan dan perbuatan guru adalah kurikulum tersembunyi yang paling membekas."
+    },
+    {
+      "id": "PRO-100",
+      "topik": "Pembelajaran Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Pembinaan akhlak yang utuh di madrasah sebaiknya menempuh tiga tahap berurutan, yaitu ...",
+      "opsi": [
+        "penanaman pengetahuan, penumbuhan sikap melalui keteladanan, lalu pembiasaan",
+        "pembiasaan lebih dahulu, lalu pengetahuan dan pengalaman",
+        "hukuman, pengawasan ketat, lalu pemberian sanksi yang keras",
+        "hafalan, ujian tulis, lalu pemberian nilai akhir"
+      ],
+      "kunci": 0,
+      "bahasan": "Pendidikan akhlak menempuh jalur mengetahui (kognitif), menghayati (afektif), lalu mengamalkan (psikomotorik) secara berjenjang, dan setiap tahap diperkuat keteladanan serta pembiasaan."
+    }
+  ]
+}

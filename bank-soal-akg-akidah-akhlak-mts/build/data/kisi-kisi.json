@@ -1,0 +1,39 @@
+{
+  "judul": "Kisi-Kisi dan Struktur Asesmen Kompetensi Guru (AKG) Madrasah",
+  "catatan": "Halaman ini merangkum struktur resmi AKG madrasah yang bersumber dari juknis dan kisi-kisi Kementerian Agama (bukan salinan naskah ujian). Soal-soal pada aplikasi ini adalah soal latihan yang ditulis mengikuti kisi-kisi tersebut, bukan soal ujian resmi.",
+  "komposisi": [
+    { "jenjang": "MTs dan MA", "pedagogik": 20, "profesional": 40, "total": 60, "waktu": "120 menit", "keterangan": "Soal pedagogik diintegrasikan dengan materi mata pelajaran; 3 paket soal paralel." },
+    { "jenjang": "MI", "pedagogik": 15, "profesional": 45, "total": 60, "waktu": "120 menit", "keterangan": "Materi meliputi pedagogik, literasi, numerasi, dan sains." }
+  ],
+  "aspekPedagogik": [
+    "Menguasai karakteristik peserta didik dari aspek fisik, moral, sosial, kultural, emosional, dan intelektual.",
+    "Menguasai teori belajar dan prinsip-prinsip pembelajaran yang mendidik.",
+    "Mengembangkan kurikulum yang terkait dengan mata pelajaran yang diampu.",
+    "Menyelenggarakan pembelajaran yang mendidik, menyusun rancangan, dan melaksanakannya.",
+    "Memanfaatkan teknologi informasi dan komunikasi untuk kepentingan pembelajaran.",
+    "Memfasilitasi pengembangan potensi peserta didik untuk mengaktualisasikan berbagai potensi yang dimiliki.",
+    "Berkomunikasi secara efektif, empatik, dan santun dengan peserta didik.",
+    "Menyelenggarakan penilaian dan evaluasi proses serta hasil belajar serta memanfaatkan hasilnya.",
+    "Melakukan tindakan reflektif untuk meningkatkan kualitas pembelajaran, termasuk penelitian tindakan kelas."
+  ],
+  "aspekProfesional": [
+    "Menguasai materi, struktur, konsep, dan pola pikir keilmuan mata pelajaran Akidah Akhlak.",
+    "Menguasai standar kompetensi dan kompetensi dasar mata pelajaran yang diampu.",
+    "Mengembangkan materi pembelajaran Akidah Akhlak secara kreatif dan kontekstual.",
+    "Memanfaatkan teknologi informasi dan komunikasi untuk mengembangkan diri.",
+    "Menguasai standar isi dan standar kompetensi lulusan pada mata pelajaran Akidah Akhlak."
+  ],
+  "lingkupMateri": [
+    { "nama": "Akidah", "poin": "Rukun iman, tauhid rububiyah-uluhiyah-asma wa sifat, sifat wajib dan mustahil Allah, asmaul husna dan pengamalannya, malaikat, kitab, rasul, hari akhir, qadha dan qadar, serta aliran ilmu kalam." },
+    { "nama": "Akhlak", "poin": "Akhlak mahmudah dan mazmumah, akhlak kepada Allah, diri sendiri, sesama, dan lingkungan, husnuzan dan suuzan, tahayul dan khurafat, serta adab dalam kehidupan sehari-hari." },
+    { "nama": "Kisah Teladan", "poin": "Kisah Nabi Muhammad, para sahabat, dan tokoh Islam sebagai penguat pemahaman akidah dan pembiasaan akhlak mulia." },
+    { "nama": "Pedagogik Terintegrasi", "poin": "Perencanaan, pelaksanaan, dan penilaian pembelajaran Akidah Akhlak, termasuk pengelolaan kelas, media, dan refleksi perbaikan pembelajaran." }
+  ],
+  "tipsBelajar": [
+    "Kuasai akar konsep: rukun iman, sifat Allah, pembagian akhlak, dan adab, sebelum menghafal contoh.",
+    "Latih soal dengan rentang topik penuh, lalu ulangi soal yang salah sampai tuntas.",
+    "Pelajari kisi-kisi pedagogik dengan mengaitkannya pada praktik nyata mengajar Akidah Akhlak di kelas.",
+    "Perhatikan peristiwa kontemporer dan praktik ibadah harian karena banyak soal berbentuk penerapan kontekstual.",
+    "Baca kembali pembahasan setiap soal, bukan hanya mengejar skor."
+  ]
+}

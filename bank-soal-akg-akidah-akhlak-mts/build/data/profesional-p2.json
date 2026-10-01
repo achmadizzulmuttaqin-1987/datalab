@@ -1,0 +1,362 @@
+{
+  "berkas": "profesional-p2",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-026",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Malaikat adalah makhluk Allah yang diciptakan dari ... dan selalu taat menjalankan perintah-Nya.",
+      "opsi": [
+        "cahaya",
+        "tanah",
+        "api",
+        "air"
+      ],
+      "kunci": 0,
+      "bahasan": "Malaikat diciptakan dari nur atau cahaya, tidak makan dan tidak minum, tidak berjenis kelamin, serta senantiasa patuh kepada Allah."
+    },
+    {
+      "id": "PRO-027",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Tugas utama malaikat Jibril adalah ...",
+      "opsi": [
+        "membagi rezeki dan menurunkan hujan",
+        "meniup sangkakala pada hari kiamat",
+        "mencabut nyawa seluruh makhluk",
+        "menyampaikan wahyu kepada para nabi dan rasul"
+      ],
+      "kunci": 3,
+      "bahasan": "Jibril bertugas menyampaikan wahyu; Mikail mengurus rezeki dan hujan; Israfil meniup sangkakala; Izrail mencabut nyawa."
+    },
+    {
+      "id": "PRO-028",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Dua malaikat yang bertugas mencatat amal baik dan amal buruk manusia adalah ...",
+      "opsi": [
+        "Raqib dan Atid",
+        "Munkar dan Nakir",
+        "Malik dan Ridwan",
+        "Israfil dan Izrail"
+      ],
+      "kunci": 0,
+      "bahasan": "Raqib mencatat amal baik dan Atid mencatat amal buruk. Munkar dan Nakir bertanya di alam kubur; Malik penjaga neraka; Ridwan penjaga surga."
+    },
+    {
+      "id": "PRO-029",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Hikmah beriman kepada malaikat yang paling tampak dalam pembinaan akhlak peserta didik adalah ...",
+      "opsi": [
+        "merasa bebas berbuat apa saja karena belum ada hisab",
+        "mengharap pahala hanya pada kegiatan tertentu",
+        "menjauhi pergaulan karena takut diawasi teman",
+        "berhati-hati dalam berkata dan berbuat karena yakin amalnya selalu dicatat"
+      ],
+      "kunci": 3,
+      "bahasan": "Kesadaran bahwa setiap amal dicatat malaikat menumbuhkan sikap muraqabah, kejujuran, dan kehati-hatian dalam berperilaku."
+    },
+    {
+      "id": "PRO-030",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pernyataan yang tepat tentang malaikat?",
+      "opsi": [
+        "Malaikat adalah makhluk gaib yang selalu patuh kepada Allah.",
+        "Malaikat dapat dipanggil dan dimintai pertolongan manusia.",
+        "Sepuluh malaikat wajib diketahui beserta tugasnya.",
+        "Malaikat diciptakan dari api dan memiliki hawa nafsu seperti manusia."
+      ],
+      "kunci": [
+        0,
+        2
+      ],
+      "bahasan": "Malaikat adalah makhluk gaib dari cahaya yang selalu taat; sepuluh malaikat wajib diketahui beserta tugasnya. Meminta pertolongan kepada malaikat dan anggapan bahwa malaikat dari api serta berhawa nafsu adalah keliru."
+    },
+    {
+      "id": "PRO-031",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Kitab Zabur diturunkan Allah kepada nabi ...",
+      "opsi": [
+        "Musa alaihissalam",
+        "Isa alaihissalam",
+        "Ibrahim alaihissalam",
+        "Dawud alaihissalam"
+      ],
+      "kunci": 3,
+      "bahasan": "Zabur diturunkan kepada Dawud, Taurat kepada Musa, Injil kepada Isa, dan Al-Quran kepada Nabi Muhammad shallallahu alaihi wasallam."
+    },
+    {
+      "id": "PRO-032",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Wahyu Allah yang diturunkan kepada Nabi Ibrahim dan Nabi Musa dalam bentuk lembaran-lembaran singkat disebut ...",
+      "opsi": [
+        "zabur",
+        "taurat",
+        "shahifah Madinah",
+        "suhuf"
+      ],
+      "kunci": 3,
+      "bahasan": "Suhuf adalah lembaran wahyu yang diturunkan kepada Nabi Ibrahim dan Nabi Musa, sebagaimana disebutkan dalam QS Al-Ala dan QS An-Najm."
+    },
+    {
+      "id": "PRO-033",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Kedudukan Al-Quran terhadap kitab-kitab sebelumnya adalah ...",
+      "opsi": [
+        "melengkapi sebagian ajaran lalu menghapus seluruhnya tanpa jejak",
+        "sebagai kitab penyempurna dan penutup yang menjadi pedoman utama umat Islam",
+        "kitab tambahan yang kedudukannya lebih rendah dari Injil",
+        "kitab khusus untuk para nabi saja"
+      ],
+      "kunci": 1,
+      "bahasan": "Al-Quran adalah kitab terakhir yang menyempurnakan dan menjaga pokok ajaran kitab sebelumnya, serta berlaku untuk seluruh manusia sampai akhir zaman."
+    },
+    {
+      "id": "PRO-034",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Salah satu bentuk pengamalan iman kepada kitab Allah bagi peserta didik adalah ...",
+      "opsi": [
+        "menyimpan Al-Quran di lemari agar tidak rusak",
+        "menjadikan Al-Quran sebagai pedoman perilaku dan membacanya secara rutin",
+        "mempercayai ramalan bintang dari buku tertentu",
+        "menggunakan ayat Al-Quran untuk mencari keuntungan pribadi"
+      ],
+      "kunci": 1,
+      "bahasan": "Iman kepada kitab menuntut pembacaan, pemahaman, dan penerapan isinya dalam kehidupan, bukan sekadar menyimpan atau menyalahgunakannya."
+    },
+    {
+      "id": "PRO-035",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Kelompok rasul yang memiliki keteguhan luar biasa dan dijuluki ulul azmi adalah ...",
+      "opsi": [
+        "Nuh, Ibrahim, Musa, Isa, dan Muhammad",
+        "Adam, Idris, Hud, Saleh, dan Syuaib",
+        "Yusuf, Yakub, Ishak, Ismail, dan Luth",
+        "Dawud, Sulaiman, Ilyas, Ilyasa, dan Zakaria"
+      ],
+      "kunci": 0,
+      "bahasan": "Ulul azmi adalah lima rasul yang paling teguh menghadapi ujian: Nuh, Ibrahim, Musa, Isa, dan Muhammad shallallahu alaihi wasallam."
+    },
+    {
+      "id": "PRO-036",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Sifat wajib rasul yang berarti dapat dipercaya dan lawannya adalah khianat adalah ...",
+      "opsi": [
+        "amanah",
+        "siddiq",
+        "tablig",
+        "fatanah"
+      ],
+      "kunci": 0,
+      "bahasan": "Amanah berarti terpercaya, lawannya khianat. Siddiq berarti benar dan lawannya kizb; tablig berarti menyampaikan dan lawannya kitman; fatanah berarti cerdas dan lawannya baladah."
+    },
+    {
+      "id": "PRO-037",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Kemampuan luar biasa yang diberikan Allah kepada para nabi sebagai bukti kenabian disebut ...",
+      "opsi": [
+        "karamah",
+        "istidraj",
+        "mukjizat",
+        "sihir"
+      ],
+      "kunci": 2,
+      "bahasan": "Mukjizat adalah kejadian luar biasa pada nabi sebagai bukti kebenaran kenabian. Karamah diberikan kepada wali, istidraj justru bentuk tipuan yang melenakan."
+    },
+    {
+      "id": "PRO-038",
+      "topik": "Iman kepada Malaikat, Kitab, dan Rasul",
+      "tipe": "pg",
+      "teks": "Tujuan utama Allah mengutus para rasul kepada umat manusia adalah ...",
+      "opsi": [
+        "mengumpulkan kekayaan dan kekuasaan duniawi",
+        "membimbing manusia mengenal Allah dan hidup sesuai petunjuk-Nya",
+        "menghapus seluruh tradisi umat sebelumnya tanpa penjelasan",
+        "menjadikan manusia takluk kepada penguasa tertentu"
+      ],
+      "kunci": 1,
+      "bahasan": "Rasul diutus sebagai pembawa kabar gembira dan pemberi peringatan, membimbing manusia kepada tauhid dan akhlak mulia."
+    },
+    {
+      "id": "PRO-039",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Yaumul hisab adalah peristiwa pada hari akhir ketika ...",
+      "opsi": [
+        "seluruh manusia dibangkitkan dari kubur",
+        "amal manusia ditimbang dengan mizan",
+        "manusia melewati titian sirat",
+        "manusia dihadapkan kepada perhitungan amal perbuatannya"
+      ],
+      "kunci": 3,
+      "bahasan": "Yaumul ba ats adalah hari kebangkitan, yaumul hisab adalah hari perhitungan amal, mizan adalah penimbangan, dan sirat adalah titian yang harus dilewati."
+    },
+    {
+      "id": "PRO-040",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Perbedaan kiamat sugra dan kiamat kubra adalah ...",
+      "opsi": [
+        "kiamat sugra selalu terjadi setelah kiamat kubra",
+        "kiamat sugra bersifat sebagian, sedangkan kiamat kubra menghancurkan seluruh alam",
+        "kiamat sugra hanya terjadi pada orang beriman, sedangkan kiamat kubra pada semua makhluk",
+        "kiamat sugra tidak diyakini dalam ajaran Islam mana pun"
+      ],
+      "kunci": 1,
+      "bahasan": "Kiamat sugra adalah kematian atau bencana yang bersifat sebagian, sedangkan kiamat kubra adalah kehancuran total alam semesta saat sangkakala ditiup."
+    },
+    {
+      "id": "PRO-041",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Hikmah beriman kepada hari akhir bagi peserta didik antara lain ...",
+      "opsi": [
+        "rajin beramal saleh dan menjauhi perbuatan tercela",
+        "menunda tobat karena merasa masih muda",
+        "mengumpulkan harta sebanyak mungkin tanpa memperhatikan cara",
+        "bersikap pesimis terhadap kehidupan dunia yang sementara"
+      ],
+      "kunci": 0,
+      "bahasan": "Iman kepada hari akhir menumbuhkan kesadaran pertanggungjawaban, semangat beramal saleh, kejujuran, dan kesegeraan bertobat."
+    },
+    {
+      "id": "PRO-042",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Ketetapan Allah sejak zaman azali tentang segala sesuatu yang akan terjadi pada makhluk-Nya disebut ...",
+      "opsi": [
+        "qadar",
+        "qadha",
+        "ikhtiar",
+        "tawakal"
+      ],
+      "kunci": 1,
+      "bahasan": "Qadha adalah ketetapan Allah sejak azali, sedangkan qadar adalah perwujudan atau berlakuannya ketetapan itu pada makhluk dalam ukuran tertentu."
+    },
+    {
+      "id": "PRO-043",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Contoh takdir mualak yang dapat diubah manusia dengan ikhtiar dan doa adalah ...",
+      "opsi": [
+        "kelahiran seseorang ke dunia",
+        "kematian yang telah ditentukan waktunya",
+        "jenis kelamin seseorang sejak lahir",
+        "prestasi belajar yang diraih melalui usaha sungguh-sungguh"
+      ],
+      "kunci": 3,
+      "bahasan": "Takdir mualak (mubram tidak; mualak berarti tergantung) berkaitan dengan hal yang dapat berubah melalui usaha, doa, dan keadaan, seperti prestasi, rezeki, dan kesehatan. Kelahiran, kematian, dan jenis kelamin termasuk takdir mubram."
+    },
+    {
+      "id": "PRO-044",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik berpendapat bahwa karena semua sudah ditakdirkan, ia tidak perlu belajar. Koreksi yang paling tepat adalah ...",
+      "opsi": [
+        "cukup mendoakan nilai yang bagus tanpa perlu belajar",
+        "takdir mualak menuntut ikhtiar maksimal disertai doa dan tawakal",
+        "takdir tidak berkaitan dengan usaha manusia sama sekali",
+        "belajar hanya perlu dilakukan jika ingin dipuji guru"
+      ],
+      "kunci": 1,
+      "bahasan": "Pemahaman qadar yang benar melahirkan optimisme dan tanggung jawab: manusia wajib berikhtiar dan berdoa, lalu bertawakal atas hasilnya, bukan pasrah tanpa usaha."
+    },
+    {
+      "id": "PRO-045",
+      "topik": "Iman kepada Hari Akhir dan Qadha Qadar",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pernyataan yang tepat tentang qadha dan qadar?",
+      "opsi": [
+        "Takdir mubram dapat diubah manusia dengan usaha keras apa pun.",
+        "Beriman kepada qadar berarti manusia bebas berbuat tanpa pertanggungjawaban.",
+        "Qadha adalah ketetapan Allah sejak azali, sedangkan qadar adalah perwujudan ketetapan itu pada makhluk.",
+        "Takdir mualak dapat berubah melalui ikhtiar, doa, dan perubahan keadaan."
+      ],
+      "kunci": [
+        2,
+        3
+      ],
+      "bahasan": "Qadha adalah ketetapan azali dan qadar adalah realisasinya. Takdir mubram tidak dapat diubah, sedangkan takdir mualak berkaitan dengan usaha dan doa; iman kepada qadar justru menuntut tanggung jawab."
+    },
+    {
+      "id": "PRO-046",
+      "topik": "Ilmu Kalam dan Aliran-Aliran",
+      "tipe": "pg",
+      "teks": "Ilmu yang membahas akidah Islam dengan menggunakan dalil naqli dan aqli, serta sering disebut ilmu tauhid atau usuluddin, adalah ...",
+      "opsi": [
+        "ilmu kalam",
+        "ilmu fikih",
+        "ilmu hadis",
+        "ilmu akhlak"
+      ],
+      "kunci": 0,
+      "bahasan": "Ilmu kalam membahas akidah dengan dalil naqli (wahyu) dan aqli (rasional), dan dikenal pula sebagai ilmu tauhid atau usuluddin."
+    },
+    {
+      "id": "PRO-047",
+      "topik": "Ilmu Kalam dan Aliran-Aliran",
+      "tipe": "pg",
+      "teks": "Aliran kalam yang dikenal paling keras dan mudah mengkafirkan pelaku dosa besar serta keluar dari barisan Ali bin Abi Thalib adalah ...",
+      "opsi": [
+        "Murjiah",
+        "Muktazilah",
+        "Asyariyah",
+        "Khawarij"
+      ],
+      "kunci": 3,
+      "bahasan": "Khawarij berpendapat bahwa pelaku dosa besar menjadi kafir dan wajib diperangi; sikap takfir yang keras ini bertentangan dengan sikap moderat Ahlussunnah."
+    },
+    {
+      "id": "PRO-048",
+      "topik": "Ilmu Kalam dan Aliran-Aliran",
+      "tipe": "pg",
+      "teks": "Aliran yang menangguhkan atau menyerahkan penghukuman pelaku dosa besar kepada Allah dan menekankan bahwa iman cukup di dalam hati adalah ...",
+      "opsi": [
+        "Murjiah",
+        "Khawarij",
+        "Qadariyah",
+        "Syiah"
+      ],
+      "kunci": 0,
+      "bahasan": "Murjiah (dari irja yang berarti menangguhkan) menolak pengkafiran pelaku dosa besar dan berlebihan dalam menekankan iman di hati, sehingga melupakan amal."
+    },
+    {
+      "id": "PRO-049",
+      "topik": "Ilmu Kalam dan Aliran-Aliran",
+      "tipe": "pg",
+      "teks": "Paham yang menyatakan bahwa manusia tidak memiliki kebebasan sama sekali dalam berbuat karena semuanya dipaksa oleh takdir disebut ...",
+      "opsi": [
+        "Qadariyah",
+        "Jabariyah",
+        "Muktazilah",
+        "Maturidiyah"
+      ],
+      "kunci": 1,
+      "bahasan": "Jabariyah menafikan kebebasan manusia (fatalistis), sedangkan Qadariyah justru berlebihan menegaskan kebebasan manusia sampai mengesampingkan peran takdir."
+    },
+    {
+      "id": "PRO-050",
+      "topik": "Ilmu Kalam dan Aliran-Aliran",
+      "tipe": "pg",
+      "teks": "Ajaran Muktazilah tentang manzilah baina manzilatain menyatakan bahwa ...",
+      "opsi": [
+        "pelaku dosa besar berada di antara mukmin dan kafir",
+        "pelaku dosa besar otomatis menjadi kafir",
+        "semua pelaku dosa besar pasti masuk surga",
+        "iman dan amal tidak memiliki hubungan sama sekali"
+      ],
+      "kunci": 0,
+      "bahasan": "Manzilah baina manzilatain adalah posisi di antara mukmin dan kafir bagi pelaku dosa besar, sebagai jalan tengah antara sikap Khawarij dan Murjiah."
+    }
+  ]
+}

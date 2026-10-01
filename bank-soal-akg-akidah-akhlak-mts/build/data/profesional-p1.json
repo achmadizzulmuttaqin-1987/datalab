@@ -1,0 +1,362 @@
+{
+  "berkas": "profesional-p1",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-001",
+      "topik": "Hakikat dan Ruang Lingkup Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Secara istilah, akidah adalah ...",
+      "opsi": [
+        "kebiasaan yang dilakukan berulang-ulang dan tanpa sadar",
+        "kumpulan aturan hukum ibadah dan muamalah harian",
+        "ilmu tentang tata cara membaca Al-Quran dengan tartil",
+        "keyakinan teguh dalam hati yang terwujud dalam ucapan dan perbuatan"
+      ],
+      "kunci": 3,
+      "bahasan": "Akidah berasal dari kata aqada yang berarti mengikat atau mempercayai dengan kuat. Akidah adalah keyakinan mendasar yang teguh di dalam hati dan tampak pada perilaku."
+    },
+    {
+      "id": "PRO-002",
+      "topik": "Hakikat dan Ruang Lingkup Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Ruang lingkup mata pelajaran Akidah Akhlak di MTs meliputi ...",
+      "opsi": [
+        "rukun iman, akhlak terpuji dan tercela, adab, serta kisah teladan",
+        "hanya sejarah para nabi dan tokoh Islam",
+        "keterampilan berbahasa Arab dan menulis kaligrafi",
+        "hukum fikih ibadah dan muamalah secara rinci dan luas"
+      ],
+      "kunci": 0,
+      "bahasan": "Akidah Akhlak membina keyakinan (rukun iman) sekaligus akhlak dan adab; kisah teladan berfungsi memperkuat pemahaman dan pembiasaan, sementara fikih dibahas pada mata pelajaran tersendiri."
+    },
+    {
+      "id": "PRO-003",
+      "topik": "Hakikat dan Ruang Lingkup Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Tujuan utama pembelajaran Akidah Akhlak di madrasah adalah ...",
+      "opsi": [
+        "menambah hafalan dalil sebanyak mungkin setiap pekan",
+        "menyiapkan peserta didik menjadi ulama besar di masa depan",
+        "membentuk pribadi muslim yang beriman dan berakhlak mulia",
+        "menguasai sejarah kebudayaan Islam secara menyeluruh dan rinci"
+      ],
+      "kunci": 1,
+      "bahasan": "Akidah Akhlak diarahkan pada pembentukan pribadi beriman dan berakhlak mulia. Hafalan dalil bukan tujuan akhir, melainkan sarana penguat keyakinan dan perilaku."
+    },
+    {
+      "id": "PRO-004",
+      "topik": "Hakikat dan Ruang Lingkup Akidah Akhlak",
+      "tipe": "pg",
+      "teks": "Sumber utama akidah Islam adalah ...",
+      "opsi": [
+        "Al-Quran dan hadis yang sahih",
+        "tradisi masyarakat setempat",
+        "pendapat mayoritas tanpa dalil",
+        "pengalaman mistik pribadi"
+      ],
+      "kunci": 0,
+      "bahasan": "Akidah Islam bersumber pada Al-Quran dan hadis sahih. Akal berfungsi memperkuat dan memahami, bukan menjadi sumber utama yang berdiri sendiri."
+    },
+    {
+      "id": "PRO-005",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Meyakini bahwa Allah satu-satunya Pencipta, Pemelihara, dan Pengatur seluruh alam semesta termasuk ...",
+      "opsi": [
+        "tauhid uluhiyah",
+        "tauhid asma wa sifat",
+        "tauhid rububiyah",
+        "tauhid nubuwwah"
+      ],
+      "kunci": 2,
+      "bahasan": "Tauhid rububiyah menegaskan keesaan Allah dalam penciptaan, pemberian rezeki, dan pengaturan alam, sebagaimana ditegaskan antara lain dalam QS Al-Fatihah ayat 2."
+    },
+    {
+      "id": "PRO-006",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Seorang muslim hanya menyembah dan memohon pertolongan kepada Allah, tidak kepada selain-Nya. Pernyataan ini merupakan pengamalan tauhid ...",
+      "opsi": [
+        "rububiyah",
+        "asma wa sifat",
+        "uluhiyah",
+        "khaliqiyah"
+      ],
+      "kunci": 2,
+      "bahasan": "Tauhid uluhiyah menuntut seluruh ibadah dan doa diarahkan hanya kepada Allah; menyembah atau memohon kepada selain Allah termasuk syirik."
+    },
+    {
+      "id": "PRO-007",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Keyakinan bahwa Allah memiliki nama-nama dan sifat-sifat kesempurnaan yang tidak boleh disamakan dengan makhluk disebut tauhid ...",
+      "opsi": [
+        "rububiyah",
+        "uluhiyah",
+        "ubudiyah",
+        "asma wa sifat"
+      ],
+      "kunci": 3,
+      "bahasan": "Tauhid asma wa sifat menegaskan kesempurnaan nama dan sifat Allah serta menolak penyerupaan-Nya dengan makhluk (tanzih)."
+    },
+    {
+      "id": "PRO-008",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Bersikap pamer atau riya ketika beribadah agar dipuji manusia termasuk ...",
+      "opsi": [
+        "syirik asghar yang merusak keikhlasan tanpa mengeluarkan dari Islam",
+        "syirik akbar yang mengeluarkan seseorang dari Islam",
+        "perbuatan yang dibolehkan agar orang lain gemar beribadah",
+        "amal yang pahalanya berlipat karena memberi contoh"
+      ],
+      "kunci": 0,
+      "bahasan": "Riya termasuk syirik asghar: merusak keikhlasan dan dapat menghapus pahala amal, tetapi tidak mengeluarkan seseorang dari keislaman seperti syirik akbar."
+    },
+    {
+      "id": "PRO-009",
+      "topik": "Iman kepada Allah",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pernyataan yang tepat tentang tauhid dan syirik?",
+      "opsi": [
+        "Tauhid menjadikan ibadah, doa, dan pengharapan hanya tertuju kepada Allah.",
+        "Syirik asghar sama hukumnya dengan syirik akbar, yaitu mengeluarkan dari Islam.",
+        "Selama seseorang mengakui Allah Pencipta, ibadah kepada selain Allah tidak dianggap syirik.",
+        "Syirik akbar dapat mengeluarkan seseorang dari keislaman, sedangkan syirik asghar merusak keikhlasan amal."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "Inti tauhid adalah mengesakan Allah dalam rububiyah, uluhiyah, serta asma wa sifat. Syirik dibedakan menjadi akbar dan asghar; mengakui Allah sebagai Pencipta tidak menghapus syirik apabila ibadah ditujukan kepada selain-Nya."
+    },
+    {
+      "id": "PRO-010",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Sifat wujud bagi Allah berarti ...",
+      "opsi": [
+        "Allah baru diciptakan setelah alam semesta ada",
+        "Allah berada pada suatu tempat tertentu di langit",
+        "Allah ada tanpa memerlukan tempat dan waktu, keberadaan-Nya mutlak",
+        "Allah hanya ada ketika diingat oleh hamba-Nya"
+      ],
+      "kunci": 2,
+      "bahasan": "Wujud adalah sifat nafsiyah: Allah pasti ada secara mutlak, tidak didahului ketiadaan dan tidak bergantung pada tempat atau waktu."
+    },
+    {
+      "id": "PRO-011",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Sifat qidam dan baqa bagi Allah menunjukkan bahwa Allah ...",
+      "opsi": [
+        "ada setelah alam semesta diciptakan dan akan binasa",
+        "memerlukan makhluk untuk keberadaan-Nya",
+        "dahulu tanpa permulaan dan kekal tanpa akhir",
+        "berubah-ubah sesuai keadaan zaman"
+      ],
+      "kunci": 2,
+      "bahasan": "Qidam berarti Allah terdahulu tanpa awal, sedangkan baqa berarti Allah kekal tanpa akhir. Keduanya menegaskan bahwa Allah tidak terikat ruang dan waktu seperti makhluk."
+    },
+    {
+      "id": "PRO-012",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Allah berdiri sendiri dan tidak memerlukan bantuan siapa pun serta apa pun. Hal ini sesuai dengan sifat ...",
+      "opsi": [
+        "mukhalafatu lil hawadisi",
+        "wahdaniyah",
+        "qiyamuhu binafsihi",
+        "qudrah"
+      ],
+      "kunci": 2,
+      "bahasan": "Qiyamuhu binafsihi berarti Allah berdiri sendiri, tidak membutuhkan tempat, alat, atau pertolongan pihak lain."
+    },
+    {
+      "id": "PRO-013",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Allah tidak sama dengan makhluk, baik dalam zat, sifat, maupun perbuatan-Nya. Pernyataan ini sejalan dengan sifat ...",
+      "opsi": [
+        "wujud",
+        "sama dan bashar",
+        "mukhalafatu lil hawadisi",
+        "kaunuhu samian"
+      ],
+      "kunci": 2,
+      "bahasan": "Mukhalafatu lil hawadisi berarti Allah berbeda dari segala yang baru atau makhluk; karena itu Allah tidak boleh dibayangkan menyerupai ciptaan-Nya."
+    },
+    {
+      "id": "PRO-014",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Keesaan Allah yang tidak terbagi, tidak berbilang, dan tidak ada sekutu bagi-Nya merupakan sifat ...",
+      "opsi": [
+        "iradah",
+        "wahdaniyah",
+        "ilmu",
+        "hayat"
+      ],
+      "kunci": 1,
+      "bahasan": "Wahdaniyah menegaskan bahwa Allah Maha Esa: tidak berbilang, tidak terbagi, dan tidak memiliki sekutu dalam zat, sifat, maupun perbuatan-Nya."
+    },
+    {
+      "id": "PRO-015",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Sifat mustahil yang menjadi lawan sifat wujud adalah ...",
+      "opsi": [
+        "hudus",
+        "fana",
+        "adam",
+        "mumatsalah"
+      ],
+      "kunci": 2,
+      "bahasan": "Adam berarti tidak ada, dan mustahil bagi Allah. Hudus berarti baru, lawan qidam; fana berarti binasa, lawan baqa."
+    },
+    {
+      "id": "PRO-016",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Sifat jaiz bagi Allah adalah ...",
+      "opsi": [
+        "wajib adanya bagi Allah secara mutlak",
+        "boleh bagi Allah membuat atau tidak membuat yang mungkin",
+        "mustahil adanya bagi Allah selamanya",
+        "sifat yang hanya dimiliki oleh para rasul"
+      ],
+      "kunci": 1,
+      "bahasan": "Sifat jaiz Allah adalah fi lu kulli mumkinin au tarkuhu: Allah bebas menciptakan atau tidak menciptakan sesuatu yang mungkin menurut kehendak-Nya."
+    },
+    {
+      "id": "PRO-017",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Dalam pembagian sifat Allah, sifat qidam, baqa, dan mukhalafatu lil hawadisi termasuk kelompok sifat ...",
+      "opsi": [
+        "nafsiyah",
+        "maani",
+        "salbiyah",
+        "manawiyah"
+      ],
+      "kunci": 2,
+      "bahasan": "Sifat salbiyah adalah sifat yang meniadakan segala yang tidak layak bagi Allah, meliputi qidam, baqa, mukhalafatu lil hawadisi, qiyamuhu binafsihi, dan wahdaniyah."
+    },
+    {
+      "id": "PRO-018",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Meyakini bahwa Allah mengetahui segala sesuatu bahkan yang tersembunyi merupakan pengagungan terhadap nama Allah ...",
+      "opsi": [
+        "As-Sami",
+        "Al-Bashir",
+        "Al-Khabir",
+        "Al-Alim"
+      ],
+      "kunci": 3,
+      "bahasan": "Al-Alim berarti Allah Maha Mengetahui segala sesuatu secara menyeluruh, termasuk yang tersembunyi di dalam hati. Al-Khabir menunjuk pada pengetahuan yang rinci dan mendalam, namun istilah yang paling umum untuk kemahatahuan adalah Al-Alim."
+    },
+    {
+      "id": "PRO-019",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Makna As-Samad dalam surah Al-Ikhlas adalah ...",
+      "opsi": [
+        "Allah Maha Pencipta alam semesta",
+        "Allah Maha Pengampun segala dosa",
+        "Allah Maha Pemberi rezeki kepada makhluk-Nya",
+        "Allah yang menjadi tumpuan dan dibutuhkan segala sesuatu"
+      ],
+      "kunci": 3,
+      "bahasan": "As-Samad berarti Allah Maha Dibutuhkan: segala sesuatu bergantung kepada-Nya, sedangkan Allah tidak membutuhkan apa pun."
+    },
+    {
+      "id": "PRO-020",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Meneladani sifat Al-Ghaffar dalam kehidupan sehari-hari diwujudkan dengan ...",
+      "opsi": [
+        "menuntut setiap kesalahan dibalas setimpal",
+        "memarahi orang yang bersalah agar tidak mengulanginya",
+        "gemar memaafkan kesalahan orang lain dan tidak menyimpan dendam",
+        "menyembunyikan kesalahan orang lain meski merugikan"
+      ],
+      "kunci": 2,
+      "bahasan": "Meneladani Al-Ghaffar berarti membiasakan diri memaafkan dan menutupi kesalahan orang lain sesuai kemampuan sebagai hamba, tanpa menyimpan dendam."
+    },
+    {
+      "id": "PRO-021",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Surah yang paling tegas menegaskan keesaan Allah serta menolak anggapan bahwa Allah memiliki anak adalah ...",
+      "opsi": [
+        "Al-Fatihah",
+        "Al-Falaq",
+        "An-Nas",
+        "Al-Ikhlas"
+      ],
+      "kunci": 3,
+      "bahasan": "QS Al-Ikhlas menegaskan Allah Maha Esa, Maha Dibutuhkan, tidak beranak dan tidak diperanakkan, serta tidak ada yang setara dengan-Nya."
+    },
+    {
+      "id": "PRO-022",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Kata rabbil alamin dalam QS Al-Fatihah ayat 2 menunjukkan makna ...",
+      "opsi": [
+        "Allah Maha Penyayang kepada seluruh makhluk",
+        "Allah pemelihara dan pengatur seluruh alam, sebagai bukti tauhid rububiyah",
+        "Allah satu-satunya tempat memohon ampunan",
+        "Allah yang menghisab perbuatan manusia pada hari kiamat"
+      ],
+      "kunci": 1,
+      "bahasan": "Rabbil alamin berarti Tuhan pemelihara seluruh alam, menegaskan keesaan Allah dalam memelihara dan mengatur makhluk-Nya, yaitu tauhid rububiyah."
+    },
+    {
+      "id": "PRO-023",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Ayat Kursi menegaskan bahwa Allah Mahahidup dan berdiri sendiri serta tidak mengantuk dan tidak tidur. Penegasan itu menolak sifat mustahil bagi Allah, yaitu ...",
+      "opsi": [
+        "adam dan hudus",
+        "fana dan taaddud",
+        "jahlun dan karahah",
+        "mautun dan ihtiyaju lighairihi"
+      ],
+      "kunci": 3,
+      "bahasan": "Mautun berarti mati, lawan sifat hayat; ihtiyaju lighairihi berarti memerlukan pihak lain, lawan qiyamuhu binafsihi. Ayat Kursi menegaskan Allah Mahahidup dan tidak memerlukan apa pun."
+    },
+    {
+      "id": "PRO-024",
+      "topik": "Iman kepada Allah",
+      "tipe": "pg",
+      "teks": "Salah satu hikmah beriman kepada Allah yang tampak dalam perilaku peserta didik adalah ...",
+      "opsi": [
+        "berani berbuat curang ketika tidak ada guru",
+        "putus asa ketika doanya belum dikabulkan",
+        "tenteram menghadapi masalah dan termotivasi beramal saleh",
+        "mengharapkan pujian dari teman atas setiap kebaikan"
+      ],
+      "kunci": 2,
+      "bahasan": "Iman kepada Allah melahirkan ketenangan hati, kesadaran diawasi Allah (muraqabah), serta semangat beramal saleh dan menjauhi larangan-Nya."
+    },
+    {
+      "id": "PRO-025",
+      "topik": "Iman kepada Allah",
+      "tipe": "pgk",
+      "teks": "Manakah DUA penerapan iman kepada Allah yang tepat dalam kehidupan sehari-hari peserta didik madrasah?",
+      "opsi": [
+        "Mengerjakan ujian dengan jujur karena yakin Allah selalu mengawasi.",
+        "Menggunakan jimat atau rajah agar merasa aman dari bahaya.",
+        "Menyembah Allah hanya ketika sedang menghadapi musibah besar.",
+        "Berdoa dan berusaha sungguh-sungguh, lalu bertawakal atas hasilnya."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "Iman yang benar melahirkan kesadaran pengawasan Allah (muraqabah) dan ikhtiar disertai doa serta tawakal. Jimat dan ibadah musiman menyalahi tauhid uluhiyah."
+    }
+  ]
+}

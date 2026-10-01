@@ -1,0 +1,359 @@
+{
+  "berkas": "profesional-p3",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-051",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Akhlak menurut Al-Ghazali adalah ...",
+      "opsi": [
+        "kebiasaan yang dilakukan karena paksaan orang lain semata",
+        "perbuatan baik yang hanya tampak di hadapan orang banyak",
+        "sifat tertanam kuat dalam jiwa yang melahirkan perbuatan dengan mudah",
+        "pengetahuan tentang aturan hukum yang bersifat wajib dan sunah"
+      ],
+      "kunci": 2,
+      "bahasan": "Menurut Al-Ghazali, akhlak adalah keadaan jiwa yang mantap sehingga perbuatan lahir dengan mudah. Apabila perbuatannya baik, disebut akhlak terpuji; jika buruk, akhlak tercela."
+    },
+    {
+      "id": "PRO-052",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Secara bahasa, akhlak merupakan bentuk jamak dari kata khulqun yang berarti ...",
+      "opsi": [
+        "kejadian atau penciptaan fisik",
+        "budi pekerti atau tingkah laku",
+        "aturan ibadah dan muamalah",
+        "perintah dan larangan"
+      ],
+      "kunci": 1,
+      "bahasan": "Khulqun berarti budi pekerti atau tingkah laku. Akhlak mencakup keadaan batin yang tercermin pada sikap dan perbuatan sehari-hari."
+    },
+    {
+      "id": "PRO-053",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Dalam kajian akhlak, perilaku manusia dikelompokkan menjadi dua, yaitu ...",
+      "opsi": [
+        "akhlak wajib dan akhlak sunah",
+        "akhlak duniawi dan akhlak ukhrawi",
+        "akhlak individu dan akhlak kekeluargaan",
+        "akhlak mahmudah dan akhlak mazmumah"
+      ],
+      "kunci": 3,
+      "bahasan": "Akhlak mahmudah adalah akhlak terpuji yang mendatangkan kebaikan, sedangkan akhlak mazmumah adalah akhlak tercela yang merugikan diri sendiri dan orang lain."
+    },
+    {
+      "id": "PRO-054",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Mensyukuri nikmat Allah dapat diwujudkan dengan cara ...",
+      "opsi": [
+        "menghitung dan mengeluhkan segala kekurangan yang dialami setiap hari",
+        "menyimpan segala nikmat untuk diri sendiri tanpa digunakan",
+        "memamerkan nikmat kepada orang yang tidak mampu",
+        "memuji Allah dengan lisan, mengakui nikmat di hati, dan memanfaatkannya"
+      ],
+      "kunci": 3,
+      "bahasan": "Syukur mencakup hati yang mengakui nikmat, lisan yang memuji Allah, dan anggota badan yang memanfaatkan nikmat sesuai kehendak pemberi nikmat."
+    },
+    {
+      "id": "PRO-055",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Menjaga kebersihan dan kesehatan diri serta tidak melakukan perbuatan yang merusak tubuh merupakan wujud akhlak ...",
+      "opsi": [
+        "kepada Allah",
+        "kepada diri sendiri",
+        "kepada orang tua",
+        "kepada lingkungan"
+      ],
+      "kunci": 1,
+      "bahasan": "Akhlak kepada diri sendiri antara lain memelihara amanah tubuh: menjaga kebersihan, kesehatan, waktu, dan menjauhi perbuatan yang merusak diri."
+    },
+    {
+      "id": "PRO-056",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Berbaik sangka terhadap perilaku orang lain tanpa bukti yang jelas disebut ...",
+      "opsi": [
+        "suuzan",
+        "husnuzan",
+        "tahayul",
+        "khurafat"
+      ],
+      "kunci": 1,
+      "bahasan": "Husnuzan adalah berbaik sangka, sedangkan suuzan adalah berburuk sangka. Islam melarang suuzan karena dapat merusak persaudaraan."
+    },
+    {
+      "id": "PRO-057",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Contoh akhlak terhadap lingkungan di madrasah adalah ...",
+      "opsi": [
+        "menuliskan nama di dinding kelas agar dikenal",
+        "mengambil bunga taman untuk hadiah tanpa izin",
+        "merawat tanaman, membuang sampah pada tempatnya, dan menghemat air",
+        "menumpuk sampah di sudut ruang kelas"
+      ],
+      "kunci": 2,
+      "bahasan": "Akhlak kepada lingkungan dilakukan dengan merawat dan melestarikan alam serta menjaga kebersihan sebagai bentuk tanggung jawab sebagai khalifah di bumi."
+    },
+    {
+      "id": "PRO-058",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Mempercayai ramalan dan jimat yang menjanjikan keselamatan termasuk perbuatan ...",
+      "opsi": [
+        "tawakal yang dianjurkan Islam",
+        "ikhtiar yang dibolehkan",
+        "tahayul dan khurafat yang dapat merusak akidah",
+        "hikmah yang bermanfaat"
+      ],
+      "kunci": 2,
+      "bahasan": "Tahayul dan khurafat adalah keyakinan takhayul tanpa dasar ajaran Islam; mempercayainya dapat merusak akidah karena menyandarkan keselamatan kepada selain Allah."
+    },
+    {
+      "id": "PRO-059",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Membicarakan keburukan orang lain yang benar-benar ada, sementara orang tersebut tidak menyukainya, disebut ...",
+      "opsi": [
+        "ghibah",
+        "namimah",
+        "fitnah",
+        "hasad"
+      ],
+      "kunci": 0,
+      "bahasan": "Ghibah adalah membicarakan keburukan orang lain sesuai kenyataan; apabila ditambah hal yang tidak benar, perbuatan itu berubah menjadi fitnah."
+    },
+    {
+      "id": "PRO-060",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Perbuatan menyebarkan perkataan seseorang kepada pihak lain dengan maksud membuat mereka bermusuhan disebut ...",
+      "opsi": [
+        "namimah",
+        "ghibah",
+        "husnuzan",
+        "tawadu"
+      ],
+      "kunci": 0,
+      "bahasan": "Namimah atau adu domba bertujuan memicu permusuhan antarpihak. Islam mengancam pelakunya dengan tidak masuk surga sebagaimana peringatan dalam hadis."
+    },
+    {
+      "id": "PRO-061",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Rasa tidak senang melihat keberhasilan orang lain dan berharap nikmat itu hilang darinya disebut hasad. Cara mengatasi sifat ini adalah ...",
+      "opsi": [
+        "menjauhi orang yang berhasil agar tidak teringat",
+        "bersyukur, mendoakan kebaikan orang lain, dan meneladani keberhasilannya",
+        "berusaha menjatuhkan orang tersebut agar terlihat sederajat",
+        "menyebarkan berita yang merendahkan prestasinya"
+      ],
+      "kunci": 1,
+      "bahasan": "Hasad diobati dengan syukur, doa kebaikan bagi orang lain, dan semangat meneladani prestasi tanpa niat menjatuhkan."
+    },
+    {
+      "id": "PRO-062",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Sikap sombong karena merasa lebih pandai, kaya, atau tinggi kedudukan disebut takabur. Lawan sifat takabur adalah ...",
+      "opsi": [
+        "tawadu",
+        "qanaah",
+        "sabar",
+        "hilm"
+      ],
+      "kunci": 0,
+      "bahasan": "Tawadu adalah sikap rendah hati tanpa merasa lebih tinggi dari orang lain, sekaligus menyadari bahwa segala kelebihan adalah karunia Allah."
+    },
+    {
+      "id": "PRO-063",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Melakukan suatu kebaikan agar dipuji orang lain disebut riya, sedangkan bangga berlebihan terhadap diri sendiri dan amalnya disebut ...",
+      "opsi": [
+        "ghurur",
+        "ujub",
+        "ananiah",
+        "israf"
+      ],
+      "kunci": 1,
+      "bahasan": "Ujub adalah kagum dan bangga berlebihan pada diri sendiri hingga melupakan peran Allah; keduanya merusak keikhlasan amal."
+    },
+    {
+      "id": "PRO-064",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Sikap mementingkan diri sendiri tanpa memperhatikan orang lain disebut ...",
+      "opsi": [
+        "ananiah",
+        "tawadu",
+        "tasamuh",
+        "takaful"
+      ],
+      "kunci": 0,
+      "bahasan": "Ananiah adalah sikap egois atau mementingkan diri sendiri, yang bertentangan dengan sikap peduli dan gotong royong yang dianjurkan Islam."
+    },
+    {
+      "id": "PRO-065",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Membelanjakan harta secara berlebihan untuk hal yang tidak bermanfaat disebut ...",
+      "opsi": [
+        "qanaah dan zuhud",
+        "infak dan sedekah",
+        "tawakal dan syukur",
+        "israf dan tabzir"
+      ],
+      "kunci": 3,
+      "bahasan": "Israf adalah berlebih-lebihan dalam penggunaan, tabzir adalah memboroskan untuk hal sia-sia. Islam menganjurkan hidup sederhana dan berimbang."
+    },
+    {
+      "id": "PRO-066",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Orang yang sabar ketika ditimpa musibah, sabar dalam melaksanakan ketaatan, dan sabar dalam menjauhi maksiat. Pernyataan tersebut menunjukkan bahwa sabar ...",
+      "opsi": [
+        "hanya berlaku saat musibah datang",
+        "berarti pasrah tanpa usaha sama sekali",
+        "mencakup tiga keadaan tersebut",
+        "hanya dilakukan oleh para nabi"
+      ],
+      "kunci": 2,
+      "bahasan": "Sabar mencakup kesabaran dalam menghadapi musibah, kesabaran dalam menunaikan ketaatan, dan kesabaran dalam menahan diri dari maksiat."
+    },
+    {
+      "id": "PRO-067",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Berserah diri kepada Allah setelah berusaha secara maksimal disebut ...",
+      "opsi": [
+        "qanaah",
+        "ikhtiar",
+        "tafakur",
+        "tawakal"
+      ],
+      "kunci": 3,
+      "bahasan": "Tawakal adalah menyerahkan hasil kepada Allah setelah menempuh usaha terbaik. Tanpa ikhtiar, sikap semacam itu bukan tawakal, melainkan malas yang dibungkus alasan."
+    },
+    {
+      "id": "PRO-068",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Sikap merasa cukup dan rela dengan pemberian Allah serta tidak tamak terhadap harta orang lain disebut ...",
+      "opsi": [
+        "qanaah",
+        "israf",
+        "bakhil",
+        "takabur"
+      ],
+      "kunci": 0,
+      "bahasan": "Qanaah adalah sikap merasa cukup dengan rezeki yang halal dan tetap berusaha; ia berbeda dengan pasrah tanpa usaha maupun sifat tamak."
+    },
+    {
+      "id": "PRO-069",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik gagal dalam seleksi olimpiade. Sikap yang mencerminkan optimis adalah ...",
+      "opsi": [
+        "menyalahkan keadaan lalu berhenti mencoba sama sekali",
+        "menyebarkan kabar kegagalan orang lain agar terlihat sama",
+        "melakukan evaluasi diri, memperbaiki cara belajar, dan tetap berdoa",
+        "menyembunyikan kegagalan dengan berdusta kepada orang tua"
+      ],
+      "kunci": 2,
+      "bahasan": "Optimis didahului evaluasi diri dan ikhtiar perbaikan; berputus asa termasuk akhlak tercela karena mendustakan keluasan rahmat Allah."
+    },
+    {
+      "id": "PRO-070",
+      "topik": "Akhlak Terpuji dan Tercela",
+      "tipe": "pg",
+      "teks": "Persaudaraan antarsesama muslim yang dilandasi iman dan takwa disebut ukhuwah ...",
+      "opsi": [
+        "wathaniyah",
+        "islamiyah",
+        "insaniyah",
+        "ubudiyah"
+      ],
+      "kunci": 1,
+      "bahasan": "Ukhuwah islamiyah adalah persaudaraan antarsesama muslim; ukhuwah wathaniyah adalah persaudaraan sebangsa; ukhuwah insaniyah adalah persaudaraan sesama manusia."
+    },
+    {
+      "id": "PRO-071",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Birrul walidain berarti ...",
+      "opsi": [
+        "berbakti kepada kedua orang tua dengan hormat dan kasih sayang",
+        "menghormati guru sebagaimana menghormati orang tua sendiri",
+        "menyayangi saudara kandung dan kerabat dekat setiap waktu",
+        "menjaga hubungan baik dengan tetangga di sekitar rumah"
+      ],
+      "kunci": 1,
+      "bahasan": "Birrul walidain adalah berbakti kepada kedua orang tua; hukumnya wajib dan merupakan akhlak paling utama setelah tauhid, sebagaimana isyarat QS Al-Isra ayat 23 sampai 24."
+    },
+    {
+      "id": "PRO-072",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Contoh adab peserta didik kepada guru yang tepat adalah ...",
+      "opsi": [
+        "mendengarkan penjelasan dengan saksama dan bertanya dengan santun",
+        "memotong pembicaraan guru karena merasa lebih paham",
+        "membicarakan keburukan guru kepada teman sekelas",
+        "mengabaikan nasihat guru karena tidak ada sanksi"
+      ],
+      "kunci": 0,
+      "bahasan": "Adab kepada guru tampak pada sikap hormat saat belajar, kesantunan bertanya, dan kesungguhan mengerjakan tugas, karena guru adalah pengganti orang tua di madrasah dalam menuntut ilmu."
+    },
+    {
+      "id": "PRO-073",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Ketika bertamu ke rumah orang lain, adab yang tepat adalah ...",
+      "opsi": [
+        "masuk langsung tanpa memberi salam agar tidak membuang waktu",
+        "memberi salam, mengetuk pintu dengan sopan, dan masuk setelah dipersilakan",
+        "membawa banyak teman tanpa memberi tahu tuan rumah",
+        "mengambil keputusan sendiri untuk menginap beberapa hari"
+      ],
+      "kunci": 1,
+      "bahasan": "Adab bertamu antara lain mengucapkan salam, meminta izin, masuk setelah dipersilakan, serta menjaga sikap dan waktu selama bertamu."
+    },
+    {
+      "id": "PRO-074",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pg",
+      "teks": "Salah satu adab bermedia sosial yang mencerminkan akhlak terpuji adalah ...",
+      "opsi": [
+        "menyebarkan berita tanpa memeriksa kebenarannya",
+        "berkomentar dengan kata-kata kasar agar tampak berani",
+        "mengunggah konten yang sopan serta memverifikasi informasi sebelum membagikannya",
+        "membuka aib teman untuk bahan lelucon"
+      ],
+      "kunci": 2,
+      "bahasan": "Adab bermedia sosial meliputi tabayun atau verifikasi informasi, penggunaan bahasa yang santun, dan menjaga kehormatan orang lain di ruang digital."
+    },
+    {
+      "id": "PRO-075",
+      "topik": "Adab dan Akhlak dalam Kehidupan",
+      "tipe": "pgk",
+      "teks": "Manakah DUA cara yang tepat untuk menumbuhkan akhlak terpuji pada peserta didik?",
+      "opsi": [
+        "Membiasakan perilaku baik secara berulang melalui keteladanan guru dan seluruh warga madrasah.",
+        "Memberi umpan balik dan penghargaan yang tulus ketika peserta didik menunjukkan perilaku terpuji.",
+        "Menakut-nakuti peserta didik dengan ancaman fisik agar patuh.",
+        "Menampilkan profil negatif peserta didik agar menjadi pelajaran bagi temannya."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Pembinaan akhlak berlangsung melalui pembiasaan, keteladanan, dan penguatan positif yang hangat, bukan ancaman fisik atau mempermalukan peserta didik."
+    }
+  ]
+}
