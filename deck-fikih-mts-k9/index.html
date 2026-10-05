@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Deck Presentasi Fikih Madrasah Tsanawiyah Kelas IX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: radial-gradient(circle at 50% 10%, #1e293b 0%, #0b1329 100%);
+      color: #f8fafc;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .header {
+      text-align: center;
+      max-width: 800px;
+      margin-bottom: 36px;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 6px 14px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+    p.subtitle {
+      font-size: 1rem;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      max-width: 1080px;
+      width: 100%;
+    }
+    .chapter-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .chapter-card:hover:not(.disabled) {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: #10b981;
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+    }
+    .chapter-card.disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+    .ch-num {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: #10b981;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .ch-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+    .ch-desc {
+      font-size: 0.88rem;
+      color: #94a3b8;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+    .ch-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      width: fit-content;
+    }
+    .status-done {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+    }
+    .status-queue {
+      background: rgba(148, 163, 184, 0.2);
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="badge">Buku Teks Utama 2025</span>
+    <h1>Slide Deck Presentasi Fikih Kelas IX MTs</h1>
+    <p class="subtitle">
+      Koleksi presentasi slide interaktif per bab berbasis web mandiri (offline), lengkap dengan dalil berharakat, tata cara, tabel komparasi, uji kompetensi, dan efek transisi.
+    </p>
+  </div>
+
+  <div class="grid">
+    <!-- BAB 1 -->
+    <a href="bab-1-kurban-dan-akikah.html" class="chapter-card">
+      <div>
+        <div class="ch-num">BAB I &bull; SEMESTER GANJIL</div>
+        <div class="ch-title">Kurban dan Akikah</div>
+        <div class="ch-desc">
+          Ketentuan syariat kurban dan akikah, sejarah pengorbanan Nabi Ibrahim as., syarat hewan ternak, waktu pelaksanaan, tata cara sembelihan, tabel perbandingan, dan uji kompetensi (35 Slide Lengkap).
+        </div>
+      </div>
+      <span class="ch-status status-done">✔ Tersedia (35 Slide Interaktif)</span>
+    </a>
+
+    <!-- BAB 2 -->
+    <div class="chapter-card disabled">
+      <div>
+        <div class="ch-num">BAB II &bull; SEMESTER GANJIL</div>
+        <div class="ch-title">Jual Beli, Khiyar, Qirad, dan Larangan Riba</div>
+        <div class="ch-desc">
+          Konsep kepemilikan muamalah, rukun jual beli, hak khiyar (majlis, syarat, aib, ru'yah), investasi qirad, serta bahaya riba dan solusinya.
+        </div>
+      </div>
+      <span class="ch-status status-queue">⏳ Siap Dikerjakan Berikutnya</span>
+    </div>
+
+    <!-- BAB 3 -->
+    <div class="chapter-card disabled">
+      <div>
+        <div class="ch-num">BAB III &bull; SEMESTER GANJIL</div>
+        <div class="ch-title">Ariyah dan Wadi'ah</div>
+        <div class="ch-desc">
+          Pinjam meminjam kebajikan (ariyah), titipan amanah (wadi'ah yad amanah & yad dhamanah), hak dan kewajiban para pihak.
+        </div>
+      </div>
+      <span class="ch-status status-queue">⏳ Dalam Antrean Bab 3</span>
+    </div>
+
+    <!-- BAB 4 -->
+    <div class="chapter-card disabled">
+      <div>
+        <div class="ch-num">BAB IV &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Utang Piutang, Gadai, dan Hiwalah</div>
+        <div class="ch-desc">
+          Etika pinjam meminjam, jaminan utang (rahn), dan akad pemindahan utang piutang (hiwalah muqayyadah & muthlaqah).
+        </div>
+      </div>
+      <span class="ch-status status-queue">⏳ Semester Genap</span>
+    </div>
+
+    <!-- BAB 5 -->
+    <div class="chapter-card disabled">
+      <div>
+        <div class="ch-num">BAB V &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Ijarah (Sewa Menyewa & Upah Mengupah)</div>
+        <div class="ch-desc">
+          Ijarah ala al-manafi' (sewa barang) dan ijarah ala al-mal (sewa jasa/pekerjaan), hak pekerja, dan etika pembayaran upah.
+        </div>
+      </div>
+      <span class="ch-status status-queue">⏳ Semester Genap</span>
+    </div>
+
+    <!-- BAB 6 -->
+    <div class="chapter-card disabled">
+      <div>
+        <div class="ch-num">BAB VI &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Pemulasaraan Jenazah dan Ketentuan Waris</div>
+        <div class="ch-desc">
+          Fardhu kifayah jenazah (memandikan, mengafani, menyalatkan, menguburkan), takziah, ziarah kubur, dan tata cara perhitungan waris (faraid).
+        </div>
+      </div>
+      <span class="ch-status status-queue">⏳ Semester Genap</span>
+    </div>
+  </div>
+</body>
+</html>
