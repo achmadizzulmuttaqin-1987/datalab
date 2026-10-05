@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Deck Presentasi Fikih MTs Kelas VII — Kemenag KMA 183</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #060b14;
+      --bg-card: #0e1726;
+      --bg-card-hover: #16243b;
+      --primary: #38bdf8;
+      --primary-glow: rgba(56, 189, 248, 0.25);
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.25);
+      --amber: #f59e0b;
+      --rose: #f43f5e;
+      --purple: #a855f7;
+      --border-color: #1e293b;
+      --text-main: #ffffff;
+      --text-muted: #94a3b8;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 50% 0%, #0f2744 0%, var(--bg-canvas) 75%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .badge-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--primary);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.9rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      color: #ffffff;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #38bdf8 0%, #34d399 50%, #facc15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .lead {
+      max-width: 780px;
+      margin: 0 auto;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--text-muted);
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      padding: 10px 20px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.88rem;
+    }
+    .stat-pill strong { color: #ffffff; font-weight: 700; }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 40px 0 20px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-badge {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--primary);
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 22px;
+    }
+
+    .chapter-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chapter-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: var(--card-accent, var(--primary));
+      opacity: 0.85;
+    }
+
+    .chapter-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--card-accent, var(--primary));
+      transform: translateY(-4px);
+      box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.7), 0 0 24px -6px var(--card-glow, var(--primary-glow));
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .card-number {
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--card-accent, var(--primary));
+      background: rgba(255, 255, 255, 0.04);
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+
+    .card-slides {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+
+    .card-summary {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      flex-grow: 1;
+      margin-bottom: 20px;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .tag-item {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      color: #cbd5e1;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .card-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--card-accent, var(--primary));
+    }
+
+    .card-action span.arrow {
+      transition: transform 0.2s ease;
+    }
+    .chapter-card:hover .card-action span.arrow {
+      transform: translateX(4px);
+    }
+
+    .feature-banner {
+      background: linear-gradient(135deg, #0e223d, #142848);
+      border: 1px solid #23426e;
+      border-radius: 20px;
+      padding: 30px;
+      margin: 48px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .feature-item h4 {
+      font-size: 1rem;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .feature-item p {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a { color: var(--primary); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      body { padding: 24px 14px 60px; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .feature-banner { grid-template-columns: 1fr; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-top">
+        <span>🕌 Kurikulum Madrasah &bull; KMA 183</span>
+      </div>
+      <h1>Slide Deck Presentasi <span>Fikih MTs Kelas VII</span></h1>
+      <p class="lead">
+        Koleksi modul presentasi interaktif Fikih Madrasah Tsanawiyah Kelas VII lengkap Semester Ganjil & Genap dengan <strong>Mode Gelap Nyaman di Mata</strong>, teks Arab berharakat, kaidah fikih, animasi transisi, dan bank soal evaluasi formatif.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-pill">📚 <strong>9 Bab Lengkap</strong> (Semester 1 & 2)</div>
+        <div class="stat-pill">🌙 <strong>100% Dark Mode</strong> (Teks Putih Bersih)</div>
+        <div class="stat-pill">📱 <strong>Navigasi Penuh</strong> (Keyboard & Touch)</div>
+        <div class="stat-pill">🖨️ <strong>Siap Cetak / PDF</strong> (Print Friendly)</div>
+      </div>
+    </header>
+
+    <!-- SEMESTER GANJIL -->
+    <div class="section-header">
+      <h2 class="section-title"><span>📘</span> Semester Ganjil (Bab 1 s.d. 5)</h2>
+      <span class="section-badge">Semester 1 &bull; Thaharah & Shalat Maktubah</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 1 -->
+      <a href="bab-1-alat-alat-bersuci.html" class="chapter-card" style="--card-accent: #38bdf8; --card-glow: rgba(56,189,248,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 01</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Alat-Alat Bersuci</h3>
+        <p class="card-summary">
+          Klasifikasi 7 macam air suci dan menyucikan (Mutlak), air Musyammas, Musta'mal, Mutanajjis, batu istinja' & debu suci tayamum.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Air Mutlak</span>
+          <span class="tag-item">Dua Qullah</span>
+          <span class="tag-item">Batu Istinja'</span>
+          <span class="tag-item">QS. Al-Anfal: 11</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 1</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 2 -->
+      <a href="bab-2-bersuci-dari-najis-dan-hadats.html" class="chapter-card" style="--card-accent: #34d399; --card-glow: rgba(52,211,153,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 02</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Bersuci dari Najis dan Hadats</h3>
+        <p class="card-summary">
+          Tiga tingkatan najis (Mukhaffafah, Mutawassithah, Mughalladhah), tata cara cuci 7x tanah, wudhu, mandi wajib (janabah), dan tayamum darurat.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Najis Mughalladhah</span>
+          <span class="tag-item">Mandi Junub</span>
+          <span class="tag-item">Tayamum</span>
+          <span class="tag-item">QS. Al-Ma'idah: 6</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 2</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 3 -->
+      <a href="bab-3-shalat-fardhu-lima-waktu.html" class="chapter-card" style="--card-accent: #f59e0b; --card-glow: rgba(245,158,11,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 03</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Fardhu Lima Waktu</h3>
+        <p class="card-summary">
+          Syarat wajib & sah, 13 rukun shalat (Qauliyah, Fi'liyah, Qalbiyah), perbedaan Sunnah Ab'adh vs Hai'at, sujud sahwi, dan hal pembatal shalat.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">13 Rukun Shalat</span>
+          <span class="tag-item">Sunnah Ab'adh</span>
+          <span class="tag-item">Sujud Sahwi</span>
+          <span class="tag-item">Tuma'ninah</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 3</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 4 -->
+      <a href="bab-4-shalat-berjamaah.html" class="chapter-card" style="--card-accent: #ec4899; --card-glow: rgba(236,72,153,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 04</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Berjamaah</h3>
+        <p class="card-summary">
+          Keutamaan 27 derajat, syarat sah imam dan makmum, formasi shaf lurus rapat, ketentuan Makmum Muwafiq vs Masbuq, dan adab mengingatkan imam yang lupa.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">27 Derajat</span>
+          <span class="tag-item">Makmum Masbuq</span>
+          <span class="tag-item">Tasbih & Tepuk Tangan</span>
+          <span class="tag-item">Kerapian Shaf</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 4</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 5 -->
+      <a href="bab-5-berdzikir-dan-berdoa-setelah-shalat.html" class="chapter-card" style="--card-accent: #8b5cf6; --card-glow: rgba(139,92,246,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 05</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Berdzikir & Berdoa Setelah Shalat</h3>
+        <p class="card-summary">
+          Hukum dan dalil naqli anjuran berdzikir, bacaan wirid ma'tsurat (istighfar, tasbih, tahmid, takbir 33x), Ayat Kursi, serta adab mustajab dalam berdoa.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Wirid Ma'tsurat</span>
+          <span class="tag-item">Tasbih 33x</span>
+          <span class="tag-item">Ayat Kursi</span>
+          <span class="tag-item">Adab Berdoa</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 5</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- SEMESTER GENAP -->
+    <div class="section-header" style="margin-top: 56px;">
+      <h2 class="section-title"><span>📗</span> Semester Genap (Bab 6 s.d. 9)</h2>
+      <span class="section-badge">Semester 2 &bull; Jum'at, Rukhsah & Shalat Sunnah</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 6 -->
+      <a href="bab-6-shalat-jumat.html" class="chapter-card" style="--card-accent: #14b8a6; --card-glow: rgba(20,184,166,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 06</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Jum'at</h3>
+        <p class="card-summary">
+          Kewajiban shalat Jum'at bagi laki-laki muslim mukallaf, syarat sah jamaah minimal 40 orang, 5 rukun khutbah Jum'at, dan sunnah-sunnah hari Jum'at.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Fardhu 'Ain</span>
+          <span class="tag-item">5 Rukun Khutbah</span>
+          <span class="tag-item">Mandi & Siwak</span>
+          <span class="tag-item">QS. Al-Jumu'ah: 9</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 6</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 7 -->
+      <a href="bab-7-shalat-jama-dan-qashar.html" class="chapter-card" style="--card-accent: #f97316; --card-glow: rgba(249,115,22,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 07</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Jama’ dan Qashar</h3>
+        <p class="card-summary">
+          Keringanan (rukhsah) bagi musafir: Jama' Taqdim & Ta'khir, shalat yang boleh diqashar menjadi 2 rakaat, jarak minimal safar (2 marhalah / ~81 km).
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Jama' Taqdim</span>
+          <span class="tag-item">Jama' Ta'khir</span>
+          <span class="tag-item">Qashar 2 Rakaat</span>
+          <span class="tag-item">Safar 81 KM</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 7</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 8 -->
+      <a href="bab-8-shalat-kondisi-tertentu.html" class="chapter-card" style="--card-accent: #ec4899; --card-glow: rgba(236,72,153,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 08</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Kondisi Tertentu</h3>
+        <p class="card-summary">
+          Panduan shalat fardhu bagi orang sakit (duduk, berbaring miring, terlentang, isyarat), shalat di atas kendaraan (pesawat/bus), dan shalat Khauf saat bahaya.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Shalat Sakit</span>
+          <span class="tag-item">Shalat di Bus/Pesawat</span>
+          <span class="tag-item">Shalat Khauf</span>
+          <span class="tag-item">HR. Bukhari 1117</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 8</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 9 -->
+      <a href="bab-9-shalat-sunnah-muakkad-dan-ghairu-muakkad.html" class="chapter-card" style="--card-accent: #10b981; --card-glow: rgba(16,185,129,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 09</span>
+          <span class="card-slides">12 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Shalat Sunnah Mu’akkad & Ghairu</h3>
+        <p class="card-summary">
+          Amalan penambal shalat fardhu: Rawatib 10 rakaat, Tahajjud, Witir, Dhuha, shalat dua hari raya (Idain), Gerhana (Kusuf-Khusuf), Istisqa', dan Sujud Tilawah/Syukur.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Sunnah Mu'akkad</span>
+          <span class="tag-item">Rawatib Fajar</span>
+          <span class="tag-item">Tahajjud & Witir</span>
+          <span class="tag-item">Kusuf (Gerhana)</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 9</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- FITUR UNGGULAN DECK -->
+    <div class="feature-banner">
+      <div class="feature-item">
+        <h4>⌨️ Navigasi Fleksibel</h4>
+        <p>Gunakan tombol panah keyboard (kiri/kanan), tombol spasi, swipe touchscreen di HP/tablet, atau menu laci daftar slide (M).</p>
+      </div>
+      <div class="feature-item">
+        <h4>🌙 Tema Mode Gelap Penuh</h4>
+        <p>Desain gelap pekat khusus presentasi proyektor dan layar digital modern, kontras teks tinggi, tidak silau dan fokus pada konten materi.</p>
+      </div>
+      <div class="feature-item">
+        <h4>📜 Teks Arab Berharakat & Dalil</h4>
+        <p>Dilengkapi kutipan ayat Al-Qur'an dan Hadits Nabi riwayat shahih dengan tipografi Amiri & Scheherazade New yang indah.</p>
+      </div>
+      <div class="feature-item">
+        <h4>🎯 Latihan Kuis Interaktif</h4>
+        <p>Setiap modul bab dilengkapi soal uji kompetensi pilihan ganda beserta kunci jawaban dan penjelasannya langsung di slide akhir.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Modul Slide Deck Presentasi Fikih MTs Kelas VII &bull; Kurikulum KMA 183 Kemenag RI</p>
+      <p style="margin-top: 6px;">
+        Lihat juga koleksi modul jenjang lainnya: <a href="../deck-fikih-mts-k9/index.html">Slide Deck Fikih MTs Kelas IX &rarr;</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
