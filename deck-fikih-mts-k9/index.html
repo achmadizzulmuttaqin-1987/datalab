@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slide Deck Presentasi Fikih Madrasah Tsanawiyah Kelas IX</title>
+  <title>Slide Deck Presentasi Fikih Madrasah Tsanawiyah Kelas IX (KMA 1503/2025)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -17,110 +17,122 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px;
+      padding: 40px 20px 60px;
     }
     .header {
       text-align: center;
-      max-width: 800px;
+      max-width: 860px;
       margin-bottom: 36px;
     }
     .badge {
       display: inline-block;
       background: linear-gradient(135deg, #059669, #10b981);
       color: #fff;
-      font-size: 0.8rem;
+      font-size: 0.82rem;
       font-weight: 800;
-      padding: 6px 14px;
+      padding: 6px 16px;
       border-radius: 999px;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       margin-bottom: 12px;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
     }
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.3rem;
       font-weight: 800;
       line-height: 1.25;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    h1 span {
+      background: linear-gradient(135deg, #34d399, #38bdf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     p.subtitle {
-      font-size: 1rem;
+      font-size: 1.05rem;
       color: #94a3b8;
       line-height: 1.6;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 20px;
-      max-width: 1080px;
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      gap: 22px;
+      max-width: 1140px;
       width: 100%;
     }
     .chapter-card {
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid rgba(255, 255, 255, 0.12);
       border-radius: 18px;
-      padding: 24px;
+      padding: 26px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       transition: all 0.25s ease;
       text-decoration: none;
       color: inherit;
+      position: relative;
+      overflow: hidden;
     }
-    .chapter-card:hover:not(.disabled) {
+    .chapter-card:hover {
       background: rgba(255, 255, 255, 0.12);
-      border-color: #10b981;
+      border-color: #38bdf8;
       transform: translateY(-4px);
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
-    }
-    .chapter-card.disabled {
-      opacity: 0.45;
-      cursor: not-allowed;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
     }
     .ch-num {
       font-size: 0.8rem;
       font-weight: 800;
-      color: #10b981;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
       margin-bottom: 8px;
     }
     .ch-title {
-      font-size: 1.25rem;
-      font-weight: 700;
-      margin-bottom: 10px;
-      line-height: 1.35;
+      font-size: 1.35rem;
+      font-weight: 800;
+      margin-bottom: 12px;
+      line-height: 1.3;
     }
     .ch-desc {
-      font-size: 0.88rem;
-      color: #94a3b8;
-      line-height: 1.5;
-      margin-bottom: 18px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.55;
+      margin-bottom: 20px;
+    }
+    .ch-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 14px;
     }
     .ch-status {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.8rem;
+      font-size: 0.82rem;
       font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 6px;
-      width: fit-content;
-    }
-    .status-done {
+      padding: 5px 12px;
+      border-radius: 8px;
       background: rgba(16, 185, 129, 0.2);
       color: #34d399;
+      border: 1px solid rgba(52, 211, 153, 0.3);
     }
-    .status-queue {
-      background: rgba(148, 163, 184, 0.2);
-      color: #cbd5e1;
+    .btn-open {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #38bdf8;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
   </style>
 </head>
 <body>
   <div class="header">
-    <span class="badge">Buku Teks Utama 2025</span>
-    <h1>Slide Deck Presentasi Fikih Kelas IX MTs</h1>
+    <span class="badge">KMA 1503 / 2025 &bull; Kurikulum Berbasis Cinta</span>
+    <h1>Slide Deck Presentasi Fikih <span>Kelas IX MTs</span></h1>
     <p class="subtitle">
-      Koleksi presentasi slide interaktif per bab berbasis web mandiri (offline), lengkap dengan dalil berharakat, tata cara, tabel komparasi, uji kompetensi, dan efek transisi.
+      Koleksi modul presentasi slide interaktif per bab berbasis web mandiri (offline), lengkap dengan dalil Al-Qur'an dan hadis berharakat, analisis studi kasus modern, asesmen HOTS, dan refleksi muhasabah diri.
     </p>
   </div>
 
@@ -128,74 +140,92 @@
     <!-- BAB 1 -->
     <a href="bab-1-kurban-dan-akikah.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB I &bull; SEMESTER GANJIL</div>
+        <div class="ch-num" style="color: #34d399;">BAB I &bull; SEMESTER GANJIL</div>
         <div class="ch-title">Kurban dan Akikah</div>
         <div class="ch-desc">
-          Ketentuan syariat kurban dan akikah, sejarah pengorbanan Nabi Ibrahim as., syarat hewan ternak, waktu pelaksanaan, tata cara sembelihan, tabel perbandingan, dan uji kompetensi (35 Slide Lengkap).
+          Ketentuan syariat kurban dan akikah, sejarah pengorbanan Nabi Ibrahim a.s., syarat hewan ternak, waktu penyembelihan, adab dzabihah, tabel komparasi kurban vs akikah, serta uji kompetensi (35 Slide Lengkap).
         </div>
       </div>
-      <span class="ch-status status-done">✔ Tersedia (35 Slide Interaktif)</span>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 35 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
     </a>
 
     <!-- BAB 2 -->
-    <div class="chapter-card disabled">
+    <a href="bab-2-jual-beli-khiyar-qirad-riba.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB II &bull; SEMESTER GANJIL</div>
-        <div class="ch-title">Jual Beli, Khiyar, Qirad, dan Larangan Riba</div>
+        <div class="ch-num" style="color: #38bdf8;">BAB II &bull; SEMESTER GANJIL</div>
+        <div class="ch-title">Jual Beli, Khiyar, Qirad, dan Riba</div>
         <div class="ch-desc">
-          Konsep kepemilikan muamalah, rukun jual beli, hak khiyar (majlis, syarat, aib, ru'yah), investasi qirad, serta bahaya riba dan solusinya.
+          Konsep perniagaan Islam, rukun & syarat jual beli, hak khiyar (majlis, syarat, aib, ru'yah), kemitraan modal qirad/mudharabah, bahaya riba, telaah kritis pinjol ilegal, dan uji kompetensi HOTS (31 Slide).
         </div>
       </div>
-      <span class="ch-status status-queue">⏳ Siap Dikerjakan Berikutnya</span>
-    </div>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 31 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
+    </a>
 
     <!-- BAB 3 -->
-    <div class="chapter-card disabled">
+    <a href="bab-3-ariyah-dan-wadiah.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB III &bull; SEMESTER GANJIL</div>
+        <div class="ch-num" style="color: #2dd4bf;">BAB III &bull; SEMESTER GANJIL</div>
         <div class="ch-title">Ariyah dan Wadi'ah</div>
         <div class="ch-desc">
-          Pinjam meminjam kebajikan (ariyah), titipan amanah (wadi'ah yad amanah & yad dhamanah), hak dan kewajiban para pihak.
+          Pinjam-meminjam kebajikan (ariyah muthlaqah & muqayyadah), titipan amanah (wadi'ah yad amanah & dhamanah), tanggung jawab ganti rugi, etika fasilitas umum digital, dan evaluasi pemahaman (22 Slide).
         </div>
       </div>
-      <span class="ch-status status-queue">⏳ Dalam Antrean Bab 3</span>
-    </div>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 22 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
+    </a>
 
     <!-- BAB 4 -->
-    <div class="chapter-card disabled">
+    <a href="bab-4-utang-piutang-gadai-hiwalah.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB IV &bull; SEMESTER GENAP</div>
-        <div class="ch-title">Utang Piutang, Gadai, dan Hiwalah</div>
+        <div class="ch-num" style="color: #60a5fa;">BAB IV &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Utang-Piutang, Gadai, dan Hiwalah</div>
         <div class="ch-desc">
-          Etika pinjam meminjam, jaminan utang (rahn), dan akad pemindahan utang piutang (hiwalah muqayyadah & muthlaqah).
+          Syariat Qardh kebajikan (QS. Al-Baqarah: 282), agunan penjamin utang (rahn & gadai emas syariah), mekanisme pengalihan utang (hiwalah muqayyadah & muthlaqah), adab pelunasan tepat waktu (20 Slide).
         </div>
       </div>
-      <span class="ch-status status-queue">⏳ Semester Genap</span>
-    </div>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 20 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
+    </a>
 
     <!-- BAB 5 -->
-    <div class="chapter-card disabled">
+    <a href="bab-5-ijarah.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB V &bull; SEMESTER GENAP</div>
-        <div class="ch-title">Ijarah (Sewa Menyewa & Upah Mengupah)</div>
+        <div class="ch-num" style="color: #fb923c;">BAB V &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Ijarah (Sewa & Pengupahan)</div>
         <div class="ch-desc">
-          Ijarah ala al-manafi' (sewa barang) dan ijarah ala al-mal (sewa jasa/pekerjaan), hak pekerja, dan etika pembayaran upah.
+          Sewa guna manfaat benda, upah tenaga kerja profesional, hak martabat buruh ("berikan upah sebelum keringat mengering"), sewa-beli modern IMBT, dan transaksi ekonomi gig ojek online (12 Slide).
         </div>
       </div>
-      <span class="ch-status status-queue">⏳ Semester Genap</span>
-    </div>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 12 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
+    </a>
 
     <!-- BAB 6 -->
-    <div class="chapter-card disabled">
+    <a href="bab-6-pemulasaraan-jenazah-dan-waris.html" class="chapter-card">
       <div>
-        <div class="ch-num">BAB VI &bull; SEMESTER GENAP</div>
-        <div class="ch-title">Pemulasaraan Jenazah dan Ketentuan Waris</div>
+        <div class="ch-num" style="color: #a78bfa;">BAB VI &bull; SEMESTER GENAP</div>
+        <div class="ch-title">Pemulasaraan Jenazah & Waris</div>
         <div class="ch-desc">
-          Fardhu kifayah jenazah (memandikan, mengafani, menyalatkan, menguburkan), takziah, ziarah kubur, dan tata cara perhitungan waris (faraid).
+          Empat kewajiban fardhu kifayah (memandikan, mengafani, menshalati, menguburkan), etika takziyah dan ziarah kubur, 4 hak harta sebelum waris dibagi, sebab mewarisi, dan kaidah faraidh (15 Slide).
         </div>
       </div>
-      <span class="ch-status status-queue">⏳ Semester Genap</span>
-    </div>
+      <div class="ch-footer">
+        <span class="ch-status">✔ 15 Slide Interaktif</span>
+        <span class="btn-open">Buka Slide &rarr;</span>
+      </div>
+    </a>
   </div>
 </body>
 </html>
