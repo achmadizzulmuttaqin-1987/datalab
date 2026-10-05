@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Deck Presentasi Fikih MTs Kelas VIII — Kemenag KMA 183</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #060b14;
+      --bg-card: #0e1726;
+      --bg-card-hover: #16243b;
+      --primary: #38bdf8;
+      --primary-glow: rgba(56, 189, 248, 0.25);
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --purple: #8b5cf6;
+      --rose: #ec4899;
+      --cyan: #06b6d4;
+      --green: #22c55e;
+      --border-color: #1e293b;
+      --text-main: #ffffff;
+      --text-muted: #e2e8f0;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 50% 0%, #0f2744 0%, var(--bg-canvas) 75%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 22pt;
+      min-height: 100vh;
+      padding: 48px 24px 96px;
+    }
+
+    .container {
+      max-width: 1340px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .badge-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 22px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--primary);
+      border-radius: 999px;
+      font-size: 19pt;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 4.5vw, 3.4rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #38bdf8 0%, #34d399 50%, #facc15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .lead {
+      max-width: 950px;
+      margin: 0 auto;
+      font-size: 23pt;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      padding: 12px 24px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20pt;
+    }
+    .stat-pill strong { color: #ffffff; font-weight: 700; }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 48px 0 24px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 16px;
+    }
+
+    .section-title {
+      font-size: 28pt;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .section-badge {
+      font-size: 19pt;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--primary);
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 26px;
+    }
+
+    .chapter-card {
+      background: var(--bg-card);
+      border: 2px solid var(--border-color);
+      border-radius: 24px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chapter-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 6px;
+      background: var(--card-accent, var(--primary));
+      opacity: 0.9;
+    }
+
+    .chapter-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--card-accent, var(--primary));
+      transform: translateY(-5px);
+      box-shadow: 0 18px 40px -10px rgba(0, 0, 0, 0.75), 0 0 24px -6px var(--card-glow, var(--primary-glow));
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .card-number {
+      font-size: 19pt;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--card-accent, var(--primary));
+      background: rgba(255, 255, 255, 0.05);
+      padding: 6px 14px;
+      border-radius: 10px;
+    }
+
+    .card-slides {
+      font-size: 19pt;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .card-title {
+      font-size: 26pt;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .card-summary {
+      font-size: 21pt;
+      line-height: 1.6;
+      color: var(--text-muted);
+      flex-grow: 1;
+      margin-bottom: 24px;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag-item {
+      font-size: 18pt;
+      padding: 4px 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #cbd5e1;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .card-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 21pt;
+      font-weight: 700;
+      color: var(--card-accent, var(--primary));
+    }
+
+    .card-action span.arrow {
+      transition: transform 0.2s ease;
+    }
+    .chapter-card:hover .card-action span.arrow {
+      transform: translateX(6px);
+    }
+
+    .feature-banner {
+      background: linear-gradient(135deg, #0e223d, #142848);
+      border: 2px solid #23426e;
+      border-radius: 24px;
+      padding: 36px;
+      margin: 56px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 28px;
+    }
+
+    .feature-item h4 {
+      font-size: 23pt;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .feature-item p {
+      font-size: 20pt;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 32px;
+      border-top: 2px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 20pt;
+    }
+
+    footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      body { padding: 24px 14px 60px; font-size: 18pt; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .feature-banner { grid-template-columns: 1fr; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-top">
+        <span>🕌 Kurikulum Madrasah &bull; KMA 183</span>
+      </div>
+      <h1>Slide Deck Presentasi <span>Fikih MTs Kelas VIII</span></h1>
+      <p class="lead">
+        Koleksi modul presentasi interaktif Fikih Madrasah Tsanawiyah Kelas VIII lengkap Semester Ganjil & Genap dengan <strong>Font Ekstra Besar (Minimal 22pt+)</strong>, <strong>Mode Gelap Nyaman di Layar / Proyektor</strong>, teks Arab berharakat, dan uji pemahaman formatif di setiap bab.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-pill">📚 <strong>7 Bab Lengkap</strong> (Semester 1 & 2)</div>
+        <div class="stat-pill">🔍 <strong>Font 22pt+</strong> (Sangat Terlihat Jelas)</div>
+        <div class="stat-pill">🌙 <strong>100% Dark Mode</strong> (Teks Putih Bersih)</div>
+        <div class="stat-pill">📱 <strong>Navigasi Interaktif</strong> (Keyboard & Touch)</div>
+      </div>
+    </header>
+
+    <!-- SEMESTER GANJIL -->
+    <div class="section-header">
+      <h2 class="section-title"><span>📘</span> Semester Ganjil (Bab 1 s.d. 4)</h2>
+      <span class="section-badge">Semester 1 &bull; Sujud, Zakat, Puasa & I’tikaf</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 1 -->
+      <a href="bab-1-sujud-sahwi-syukur-tilawah.html" class="chapter-card" style="--card-accent: #38bdf8; --card-glow: rgba(56,189,248,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 01</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Sujud Sahwi, Syukur, & Tilawah</h3>
+        <p class="card-summary">
+          Tabel komparasi 3 sujud, sebab & tata cara sujud sahwi (2x sujud), doa sujud syukur di luar shalat, serta 15 ayat sajdah sujud tilawah.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Sujud Sahwi</span>
+          <span class="tag-item">Sujud Syukur</span>
+          <span class="tag-item">Sujud Tilawah</span>
+          <span class="tag-item">15 Ayat Sajdah</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 1</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 2 -->
+      <a href="bab-2-zakat-jiwa-dan-harta.html" class="chapter-card" style="--card-accent: #10b981; --card-glow: rgba(16,185,129,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 02</span>
+          <span class="card-slides">12 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Zakat Jiwa dan Zakat Harta (Mal)</h3>
+        <p class="card-summary">
+          Kadar zakat fitrah 2,5 kg / 3,5 liter beras, nishab emas (85g), perniagaan, pertanian (5 wasaq / 5-10%), rikaz (20%), serta 8 asnaf penerima zakat.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Zakat Fitrah</span>
+          <span class="tag-item">Zakat Mal</span>
+          <span class="tag-item">8 Asnaf Mustahiq</span>
+          <span class="tag-item">QS. At-Taubah: 60</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 2</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 3 -->
+      <a href="bab-3-puasa-fardhu-dan-sunnah.html" class="chapter-card" style="--card-accent: #f59e0b; --card-glow: rgba(245,158,11,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 03</span>
+          <span class="card-slides">12 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Puasa Fardhu dan Puasa Sunnah</h3>
+        <p class="card-summary">
+          Syarat, rukun, macam puasa wajib (Ramadhan, Nazar, Kaffarat), puasa sunnah (Arafah, Syawwal, Daud), hari terlarang puasa, serta ketentuan qadha' & fidyah.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Ramadhan</span>
+          <span class="tag-item">Puasa Daud</span>
+          <span class="tag-item">Hari Tasyriq</span>
+          <span class="tag-item">Qadha' & Fidyah</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 3</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 4 -->
+      <a href="bab-4-itikaf-dan-lailatul-qadar.html" class="chapter-card" style="--card-accent: #8b5cf6; --card-glow: rgba(139,92,246,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 04</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Dengan I’tikaf Hati Menjadi Tenteram</h3>
+        <p class="card-summary">
+          Syarat sah & rukun i’tikaf di masjid, hal pembatal, amalan sunnah pengisi i'tikaf, serta momentum meraih kemuliaan malam Lailatul Qadar.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Berdiam di Masjid</span>
+          <span class="tag-item">Lailatul Qadar</span>
+          <span class="tag-item">10 Akhir Ramadhan</span>
+          <span class="tag-item">QS. Al-Baqarah: 125</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 4</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- SEMESTER GENAP -->
+    <div class="section-header" style="margin-top: 56px;">
+      <h2 class="section-title"><span>📗</span> Semester Genap (Bab 5 s.d. 7)</h2>
+      <span class="section-badge">Semester 2 &bull; Berbagi, Haji-Umrah & Makanan Halal</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 5 -->
+      <a href="bab-5-sedekah-hibah-dan-hadiah.html" class="chapter-card" style="--card-accent: #ec4899; --card-glow: rgba(236,72,153,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 05</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Sedekah, Hibah, dan Hadiah</h3>
+        <p class="card-summary">
+          Sedekah materiil & senyuman, rukun hibah, larangan mencabut hibah (kecuali orang tua ke anak), sunnah saling bertukar hadiah, dan komparasi ketiganya.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Sedekah Non-Materi</span>
+          <span class="tag-item">Akad Hibah</span>
+          <span class="tag-item">Hadiah & Apresiasi</span>
+          <span class="tag-item">Tahadu Tahabbu</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 5</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 6 -->
+      <a href="bab-6-haji-dan-umrah.html" class="chapter-card" style="--card-accent: #06b6d4; --card-glow: rgba(6,182,212,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 06</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Ketentuan Haji dan Umrah</h3>
+        <p class="card-summary">
+          Syarat mampu (istitha'ah), 6 rukun haji (Ihram, Wukuf Arafah, Thawaf, Sa'i, Tahallul, Tertib), wajib haji, larangan ihram, dan metode haji (Ifrad, Tamattu', Qiran).
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Wukuf di Arafah</span>
+          <span class="tag-item">Thawaf & Sa'i</span>
+          <span class="tag-item">Haji Tamattu'</span>
+          <span class="tag-item">QS. Ali 'Imran: 97</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 6</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 7 -->
+      <a href="bab-7-makanan-dan-minuman-halal-haram.html" class="chapter-card" style="--card-accent: #22c55e; --card-glow: rgba(34,197,94,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 07</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Makanan & Minuman Halal Haram</h3>
+        <p class="card-summary">
+          Kriteria halal & thayyib, 4 makanan haram Al-Qur'an (QS. Al-Ma'idah: 3), binatang bertaring & burung bercakar tajam, bahaya khamr, serta adab makan Islami.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Halal & Thayyib</span>
+          <span class="tag-item">Bangkai & Darah</span>
+          <span class="tag-item">Hewan Buas</span>
+          <span class="tag-item">Adab Makan Sunnah</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 7</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- FITUR UNGGULAN DECK KELAS VIII -->
+    <div class="feature-banner">
+      <div class="feature-item">
+        <h4>🔍 Font Ekstra Besar 22pt+</h4>
+        <p>Seluruh teks bacaan, poin materi, ayat Arab, dan tabel dirancang dengan ukuran minimal 22pt agar terbaca sangat jelas dari jarak jauh.</p>
+      </div>
+      <div class="feature-item">
+        <h4>🌙 Mode Gelap Nyaman di Mata</h4>
+        <p>Latar belakang dark canvas pekat dengan kontras teks putih tajam, mengurangi radiasi silau cahaya saat digunakan di proyektor kelas.</p>
+      </div>
+      <div class="feature-item">
+        <h4>📜 Teks Arab Berharakat & Takhrij</h4>
+        <p>Lengkap dengan dalil Al-Qur'an dan Hadits Nabi riwayat shahih (Al-Bukhari, Muslim, At-Tirmidzi, Abu Dawud, dll.) berharakat rapi.</p>
+      </div>
+      <div class="feature-item">
+        <h4>🎯 Latihan Kuis Pilihan Ganda</h4>
+        <p>Setiap bab dilengkapi latihan soal evaluasi formatif pilihan ganda berserta kunci jawaban dan pembahasan untuk menguji pemahaman siswa.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Modul Slide Deck Presentasi Fikih MTs Kelas VIII &bull; Kurikulum KMA 183 Kemenag RI</p>
+      <p style="margin-top: 10px;">
+        Lihat koleksi modul jenjang lainnya: 
+        <a href="../deck-fikih-mts-k7/index.html">Slide Deck Fikih Kelas VII</a> &bull; 
+        <a href="../deck-fikih-mts-k9/index.html">Slide Deck Fikih Kelas IX</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "keterangan": "Penyeimbang panjang opsi tahap kedua (ambang 4 kata). Indeks kunci tidak berubah.",
+  "items": [
+    { "file": "pedagogik-p1", "id": "PED-016", "opsi": [
+      "menguatkan karakter dan kompetensi melalui pembelajaran lintas disiplin",
+      "menambah jam pelajaran pada setiap mata pelajaran",
+      "menggantikan seluruh asesmen sumatif pada semua mata pelajaran",
+      "meningkatkan jumlah tugas rumah seluruh peserta didik"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-028", "opsi": [
+      "hanya melihat nilai rapor mata pelajaran tertentu saja",
+      "meminta pertimbangan kakak kelas yang lebih berpengalaman",
+      "menentukan berdasarkan kesamaan dengan profesi kedua orang tua",
+      "menggabungkan observasi berkelanjutan, angket minat, wawancara, dan analisis hasil karya"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-029", "opsi": [
+      "menambah jam pelajaran matematika setiap pekan",
+      "memberi tugas rumah lebih banyak pada semua mata pelajaran",
+      "menyediakan ekstrakurikuler atau pengayaan yang sesuai minatnya",
+      "memindahkannya ke kelas unggulan tanpa dasar pertimbangan apa pun"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-030", "opsi": [
+      "menyebut peserta didik tersebut sebagai anak bodoh di depan kelas",
+      "menaikkan kelasnya tanpa mempertimbangkan capaian belajarnya",
+      "membiarkannya belajar sendiri agar tumbuh mandiri tanpa bantuan",
+      "memberi tugas lebih mudah, waktu yang longgar, dan pendampingan"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-032", "opsi": [
+      "Tugasmu belum selesai. Boleh ceritakan kendalamu agar kita cari solusinya?",
+      "Kamu memang pemalas dan tidak punya masa depan.",
+      "Sebaiknya kamu pindah ke kelas lain saja jika begini caranya.",
+      "Semua temanmu sudah selesai, kamu saja yang selalu gagal."
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-038", "opsi": [
+      "tes pilihan ganda dengan waktu yang terbatas",
+      "ulangan tengah semester yang dilaksanakan madrasah",
+      "wawancara singkat yang dilakukan pada akhir tahun",
+      "observasi berkelanjutan, jurnal guru, penilaian diri, dan penilaian antarteman"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-039", "opsi": [
+      "satu skor total tanpa penjelasan rinci",
+      "daftar kriteria dengan deskripsi tingkat capaian kinerja",
+      "nilai seluruh teman sekelas secara keseluruhan",
+      "jumlah kesalahan yang dilakukan peserta didik saja"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-043", "opsi": [
+      "melanjutkan ke materi berikutnya tanpa perlakuan khusus",
+      "mengulang seluruh materi dari awal untuk semua peserta didik",
+      "menurunkan kriteria ketercapaian agar semua dinyatakan tuntas",
+      "memberikan remedial yang terarah dan pengayaan bagi yang tuntas"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-047", "opsi": [
+      "menyusun instrumen observasi secara rinci dan lengkap",
+      "mengidentifikasi dan menganalisis masalah nyata di kelas",
+      "menulis laporan hasil penelitian tindakan",
+      "menentukan jadwal publikasi ilmiah jurnal"
+    ]},
+    { "file": "profesional-p1", "id": "PRO-016", "opsi": [
+      "wajib adanya bagi Allah secara mutlak",
+      "boleh bagi Allah membuat atau tidak membuat yang mungkin",
+      "mustahil adanya bagi Allah selamanya",
+      "sifat yang hanya dimiliki oleh para rasul"
+    ]},
+    { "file": "profesional-p1", "id": "PRO-024", "opsi": [
+      "berani berbuat curang ketika tidak ada guru",
+      "putus asa ketika doanya belum dikabulkan",
+      "tenteram menghadapi masalah dan termotivasi beramal saleh",
+      "mengharapkan pujian dari teman atas setiap kebaikan"
+    ]},
+    { "file": "profesional-p2", "id": "PRO-030", "opsi": [
+      "Malaikat adalah makhluk gaib yang selalu patuh kepada Allah.",
+      "Malaikat dapat dipanggil dan dimintai pertolongan manusia.",
+      "Sepuluh malaikat wajib diketahui beserta tugasnya.",
+      "Malaikat diciptakan dari api dan memiliki hawa nafsu seperti manusia."
+    ]},
+    { "file": "profesional-p2", "id": "PRO-038", "opsi": [
+      "mengumpulkan kekayaan dan kekuasaan duniawi",
+      "membimbing manusia mengenal Allah dan hidup sesuai petunjuk-Nya",
+      "menghapus seluruh tradisi umat sebelumnya tanpa penjelasan",
+      "menjadikan manusia takluk kepada penguasa tertentu"
+    ]},
+    { "file": "profesional-p2", "id": "PRO-050", "opsi": [
+      "pelaku dosa besar berada di antara mukmin dan kafir",
+      "pelaku dosa besar otomatis menjadi kafir",
+      "semua pelaku dosa besar pasti masuk surga",
+      "iman dan amal tidak memiliki hubungan sama sekali"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-053", "opsi": [
+      "akhlak wajib dan akhlak sunah",
+      "akhlak duniawi dan akhlak ukhrawi",
+      "akhlak individu dan akhlak kekeluargaan",
+      "akhlak mahmudah dan akhlak mazmumah"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-054", "opsi": [
+      "menghitung dan mengeluhkan segala kekurangan yang dialami setiap hari",
+      "menyimpan segala nikmat untuk diri sendiri tanpa digunakan",
+      "memamerkan nikmat kepada orang yang tidak mampu",
+      "memuji Allah dengan lisan, mengakui nikmat di hati, dan memanfaatkannya"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-061", "opsi": [
+      "menjauhi orang yang berhasil agar tidak teringat",
+      "bersyukur, mendoakan kebaikan orang lain, dan meneladani keberhasilannya",
+      "berusaha menjatuhkan orang tersebut agar terlihat sederajat",
+      "menyebarkan berita yang merendahkan prestasinya"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-072", "opsi": [
+      "mendengarkan penjelasan dengan saksama dan bertanya dengan santun",
+      "memotong pembicaraan guru karena merasa lebih paham",
+      "membicarakan keburukan guru kepada teman sekelas",
+      "mengabaikan nasihat guru karena tidak ada sanksi"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-086", "opsi": [
+      "mempermalukan peserta didik di depan kelas agar jera dan tidak menulari teman",
+      "menyita seluruh barang peserta didik tanpa penjelasan dan langsung melaporkannya",
+      "mengajak berdialog dengan kasih, menjelaskan bahaya syirik, dan membimbing",
+      "membiarkan saja karena ramalan hanyalah hiburan yang tidak berdampak apa pun"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-096", "opsi": [
+      "menyimpulkan bahwa teman itu sombong dan memutuskan tidak menyapanya lagi",
+      "menyebarkan kabar bahwa teman tersebut tidak sopan",
+      "menduga teman tidak mendengar atau sedang sibuk, lalu tetap menyapa",
+      "membalas dengan tidak memberi salam kepada siapa pun"
+    ]}
+  ]
+}
