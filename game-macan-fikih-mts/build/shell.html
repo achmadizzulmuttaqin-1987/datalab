@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jejak Cilik — Petualangan 3D Fikih MTs (Kelas 7–9)</title>
+<meta name="description" content="Game 3D edukatif: anak macan kecil memanjat bukit dan menembus 150 goa berisi 1.500 soal Fikih MTs kelas 7, 8, dan 9 dari bank soal. Kumpulkan bintang, temui induk di puncak.">
+<meta name="theme-color" content="#07130f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3E%F0%9F%90%AF%3C/text%3E%3C/svg%3E">
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body class="intro-open">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 4 3 6v15l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v15M15 6v15"/>
+  </symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09a1.7 1.7 0 0 0-1.11-1.55 1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.7 1.7 0 0 0 .34-1.87 1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09a1.7 1.7 0 0 0 1.55-1.11 1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.7 1.7 0 0 0 1.87.34H9a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.7 1.7 0 0 0-.34 1.87V9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 1 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1Z"/>
+  </symbol>
+  <symbol id="i-sound" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/>
+  </symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="m16 9 5 6M21 9l-5 6"/>
+  </symbol>
+  <symbol id="i-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/>
+  </symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <path d="M6 6l12 12M18 6 6 18"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 12h15M13 6l6 6-6 6"/>
+  </symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4.5" y="10" width="15" height="10" rx="2.4"/><path d="M8 10V7.5a4 4 0 1 1 8 0V10"/>
+  </symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2.6 2.9 5.9 6.5.95-4.7 4.58 1.11 6.47L12 17.45 6.19 20.5l1.11-6.47L2.6 9.45l6.5-.95L12 2.6Z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5v-16Z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H20"/>
+  </symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 11a8 8 0 1 0-2.3 6.3"/><path d="M20 4v7h-7"/>
+  </symbol>
+  <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.53.85l10.2-6.5a1 1 0 0 0 0-1.7L9.53 4.65A1 1 0 0 0 8 5.5Z"/></symbol>
+  <symbol id="i-tiger" viewBox="0 0 64 64">
+    <path fill="currentColor" d="M13 10c2.6 0 5.1.9 7 2.5A21 21 0 0 1 32 9.6A21 21 0 0 1 44 12.5c1.9-1.6 4.4-2.5 7-2.5 1.4 0 2 1.8 1.1 2.7l-3.4 3.5A21.6 21.6 0 0 1 53.4 30c0 12-9.6 21.4-21.4 21.4S10.6 42 10.6 30a21.6 21.6 0 0 1 4.7-13.8L11.9 12.7C11 11.8 11.6 10 13 10Zm6.6 22.1a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2Zm24.8 0a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2ZM32 38.6c-2.3 0-4.4.8-6.1 2.2-.8.7-.3 1.9.7 1.9h10.8c1 0 1.5-1.2.7-1.9-1.7-1.4-3.8-2.2-6.1-2.2Z"/>
+  </symbol>
+  <symbol id="i-mountain" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m2.5 19.5 6.2-11 4 6.2 2.3-3.4 6.5 8.2H2.5Z"/><path d="m8.7 8.5 1.6 2.1 1.3-1.3"/>
+  </symbol>
+</svg>
+
+<div id="stage">
+  <canvas id="gl" aria-label="Pemandangan 3D bukit dan goa"></canvas>
+  <div id="gl-fallback">
+    <div>
+      <div style="margin-bottom:10px;color:#7dd3fc"><svg viewBox="0 0 64 64" style="width:56px;height:56px"><use href="#i-tiger"/></svg></div>
+      <h3 style="margin:0 0 6px">Pemandangan 3D tidak dapat dimuat</h3>
+      <p style="max-width:44ch;margin:0 auto;font-size:13.5px;opacity:.85;line-height:1.6">
+        Peramban ini belum mendukung WebGL. Tenang, seluruh soal dan permainan tetap bisa dimainkan.
+        Aktifkan akselerasi perangkat keras atau coba peramban lain untuk melihat bukit 3D.
+      </p>
+    </div>
+  </div>
+</div>
+<div id="vignette"></div>
+<div id="grain"></div>
+
+<header id="hud">
+  <div class="hud-row">
+    <button class="brand" id="brand-home" aria-label="Kembali ke halaman pembuka" title="Halaman pembuka">
+      <span class="brand-mark"><svg viewBox="0 0 64 64" style="width:26px;height:26px;color:#a7f3d0"><use href="#i-tiger"/></svg></span>
+      <span class="brand-text"><b>Jejak Cilik</b><span>Petualangan Fikih MTs</span></span>
+    </button>
+    <div class="hud-mid">
+      <span class="pill"><span class="dot"></span><span id="hud-bab">Kelas VII · Bab 1</span></span>
+      <span class="pill"><span class="dot"></span>Goa <b id="hud-cave">1</b> / 150</span>
+      <span class="pill gold" title="Bintang terkumpul"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="display:block"><use href="#i-star"/></svg> <b id="hud-stars">0</b> / 450</span>
+    </div>
+    <div class="hud-actions">
+      <button class="icon-btn" id="btn-map" title="Peta bukit" aria-label="Peta bukit"><svg><use href="#i-map"/></svg></button>
+      <button class="icon-btn on" id="btn-sound" title="Suara" aria-label="Nyalakan atau matikan suara"><svg><use href="#i-sound" id="sound-icon"/></svg></button>
+      <button class="icon-btn" id="btn-settings" title="Pengaturan" aria-label="Pengaturan"><svg><use href="#i-gear"/></svg></button>
+      <button class="icon-btn" id="btn-full" title="Layar penuh" aria-label="Layar penuh"><svg><use href="#i-expand"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div id="banner" role="status" aria-live="polite">
+  <div class="banner-inner">
+    <div class="k" id="banner-k">Bab baru</div>
+    <div class="t" id="banner-t">Thaharah</div>
+    <div class="s" id="banner-s">Kelas VII · Goa 1–5</div>
+  </div>
+</div>
+
+<div id="scene-ui">
+  <div id="cave-card">
+    <div class="cave-orb">
+      <div>
+        <div class="num" id="card-cave">1</div>
+        <div class="lbl">Goa</div>
+      </div>
+    </div>
+    <div class="cave-info">
+      <div class="cave-kicker">
+        <span id="card-grade">Kelas VII</span><span class="sep"></span>
+        <span>Semester <span id="card-sem">1</span></span><span class="sep"></span>
+        <span>Bab <span id="card-bab-no">1</span> / 30</span>
+      </div>
+      <h2 id="card-title">Thaharah (Bersuci)</h2>
+      <div class="cave-sub">
+        <span id="card-cave-pos">Goa 1 dari 5 di bab ini</span>
+        <span class="stars-row" id="card-stars" aria-label="Bintang goa ini"></span>
+        <span id="card-passed" class="tag-pass"></span>
+      </div>
+    </div>
+    <div class="cave-cta">
+      <button class="btn btn-gold" id="btn-enter"><svg><use href="#i-play"/></svg><span>Masuk Goa</span></button>
+      <button class="btn btn-ghost btn-map btn-sm" id="btn-map-2"><svg><use href="#i-map"/></svg> Peta</button>
+    </div>
+    <div class="card-note">
+      <span class="badge-lock"><svg class="ico-star" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-star"/></svg> Minimal 2 bintang</span>
+      <span>agar Cilik bisa memanjat ke tanjakan berikutnya. Benar 7 = 1 bintang, 8–9 = 2, 10 = 3.</span>
+    </div>
+  </div>
+  <div id="hint">
+    <span>Geser untuk memutar kamera</span>
+    <span>Gulir untuk memperbesar</span>
+    <span><kbd>M</kbd> peta</span>
+    <span><kbd>P</kbd> pengaturan</span>
+  </div>
+</div>
+
+<!-- ===================== PEMBUKA ===================== -->
+<section id="intro" class="screen" aria-label="Halaman pembuka">
+  <div class="intro-inner">
+    <div class="eyebrow"><span class="line"></span>Petualangan 3D · Fikih MTs</div>
+    <h1 class="title">Jejak Cilik<small>MENUJU INDUK DI PUNCAK</small></h1>
+    <p class="intro-lede">
+      Di kaki bukit berkabut, seekor anak macan bernama <b>Cilik</b> kehilangan jejak induknya.
+      Induk menunggu di puncak tertinggi, di balik <b>150 goa</b> yang menyimpan teka-teki fikih.
+      Temani Cilik memanjat <b>30 tanjakan</b>, menjawab <b>10 soal</b> di setiap goa, dan kumpulkan
+      <b>minimal 2 bintang</b> agar jalan ke atas terbuka.
+    </p>
+    <div class="story-chips">
+      <span class="story-chip"><b>30</b> bab</span>
+      <span class="story-chip"><b>150</b> goa</span>
+      <span class="story-chip"><b>1.500</b> soal</span>
+      <span class="story-chip">Kelas <b>7–9</b></span>
+    </div>
+    <div class="intro-actions">
+      <button class="btn btn-gold btn-lg" id="btn-start"><svg><use href="#i-play"/></svg> Mulai Petualangan</button>
+      <button class="btn btn-ghost btn-lg hidden" id="btn-resume"><svg><use href="#i-mountain"/></svg> Lanjutkan Perjalanan</button>
+      <button class="btn btn-dark btn-lg" id="btn-intro-map"><svg><use href="#i-map"/></svg> Peta</button>
+      <button class="btn btn-dark btn-lg" id="btn-intro-settings" aria-label="Pengaturan"><svg><use href="#i-gear"/></svg></button>
+    </div>
+    <div class="intro-save hidden" id="intro-save">
+      <span class="mini-bar"><i id="intro-bar" style="width:0%"></i></span>
+      <span id="intro-save-text">Belum ada perjalanan tersimpan</span>
+    </div>
+    <div class="intro-meta">
+      <span>Sumber soal: <b>Bank Soal Fikih MTs</b></span>
+      <span>Suasana awal: <b>Bukit Malam Berbintang</b></span>
+    </div>
+    <div class="intro-right">
+      <b>Cilik</b>
+      “Aku bisa melihat cahaya di puncak. Itu pasti indukku. Bantu aku menjawab semua teka-teki di goa, ya!”
+    </div>
+  </div>
+</section>
+
+<!-- ===================== KUIS ===================== -->
+<section id="quiz" class="screen hidden" role="dialog" aria-modal="true" aria-labelledby="q-title">
+  <div class="quiz-shell">
+    <div class="quiz-head">
+      <div class="quiz-head-top">
+        <span class="quiz-badge" id="q-badge">GOA 1</span>
+        <h2 id="q-title">Thaharah (Bersuci)<span id="q-sub">Kelas VII · Bab 1</span></h2>
+        <div class="grow"></div>
+        <button class="quiz-close" id="q-close" title="Keluar dari goa" aria-label="Keluar dari goa"><svg><use href="#i-close"/></svg></button>
+      </div>
+      <div class="quiz-progress">
+        <div class="dots" id="q-dots"></div>
+        <span class="qcount" id="q-count">Soal 1 / 10</span>
+      </div>
+    </div>
+    <div class="quiz-body" id="q-body"></div>
+    <div class="quiz-foot">
+      <div class="hintline" id="q-hint">Pilih satu jawaban yang paling tepat. Gunakan tombol <b>1–4</b> di papan ketik.</div>
+      <button class="btn btn-primary" id="q-next" disabled><span>Pilih jawaban</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HASIL ===================== -->
+<section id="result" class="screen hidden" role="dialog" aria-modal="true" aria-labelledby="res-title">
+  <div class="result-card" id="result-card"></div>
+</section>
+
+<!-- ===================== PEMBAHASAN ===================== -->
+<section id="review" class="screen hidden" role="dialog" aria-modal="true" aria-labelledby="rev-title">
+  <div class="sheet">
+    <div class="sheet-head">
+      <div class="t">
+        <h2 id="rev-title">Pembahasan Goa</h2>
+        <p id="rev-sub">Periksa kembali jawabanmu dan pelajari alasannya.</p>
+      </div>
+      <button class="btn btn-soft btn-sm" id="rev-close"><svg><use href="#i-close"/></svg> Tutup</button>
+    </div>
+    <div class="sheet-body" id="rev-body"></div>
+    <div class="sheet-foot">
+      <span>Kunci dan pembahasan diambil dari bank soal Fikih MTs.</span>
+      <button class="btn btn-primary btn-sm" id="rev-back">Kembali ke Hasil</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PETA ===================== -->
+<section id="map" class="screen hidden" role="dialog" aria-modal="true" aria-labelledby="map-title">
+  <div class="sheet">
+    <div class="sheet-head">
+      <div class="t">
+        <h2 id="map-title">Peta Bukit Fikih</h2>
+        <p>30 bab · 150 goa · setiap goa berisi 10 soal. Goa hanya terbuka jika goa sebelumnya minimal 2 bintang.</p>
+      </div>
+      <button class="btn btn-soft btn-sm" id="map-close"><svg><use href="#i-close"/></svg> Tutup</button>
+    </div>
+    <div class="sheet-body">
+      <div class="map-progress" id="map-progress"></div>
+      <div style="height:14px"></div>
+      <div class="map-wrap" id="map-wrap"></div>
+      <div class="map-legend">
+        <span><i style="background:#eaf7f1;border:1px solid #9fd6c2"></i> Sudah dilewati (minimal 2 bintang)</span>
+        <span><i style="background:#fff3cf;border:1px solid #e7b23c"></i> Goa saat ini</span>
+        <span><i style="background:#f1ece1;border:1px solid #e5dcc7"></i> Belum terbuka</span>
+      </div>
+    </div>
+    <div class="sheet-foot">
+      <span id="map-foot-note">Pilih goa yang sudah terbuka untuk berpindah tempat.</span>
+      <button class="btn btn-ghost btn-sm" id="map-go-frontier">Ke Goa Terdepan</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PENGATURAN ===================== -->
+<section id="settings" class="screen hidden" role="dialog" aria-modal="true" aria-labelledby="set-title">
+  <div class="settings-sheet">
+    <div class="settings-head">
+      <div style="flex:1">
+        <h2 id="set-title">Pengaturan & Tampilan</h2>
+        <p>Ubah penampilan Cilik dan suasana bukit kapan saja.</p>
+      </div>
+      <button class="btn btn-ghost btn-sm" id="set-close"><svg><use href="#i-close"/></svg></button>
+    </div>
+    <div class="settings-body">
+      <div class="set-section">
+        <h3>Tampilan Macan</h3>
+        <div class="skin-grid" id="skin-grid"></div>
+      </div>
+      <div class="set-section">
+        <h3>Settingan Bukit & Goa</h3>
+        <div class="biome-grid" id="biome-grid"></div>
+      </div>
+      <div class="set-section">
+        <h3>Permainan</h3>
+        <div class="toggle-row">
+          <div class="tt"><b>Efek suara</b><span>Nada jawaban benar, bintang, dan tombol.</span></div>
+          <button class="switch on" id="set-sound" aria-label="Efek suara" aria-pressed="true"></button>
+        </div>
+        <div class="toggle-row">
+          <div class="tt"><b>Kamera sinematik</b><span>Gerak kamera lembut saat Cilik berpindah goa.</span></div>
+          <button class="switch on" id="set-cinema" aria-label="Kamera sinematik" aria-pressed="true"></button>
+        </div>
+        <div class="toggle-row">
+          <div class="tt"><b>Panduan keyboard</b><span>Jawab dengan tombol 1–4, lanjut dengan Enter.</span></div>
+          <button class="switch on" id="set-keys" aria-label="Panduan keyboard" aria-pressed="true"></button>
+        </div>
+        <div class="set-note">Pilihan tampilan langsung terlihat pada adegan 3D di belakang panel ini.</div>
+      </div>
+      <div class="set-section">
+        <h3>Data</h3>
+        <button class="danger-link" id="set-reset">Mulai ulang perjalanan (hapus bintang & progres)</button>
+        <div class="set-note">Progres tersimpan otomatis di peramban ini. Menghapus progres tidak dapat dibatalkan.</div>
+      </div>
+    </div>
+    <div class="settings-foot">
+      <button class="btn btn-gold" id="set-done"><svg><use href="#i-play"/></svg> Kembali ke Petualangan</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== AKHIR ===================== -->
+<section id="finale" class="hidden" aria-label="Adegan akhir">
+  <div class="finale-card" id="finale-card"></div>
+</section>
+
+<div id="scene-loader">
+  <div class="load-inner">
+    <div class="load-emblem"><svg viewBox="0 0 64 64" style="width:46px;height:46px;color:#a7f3d0"><use href="#i-tiger"/></svg></div>
+    <h1>Jejak Cilik</h1>
+    <p>Menyiapkan bukit, goa, dan 1.500 soal…</p>
+    <div class="load-bar"><i id="load-fill"></i></div>
+  </div>
+</div>
+
+<noscript><div style="position:fixed;inset:0;z-index:999;background:#07130f;color:#fff;display:grid;place-items:center;padding:30px;text-align:center">
+  Game ini memerlukan JavaScript. Aktifkan JavaScript di peramban untuk memainkan Jejak Cilik.
+</div></noscript>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="game-data">__DATA__</script>
+<script>/*__THREE__*/</script>
+<script>
+/*__GAME_JS__*/
+</script>
+</body>
+</html>
