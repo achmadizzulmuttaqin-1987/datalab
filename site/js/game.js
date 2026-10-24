@@ -17,6 +17,7 @@
     figure: $('#figureWrap'),
     img: $('#figureImg'),
     bubble: $('#bubble'),
+    bubbleAvatar: $('#bubbleAvatar'),
     bubbleName: $('#bubbleName'),
     bubbleText: $('#bubbleText'),
     reaction: $('#reactionCard'),
@@ -329,6 +330,7 @@
     el.html.dataset.char = state.active;
     document.title = `DUAL PERSONA — ${c.name}`;
     el.img.src = c.figures[POSE_ORDER[state.pose[state.active]]];
+    if (el.bubbleAvatar) el.bubbleAvatar.src = c.portrait;
     el.img.alt = `${c.name}, karakter versi ${c.version.toLowerCase()}`;
 
     // kartu pemilih

@@ -71,7 +71,71 @@ def fit_backdrop(img: np.ndarray) -> np.ndarray:
     return bg
 
 
-def key_flat(img: np.ndarray, lo: float = 9, hi: float = 20) -> np.ndarray:
+def column_bounds(img: np.ndarray, y0: int, y1: int, xa: int, xb: int,
+                  side: str = "right", bg_tol: int = 10) -> np.ndarray:
+    """Per-row x where the backdrop gap next to a figure starts/ends.
+
+    The cream sheet has two figures that touch in places, so a plain flood fill
+    leaks from one into the other. This traces the white gap between them row by
+    row (``side="right"`` = right edge of the left figure) and returns a smoothed,
+    conservative boundary that can be used as a hard cut mask.
+    """
+    sub = img[y0:y1].astype(np.int16)
+    white = np.abs(sub - 254).max(axis=2) < bg_tol
+    h = white.shape[0]
+    vals = np.full(h, np.nan)
+    for y in range(h):
+        row = white[y]
+        best = None
+        inside = False
+        start = 0
+        for x in range(xa, min(xb, row.shape[0])):
+            if row[x] and not inside:
+                start, inside = x, True
+            elif not row[x] and inside:
+                if x - start >= 2:
+                    best = start if side == "right" else x - 1
+                inside = False
+        if inside and min(xb, row.shape[0]) - start >= 2:
+            best = start if side == "right" else min(xb, row.shape[0]) - 1
+        if best is not None:
+            vals[y] = best
+
+    idx = np.arange(h)
+    ok = ~np.isnan(vals)
+    if ok.sum() < 10:
+        return np.full(h, xa if side == "right" else xb, dtype=np.float32)
+    vals = np.interp(idx, idx[ok], vals[ok])
+
+    # look a little into the gap so we never eat a neighbour, then smooth
+    span = 26
+    out = vals.copy()
+    for y in range(h):
+        lo, hi = max(0, y - span), min(h, y + span + 1)
+        window = vals[lo:hi]
+        out[y] = window.min() if side == "right" else window.max()
+    kernel = np.ones(11) / 11
+    out = np.convolve(out, kernel, mode="same")
+    out[:8], out[-8:] = vals[:8], vals[-8:]
+    return out.astype(np.float32)
+
+
+def column_mask(shape: tuple, left: np.ndarray, right: np.ndarray,
+                origin_x: int = 0) -> np.ndarray:
+    """Boolean mask allowing only the columns between two per-row boundaries.
+
+    ``left`` / ``right`` are arrays in *sheet* coordinates (one value per row);
+    ``origin_x`` is the crop's left edge so the mask lines up with the crop.
+    """
+    h, w = shape
+    left = np.asarray(left, dtype=np.float32).reshape(-1)[:h] - origin_x
+    right = np.asarray(right, dtype=np.float32).reshape(-1)[:h] - origin_x
+    xs = np.arange(w, dtype=np.float32)[None, :]
+    return (xs >= left[:, None]) & (xs <= right[:, None])
+
+
+def key_flat(img: np.ndarray, lo: float = 9, hi: float = 20,
+             mask: np.ndarray | None = None) -> np.ndarray:
     """Key out a plain paper-white backdrop (the cream / hijab sheet)."""
     fy = img.astype(np.float32)
     border = np.concatenate([fy[:4].reshape(-1, 3), fy[-4:].reshape(-1, 3),
@@ -88,8 +152,19 @@ def key_flat(img: np.ndarray, lo: float = 9, hi: float = 20) -> np.ndarray:
     solid = ndimage.binary_closing(alpha > 0.35, np.ones((7, 7)))
     alpha = np.where(solid & (alpha > 0.05), np.maximum(alpha, 0.65), alpha)
 
+    # Bayangan kontak di lantai: sedikit lebih gelap, hampir tanpa warna.
+    h = alpha.shape[0]
+    lum = fy.mean(axis=2)
+    shadow = (np.clip((bg.mean() - lum - 2.0) / 14.0, 0.0, 1.0)
+              * (1.0 - np.clip(sat / 14.0, 0.0, 1.0))
+              * (dist < 46.0))
+    floor = np.clip((np.arange(h) - h * 0.90) / (h * 0.10), 0.0, 1.0)[:, None]
+    alpha = alpha * (1.0 - 0.92 * floor * shadow)
+
     filled = flood_from_border(alpha < 0.06)
     alpha = np.where(filled, 0.0, alpha)
+    if mask is not None:
+        alpha = np.where(mask, alpha, 0.0)
 
     a3 = alpha[:, :, None]
     safe = np.maximum(a3, 0.10)
@@ -213,12 +288,46 @@ def main() -> None:
         ("ren_side", white, (470, 38, 618, 792), "grad"),
         ("amira_front", cream, (2, 36, 252, 780), "flat"),
         ("amira_back", cream, (250, 36, 456, 780), "flat"),
-        ("amira_side", cream, (458, 36, 640, 780), "flat"),
+        ("amira_side", cream, (458, 36, 604, 780), "flat"),
     ]
+    # Batas antar-figur pada sheet krem (figur saling bersentuhan di beberapa baris)
+    ch = cream.shape[0]
+    # diukur pada seluruh tinggi sheet supaya indeksnya sama dengan baris gambar
+    gap_ab = column_bounds(cream, 0, ch, 195, 345, "right")
+    gap_bc = column_bounds(cream, 0, ch, 400, 500, "right")
+    gap_cd = column_bounds(cream, 0, ch, 560, 690, "right")
+    cream_bounds = {
+        "left": np.full(ch, 0.0, dtype=np.float32),
+        "gap_ab": gap_ab,
+        "gap_bc": gap_bc,
+        "right": np.full(ch, float(cream.shape[1]), dtype=np.float32),
+    }
+
+    def cream_mask(box):
+        # boundaries were measured on the full sheet, so slice them to the crop
+        h, w = box[3] - box[1], box[2] - box[0]
+        return column_mask((h, w), np.zeros(h, dtype=np.float32),
+                           gap_ab[box[1]:box[3]], origin_x=box[0])
+
     print("figures:")
     for name, sheet, box, kind in FIGURES:
         crop = sheet[box[1]:box[3], box[0]:box[2]]
-        rgba = key_out(crop) if kind == "grad" else keep_seed_component(key_flat(crop))
+        if kind == "grad":
+            rgba = key_out(crop)
+        else:
+            if name == "amira_front":
+                mask = cream_mask(box)
+            elif name == "amira_back":
+                h, w = box[3] - box[1], box[2] - box[0]
+                mask = column_mask((h, w), gap_ab[box[1]:box[3]],
+                                   gap_bc[box[1]:box[3]], origin_x=box[0])
+            elif name == "amira_side":
+                h, w = box[3] - box[1], box[2] - box[0]
+                mask = column_mask((h, w), gap_bc[box[1]:box[3]],
+                                   gap_cd[box[1]:box[3]], origin_x=box[0])
+            else:
+                mask = None
+            rgba = keep_seed_component(key_flat(crop, mask=mask))
         save(trim_to_content(rgba), name)
 
     # Expression heads. Cell edges were measured from the sheet grids; the

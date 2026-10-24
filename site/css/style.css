@@ -215,7 +215,17 @@ button { font: inherit; color: inherit; }
   cursor: pointer;
   overflow: hidden;
   text-align: center;
+  isolation: isolate;
   transition: border-color .4s var(--ease), transform .35s var(--ease), box-shadow .4s var(--ease), opacity .4s;
+}
+.pick::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 46%;
+  background: linear-gradient(to top, rgba(6, 9, 14, .96) 26%, rgba(6, 9, 14, .55) 62%, transparent);
+  pointer-events: none;
+  z-index: 0;
 }
 .pick:hover { transform: translateY(-3px); border-color: rgba(255, 255, 255, .24); }
 .pick:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
@@ -239,6 +249,7 @@ button { font: inherit; color: inherit; }
 
 .pick__emblem {
   position: absolute;
+  z-index: 3;
   right: 8px; top: 8px;
   width: 34px; height: 34px;
   opacity: .35;
@@ -247,28 +258,44 @@ button { font: inherit; color: inherit; }
 .pick__emblem img { width: 100%; height: 100%; object-fit: contain; }
 .pick.is-active .pick__emblem { opacity: .8; }
 
-.pick__portrait {
-  position: relative;
-  width: 100%;
-  flex: 1 1 auto;
-  min-height: 74px;
-  border-radius: 14px;
-  overflow: hidden;
-  background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, .1), rgba(0, 0, 0, .35));
-  border: 1px solid rgba(255, 255, 255, .1);
-  display: block;
+/* figur penuh sebagai isi kartu (desktop) */
+.pick__figure {
+  position: absolute;
+  inset: 0 0 82px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+  opacity: .92;
+  transition: opacity .45s var(--ease), transform .6s var(--ease);
 }
-.pick__portrait img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  object-position: 50% 22%;
-  filter: saturate(.95);
-  transition: transform .6s var(--ease), filter .4s;
+.pick__figure img {
+  max-width: 88%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 18px 22px rgba(0, 0, 0, .65));
+  transform: scale(.98);
+  transition: transform .6s var(--ease), filter .5s var(--ease);
 }
-.pick:hover .pick__portrait img { transform: scale(1.05); }
-.pick.is-active .pick__portrait img { filter: saturate(1.05) contrast(1.03); }
+.pick:hover .pick__figure img { transform: scale(1.03); }
+.pick.is-active .pick__figure img { filter: drop-shadow(0 18px 22px rgba(0, 0, 0, .6)) drop-shadow(0 0 22px var(--glow)); }
+.pick:not(.is-active) .pick__figure { opacity: .55; filter: grayscale(.25); }
 
-.pick__meta { display: flex; flex-direction: column; gap: 3px; align-items: center; z-index: 1; }
+/* potret kecil: hanya dipakai pada tata letak ringkas/mobile */
+.pick__portrait { display: none; }
+.pick__portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 26%; border-radius: inherit; }
+
+.pick__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  z-index: 2;
+  margin-top: auto;
+  padding-top: 6px;
+  width: 100%;
+}
 .pick__label {
   font-family: var(--font-display);
   font-size: 8.5px;
@@ -300,6 +327,7 @@ button { font: inherit; color: inherit; }
 
 .pick__state {
   position: absolute;
+  z-index: 3;
   left: 10px; top: 10px;
   font-family: var(--font-display);
   font-size: 8px;
@@ -366,15 +394,15 @@ button { font: inherit; color: inherit; }
 .chip b { font-family: var(--font-display); font-size: 12px; letter-spacing: .04em; }
 .chip--ghost { color: var(--muted); background: rgba(8, 11, 17, .6); border-color: var(--line); }
 
-/* balon percakapan */
+/* balon percakapan (ikut alur, jadi tidak menutupi kepala karakter) */
 .bubble {
-  position: absolute;
+  position: relative;
   z-index: 5;
-  top: clamp(46px, 7.5vh, 78px);
-  left: 50%;
+  flex: none;
+  margin: clamp(12px, 2.2vh, 26px) auto 2px;
   width: max-content;
   max-width: min(360px, 72%);
-  transform: translate(-50%, 8px) scale(.96);
+  transform: translateY(6px) scale(.97);
   padding: 13px 16px 14px;
   border-radius: 16px;
   border: 1px solid color-mix(in srgb, var(--accent) 32%, rgba(255, 255, 255, .1));
@@ -385,15 +413,31 @@ button { font: inherit; color: inherit; }
   pointer-events: none;
   transition: opacity .3s var(--ease), transform .42s var(--ease);
 }
-.bubble[data-show='true'] { opacity: 1; transform: translate(-50%, 0) scale(1); }
+.bubble[data-show='true'] { opacity: 1; transform: translateY(0) scale(1); }
+
+.bubble__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+.bubble__avatar {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  box-shadow: 0 0 16px -4px var(--glow);
+  background: rgba(255, 255, 255, .06);
+}
+.bubble__avatar img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; }
 
 .bubble__name {
-  display: inline-block;
   font-family: var(--font-display);
   font-size: 10px;
   letter-spacing: .24em;
   color: var(--accent);
-  margin-bottom: 6px;
 }
 .bubble__text {
   margin: 0;
@@ -871,12 +915,24 @@ button { font: inherit; color: inherit; }
     border-radius: 14px;
   }
   .pick:hover { transform: none; }
-  .pick__portrait { width: 44px; height: 44px; flex: none; min-height: 0; border-radius: 10px; }
+  .pick__figure { display: none; }
+  .pick__portrait {
+    display: block;
+    position: relative;
+    width: 46px; height: 46px;
+    flex: none;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, .14);
+    background: rgba(255, 255, 255, .06);
+  }
+  .pick::after { display: none; }
+  .pick__meta { margin-top: 0; padding-top: 0; width: auto; }
+  .hearts { flex: none; }
   .pick__portrait img { object-position: 50% 18%; }
   .pick__meta { align-items: flex-start; }
   .pick__name { font-size: 15px; letter-spacing: .1em; }
-  .pick__label { font-size: 7px; letter-spacing: .18em; }
-  .pick__tag { display: none; }
+  .pick__label { font-size: 7px; letter-spacing: .14em; }
   .hearts { margin-top: 2px; gap: 2px; }
   .hearts i { width: 7px; height: 7px; }
   .pick__emblem { display: none; }
@@ -889,8 +945,9 @@ button { font: inherit; color: inherit; }
 
   .footbar__tip { display: none; }
   .footbar { justify-content: flex-end; }
-  .bubble { max-width: 84%; top: 30px; }
-  .reaction { width: 62px; top: 34%; right: 0; }
+  .bubble { max-width: 92%; margin-top: 14px; }
+  .hint { display: none; }
+  .reaction { width: 62px; top: 12%; right: 0; }
   .chat-tray { bottom: 44px; }
   .hint { font-size: 9.5px; margin-top: 3px; }
 }
@@ -901,12 +958,13 @@ button { font: inherit; color: inherit; }
   .icon-btn__label { display: none; }
   .icon-btn { padding: 9px; }
   .chip--ghost { display: none; }
+  .pick__label, .pick__state { display: none; }
   .arena__status { top: 0; }
   .hint { font-size: 9.5px; }
   .act__icon svg { width: 21px; height: 21px; }
   .act__icon { width: 21px; height: 21px; }
   .modal__grid { grid-template-columns: 1fr; }
-  .bubble { max-width: 88%; }
+  .bubble { max-width: 88%; margin-top: 32px; }
 }
 
 @media (max-height: 640px) {
@@ -919,7 +977,7 @@ button { font: inherit; color: inherit; }
 @media (max-height: 640px) and (min-width: 861px) {
   .figure { animation: none; }
   .pedestal { height: 34px; }
-  .bubble { top: 32px; padding: 10px 13px; }
+  .bubble { margin-top: 14px; padding: 10px 13px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

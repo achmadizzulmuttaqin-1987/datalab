@@ -59,8 +59,9 @@
   <main class="stage">
 
     <!-- pemilih karakter -->
-    <button class="pick pick--ren is-active" id="pickRen" type="button" data-char="ren" aria-pressed="true">
+    <button class="pick pick--ren" id="pickRen" type="button" data-char="ren" aria-pressed="true">
       <span class="pick__glow" aria-hidden="true"></span>
+      <span class="pick__figure" aria-hidden="true"><img src="assets/characters/ren_front.webp" alt="" loading="lazy" /></span>
       <span class="pick__emblem"><img src="assets/characters/ren_emblem.webp" alt="" /></span>
       <span class="pick__portrait"><img src="assets/characters/ren_portrait.webp" alt="Potret Ren" loading="lazy" /></span>
       <span class="pick__meta">
@@ -69,7 +70,7 @@
         <span class="pick__tag">Arsitek Sunyi · Kristal Perak</span>
         <span class="hearts" data-hearts="ren" aria-label="Kedekatan Ren"></span>
       </span>
-      <span class="pick__state" data-state="ren">AKTIF</span>
+      <span class="pick__state" data-state="ren">PILIH</span>
     </button>
 
     <!-- arena -->
@@ -81,7 +82,10 @@
       </div>
 
       <div class="bubble" id="bubble" data-show="false" aria-live="polite">
-        <span class="bubble__name" id="bubbleName">REN</span>
+        <div class="bubble__head">
+          <span class="bubble__avatar" aria-hidden="true"><img id="bubbleAvatar" src="assets/characters/ren_portrait.webp" alt="" /></span>
+          <span class="bubble__name" id="bubbleName">REN</span>
+        </div>
         <p class="bubble__text" id="bubbleText"></p>
         <span class="bubble__tail" aria-hidden="true"></span>
       </div>
@@ -114,9 +118,9 @@
       </p>
     </section>
 
-    <!-- pemilih karakter -->
     <button class="pick pick--amira" id="pickAmira" type="button" data-char="amira" aria-pressed="false">
       <span class="pick__glow" aria-hidden="true"></span>
+      <span class="pick__figure" aria-hidden="true"><img src="assets/characters/amira_front.webp" alt="" loading="lazy" /></span>
       <span class="pick__emblem"><img src="assets/characters/amira_emblem.webp" alt="" /></span>
       <span class="pick__portrait"><img src="assets/characters/amira_portrait.webp" alt="Potret Amira" loading="lazy" /></span>
       <span class="pick__meta">
@@ -127,6 +131,7 @@
       </span>
       <span class="pick__state" data-state="amira">PILIH</span>
     </button>
+
   </main>
 
   <!-- ================= DOCK ================= -->

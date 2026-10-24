@@ -4,7 +4,13 @@ Game interaktif berbasis peramban dengan **dua karakter** dari lembar desain yan
 Pilih salah satu, sentuh karakternya, dan dia akan **bergerak** serta **bersuara** — lengkap dengan
 ekspresi wajah, partikel, kedekatan (affection), dan obrolan bercabang.
 
+![Tampilan desktop](docs/preview-desktop.webp)
+
 Demo langsung: buka `site/index.html` (atau `index.html` di akar repo — otomatis dialihkan).
+
+<p align="center">
+  <img src="docs/preview-mobile.webp" alt="Tampilan seluler" width="300" />
+</p>
 
 ---
 
