@@ -92,8 +92,28 @@ Tidak ada dependensi, tidak ada proses build — semuanya HTML, CSS, dan JavaScr
 
 ## Deploy
 
-`.github/workflows/static.yml` sudah disetel untuk men-upload folder `site/` ke GitHub Pages.
-Aktifkan **Settings → Pages → Source: GitHub Actions**, lalu push ke `main`.
+`.github/workflows/static.yml` men-deploy folder `site/` ke GitHub Pages.
+
+**Aktifkan sekali** (hanya perlu kalau Pages belum pernah dipakai di repo ini):
+
+1. Buka **Settings → Pages**.
+2. Pada *Build and deployment → Source*, pilih **GitHub Actions**.
+3. Push ke `main` (atau jalankan workflow secara manual).
+
+Setelah itu setiap push otomatis men-deploy `site/` ke
+`https://achmadizzulmuttaqin-1987.github.io/datalab/`.
+
+Workflow memeriksa status Pages lebih dulu, jadi:
+
+- **Pages sudah aktif (build type: workflow)** → checkout → configure → upload → deploy.
+- **Pages belum ada / masih "deploy dari branch"** → workflow tidak gagal; ia memberi
+  peringatan + ringkasan di tab *Summary* berisi langkah pengaktifan di atas.
+- **Ingin otomatis penuh** → tambahkan secret `PAGES_TOKEN` (fine-grained PAT dengan izin
+  **Pages: Read and write**). Workflow akan membuat situs Pages sendiri dan mengubah
+  build type ke `workflow` tanpa langkah manual.
+
+> Catatan: `GITHUB_TOKEN` bawaan Actions memang tidak berwenang *membuat* situs Pages —
+> itu sebabnya dulu job `deploy` merah dengan `HttpError: Not Found ... /pages`.
 
 ---
 
