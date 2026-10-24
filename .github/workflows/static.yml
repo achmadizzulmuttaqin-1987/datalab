@@ -44,29 +44,56 @@ jobs:
           token="${PAGES_TOKEN:-$GH_TOKEN}"
           api="https://api.github.com/repos/${GITHUB_REPOSITORY}/pages"
 
-          status() {
-            curl -s -o /dev/null -w '%{http_code}' \
+          call() {  # call <method> [curl args...] -> HTTP status code
+            curl -s -o /dev/null -w '%{http_code}' -X "$1" \
               -H "Authorization: Bearer ${token}" \
               -H "Accept: application/vnd.github+json" \
-              -H "X-GitHub-Api-Version: 2022-11-28" "$@" || echo "000"
+              -H "X-GitHub-Api-Version: 2022-11-28" "${@:2}" || echo "000"
           }
 
-          code=$(status "$api")
-          echo "Status Pages saat ini: HTTP ${code}"
+          build_type() {  # "workflow" | "legacy" | "" (situs belum ada)
+            curl -s -H "Authorization: Bearer ${token}" \
+              -H "Accept: application/vnd.github+json" \
+              -H "X-GitHub-Api-Version: 2022-11-28" "$api" \
+              | sed -n 's/.*"build_type" *: *"\([a-z]*\)".*/\1/p'
+          }
 
-          if [ "${code}" != "200" ] && [ -n "${PAGES_TOKEN:-}" ]; then
-            echo "Mencoba mengaktifkan Pages dengan PAGES_TOKEN…"
-            created=$(status -X POST "$api" \
-              -H "Content-Type: application/json" \
+          # 1) Sudah aktif? (404 = belum pernah dibuat)
+          code=$(call GET "$api")
+          for _ in 1 2 3; do
+            [ "${code}" = "200" ] || [ "${code}" = "404" ] && break
+            sleep 3   # 5xx/timeout: coba lagi, jangan langsung menyerah
+            code=$(call GET "$api")
+          done
+          echo "Status Pages: HTTP ${code}"
+
+          # 2) Belum ada -> coba buat otomatis (butuh PAGES_TOKEN)
+          if [ "${code}" = "404" ] && [ -n "${PAGES_TOKEN:-}" ]; then
+            created=$(call POST "$api" -H "Content-Type: application/json" \
               -d '{"build_type":"workflow"}')
             echo "Buat situs Pages: HTTP ${created}"
-            code=$(status "$api")
+            code=$(call GET "$api")
           fi
 
-          if [ "${code}" = "200" ]; then
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          # 3) Ada tapi masih "deploy dari branch" -> pindahkan ke GitHub Actions
+          mode=""
+          [ "${code}" = "200" ] && mode=$(build_type)
+          if [ "${code}" = "200" ] && [ "${mode}" != "workflow" ] && [ -n "${PAGES_TOKEN:-}" ]; then
+            patched=$(call PUT "$api" -H "Content-Type: application/json" \
+              -d '{"build_type":"workflow"}')
+            echo "Ubah build_type ke workflow: HTTP ${patched}"
+            mode=$(build_type)
+          fi
+
+          if [ "${code}" = "200" ] && [ "${mode}" = "workflow" ]; then
+            echo "enabled=true"  >> "$GITHUB_OUTPUT"
+            echo "reason=ok"     >> "$GITHUB_OUTPUT"
+          elif [ "${code}" = "200" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "reason=branch" >> "$GITHUB_OUTPUT"
           else
             echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "reason=missing" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup Pages
@@ -86,24 +113,33 @@ jobs:
         if: steps.pages_status.outputs.enabled == 'true'
         uses: actions/deploy-pages@v5
 
-      - name: Pages belum aktif — butuh satu kali pengaturan
+      - name: Pages belum siap — butuh satu kali pengaturan
         if: steps.pages_status.outputs.enabled != 'true'
+        env:
+          REASON: ${{ steps.pages_status.outputs.reason }}
         run: |
-          echo "::warning title=GitHub Pages belum aktif::Buka Settings → Pages → Source: GitHub Actions (sekali saja). Setelah itu setiap push otomatis men-deploy folder site/."
+          if [ "${REASON}" = "branch" ]; then
+            echo "::warning title=Pages masih 'deploy dari branch'::Ubah Settings → Pages → Source ke 'GitHub Actions' agar workflow ini bisa men-deploy folder site/."
+            headline="GitHub Pages masih dikonfigurasi sebagai *deploy dari branch*."
+            action="**Ubah sekali:** buka \`Settings → Pages\` lalu set *Source* ke **GitHub Actions**."
+          else
+            echo "::warning title=GitHub Pages belum aktif::Buka Settings → Pages → Source: GitHub Actions (sekali saja). Setelah itu setiap push otomatis men-deploy folder site/."
+            headline="GitHub Pages belum diaktifkan untuk repo ini."
+            action="**Aktifkan sekali:** buka \`Settings → Pages\` lalu set *Source* ke **GitHub Actions**."
+          fi
+
+          echo "::notice::${headline}"
           {
-            echo "### GitHub Pages belum diaktifkan untuk repo ini"
+            echo "### ${headline}"
             echo
             echo "Workflow **tidak gagal** karena ini masalah konfigurasi repo, bukan kode:"
-            echo "situs Pages belum pernah dibuat, dan token Actions tidak berwenang membuatnya."
+            echo "situs Pages belum siap, dan token Actions tidak berwenang mengubahnya."
             echo
-            echo "**Aktifkan sekali (30 detik):**"
-            echo "1. Buka \`Settings → Pages\` di repo ini."
-            echo "2. Pada *Build and deployment → Source*, pilih **GitHub Actions**."
-            echo "3. Jalankan ulang workflow ini (atau push commit baru)."
+            echo "${action}"
             echo
-            echo "Setelah aktif, setiap push ke \`main\` / branch ini otomatis men-deploy folder \`site/\`."
+            echo "Setelah itu, setiap push ke \`main\` / branch ini otomatis men-deploy folder \`site/\`."
             echo
             echo "Ingin sepenuhnya otomatis? Tambahkan secret \`PAGES_TOKEN\`"
-            echo "(fine-grained PAT dengan izin **Pages: Read and write**) dan workflow ini"
-            echo "akan mengaktifkan Pages sendiri tanpa langkah manual."
+            echo "(fine-grained PAT dengan izin **Pages: Read and write**); workflow ini akan"
+            echo "membuat/menyiapkan Pages sendiri tanpa langkah manual."
           } >> "$GITHUB_STEP_SUMMARY"
