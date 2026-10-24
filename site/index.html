@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id" data-char="ren">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#080b11" />
+<title>DUAL PERSONA — REN &amp; AMIRA</title>
+<meta name="description" content="Game interaktif dua karakter: pilih Ren atau Amira, sentuh mereka, dan lihat reaksi gerak serta suaranya." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230b1018'/%3E%3Cpath d='M50 20 70 50 50 80 30 50Z' fill='none' stroke='%23a9c3e2' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='9' fill='%23e3bd8b'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+  <div class="bg__grid"></div>
+  <div class="bg__glow bg__glow--a"></div>
+  <div class="bg__glow bg__glow--b"></div>
+  <div class="bg__scan"></div>
+  <div class="bg__vignette"></div>
+</div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="flash" class="flash" aria-hidden="true"></div>
+
+<div class="app" id="app">
+
+  <!-- ================= HEADER ================= -->
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M24 4 41 24 24 44 7 24Z" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/>
+        <path d="M24 12 34 24 24 36 14 24Z" fill="none" stroke="currentColor" stroke-width="2"/>
+        <circle cx="24" cy="24" r="4.2" fill="currentColor"/>
+      </svg>
+      <div class="brand__text">
+        <h1>DUAL PERSONA</h1>
+        <p>Dua karakter · satu panggung · apa pun bisa kamu sentuh</p>
+      </div>
+    </div>
+
+    <div class="topbar__actions">
+      <button class="icon-btn" id="btnSound" type="button" aria-pressed="true" title="Efek suara">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z" fill="currentColor"/><path class="wave" d="M17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span class="icon-btn__label">Efek</span>
+      </button>
+      <button class="icon-btn" id="btnVoice" type="button" aria-pressed="true" title="Suara karakter">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4M9 21h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <span class="icon-btn__label">Suara</span>
+      </button>
+      <button class="icon-btn" id="btnSheet" type="button" title="Lembar karakter">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 9h17M9 9v10.5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+        <span class="icon-btn__label">Sheet</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= STAGE ================= -->
+  <main class="stage">
+
+    <!-- pemilih karakter -->
+    <button class="pick pick--ren is-active" id="pickRen" type="button" data-char="ren" aria-pressed="true">
+      <span class="pick__glow" aria-hidden="true"></span>
+      <span class="pick__emblem"><img src="assets/characters/ren_emblem.webp" alt="" /></span>
+      <span class="pick__portrait"><img src="assets/characters/ren_portrait.webp" alt="Potret Ren" loading="lazy" /></span>
+      <span class="pick__meta">
+        <span class="pick__label">WHITE VERSION</span>
+        <span class="pick__name">REN</span>
+        <span class="pick__tag">Arsitek Sunyi · Kristal Perak</span>
+        <span class="hearts" data-hearts="ren" aria-label="Kedekatan Ren"></span>
+      </span>
+      <span class="pick__state" data-state="ren">AKTIF</span>
+    </button>
+
+    <!-- arena -->
+    <section class="arena" id="arena">
+      <div class="arena__status">
+        <span class="chip"><b id="affinityValue">0%</b> kedekatan</span>
+        <span class="chip chip--ghost" id="interactionCount">0 interaksi</span>
+        <span class="chip chip--ghost" id="moodChip">netral</span>
+      </div>
+
+      <div class="bubble" id="bubble" data-show="false" aria-live="polite">
+        <span class="bubble__name" id="bubbleName">REN</span>
+        <p class="bubble__text" id="bubbleText"></p>
+        <span class="bubble__tail" aria-hidden="true"></span>
+      </div>
+
+      <div class="figure" id="figureWrap">
+        <div class="figure__aura" aria-hidden="true"></div>
+        <img class="figure__img" id="figureImg" src="assets/characters/ren_front.webp" alt="Ren, karakter versi putih" draggable="false" />
+        <div class="figure__shadow" aria-hidden="true"></div>
+
+        <figure class="reaction" id="reactionCard" aria-hidden="true">
+          <img id="reactionImg" src="assets/characters/ren_face_smile.webp" alt="" />
+          <figcaption id="reactionLabel">senang</figcaption>
+        </figure>
+
+        <div class="touch-rings" id="touchRings" aria-hidden="true"></div>
+        <div class="combo" id="comboLayer" aria-hidden="true"></div>
+      </div>
+
+      <div class="pedestal" aria-hidden="true">
+        <span class="pedestal__ring"></span>
+        <span class="pedestal__ring pedestal__ring--2"></span>
+        <span class="pedestal__core"></span>
+      </div>
+
+      <div class="chat-tray" id="chatTray" data-open="false"></div>
+
+      <p class="hint" id="hint">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V11m0-.5a1.5 1.5 0 0 1 3 0V13c0 4-2.5 7-6.5 7S6 17.5 6 14v-2a1.5 1.5 0 0 1 3 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        Sentuh karakternya — dia akan bergerak &amp; bersuara
+      </p>
+    </section>
+
+    <!-- pemilih karakter -->
+    <button class="pick pick--amira" id="pickAmira" type="button" data-char="amira" aria-pressed="false">
+      <span class="pick__glow" aria-hidden="true"></span>
+      <span class="pick__emblem"><img src="assets/characters/amira_emblem.webp" alt="" /></span>
+      <span class="pick__portrait"><img src="assets/characters/amira_portrait.webp" alt="Potret Amira" loading="lazy" /></span>
+      <span class="pick__meta">
+        <span class="pick__label">HIJAB VERSION</span>
+        <span class="pick__name">AMIRA</span>
+        <span class="pick__tag">Penjaga Manis · Emas Hangat</span>
+        <span class="hearts" data-hearts="amira" aria-label="Kedekatan Amira"></span>
+      </span>
+      <span class="pick__state" data-state="amira">PILIH</span>
+    </button>
+  </main>
+
+  <!-- ================= DOCK ================= -->
+  <nav class="dock" aria-label="Aksi karakter">
+    <button class="act" type="button" data-action="sapa">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a2 2 0 0 1 2 2v6.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M8 6.5A1.8 1.8 0 0 1 9.8 4.7M15 5.4v6.1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M5.5 11.2A1.7 1.7 0 0 1 8.9 11v2.2m0 0V9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M8.9 13.2V8.4a1.6 1.6 0 0 1 3.2 0v3.9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12.1 12.5c0 4.6-2 7.3-5.2 7.3-2.6 0-4-1.9-4-4.6v-1.9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+      <span class="act__label">Sapa</span>
+    </button>
+
+    <button class="act" type="button" data-action="canda">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 9.5h.01M15.5 9.5h.01" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M8 14c1 1.6 2.4 2.4 4 2.4s3-.8 4-2.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
+      <span class="act__label">Canda</span>
+    </button>
+
+    <button class="act" type="button" data-action="pose">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2 13.8 9l5.8 1.8-5.8 1.8L12 18.4l-1.8-5.8L4.4 10.8 10.2 9Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M18.6 15.4l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9Z" fill="currentColor" opacity=".8"/></svg></span>
+      <span class="act__label">Pose</span>
+    </button>
+
+    <button class="act" type="button" data-action="musik">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 17.2V6.4l8-1.7v10.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="6.7" cy="17.6" rx="2.4" ry="2"/>
+        <ellipse cx="14.7" cy="15.6" rx="2.4" ry="2"/></svg></span>
+      <span class="act__label">Musik</span>
+    </button>
+
+    <button class="act" type="button" data-action="obrolan">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h7A2.5 2.5 0 0 1 16 6.5v4A2.5 2.5 0 0 1 13.5 13H9l-3.5 3v-3H6.5A2.5 2.5 0 0 1 4 10.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M18 9.5h.5A2.5 2.5 0 0 1 21 12v3.5A2.5 2.5 0 0 1 18.5 18H18v2.6L15 18h-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+      <span class="act__label">Obrolan</span>
+    </button>
+
+    <button class="act act--primary" type="button" data-action="sentuh">
+      <span class="act__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.4 3.6a1.9 1.9 0 0 1 1.9 1.9v6.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M13.3 12.4V9.6a1.7 1.7 0 0 1 3.4 0v2.9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M16.7 12.9c0 4.4-2.3 7.4-5.8 7.4-3 0-4.6-2-4.6-4.9v-3a1.7 1.7 0 0 1 3.4 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.3 8.1a3.3 3.3 0 0 1 6.6 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      <span class="act__label">Sentuh</span>
+    </button>
+  </nav>
+
+  <footer class="footbar">
+    <p class="footbar__tip" id="tip">Tip: <kbd>Tab</kbd> berganti karakter · <kbd>1</kbd>/<kbd>2</kbd> pilih langsung · <kbd>3</kbd>–<kbd>8</kbd> aksi · geser karakter untuk berganti</p>
+    <button class="switch-btn" id="btnSwitch" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Ganti karakter</span>
+    </button>
+  </footer>
+</div>
+
+<!-- ================= MODAL LEMBAR KARAKTER ================= -->
+<div class="modal" id="sheetModal" data-open="false" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel">
+    <header class="modal__head">
+      <div>
+        <h2 id="sheetTitle">Lembar Karakter</h2>
+        <p>Dua versi, satu semesta. Karya asli dari sketsa karakter kamu.</p>
+      </div>
+      <button class="icon-btn icon-btn--ghost" type="button" data-close aria-label="Tutup">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+    <div class="modal__grid">
+      <figure>
+        <img src="assets/sheets/sheet_ren.webp" alt="Lembar karakter Ren versi putih" loading="lazy" />
+        <figcaption><b>REN</b> — White Version</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/sheets/sheet_amira.webp" alt="Lembar karakter Amira versi hijab" loading="lazy" />
+        <figcaption><b>AMIRA</b> — Hijab Version</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
