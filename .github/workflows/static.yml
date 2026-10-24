@@ -32,7 +32,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
+        with:
+          # Aktifkan GitHub Pages otomatis bila belum pernah diaktifkan
+          # (Settings → Pages). Tanpa ini, langkah ini gagal dengan HTTP 404.
+          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
