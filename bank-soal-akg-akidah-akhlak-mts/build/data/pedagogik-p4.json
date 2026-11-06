@@ -1,0 +1,727 @@
+{
+  "berkas": "pedagogik-p4",
+  "kategori": "pedagogik",
+  "items": [
+    {
+      "id": "PED-101",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Teknik penilaian yang paling sesuai untuk mengukur keterampilan peserta didik mempraktikkan adab bertamu adalah ...",
+      "opsi": [
+        "tes pilihan ganda dengan batas waktu",
+        "wawancara singkat di akhir semester",
+        "kuis tertulis tanpa pengamatan langsung",
+        "unjuk kerja dengan lembar pengamatan"
+      ],
+      "kunci": 3,
+      "bahasan": "Keterampilan dinilai paling tepat melalui unjuk kerja atau praktik dengan lembar pengamatan berisi indikator perilaku yang dapat diamati secara langsung."
+    },
+    {
+      "id": "PED-102",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Soal yang paling sesuai untuk mengukur kemampuan mengevaluasi peserta didik dalam materi akhlak adalah ...",
+      "opsi": [
+        "menyebutkan lima contoh akhlak tercela beserta artinya",
+        "menyalin definisi akhlak dari buku pelajaran",
+        "menimbang baik buruk suatu kebiasaan dengan alasan yang kuat",
+        "menghafal urutan dalil tentang akhlak terpuji"
+      ],
+      "kunci": 2,
+      "bahasan": "Kemampuan mengevaluasi menuntut pertimbangan berdasarkan kriteria dan alasan. Menyebutkan, menyalin, dan menghafal berada pada level mengingat atau memahami."
+    },
+    {
+      "id": "PED-103",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kisi-kisi soal berfungsi untuk ...",
+      "opsi": [
+        "menentukan besar nilai akhir yang akan diperoleh peserta didik",
+        "menjamin cakupan materi dan level kognitif sesuai tujuan penilaian",
+        "menghitung jumlah peserta didik yang akan lulus asesmen",
+        "menyusun jadwal pelaksanaan ulangan akhir semester"
+      ],
+      "kunci": 1,
+      "bahasan": "Kisi-kisi memastikan butir soal tersebar merata pada materi dan level kognitif yang direncanakan sehingga asesmen valid mengukur tujuan pembelajaran."
+    },
+    {
+      "id": "PED-104",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Butir soal yang dijawab benar oleh seluruh peserta didik sebaiknya ...",
+      "opsi": [
+        "direvisi tingkat kesulitannya agar mampu membedakan capaian peserta didik",
+        "dibuang seluruhnya dari perangkat penilaian yang akan digunakan",
+        "tetap digunakan karena menunjukkan keberhasilan pembelajaran guru",
+        "digandakan jumlahnya agar nilai peserta didik semakin tinggi"
+      ],
+      "kunci": 0,
+      "bahasan": "Butir yang terlalu mudah kurang memberi informasi tentang perbedaan capaian. Perbaikan dilakukan dengan menyesuaikan tingkat kesulitannya, bukan sekadar membuang."
+    },
+    {
+      "id": "PED-105",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA prinsip penilaian hasil belajar yang benar?",
+      "opsi": [
+        "Penilaian dilakukan secara valid, objektif, dan adil berdasarkan kriteria.",
+        "Hasil penilaian dipakai untuk memperbaiki pembelajaran dan memberi umpan balik.",
+        "Penilaian hanya berfungsi memberi peringkat peserta didik di kelas.",
+        "Nilai sikap diberikan menurut kedekatan peserta didik dengan guru."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Penilaian yang baik sahih, objektif, adil, dan dimanfaatkan untuk perbaikan mutu pembelajaran. Penilaian bukan alat mengurutkan peringkat apalagi berdasarkan kedekatan pribadi."
+    },
+    {
+      "id": "PED-106",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Portofolio penilaian peserta didik merupakan ...",
+      "opsi": [
+        "daftar nilai ulangan harian yang disusun berdasarkan urutan abjad",
+        "kumpulan karya dan hasil kerja yang menunjukkan perkembangan capaian",
+        "catatan pelanggaran peserta didik selama mengikuti pembelajaran",
+        "berkas administrasi guru yang tidak berhubungan dengan peserta didik"
+      ],
+      "kunci": 1,
+      "bahasan": "Portofolio memuat bukti hasil kerja peserta didik beserta catatan kemajuan, sehingga menggambarkan perkembangan belajar secara menyeluruh dan berkelanjutan."
+    },
+    {
+      "id": "PED-107",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Nilai akhir rapor peserta didik sebaiknya mencerminkan ...",
+      "opsi": [
+        "hasil satu kali ulangan akhir semester yang paling tinggi",
+        "capaian pembelajaran yang diperoleh dari beragam bukti penilaian",
+        "urutan peringkat peserta didik di dalam kelasnya sendiri",
+        "perkiraan guru tentang potensi peserta didik di masa depan"
+      ],
+      "kunci": 1,
+      "bahasan": "Nilai akhir diringkas dari berbagai bukti penilaian sepanjang periode, misalnya formatif, sumatif, unjuk kerja, dan portofolio, agar menggambarkan capaian yang sesungguhnya."
+    },
+    {
+      "id": "PED-108",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Pada soal uraian, jawaban akhir peserta didik benar namun langkah berpikirnya salah. Tindakan guru yang paling tepat adalah ...",
+      "opsi": [
+        "memberi skor penuh karena jawaban akhirnya benar",
+        "memberi skor nol karena langkah berpikirnya salah",
+        "mengabaikan proses berpikir dan menilai kecepatan menjawab",
+        "memberi skor sesuai rubrik yang menilai proses dan hasil"
+      ],
+      "kunci": 3,
+      "bahasan": "Rubrik analitik memuat kriteria langkah penyelesaian dan hasil akhir. Penilaian berbasis rubrik memberi gambaran jujur tentang kekuatan dan kelemahan jawaban peserta didik."
+    },
+    {
+      "id": "PED-109",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kegiatan pengayaan sebagai tindak lanjut hasil penilaian diberikan kepada peserta didik yang ...",
+      "opsi": [
+        "belum mencapai kriteria sehingga perlu mengulang materi",
+        "sering tidak mengerjakan tugas rumah yang diberikan guru",
+        "telah mencapai kriteria ketercapaian tujuan pembelajaran",
+        "memiliki catatan pelanggaran tata tertib paling banyak"
+      ],
+      "kunci": 2,
+      "bahasan": "Pengayaan diperuntukkan bagi peserta didik yang sudah tuntas agar potensinya berkembang optimal, sedangkan yang belum tuntas memperoleh remedial terarah."
+    },
+    {
+      "id": "PED-110",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Umpan balik tertulis pada lembar kerja peserta didik sebaiknya ...",
+      "opsi": [
+        "singkat saja berupa tanda silang tanpa keterangan apa pun",
+        "spesifik, jelas, dan mengarahkan langkah perbaikan berikutnya",
+        "berisi nilai saja supaya peserta didik lekas mengetahui hasilnya",
+        "berisi pujian umum tanpa menunjukkan bagian yang perlu diperbaiki"
+      ],
+      "kunci": 1,
+      "bahasan": "Umpan balik tertulis yang bermutu menyebutkan kekuatan, bagian yang perlu diperbaiki, dan langkah konkret berikutnya sehingga membantu peserta didik maju."
+    },
+    {
+      "id": "PED-111",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Penilaian diri yang dilakukan peserta didik bermanfaat untuk ...",
+      "opsi": [
+        "melatih kejujuran dan kesadaran atas capaian belajarnya sendiri",
+        "menambah beban administrasi yang harus diisi oleh guru",
+        "menentukan nilai akhir tanpa perlu penilaian dari guru",
+        "membandingkan nilai dirinya dengan nilai seluruh teman sekelas"
+      ],
+      "kunci": 0,
+      "bahasan": "Penilaian diri menumbuhkan refleksi, kejujuran, dan tanggung jawab belajar. Hasilnya tetap menjadi bahan pertimbangan guru, bukan pengganti penilaian guru."
+    },
+    {
+      "id": "PED-112",
+      "topik": "Penilaian dan Evaluasi Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA keunggulan asesmen formatif bagi perbaikan pembelajaran?",
+      "opsi": [
+        "Memberi informasi berkala tentang kemajuan belajar peserta didik.",
+        "Memungkinkan guru menyesuaikan pembelajaran sebelum asesmen akhir.",
+        "Menjadi satu-satunya penentu nilai rapor peserta didik di kelas.",
+        "Menggantikan seluruh rencana pembelajaran yang telah disusun guru."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Asesmen formatif berlangsung selama proses untuk memantau kemajuan dan menyesuaikan pembelajaran. Nilai rapor tetap mempertimbangkan bukti sumatif, dan perencanaan pembelajaran tetap berjalan."
+    },
+    {
+      "id": "PED-113",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Rumusan masalah penelitian tindakan kelas yang baik adalah ...",
+      "opsi": [
+        "terfokus, dapat ditindaklanjuti, dan berkaitan masalah nyata pembelajaran",
+        "sangat luas agar seluruh kelemahan madrasah sekaligus terbahas",
+        "bersifat teoretis tanpa kaitan dengan praktik kelas yang diampu",
+        "menyalin rumusan penelitian orang lain tanpa penyesuaian apa pun"
+      ],
+      "kunci": 0,
+      "bahasan": "Masalah PTK bersifat spesifik, nyata di kelas, dan dapat diperbaiki melalui tindakan sehingga hasilnya langsung bermanfaat bagi pembelajaran guru."
+    },
+    {
+      "id": "PED-114",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Instrumen yang paling tepat untuk mengamati keaktifan peserta didik dalam PTK adalah ...",
+      "opsi": [
+        "lembar observasi berisi indikator keaktifan yang jelas",
+        "tes tertulis berisi soal pilihan ganda tentang materi",
+        "angket berisi pertanyaan tentang kondisi keluarga peserta didik",
+        "catatan nilai ulangan harian yang diperoleh seluruh peserta didik"
+      ],
+      "kunci": 0,
+      "bahasan": "Keaktifan berupa perilaku yang dapat diamati, sehingga lembar observasi dengan indikator operasional menjadi instrumen yang paling sesuai."
+    },
+    {
+      "id": "PED-115",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Kriteria keberhasilan tindakan dalam penelitian tindakan kelas sebaiknya ...",
+      "opsi": [
+        "ditetapkan sejak awal secara jelas dan terukur",
+        "dirumuskan setelah data penelitian terkumpul lengkap",
+        "disamakan dengan kriteria penelitian orang lain",
+        "disusun tanpa berkaitan dengan tujuan perbaikan"
+      ],
+      "kunci": 0,
+      "bahasan": "Kriteria keberhasilan yang jelas sejak awal menjadi dasar penilaian apakah tindakan berhasil dan apakah siklus perlu dilanjutkan atau dihentikan."
+    },
+    {
+      "id": "PED-116",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Laporan penelitian tindakan kelas berbeda dari laporan penelitian akademis pada penekanannya terhadap ...",
+      "opsi": [
+        "pengujian teori yang bersifat umum dan berlaku luas",
+        "sampel acak berskala besar di banyak madrasah",
+        "deskripsi tindakan perbaikan dan hasil refleksi praktis",
+        "peralatan laboratorium yang digunakan saat penelitian"
+      ],
+      "kunci": 2,
+      "bahasan": "PTK menekankan praktik perbaikan nyata di kelas beserta refleksinya, sehingga laporannya bersifat praktis dan bernilai langsung bagi guru pelaksana."
+    },
+    {
+      "id": "PED-117",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Guru mewawancarai peserta didik singkat setelah pembelajaran untuk mengetahui tanggapan mereka. Kegiatan ini termasuk ...",
+      "opsi": [
+        "asesmen sumatif akhir semester",
+        "diagnosis kesulitan belajar menetap",
+        "refleksi pembelajaran bersama peserta didik",
+        "penilaian sikap tanpa dasar pengamatan"
+      ],
+      "kunci": 2,
+      "bahasan": "Refleksi melibatkan suara peserta didik agar guru mengetahui bagian pembelajaran yang membantu dan yang perlu diperbaiki pada pertemuan berikutnya."
+    },
+    {
+      "id": "PED-118",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pgk",
+      "teks": "Manakah DUA manfaat penelitian tindakan kelas bagi guru?",
+      "opsi": [
+        "Menumbuhkan budaya meneliti dan berefleksi atas praktik mengajar.",
+        "Menjamin seluruh peserta didik mendapat nilai tinggi tanpa kendala.",
+        "Menghapus kewajiban guru menyusun rencana pembelajaran harian.",
+        "Menghasilkan perbaikan pembelajaran yang langsung dapat diterapkan."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "PTK mengembangkan profesionalitas guru melalui sikap reflektif dan perbaikan nyata di kelas. PTK tidak menjamin hasil nilai tertentu dan bukan pengganti rencana pembelajaran."
+    },
+    {
+      "id": "PED-119",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Langkah refleksi yang tepat setelah pembelajaran selesai adalah ...",
+      "opsi": [
+        "menyalahkan peserta didik atas kekurangan pengelolaan kelas",
+        "membandingkan hasil belajar dengan tujuan dan mencatat perbaikan",
+        "menyalin laporan milik guru lain tanpa evaluasi apa pun",
+        "melanjutkan ke materi berikutnya tanpa melihat hasil belajar"
+      ],
+      "kunci": 1,
+      "bahasan": "Refleksi berisi penilaian diri guru atas ketercapaian tujuan dan proses pembelajaran, lalu menghasilkan catatan perbaikan yang konkret untuk pertemuan berikutnya."
+    },
+    {
+      "id": "PED-120",
+      "topik": "Refleksi dan Penelitian Tindakan Kelas",
+      "tipe": "pg",
+      "teks": "Kolaborasi dengan teman sejawat dalam penelitian tindakan kelas bermanfaat untuk ...",
+      "opsi": [
+        "membagi tanggung jawab mengajar di dalam kelas",
+        "mengurangi jumlah peserta didik yang harus diamati guru",
+        "memperoleh masukan dan pengamatan yang lebih objektif",
+        "menambah nama penulis pada laporan hasil penelitian"
+      ],
+      "kunci": 2,
+      "bahasan": "Kolaborasi memungkinkan pengamatan sejawat yang lebih netral, diskusi solusi, dan penguatan hasil tindakan sehingga perbaikan pembelajaran lebih terarah."
+    },
+    {
+      "id": "PED-121",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Pemanfaatan teknologi dalam pembelajaran sebaiknya berfungsi sebagai ...",
+      "opsi": [
+        "alat bantu mencapai tujuan pembelajaran, bukan tujuan itu sendiri",
+        "pengganti seluruh peran guru di dalam ruang kelas",
+        "penentu utama tinggi rendahnya mutu madrasah",
+        "sarana menambah kesibukan peserta didik di luar kelas"
+      ],
+      "kunci": 0,
+      "bahasan": "Teknologi dipilih dan digunakan untuk mendukung tercapainya tujuan pembelajaran secara efektif, bukan demi kemodernan semata maupun menggantikan peran guru."
+    },
+    {
+      "id": "PED-122",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Aplikasi kuis interaktif paling tepat digunakan guru untuk ...",
+      "opsi": [
+        "menentukan nilai akhir rapor tanpa asesmen lain",
+        "menggantikan seluruh kegiatan pembelajaran di kelas",
+        "menghukum peserta didik yang lambat menjawab",
+        "asesmen formatif cepat dengan hasil langsung yang terlihat"
+      ],
+      "kunci": 3,
+      "bahasan": "Kuis interaktif membantu guru memantau pemahaman peserta didik secara cepat dan menyesuaikan pembelajaran, sedangkan nilai akhir tetap berasal dari beragam bukti penilaian."
+    },
+    {
+      "id": "PED-123",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru menayangkan video kisah teladan melalui proyektor. Manfaat utama penggunaan media tersebut adalah ...",
+      "opsi": [
+        "menghemat waktu guru dalam menyampaikan materi pelajaran",
+        "mengurangi kebutuhan interaksi antara guru dan peserta didik",
+        "menyajikan pengalaman belajar yang lebih nyata dan menarik",
+        "membuat peserta didik duduk tenang tanpa banyak bertanya"
+      ],
+      "kunci": 2,
+      "bahasan": "Media audiovisual membantu menghadirkan peristiwa yang sulit dihadirkan langsung sehingga pembelajaran lebih konkret, menarik, dan mudah dipahami."
+    },
+    {
+      "id": "PED-124",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA etika penting bagi guru dalam bermedia digital?",
+      "opsi": [
+        "Membagikan foto peserta didik bebas untuk promosi pribadi guru.",
+        "Menjaga kerahasiaan data dan hasil karya peserta didik.",
+        "Mengunggah konten dengan menjaga kesantunan dan kebenaran informasi.",
+        "Menyebarkan informasi tanpa memeriksa sumbernya agar tampak cepat."
+      ],
+      "kunci": [
+        1,
+        2
+      ],
+      "bahasan": "Guru wajib menjaga privasi peserta didik dan menjaga etika bermedia: informasi diverifikasi, konten diunggah secara santun, dan data pribadi tidak disebarluaskan."
+    },
+    {
+      "id": "PED-125",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru mengetahui sebagian peserta didik tidak memiliki gawai pribadi di rumah. Tindakan yang paling tepat adalah ...",
+      "opsi": [
+        "tetap menuntut seluruh tugas dikerjakan melalui aplikasi daring",
+        "memberi nilai rendah kepada peserta didik yang tidak mengumpulkan",
+        "menyediakan alternatif tugas yang tidak bergantung pada gawai",
+        "menyarankan peserta didik membeli gawai baru sebagai syarat belajar"
+      ],
+      "kunci": 2,
+      "bahasan": "Guru yang adil menyiapkan alternatif setara agar seluruh peserta didik dapat belajar, misalnya tugas luring, pemanfaatan fasilitas madrasah, atau tugas manual."
+    },
+    {
+      "id": "PED-126",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Papan tulis digital dan aplikasi kolaborasi daring dapat dimanfaatkan untuk ...",
+      "opsi": [
+        "menampilkan materi tanpa melibatkan aktivitas peserta didik",
+        "memfasilitasi kerja kelompok serta berbagi gagasan antarpeserta didik",
+        "menggantikan seluruh interaksi tatap muka di kelas setiap hari",
+        "menambah jam belajar tanpa memperhatikan waktu istirahat"
+      ],
+      "kunci": 1,
+      "bahasan": "Alat kolaborasi digital memperluas interaksi belajar, memudahkan penyajian gagasan dan pemberian umpan balik, serta tetap dibimbing guru sebagai fasilitator."
+    },
+    {
+      "id": "PED-127",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Langkah yang sebaiknya dilakukan guru sebelum memakai aplikasi baru dalam pembelajaran adalah ...",
+      "opsi": [
+        "langsung memakai agar pertemuan menjadi lebih bervariasi",
+        "meminta peserta didik membeli paket data yang cukup besar",
+        "mengujicoba dan memastikan aplikasi mudah diakses peserta didik",
+        "meniru penggunaan aplikasi dari video tanpa memeriksa fiturnya"
+      ],
+      "kunci": 2,
+      "bahasan": "Uji coba memastikan aplikasi berjalan sesuai kebutuhan, aman, dan dapat diakses seluruh peserta didik, sehingga pembelajaran tidak terganggu masalah teknis."
+    },
+    {
+      "id": "PED-128",
+      "topik": "Pemanfaatan Teknologi Pembelajaran",
+      "tipe": "pg",
+      "teks": "Penggunaan teknologi secara berlebihan tanpa tujuan pembelajaran yang jelas berisiko ...",
+      "opsi": [
+        "menambah pemahaman peserta didik atas materi pelajaran",
+        "menyita waktu belajar dan mengalihkan perhatian peserta didik",
+        "mempercepat pencapaian seluruh tujuan pembelajaran",
+        "mengurangi beban administrasi guru di madrasah"
+      ],
+      "kunci": 1,
+      "bahasan": "Teknologi yang tidak selaras dengan tujuan justru mengganggu fokus peserta didik dan mengurangi waktu efektif belajar, sehingga pemilihannya harus terencana."
+    },
+    {
+      "id": "PED-129",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Empat kompetensi yang wajib dimiliki guru menurut peraturan perundang-undangan adalah ...",
+      "opsi": [
+        "pedagogik, literasi, numerasi, dan sains",
+        "pedagogik, kepribadian, sosial, dan profesional",
+        "kepribadian, keuangan, sosial, dan budaya",
+        "profesional, administrasi, teknologi, dan hukum"
+      ],
+      "kunci": 1,
+      "bahasan": "Undang-undang tentang guru dan dosen menetapkan empat kompetensi guru: pedagogik, kepribadian, sosial, dan profesional, yang dikembangkan berkelanjutan."
+    },
+    {
+      "id": "PED-130",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Guru yang jujur dan menjadi teladan perilaku di lingkungan madrasah menunjukkan kompetensi ...",
+      "opsi": [
+        "sosial",
+        "kepribadian",
+        "pedagogik",
+        "profesional"
+      ],
+      "kunci": 1,
+      "bahasan": "Kompetensi kepribadian tampak pada akhlak, stabilitas, kedewasaan, dan keteladanan guru dalam kehidupan sehari-hari di dalam maupun luar kelas."
+    },
+    {
+      "id": "PED-131",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Guru mampu berkomunikasi dan bekerja sama dengan orang tua peserta didik, kolega, serta masyarakat sekitar. Hal ini menunjukkan kompetensi ...",
+      "opsi": [
+        "sosial",
+        "kepribadian",
+        "pedagogik",
+        "profesional"
+      ],
+      "kunci": 0,
+      "bahasan": "Kompetensi sosial adalah kemampuan guru berkomunikasi dan bergaul secara efektif dengan peserta didik, sesama pendidik, orang tua, dan masyarakat."
+    },
+    {
+      "id": "PED-132",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Guru menguasai materi Akidah Akhlak beserta struktur dan konsep keilmuannya. Hal ini menunjukkan kompetensi ...",
+      "opsi": [
+        "sosial",
+        "kepribadian",
+        "profesional",
+        "pedagogik"
+      ],
+      "kunci": 2,
+      "bahasan": "Kompetensi profesional adalah penguasaan materi pelajaran secara luas dan mendalam beserta struktur keilmuan yang menaunginya."
+    },
+    {
+      "id": "PED-133",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pgk",
+      "teks": "Manakah DUA contoh penerapan kode etik guru terhadap peserta didik?",
+      "opsi": [
+        "Memberi layanan belajar tanpa membeda-bedakan latar belakang peserta didik.",
+        "Menjaga martabat peserta didik dan merahasiakan hal yang bersifat pribadi.",
+        "Menampilkan kesalahan peserta didik di papan pengumuman madrasah.",
+        "Memberi penilaian berdasarkan kedekatan dan kesukaan pribadi guru."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Kode etik menuntut guru adil, memuliakan peserta didik, dan menjaga rahasia pribadi mereka. Mempermalukan dan menilai berdasarkan suka atau tidak suka melanggar etika profesi."
+    },
+    {
+      "id": "PED-134",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik memberi hadiah kepada guru agar nilainya dinaikkan. Sikap guru yang benar adalah ...",
+      "opsi": [
+        "menerima hadiah karena merupakan tanda penghormatan peserta didik",
+        "menolak dengan santun dan menjelaskan bahwa penilaian dilakukan objektif",
+        "menerima lalu menaikkan nilainya agar peserta didik tidak kecewa",
+        "menolak dengan kata-kata kasar agar peserta didik merasa malu"
+      ],
+      "kunci": 1,
+      "bahasan": "Integritas guru menuntut penolakan hadiah yang dapat memengaruhi penilaian, disertai penjelasan santun bahwa nilai ditentukan berdasarkan capaian belajar."
+    },
+    {
+      "id": "PED-135",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Pengembangan keprofesian berkelanjutan bagi guru dapat dilakukan melalui ...",
+      "opsi": [
+        "menyalin perangkat pembelajaran dari internet tanpa penyesuaian",
+        "mengajar dengan cara lama tanpa pernah mengevaluasi hasilnya",
+        "karya inovatif, pelatihan, dan berbagi praktik baik sesama guru",
+        "menambah jam mengajar hingga melampaui batas kemampuan"
+      ],
+      "kunci": 2,
+      "bahasan": "Keprofesian berkelanjutan mencakup pengembangan diri, publikasi ilmiah, dan karya inovatif yang berdampak pada peningkatan mutu pembelajaran."
+    },
+    {
+      "id": "PED-136",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Menghadapi tuntutan zaman yang cepat berubah, sikap guru yang paling tepat adalah ...",
+      "opsi": [
+        "terus belajar dan beradaptasi tanpa meninggalkan nilai keagamaan",
+        "menolak seluruh perubahan karena dianggap mengganggu tradisi",
+        "mengikuti setiap tren tanpa menyaring kesesuaiannya",
+        "menunggu perintah atasan sebelum mengubah cara mengajar"
+      ],
+      "kunci": 0,
+      "bahasan": "Guru profesional bersikap terbuka terhadap perubahan, memilah yang bermanfaat, dan tetap berpegang pada nilai keagamaan serta kode etik profesinya."
+    },
+    {
+      "id": "PED-137",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Peran guru dalam pembentukan karakter peserta didik di madrasah yang paling utama adalah ...",
+      "opsi": [
+        "menjadi teladan dan membiasakan nilai kebaikan secara berkelanjutan",
+        "menyampaikan materi hafalan sebanyak mungkin dalam setiap pertemuan",
+        "menyerahkan pembinaan karakter sepenuhnya kepada orang tua",
+        "memberi sanksi tegas kepada setiap pelanggaran kecil peserta didik"
+      ],
+      "kunci": 0,
+      "bahasan": "Karakter terbentuk melalui keteladanan, pembiasaan yang konsisten, dan iklim madrasah yang kondusif, bukan melalui hafalan atau hukuman semata."
+    },
+    {
+      "id": "PED-138",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Di kelas guru terdapat peserta didik berkebutuhan khusus. Sikap yang paling tepat adalah ...",
+      "opsi": [
+        "memberi penyesuaian pembelajaran dengan bekerja sama dengan pihak terkait",
+        "memperlakukan sama persis tanpa penyesuaian apa pun terhadapnya",
+        "memisahkannya dari peserta didik lain agar mudah dikendalikan",
+        "menyerahkan seluruh tanggung jawab belajar kepada orang tuanya"
+      ],
+      "kunci": 0,
+      "bahasan": "Pendidikan inklusif menuntut penyesuaian materi, media, dan penilaian sesuai kebutuhan, disertai kerja sama guru, orang tua, dan tenaga ahli."
+    },
+    {
+      "id": "PED-139",
+      "topik": "Profesi dan Etika Guru",
+      "tipe": "pg",
+      "teks": "Tanggung jawab guru dalam menyusun perencanaan pembelajaran adalah ...",
+      "opsi": [
+        "memastikan rencana selaras dengan capaian dan kondisi nyata kelas",
+        "menyalin perangkat pembelajaran milik guru lain seutuhnya",
+        "menyusun rencana hanya untuk keperluan administrasi supervisi",
+        "membuat rencana tanpa mempertimbangkan hasil asesmen awal"
+      ],
+      "kunci": 0,
+      "bahasan": "Perencanaan yang baik disusun guru berdasarkan capaian pembelajaran, hasil asesmen awal, dan karakteristik peserta didik sehingga benar-benar menuntun praktik mengajar."
+    },
+    {
+      "id": "PED-140",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Guru menemukan peserta didik tampak murung selama beberapa hari. Langkah pertama yang paling tepat adalah ...",
+      "opsi": [
+        "mendekatinya dan mengajak berbicara dengan empati tanpa memaksa",
+        "menanyakan masalahnya di depan seluruh teman sekelas",
+        "memberi hukuman agar peserta didik mau bercerita",
+        "mendiamkan sampai peserta didik bercerita sendiri"
+      ],
+      "kunci": 0,
+      "bahasan": "Pendekatan awal layanan bimbingan adalah membangun rasa aman melalui dialog empatik tanpa tekanan, sebelum menentukan langkah lanjutan yang diperlukan."
+    },
+    {
+      "id": "PED-141",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pgk",
+      "teks": "Manakah DUA langkah awal yang tepat ketika guru menduga peserta didik mengalami masalah pribadi?",
+      "opsi": [
+        "Menyampaikan dugaan masalah itu kepada seluruh penghuni kelas.",
+        "Memberi hukuman agar peserta didik menceritakan seluruh masalahnya.",
+        "Mengajak peserta didik berbicara dengan tenang dan penuh empati.",
+        "Mengumpulkan informasi dengan teliti dan menjaga kerahasiaannya."
+      ],
+      "kunci": [
+        2,
+        3
+      ],
+      "bahasan": "Layanan bimbingan yang etis bertumpu pada empati, penelusuran fakta secara hati-hati, dan kerahasiaan, bukan pembeberan di depan umum atau pemaksaan lewat hukuman."
+    },
+    {
+      "id": "PED-142",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Guru mengetahui peserta didik membawa masalah berat dari rumah. Tindakan yang paling tepat adalah ...",
+      "opsi": [
+        "menceritakan masalah itu kepada teman sekelasnya",
+        "menampung perasaannya lalu berkoordinasi dengan guru BK",
+        "menasihati agar peserta didik bersabar tanpa tindak lanjut",
+        "mengabaikan karena masalah tersebut urusan keluarga"
+      ],
+      "kunci": 1,
+      "bahasan": "Guru mata pelajaran berperan menampung dan memberi dukungan awal, lalu menyerahkan penanganan kepada guru BK beserta pihak terkait sesuai kebutuhan peserta didik."
+    },
+    {
+      "id": "PED-143",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Peserta didik aktif dalam banyak kegiatan namun nilai belajarnya menurun karena kesulitan mengatur waktu. Bantuan yang tepat adalah ...",
+      "opsi": [
+        "melarangnya mengikuti seluruh kegiatan yang diinginkan",
+        "meminta orang tua menghentikan semua kegiatan anaknya",
+        "membiarkan sampai peserta didik menyadari sendiri kesalahannya",
+        "membimbing menyusun prioritas dan jadwal kegiatan belajar"
+      ],
+      "kunci": 3,
+      "bahasan": "Bimbingan diarahkan pada pengembangan keterampilan mengelola waktu dan menetapkan prioritas, bukan pelarangan sepihak yang dapat mematikan potensi peserta didik."
+    },
+    {
+      "id": "PED-144",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Peserta didik pindahan tampak menutup diri dan sulit bergaul. Dukungan yang paling tepat adalah ...",
+      "opsi": [
+        "membiarkannya menyendiri sampai merasa nyaman sendiri",
+        "memindahkannya ke kelas lain berulang kali saat mulai bergaul",
+        "membantu beradaptasi dan melibatkan teman sebaya sebagai pendamping",
+        "menegurnya agar segera menyesuaikan diri seperti teman lain"
+      ],
+      "kunci": 2,
+      "bahasan": "Adaptasi sosial dibantu dengan pendampingan teman sebaya, kegiatan kelompok, dan komunikasi hangat, sehingga peserta didik merasa diterima di lingkungan baru."
+    },
+    {
+      "id": "PED-145",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Layanan bimbingan peserta didik yang berbakat perlu dikoordinasikan karena ...",
+      "opsi": [
+        "penanganannya menuntut kerja sama guru, orang tua, dan madrasah",
+        "hasilnya tidak akan terlihat tanpa pengawasan yang ketat",
+        "peserta didik berbakat tidak mampu mengatur dirinya sendiri",
+        "madrasah berkewajiban menanggung seluruh kebutuhan mereka"
+      ],
+      "kunci": 0,
+      "bahasan": "Pengembangan bakat berjalan optimal bila seluruh pihak memahami peran masing-masing dan saling mendukung, sehingga peserta didik memperoleh pembinaan yang utuh."
+    },
+    {
+      "id": "PED-146",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Layanan bimbingan dan konseling di madrasah dilaksanakan melalui kerja sama antara ...",
+      "opsi": [
+        "kepala madrasah dan komite madrasah semata",
+        "peserta didik dan ketua kelas tanpa keterlibatan guru",
+        "guru mata pelajaran, wali kelas, dan guru bimbingan konseling",
+        "orang tua peserta didik dengan petugas kebersihan madrasah"
+      ],
+      "kunci": 2,
+      "bahasan": "Layanan bimbingan bersifat kolaboratif: guru mata pelajaran dan wali kelas berperan mengamati serta merujuk, sedangkan guru BK menangani secara profesional."
+    },
+    {
+      "id": "PED-147",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pgk",
+      "teks": "Manakah DUA prinsip layanan bimbingan yang diterapkan guru di madrasah?",
+      "opsi": [
+        "Bantuan hanya diberikan kepada peserta didik bermasalah berat.",
+        "Layanan diberikan untuk semua peserta didik tanpa kecuali.",
+        "Isi pembicaraan bimbingan boleh dibicarakan terbuka di mana saja.",
+        "Bantuan diberikan sesuai kebutuhan dan disertai kerahasiaan."
+      ],
+      "kunci": [
+        1,
+        3
+      ],
+      "bahasan": "Bimbingan bersifat menyeluruh dan berkesinambungan bagi setiap peserta didik, diberikan sesuai kebutuhan, serta menjunjung kerahasiaan informasi pribadi."
+    },
+    {
+      "id": "PED-148",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Tujuan utama bimbingan bagi peserta didik yang berbakat di madrasah adalah ...",
+      "opsi": [
+        "memaksa peserta didik memenangkan setiap perlombaan",
+        "mengembangkan potensinya secara optimal dan terarah",
+        "menambah beban tugas agar kemampuannya teruji",
+        "memisahkan peserta didik berbakat dari teman sekelasnya"
+      ],
+      "kunci": 1,
+      "bahasan": "Bimbingan membantu peserta didik mengenali dan mengembangkan potensi secara seimbang, dengan tetap memperhatikan aspek akademik, sosial, dan keagamaan."
+    },
+    {
+      "id": "PED-149",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Kerja sama guru, peserta didik, dan orang tua dalam layanan bimbingan bermanfaat untuk ...",
+      "opsi": [
+        "memindahkan seluruh tanggung jawab pembinaan ke orang tua",
+        "menghasilkan penanganan yang konsisten dan berkesinambungan",
+        "mengurangi keterlibatan guru dalam mendampingi peserta didik",
+        "menyerahkan keputusan pembinaan sepenuhnya kepada peserta didik"
+      ],
+      "kunci": 1,
+      "bahasan": "Kesepahaman seluruh pihak membuat pendampingan peserta didik berjalan konsisten di madrasah dan rumah, sehingga hasil pembinaan lebih utuh dan bertahan lama."
+    },
+    {
+      "id": "PED-150",
+      "topik": "Bimbingan dan Konseling di Madrasah",
+      "tipe": "pg",
+      "teks": "Guru mata pelajaran dapat membantu layanan bimbingan peserta didik dengan cara ...",
+      "opsi": [
+        "menggantikan seluruh tugas guru bimbingan konseling di madrasah",
+        "menangani sendiri setiap masalah pribadi peserta didik sampai tuntas",
+        "mengenali kebutuhan peserta didik dan membina sikap dalam pembelajaran",
+        "menyerahkan seluruh peserta didik kepada guru BK tanpa data awal"
+      ],
+      "kunci": 2,
+      "bahasan": "Guru mata pelajaran menjadi pengamat pertama kebutuhan dan perkembangan peserta didik, menanamkan pembinaan sikap dalam pembelajaran, lalu merujuk kasus tertentu kepada guru BK."
+    }
+  ]
+}

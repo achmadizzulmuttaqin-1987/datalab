@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Deck Presentasi Akidah Akhlak MTs Kelas VII — Kemenag KMA 183</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #060b14;
+      --bg-card: #0e1726;
+      --bg-card-hover: #16243b;
+      --primary: #38bdf8;
+      --primary-glow: rgba(56, 189, 248, 0.25);
+      --emerald: #10b981;
+      --amber: #f59e0b;
+      --purple: #8b5cf6;
+      --rose: #f43f5e;
+      --cyan: #06b6d4;
+      --teal: #14b8a6;
+      --border-color: #1e293b;
+      --text-main: #ffffff;
+      --text-muted: #e2e8f0;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 50% 0%, #1e1b4b 0%, var(--bg-canvas) 75%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 22pt;
+      min-height: 100vh;
+      padding: 48px 24px 96px;
+    }
+
+    .container {
+      max-width: 1340px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .badge-top {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 22px;
+      background: rgba(139, 92, 246, 0.18);
+      border: 1px solid rgba(139, 92, 246, 0.38);
+      color: #c084fc;
+      border-radius: 999px;
+      font-size: 19pt;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 4.5vw, 3.4rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, #c084fc 0%, #38bdf8 50%, #facc15 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .lead {
+      max-width: 950px;
+      margin: 0 auto;
+      font-size: 23pt;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 32px;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      padding: 12px 24px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20pt;
+    }
+    .stat-pill strong { color: #ffffff; font-weight: 700; }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 48px 0 24px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 16px;
+    }
+
+    .section-title {
+      font-size: 28pt;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .section-badge {
+      font-size: 19pt;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #c084fc;
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 26px;
+    }
+
+    .chapter-card {
+      background: var(--bg-card);
+      border: 2px solid var(--border-color);
+      border-radius: 24px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .chapter-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 6px;
+      background: var(--card-accent, var(--primary));
+      opacity: 0.9;
+    }
+
+    .chapter-card:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--card-accent, var(--primary));
+      transform: translateY(-5px);
+      box-shadow: 0 18px 40px -10px rgba(0, 0, 0, 0.75), 0 0 24px -6px var(--card-glow, var(--primary-glow));
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+
+    .card-number {
+      font-size: 19pt;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--card-accent, var(--primary));
+      background: rgba(255, 255, 255, 0.05);
+      padding: 6px 14px;
+      border-radius: 10px;
+    }
+
+    .card-slides {
+      font-size: 19pt;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .card-title {
+      font-size: 26pt;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.35;
+      margin-bottom: 12px;
+    }
+
+    .card-summary {
+      font-size: 21pt;
+      line-height: 1.6;
+      color: var(--text-muted);
+      flex-grow: 1;
+      margin-bottom: 24px;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .tag-item {
+      font-size: 18pt;
+      padding: 4px 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      color: #cbd5e1;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .card-action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 21pt;
+      font-weight: 700;
+      color: var(--card-accent, var(--primary));
+    }
+
+    .card-action span.arrow {
+      transition: transform 0.2s ease;
+    }
+    .chapter-card:hover .card-action span.arrow {
+      transform: translateX(6px);
+    }
+
+    .feature-banner {
+      background: linear-gradient(135deg, #1e1b4b, #172554);
+      border: 2px solid #3b427b;
+      border-radius: 24px;
+      padding: 36px;
+      margin: 56px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 28px;
+    }
+
+    .feature-item h4 {
+      font-size: 23pt;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .feature-item p {
+      font-size: 20pt;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding-top: 32px;
+      border-top: 2px solid var(--border-color);
+      color: var(--text-muted);
+      font-size: 20pt;
+    }
+
+    footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      body { padding: 24px 14px 60px; font-size: 18pt; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .feature-banner { grid-template-columns: 1fr; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="badge-top">
+        <span>🕌 Kurikulum Madrasah &bull; KMA 183</span>
+      </div>
+      <h1>Slide Deck Presentasi <span>Akidah Akhlak MTs Kelas VII</span></h1>
+      <p class="lead">
+        Koleksi modul presentasi interaktif Akidah Akhlak Madrasah Tsanawiyah Kelas VII lengkap Semester Ganjil & Genap dengan <strong>Font Ekstra Besar (Minimal 22pt+)</strong>, <strong>Tema Mode Gelap Modern</strong>, dalil naqli Al-Qur'an dan Hadits berharakat, serta kuis evaluasi formatif interaktif di setiap bab.
+      </p>
+
+      <div class="stats-row">
+        <div class="stat-pill">📚 <strong>10 Bab Lengkap</strong> (Semester 1 & 2)</div>
+        <div class="stat-pill">🔍 <strong>Font 22pt+</strong> (Sangat Terlihat Jelas)</div>
+        <div class="stat-pill">🌙 <strong>100% Dark Mode</strong> (Teks Putih Bersih)</div>
+        <div class="stat-pill">📱 <strong>Navigasi Interaktif</strong> (Keyboard & Touch)</div>
+      </div>
+    </header>
+
+    <!-- SEMESTER GANJIL -->
+    <div class="section-header">
+      <h2 class="section-title"><span>📘</span> Semester Ganjil (Bab 1 s.d. 5)</h2>
+      <span class="section-badge">Semester 1 &bull; Akidah, Sifat Allah, Akhlak Terpuji & Nabi Sulaiman</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 1 -->
+      <a href="bab-1-akidah-islam.html" class="chapter-card" style="--card-accent: #38bdf8; --card-glow: rgba(56,189,248,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 01</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Akidah Islam</h3>
+        <p class="card-summary">
+          Pengertian simpul akidah, dasar Al-Qur'an dan As-Sunnah, tujuan mempelajari tauhid murni, serta integrasi tritunggal Iman, Islam, dan Ihsan.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Simpul Akidah</span>
+          <span class="tag-item">Iman Islam Ihsan</span>
+          <span class="tag-item">Tauhid Murni</span>
+          <span class="tag-item">QS. An-Nisa: 136</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 1</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 2 -->
+      <a href="bab-2-sifat-sifat-allah-swt.html" class="chapter-card" style="--card-accent: #10b981; --card-glow: rgba(16,185,129,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 02</span>
+          <span class="card-slides">10 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Sifat-Sifat Allah Swt.</h3>
+        <p class="card-summary">
+          20 Sifat Wajib & pasangannya Sifat Mustahil, Sifat Jaiz, 4 kelompok (Nafsiyah, Salbiyah, Ma'ani, Ma'nawiyah), serta dalil aqli & naqli.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">20 Sifat Wajib</span>
+          <span class="tag-item">Sifat Salbiyah</span>
+          <span class="tag-item">Sifat Ma'ani</span>
+          <span class="tag-item">QS. Asy-Syura: 11</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 2</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 3 -->
+      <a href="bab-3-tobat-taat-istiqamah-ikhlas.html" class="chapter-card" style="--card-accent: #f59e0b; --card-glow: rgba(245,158,11,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 03</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Tobat, Taat, Istiqamah, & Ikhlas</h3>
+        <p class="card-summary">
+          Syarat tobat nasuha, kaidah ketaatan syar'i, konsistensi istiqamah dalam memegang kebenaran, serta kemurnian niat ikhlas tanpa riya'.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Tobat Nasuha</span>
+          <span class="tag-item">Ketaatan Syar'i</span>
+          <span class="tag-item">Istiqamah</span>
+          <span class="tag-item">Ikhlas Beramal</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 3</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 4 -->
+      <a href="bab-4-adab-shalat-dan-berdzikir.html" class="chapter-card" style="--card-accent: #8b5cf6; --card-glow: rgba(139,92,246,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 04</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Adab Shalat dan Berdzikir</h3>
+        <p class="card-summary">
+          Meraih kekhusyu'an shalat, adab thuma'ninah menghadap Allah, adab melantunkan dzikir dengan suara lembut, dan hikmah mencegah keji/munkar.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Khusyu' Shalat</span>
+          <span class="tag-item">Adab Berdzikir</span>
+          <span class="tag-item">Tadharru'</span>
+          <span class="tag-item">QS. Al-Mu'minun: 1-2</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 4</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 5 -->
+      <a href="bab-5-keteladanan-nabi-sulaiman-as.html" class="chapter-card" style="--card-accent: #f59e0b; --card-glow: rgba(245,158,11,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 05</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Keteladanan Nabi Sulaiman As.</h3>
+        <p class="card-summary">
+          Mukjizat memahami bahasa binatang & menundukkan jin, rasa syukur mendalam atas takhta (*Haadza min fadhli rabbii*), tawaddhu', & dakwah bijak Ratu Balqis.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Bahasa Binatang</span>
+          <span class="tag-item">Rasa Syukur</span>
+          <span class="tag-item">Ratu Balqis</span>
+          <span class="tag-item">QS. An-Naml: 40</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 5</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- SEMESTER GENAP -->
+    <div class="section-header" style="margin-top: 56px;">
+      <h2 class="section-title"><span>📗</span> Semester Genap (Bab 6 s.d. 10)</h2>
+      <span class="section-badge">Semester 2 &bull; Asmaul Husna, Malaikat, Akhlak Tercela, Adab & Nabi Ibrahim</span>
+    </div>
+
+    <div class="chapter-grid">
+      <!-- Bab 6 -->
+      <a href="bab-6-asmaul-husna.html" class="chapter-card" style="--card-accent: #06b6d4; --card-glow: rgba(6,182,212,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 06</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Asmaul Husna</h3>
+        <p class="card-summary">
+          Mengenal dan meneladani 10 nama agung Allah: Al-Aziz, Al-Ghaffar, Al-Basith, An-Nafi', Ar-Rauf, Al-Barr, Al-Hakim, Al-Fattah, Al-Adl, dan Al-Qayyum.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Al-Ghaffar</span>
+          <span class="tag-item">An-Nafi'</span>
+          <span class="tag-item">Al-Qayyum</span>
+          <span class="tag-item">QS. Al-A'raf: 180</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 6</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 7 -->
+      <a href="bab-7-iman-kepada-malaikat-dan-makhluk-ghaib.html" class="chapter-card" style="--card-accent: #10b981; --card-glow: rgba(16,185,129,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 07</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Iman Malaikat & Makhluk Ghaib</h3>
+        <p class="card-summary">
+          Sifat dan tugas 10 Malaikat Allah, hakikat Jin, Iblis, dan Setan, serta tabel komparasi perbedaan karakteristik dan benteng diri dari tipu daya setan.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">10 Malaikat</span>
+          <span class="tag-item">Jin & Iblis</span>
+          <span class="tag-item">Alam Ghaib</span>
+          <span class="tag-item">QS. At-Tahrim: 6</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 7</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 8 -->
+      <a href="bab-8-akhlak-tercela-riya-dan-nifaq.html" class="chapter-card" style="--card-accent: #f43f5e; --card-glow: rgba(244,63,94,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 08</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Akhlak Tercela Riya’ & Nifaq</h3>
+        <p class="card-summary">
+          Bahaya riya' (syirik kecil) dan sum'ah yang menghapus pahala amal, nifaq i'tiqadi vs 'amali, 3 tanda munafik, serta ikhtiar membersihkan qalbu.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Riya' & Sum'ah</span>
+          <span class="tag-item">Nifaq I'tiqadi</span>
+          <span class="tag-item">3 Tanda Munafik</span>
+          <span class="tag-item">QS. Al-Ma'un: 4-6</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 8</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 9 -->
+      <a href="bab-9-adab-membaca-al-quran-dan-berdoa.html" class="chapter-card" style="--card-accent: #14b8a6; --card-glow: rgba(20,184,166,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 09</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Adab Membaca Al-Qur’an & Berdoa</h3>
+        <p class="card-summary">
+          Adab memuliakan mushaf & membaca tartil (QS. Al-Muzzammil: 4), adab bermunajat mengangkat tangan dengan suara lembut, serta waktu mustajab doa.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Tartil & Tadabbur</span>
+          <span class="tag-item">Adab Berdoa</span>
+          <span class="tag-item">Waktu Mustajab</span>
+          <span class="tag-item">QS. Al-A'raf: 55</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 9</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+
+      <!-- Bab 10 -->
+      <a href="bab-10-kisah-keteladanan-nabi-ibrahim-as.html" class="chapter-card" style="--card-accent: #f59e0b; --card-glow: rgba(245,158,11,0.3);">
+        <div class="card-top">
+          <span class="card-number">BAB 10</span>
+          <span class="card-slides">8 Slide Interaktif</span>
+        </div>
+        <h3 class="card-title">Keteladanan Nabi Ibrahim As.</h3>
+        <p class="card-summary">
+          Bapak para nabi (Abul Anbiya'), pencarian hakikat tauhid, mukjizat api dingin Namrud, keikhlasan qurban Ismail as., serta pembangunan Ka'bah Baitullah.
+        </p>
+        <div class="card-tags">
+          <span class="tag-item">Khalilullah</span>
+          <span class="tag-item">Api Dingin</span>
+          <span class="tag-item">Qurban Ismail</span>
+          <span class="tag-item">Membangun Ka'bah</span>
+        </div>
+        <div class="card-action">
+          <span>Buka Presentasi Bab 10</span>
+          <span class="arrow">➔</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- FITUR UNGGULAN DECK -->
+    <div class="feature-banner">
+      <div class="feature-item">
+        <h4>🔍 Font Ekstra Besar 22pt+</h4>
+        <p>Seluruh teks bacaan, poin materi, ayat Arab, dan tabel dirancang dengan ukuran minimal 22pt agar terbaca sangat jelas dari jarak jauh.</p>
+      </div>
+      <div class="feature-item">
+        <h4>🌙 Mode Gelap Nyaman di Mata</h4>
+        <p>Latar belakang dark canvas pekat dengan kontras teks putih tajam, mengurangi radiasi silau cahaya saat digunakan di proyektor kelas.</p>
+      </div>
+      <div class="feature-item">
+        <h4>📜 Teks Arab Berharakat & Takhrij</h4>
+        <p>Lengkap dengan dalil Al-Qur'an dan Hadits Nabi riwayat shahih (Al-Bukhari, Muslim, At-Tirmidzi, dll.) berharakat rapi.</p>
+      </div>
+      <div class="feature-item">
+        <h4>🎯 Latihan Kuis Pilihan Ganda</h4>
+        <p>Setiap bab dilengkapi latihan soal evaluasi formatif pilihan ganda berserta kunci jawaban dan pembahasan untuk menguji pemahaman siswa.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Modul Slide Deck Presentasi Akidah Akhlak MTs Kelas VII &bull; Kurikulum KMA 183 Kemenag RI</p>
+      <p style="margin-top: 10px;">
+        Lihat koleksi modul lainnya: 
+        <a href="../deck-akidah-akhlak-mts-k8/index.html">Slide Deck Akidah Akhlak Kelas VIII</a> &bull; 
+        <a href="../deck-akidah-akhlak-mts-k9/index.html">Slide Deck Akidah Akhlak Kelas IX</a> &bull; 
+        <a href="../deck-fikih-mts-k7/index.html">Fikih Kelas VII</a> &bull; 
+        <a href="../deck-fikih-mts-k8/index.html">Fikih Kelas VIII</a> &bull; 
+        <a href="../deck-fikih-mts-k9/index.html">Fikih Kelas IX</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>

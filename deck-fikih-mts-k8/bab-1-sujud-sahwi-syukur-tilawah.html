@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAB I: Sujud Sahwi, Sujud Syukur, & Sujud Tilawah — Fikih Kelas VIII MTs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #070d19;
+      --bg-card: #0f192c;
+      --bg-card-subtle: #16243d;
+      --text-main: #ffffff;
+      --text-muted: #e2e8f0;
+      --text-light: #cbd5e1;
+      --primary: #38bdf8;
+      --primary-light: #7dd3fc;
+      --primary-subtle: rgba(56, 189, 248, 0.16);
+      --accent: #facc15;
+      --border-card: #273e66;
+      --shadow-card: 0 25px 60px -10px rgba(0, 0, 0, 0.85);
+      --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+      --font-arabic: 'Amiri', 'Scheherazade New', serif;
+      --radius-card: 24px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 50% 15%, #0c2d54 0%, var(--bg-canvas) 85%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 22pt;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .deck-topbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 70px; padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      z-index: 100;
+      background: rgba(7, 13, 25, 0.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+      color: #ffffff;
+    }
+
+    .brand-group { display: flex; align-items: center; gap: 16px; font-size: 20pt; font-weight: 700; }
+    .brand-badge {
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      color: #041326; padding: 6px 16px; border-radius: 999px;
+      font-size: 18pt; font-weight: 800; text-transform: uppercase;
+      box-shadow: 0 3px 12px rgba(56, 189, 248, 0.4);
+    }
+
+    .deck-controls { display: flex; align-items: center; gap: 12px; }
+    .icon-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff; width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 22pt; transition: all 0.2s ease;
+    }
+    .icon-btn:hover { background: rgba(255, 255, 255, 0.25); transform: translateY(-2px); }
+
+    .deck-viewport {
+      width: 100vw; height: 100vh;
+      padding-top: 80px; padding-bottom: 96px;
+      display: flex; align-items: center; justify-content: center;
+      position: relative;
+    }
+
+    .slide-stage {
+      width: min(94vw, 1320px); height: min(82vh, 760px);
+      position: relative; perspective: 1200px;
+    }
+
+    .slide-card {
+      position: absolute; inset: 0;
+      background: var(--bg-card);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+      border: 2px solid var(--border-card);
+      padding: 44px 52px;
+      display: flex; flex-direction: column;
+      opacity: 0; visibility: hidden;
+      transform: translateX(60px) scale(0.97);
+      transition: opacity 0.38s ease, transform 0.38s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0.38s;
+      overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--primary) transparent;
+      color: var(--text-main);
+      font-size: 22pt;
+    }
+
+    .slide-card.active { opacity: 1; visibility: visible; transform: translateX(0) scale(1); z-index: 10; }
+    .slide-card.prev { transform: translateX(-60px) scale(0.97); }
+
+    .slide-meta {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; border-bottom: 2px dashed var(--border-card); padding-bottom: 14px;
+    }
+
+    .slide-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 19pt; font-weight: 700; color: var(--primary-light);
+      text-transform: uppercase; letter-spacing: 0.06em;
+      background: var(--primary-subtle); padding: 6px 18px; border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+
+    .slide-num-indicator { font-size: 20pt; font-weight: 700; color: var(--text-light); }
+    .slide-title {
+      font-size: 32pt; font-weight: 800; line-height: 1.25;
+      color: #ffffff; margin-bottom: 20px; letter-spacing: -0.02em;
+    }
+    .slide-subtitle { font-size: 22pt; color: var(--text-muted); line-height: 1.5; margin-bottom: 24px; }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 10px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 10px; }
+
+    .card-box {
+      background: var(--bg-card-subtle); border: 1px solid var(--border-card);
+      border-radius: 18px; padding: 26px;
+      color: var(--text-main); font-size: 22pt;
+    }
+    .card-box h3, .card-box h4 { font-size: 24pt; font-weight: 700; color: #ffffff; margin-bottom: 10px; }
+    .card-box p, .card-box li { font-size: 22pt; line-height: 1.6; color: var(--text-muted); }
+
+    .arabic-card {
+      background: linear-gradient(145deg, #132742, #0d1a2d);
+      border: 2px solid var(--primary);
+      border-right: 6px solid var(--primary-light);
+      border-radius: 18px; padding: 26px 30px; margin: 18px 0 24px;
+    }
+    .arabic-text {
+      font-family: var(--font-arabic); font-size: 32pt; line-height: 2;
+      direction: rtl; text-align: right; color: #7dd3fc; font-weight: 700; margin-bottom: 14px;
+      text-shadow: 0 0 16px rgba(56, 189, 248, 0.3);
+    }
+    .arabic-translation { font-size: 22pt; line-height: 1.6; color: #f8fafc; font-style: italic; border-top: 1px solid var(--border-card); padding-top: 14px; }
+    .arabic-source { margin-top: 10px; font-size: 19pt; font-weight: 700; color: var(--accent); text-align: right; }
+
+    .bullet-list { list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 22pt; }
+    .bullet-list li { position: relative; padding-left: 36px; font-size: 22pt; line-height: 1.55; color: var(--text-muted); }
+    .bullet-list li::before { content: "✔"; position: absolute; left: 0; top: 0; color: var(--primary); font-weight: 800; font-size: 22pt; }
+
+    .deck-table {
+      width: 100%; border-collapse: separate; border-spacing: 0;
+      margin: 18px 0; border-radius: 16px; overflow: hidden;
+      border: 1px solid var(--border-card); font-size: 21pt;
+    }
+    .deck-table th { background: #132d4e; color: #ffffff; font-weight: 700; text-align: left; padding: 14px 20px; border-bottom: 2px solid var(--border-card); font-size: 22pt; }
+    .deck-table td { padding: 14px 20px; border-bottom: 1px solid var(--border-card); color: var(--text-muted); line-height: 1.5; background: rgba(255, 255, 255, 0.02); font-size: 21pt; }
+    .deck-table tr:last-child td { border-bottom: none; }
+    .deck-table tr:nth-child(even) td { background: rgba(255, 255, 255, 0.04); }
+
+    .cover-container {
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; height: 100%; gap: 24px;
+    }
+    .cover-badge {
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      color: #041326; padding: 8px 24px; border-radius: 999px;
+      font-size: 20pt; font-weight: 800; letter-spacing: 0.06em;
+    }
+    .cover-title { font-size: 42pt; font-weight: 800; color: #ffffff; line-height: 1.2; letter-spacing: -0.03em; }
+    .cover-title span { background: linear-gradient(135deg, #38bdf8, #facc15); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .cover-desc { max-width: 950px; font-size: 24pt; line-height: 1.6; color: var(--text-muted); }
+    .cover-meta { display: flex; gap: 32px; margin-top: 20px; font-size: 20pt; color: var(--text-light); font-weight: 600; border-top: 1px solid var(--border-card); padding-top: 20px; }
+
+    .deck-nav {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      height: 90px; background: rgba(7, 13, 25, 0.94);
+      backdrop-filter: blur(16px); border-top: 1px solid rgba(255, 255, 255, 0.14);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 36px; z-index: 100; color: #ffffff;
+    }
+    .nav-progress-wrap { flex: 1; max-width: 520px; margin: 0 28px; display: flex; flex-direction: column; gap: 8px; }
+    .nav-progress-bar { width: 100%; height: 8px; background: rgba(255, 255, 255, 0.15); border-radius: 999px; overflow: hidden; }
+    .nav-progress-fill { height: 100%; width: 5%; background: linear-gradient(90deg, #38bdf8, #facc15); border-radius: 999px; transition: width 0.3s ease; }
+    .nav-meta-text { display: flex; justify-content: space-between; font-size: 19pt; color: #94a3b8; font-weight: 600; }
+    .nav-buttons { display: flex; align-items: center; gap: 14px; }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; border-radius: 14px;
+      background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff; font-weight: 700; font-size: 20pt; cursor: pointer; transition: all 0.2s ease;
+    }
+    .nav-btn:hover:not(:disabled) { background: rgba(255, 255, 255, 0.25); transform: translateY(-2px); }
+    .nav-btn.primary { background: linear-gradient(135deg, #0284c7, #38bdf8); color: #041326; border: none; font-weight: 800; box-shadow: 0 4px 16px rgba(56, 189, 248, 0.4); }
+    .nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    .drawer-overlay {
+      position: fixed; inset: 0; background: rgba(0, 0, 0, 0.88); backdrop-filter: blur(10px);
+      z-index: 200; opacity: 0; visibility: hidden; transition: all 0.25s ease;
+      display: flex; align-items: center; justify-content: center; padding: 36px;
+    }
+    .drawer-overlay.open { opacity: 1; visibility: visible; }
+    .drawer-content {
+      background: var(--bg-card); width: min(92vw, 1080px); max-height: 85vh; border-radius: 24px;
+      padding: 36px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9); border: 2px solid var(--border-card);
+      display: flex; flex-direction: column; color: #ffffff;
+    }
+    .drawer-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; border-bottom: 1px solid var(--border-card); padding-bottom: 16px; }
+    .drawer-title { font-size: 26pt; font-weight: 800; color: #ffffff; }
+    .drawer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; overflow-y: auto; padding: 10px 4px; }
+    .drawer-item {
+      padding: 16px; background: var(--bg-card-subtle); border: 1px solid var(--border-card);
+      border-radius: 14px; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; gap: 8px;
+    }
+    .drawer-item:hover, .drawer-item.active { border-color: var(--primary); background: var(--primary-subtle); transform: translateY(-2px); }
+    .drawer-item-num { font-size: 18pt; font-weight: 800; color: var(--primary); }
+    .drawer-item-title { font-size: 20pt; font-weight: 700; color: #ffffff; line-height: 1.35; }
+  </style>
+</head>
+<body>
+
+  <header class="deck-topbar">
+    <div class="brand-group">
+      <span class="brand-badge">KMA 183</span>
+      <span class="brand-title">Fikih Kelas VIII MTs &bull; Bab I Tiga Sujud</span>
+    </div>
+    <div class="deck-controls">
+      <button class="icon-btn" id="btn-drawer" title="Daftar Slide (M)">📑</button>
+      <button class="icon-btn" id="btn-fullscreen" title="Layar Penuh (F)">⛶</button>
+      <button class="icon-btn" id="btn-print" title="Cetak / Simpan PDF">🖨️</button>
+    </div>
+  </header>
+
+  <main class="deck-viewport">
+    <div class="slide-stage" id="slide-stage">
+
+      <!-- SLIDE 1: COVER -->
+      <article class="slide-card active" data-slide="1" data-title="Sampul & Judul">
+        <div class="cover-container">
+          <div class="cover-badge">BAB I &bull; SEMESTER GANJIL</div>
+          <h1 class="cover-title">SUJUD SAHWI, SYUKUR, <span>DAN TILAWAH</span></h1>
+          <p class="cover-desc">
+            Panduan Komprehensif Fikih Ibadah: Tata Cara, Bacaan, Sebab, Syarat, Rukun, serta Perbedaan Mendasar Sujud Sahwi, Sujud Syukur, dan Sujud Tilawah.
+          </p>
+          <div class="cover-meta">
+            <span>📖 Modul Fikih Kelas VIII MTs</span>
+            <span>✨ Font 22pt+ Ekstra Jelas</span>
+            <span>🌙 Mode Gelap Eksklusif</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 2: PERBANDINGAN TIGA SUJUD -->
+      <article class="slide-card" data-slide="2" data-title="Tabel Perbandingan">
+        <div class="slide-meta">
+          <span class="slide-tag">Ringkasan Konseptual</span>
+          <span class="slide-num-indicator">02 / 10</span>
+        </div>
+        <h2 class="slide-title">Tabel Perbandingan Tiga Macam Sujud</h2>
+        <table class="deck-table">
+          <thead>
+            <tr>
+              <th>Aspek</th>
+              <th>Sujud Sahwi</th>
+              <th>Sujud Syukur</th>
+              <th>Sujud Tilawah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Penyebab</strong></td>
+              <td>Lupa / ragu dalam shalat</td>
+              <td>Dapat nikmat / bebas musibah</td>
+              <td>Mendengar/baca ayat sajdah</td>
+            </tr>
+            <tr>
+              <td><strong>Waktu</strong></td>
+              <td>Hanya di dalam shalat</td>
+              <td>Hanya di luar shalat</td>
+              <td>Dalam & luar shalat</td>
+            </tr>
+            <tr>
+              <td><strong>Jumlah Sujud</strong></td>
+              <td><strong>2 Kali Sujud</strong></td>
+              <td><strong>1 Kali Sujud</strong></td>
+              <td><strong>1 Kali Sujud</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Hukum</strong></td>
+              <td>Sunnah Mu'akkad</td>
+              <td>Sunnah</td>
+              <td>Sunnah</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- SLIDE 3: KETENTUAN SUJUD SAHWI -->
+      <article class="slide-card" data-slide="3" data-title="Sujud Sahwi: Sebab & Tata Cara">
+        <div class="slide-meta">
+          <span class="slide-tag">Sujud Sahwi</span>
+          <span class="slide-num-indicator">03 / 10</span>
+        </div>
+        <h2 class="slide-title">Ketentuan & Sebab Sujud Sahwi</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color:var(--primary-light);">Sebab-Sebab Sujud Sahwi:</h3>
+            <ul class="bullet-list">
+              <li>Meninggalkan <strong>Sunnah Ab'adh</strong> (tasyahud awal / doa qunut Subuh).</li>
+              <li>Ragu dalam jumlah rakaat (ambil yang yakin / jumlah paling sedikit).</li>
+              <li>Kelebihan rakaat, ruku', atau sujud karena lupa.</li>
+              <li>Memindahkan bacaan rukun ke tempat lain secara tidak sengaja.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="color:var(--accent);">Tata Cara Pelaksanaan:</h3>
+            <ul class="bullet-list">
+              <li>Dilakukan sebanyak <strong>2 kali sujud</strong> setelah tasyahud akhir sebelum salam (atau sesudah salam pada kondisi tertentu).</li>
+              <li>Duduk di antara dua sujud seperti biasa.</li>
+              <li>Diakhiri dengan ucapan salam penutup.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 4: BACAAN SUJUD SAHWI -->
+      <article class="slide-card" data-slide="4" data-title="Bacaan Sujud Sahwi">
+        <div class="slide-meta">
+          <span class="slide-tag">Doa & Dalil</span>
+          <span class="slide-num-indicator">04 / 10</span>
+        </div>
+        <h2 class="slide-title">Bacaan Doa Sujud Sahwi</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            سُبْحَانَ مَنْ لَا يَنَامُ وَلَا يَسْهُو
+          </div>
+          <div class="arabic-translation">
+            "Maha Suci Dzat Yang tidak pernah tidur dan tidak pernah lupa."
+          </div>
+          <div class="arabic-source">Doa Ma'tsur Sujud Sahwi</div>
+        </div>
+        <div class="card-box">
+          <p><strong>Hadits Rasulullah saw.:</strong> <em>"Apabila salah seorang di antara kalian ragu dalam shalatnya, apakah sudah tiga atau empat rakaat, hendaklah ia buang keraguan itu dan ambil yang ia yakini (tiga), kemudian sujud dua kali sebelum salam."</em> (HR. Muslim no. 571)</p>
+        </div>
+      </article>
+
+      <!-- SLIDE 5: KETENTUAN SUJUD SYUKUR -->
+      <article class="slide-card" data-slide="5" data-title="Sujud Syukur">
+        <div class="slide-meta">
+          <span class="slide-tag">Sujud Syukur</span>
+          <span class="slide-num-indicator">05 / 10</span>
+        </div>
+        <h2 class="slide-title">Ketentuan Sujud Syukur</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color:var(--primary-light);">Pengertian & Sebab:</h3>
+            <p>Sujud satu kali di luar shalat sebagai ungkapan terima kasih kepada Allah swt. atas karunia nikmat tak terduga atau terhindar dari bencana/musibah yang menakutkan.</p>
+            <p style="margin-top:14px; color:var(--accent);"><strong>Penting:</strong> Dilarang melakukan sujud syukur di dalam shalat fardhu; shalat batal jika sengaja melakukannya di dalam shalat.</p>
+          </div>
+          <div class="card-box">
+            <h3 style="color:var(--accent);">Syarat & Rukun:</h3>
+            <ul class="bullet-list">
+              <li>Syarat: Suci dari hadats & najis, menutup aurat, menghadap kiblat.</li>
+              <li>Rukun: Niat sujud syukur, Takbiratul ihram, Sujud 1 kali, Duduk sesudah sujud, Salam.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 6: BACAAN SUJUD SYUKUR -->
+      <article class="slide-card" data-slide="6" data-title="Bacaan Sujud Syukur">
+        <div class="slide-meta">
+          <span class="slide-tag">Doa Sujud Syukur</span>
+          <span class="slide-num-indicator">06 / 10</span>
+        </div>
+        <h2 class="slide-title">Doa Sujud Syukur</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            سَجَدَ وَجْهِيَ لِلَّذِي خَلَقَهُ وَصَوَّرَهُ وَشَقَّ سَمْعَهُ وَبَصَرَهُ بِحَوْلِهِ وَقُوَّتِهِ فَتَبَارَكَ اللَّهُ أَحْسَنُ الْخَالِقِينَ
+          </div>
+          <div class="arabic-translation">
+            "Wajahku bersujud kepada Dzat Yang menciptakannya, membentuk rupanya, dan membuka pendengaran serta penglihatannya dengan daya dan kekuatan-Nya. Maka Maha Berkah Allah sebaik-baik Pencipta."
+          </div>
+          <div class="arabic-source">HR. Abu Dawud & At-Tirmidzi</div>
+        </div>
+      </article>
+
+      <!-- SLIDE 7: KETENTUAN SUJUD TILAWAH -->
+      <article class="slide-card" data-slide="7" data-title="Sujud Tilawah">
+        <div class="slide-meta">
+          <span class="slide-tag">Sujud Tilawah</span>
+          <span class="slide-num-indicator">07 / 10</span>
+        </div>
+        <h2 class="slide-title">Ketentuan Sujud Tilawah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color:var(--primary-light);">Pengertian & Lokasi:</h3>
+            <p>Sujud satu kali saat membaca atau mendengar lantunan salah satu dari <strong>15 Ayat Sajdah</strong> di dalam Al-Qur'an (ditandai dengan simbol kubah/kata 'sajdah').</p>
+            <p style="margin-top:10px;">Dapat dilaksanakan baik <strong>di dalam shalat</strong> maupun <strong>di luar shalat</strong>.</p>
+          </div>
+          <div class="card-box">
+            <h3 style="color:var(--accent);">Ketentuan Jamaah:</h3>
+            <p>Jika dalam shalat berjamaah: makmum wajib mengikuti imam. Jika imam sujud tilawah, makmum wajib ikut sujud. Jika imam tidak sujud, makmum tidak boleh sujud sendiri.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 8: BACAAN SUJUD TILAWAH -->
+      <article class="slide-card" data-slide="8" data-title="Bacaan Sujud Tilawah">
+        <div class="slide-meta">
+          <span class="slide-tag">Doa Tilawah</span>
+          <span class="slide-num-indicator">08 / 10</span>
+        </div>
+        <h2 class="slide-title">Doa Saat Sujud Tilawah</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            اللَّهُمَّ اكْتُبْ لِي بِهَا عِنْدَكَ أَجْرًا، وَضَعْ عَنِّي بِهَا وِزْرًا، وَاجْعَلْهَا لِي عِنْدَكَ ذُخْرًا، وَتَقَبَّلْهَا مِنِّي كَمَا تَقَبَّلْتَهَا مِنْ عَبْدِكَ دَاوُدَ
+          </div>
+          <div class="arabic-translation">
+            "Ya Allah, catatlah untukku dengan sujud ini pahala di sisi-Mu, hapuskanlah dosaku dengannya, jadikanlah ia simpanan berharga untukku, dan terimalah ia dariku sebagaimana Engkau menerimanya dari hamba-Mu Daud a.s."
+          </div>
+          <div class="arabic-source">HR. At-Tirmidzi (No. 579) & Ibnu Majah</div>
+        </div>
+      </article>
+
+      <!-- SLIDE 9: HIKMAH DISYARIATKAN TIGA SUJUD -->
+      <article class="slide-card" data-slide="9" data-title="Hikmah Tiga Sujud">
+        <div class="slide-meta">
+          <span class="slide-tag">Tadabbur & Hikmah</span>
+          <span class="slide-num-indicator">09 / 10</span>
+        </div>
+        <h2 class="slide-title">Hikmah Pensyariatan Tiga Sujud</h2>
+        <div class="grid-3">
+          <div class="card-box" style="border-top:4px solid var(--primary);">
+            <h3 style="color:var(--primary-light);">1. Sujud Sahwi</h3>
+            <p>Menyadarkan kelemahan manusia yang sering lupa, menambal kekurangan shalat, dan menundukkan tipu daya setan penghasut was-was.</p>
+          </div>
+          <div class="card-box" style="border-top:4px solid var(--accent);">
+            <h3 style="color:var(--accent);">2. Sujud Syukur</h3>
+            <p>Menjauhkan diri dari sifat sombong, mengakui seluruh nikmat berasal murni dari karunia Allah swt., dan melipatgandakan berkah rezeki.</p>
+          </div>
+          <div class="card-box" style="border-top:4px solid #34d399;">
+            <h3 style="color:#34d399;">3. Sujud Tilawah</h3>
+            <p>Meningkatkan kekhusyu'an terhadap kalam ilahi, membedakan diri dari Iblis yang menolak sujud saat diperintah Allah swt.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 10: EVALUASI PG -->
+      <article class="slide-card" data-slide="10" data-title="Uji Kompetensi PG">
+        <div class="slide-meta">
+          <span class="slide-tag">Evaluasi Formatif</span>
+          <span class="slide-num-indicator">10 / 10</span>
+        </div>
+        <h2 class="slide-title">Uji Kompetensi Formatif</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <p><strong>1. Berapa kali jumlah sujud yang dilakukan pada Sujud Sahwi?</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:6px;">
+              B. 2 Kali Sujud ✅ (Dengan satu kali duduk di antaranya)
+            </p>
+            <hr style="margin:14px 0; border:none; border-top:1px solid var(--border-card);">
+            <p><strong>2. Sujud yang hukumnya batal jika sengaja dikerjakan di dalam shalat fardhu adalah:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:6px;">
+              C. Sujud Syukur ✅ (Hanya sah di luar shalat)
+            </p>
+          </div>
+          <div class="card-box">
+            <p><strong>3. Jika seseorang mendengar ayat Sajdah lalu bersujud, sujud tersebut dinamakan:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:6px;">
+              A. Sujud Tilawah ✅ (Sunnah dilakukan saat mendengar/membaca ayat sajdah)
+            </p>
+            <hr style="margin:14px 0; border:none; border-top:1px solid var(--border-card);">
+            <p><strong>4. Jumlah ayat sajdah di dalam Al-Qur'an menurut jumhur ulama adalah:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:6px;">
+              D. 15 Tempat ✅
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="deck-nav">
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-prev"><span>◀</span> Sebelum</button>
+      <button class="nav-btn primary" id="btn-next">Lanjut <span>▶</span></button>
+    </div>
+    <div class="nav-progress-wrap">
+      <div class="nav-progress-bar">
+        <div class="nav-progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="nav-meta-text">
+        <span id="slide-title-display">Sampul & Judul</span>
+        <span id="slide-counter-display">Slide 01 / 10</span>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-first">⏮️ Awal</button>
+      <button class="nav-btn" id="btn-last">⏭️ Akhir</button>
+    </div>
+  </footer>
+
+  <div class="drawer-overlay" id="drawer-overlay">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <h3 class="drawer-title">📑 Daftar Slide Bab I — Fikih Kelas VIII</h3>
+        <button class="icon-btn" id="btn-close-drawer">✕</button>
+      </div>
+      <div class="drawer-grid" id="drawer-grid"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const slides = document.querySelectorAll('.slide-card');
+      const totalSlides = slides.length;
+      let currentIndex = 0;
+
+      const btnPrev = document.getElementById('btn-prev');
+      const btnNext = document.getElementById('btn-next');
+      const btnFirst = document.getElementById('btn-first');
+      const btnLast = document.getElementById('btn-last');
+      const progressFill = document.getElementById('progress-fill');
+      const slideTitleDisplay = document.getElementById('slide-title-display');
+      const slideCounterDisplay = document.getElementById('slide-counter-display');
+      const btnFullscreen = document.getElementById('btn-fullscreen');
+      const btnPrint = document.getElementById('btn-print');
+      const btnDrawer = document.getElementById('btn-drawer');
+      const btnCloseDrawer = document.getElementById('btn-close-drawer');
+      const drawerOverlay = document.getElementById('drawer-overlay');
+      const drawerGrid = document.getElementById('drawer-grid');
+
+      slides.forEach((slide, idx) => {
+        const item = document.createElement('div');
+        item.className = 'drawer-item' + (idx === 0 ? ' active' : '');
+        item.dataset.index = idx;
+        const num = String(idx + 1).padStart(2, '0');
+        const title = slide.dataset.title || `Slide ${num}`;
+        item.innerHTML = `<span class="drawer-item-num">Slide ${num}</span><span class="drawer-item-title">${title}</span>`;
+        item.addEventListener('click', () => { goToSlide(idx); closeDrawer(); });
+        drawerGrid.appendChild(item);
+      });
+
+      function updateSlide(newIndex) {
+        if (newIndex < 0) newIndex = 0;
+        if (newIndex >= totalSlides) newIndex = totalSlides - 1;
+
+        slides.forEach((slide, idx) => {
+          slide.classList.remove('active', 'prev');
+          if (idx === newIndex) {
+            slide.classList.add('active');
+            slide.scrollTop = 0;
+          } else if (idx < newIndex) {
+            slide.classList.add('prev');
+          }
+        });
+
+        currentIndex = newIndex;
+        const currNum = String(currentIndex + 1).padStart(2, '0');
+        const totalNum = String(totalSlides).padStart(2, '0');
+        slideCounterDisplay.textContent = `Slide ${currNum} / ${totalNum}`;
+        slideTitleDisplay.textContent = slides[currentIndex].dataset.title || `Slide ${currNum}`;
+
+        const pct = ((currentIndex + 1) / totalSlides) * 100;
+        progressFill.style.width = pct + '%';
+
+        btnPrev.disabled = currentIndex === 0;
+        btnNext.disabled = currentIndex === totalSlides - 1;
+
+        const drawerItems = drawerGrid.querySelectorAll('.drawer-item');
+        drawerItems.forEach((dItem, idx) => {
+          dItem.classList.toggle('active', idx === currentIndex);
+        });
+      }
+
+      function goToSlide(index) { updateSlide(index); }
+      function nextSlide() { if (currentIndex < totalSlides - 1) updateSlide(currentIndex + 1); }
+      function prevSlide() { if (currentIndex > 0) updateSlide(currentIndex - 1); }
+      function openDrawer() { drawerOverlay.classList.add('open'); }
+      function closeDrawer() { drawerOverlay.classList.remove('open'); }
+
+      btnNext.addEventListener('click', nextSlide);
+      btnPrev.addEventListener('click', prevSlide);
+      btnFirst.addEventListener('click', () => goToSlide(0));
+      btnLast.addEventListener('click', () => goToSlide(totalSlides - 1));
+
+      btnDrawer.addEventListener('click', openDrawer);
+      btnCloseDrawer.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', (e) => {
+        if (e.target === drawerOverlay) closeDrawer();
+      });
+
+      window.addEventListener('keydown', (e) => {
+        if (drawerOverlay.classList.contains('open')) {
+          if (e.key === 'Escape') closeDrawer();
+          return;
+        }
+        if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+          e.preventDefault(); nextSlide();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+          e.preventDefault(); prevSlide();
+        } else if (e.key === 'Home') {
+          e.preventDefault(); goToSlide(0);
+        } else if (e.key === 'End') {
+          e.preventDefault(); goToSlide(totalSlides - 1);
+        } else if (e.key === 'f' || e.key === 'F') {
+          toggleFullscreen();
+        } else if (e.key === 'm' || e.key === 'M') {
+          openDrawer();
+        }
+      });
+
+      let touchStartX = 0, touchEndX = 0;
+      const stage = document.getElementById('slide-stage');
+      stage.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+      stage.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        const threshold = 50;
+        if (touchEndX < touchStartX - threshold) nextSlide();
+        else if (touchEndX > touchStartX + threshold) prevSlide();
+      }, { passive: true });
+
+      function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(() => {});
+        } else {
+          document.exitFullscreen().catch(() => {});
+        }
+      }
+      btnFullscreen.addEventListener('click', toggleFullscreen);
+      btnPrint.addEventListener('click', () => { window.print(); });
+
+      updateSlide(0);
+    })();
+  </script>
+</body>
+</html>

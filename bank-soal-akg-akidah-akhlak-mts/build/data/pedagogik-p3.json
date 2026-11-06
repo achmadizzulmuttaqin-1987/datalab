@@ -1,0 +1,727 @@
+{
+  "berkas": "pedagogik-p3",
+  "kategori": "pedagogik",
+  "items": [
+    {
+      "id": "PED-051",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Peserta didik MTs sering menunjukkan emosi yang cepat berubah dan mudah tersinggung. Tindakan guru yang paling tepat adalah ...",
+      "opsi": [
+        "membimbing peserta didik mengenali dan mengelola emosinya dengan tenang",
+        "menegur dengan keras agar peserta didik cepat belajar mengendalikan diri",
+        "membiarkan semua bentuk emosi karena dianggap wajar bagi remaja",
+        "menghindari komunikasi dengan peserta didik yang mudah tersinggung"
+      ],
+      "kunci": 0,
+      "bahasan": "Perkembangan emosi remaja awal belum stabil. Guru berperan sebagai pembimbing yang membantu peserta didik mengenali, memahami, dan mengelola emosi, bukan menegur keras atau membiarkan."
+    },
+    {
+      "id": "PED-052",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Kecenderungan peserta didik MTs lebih percaya pada pendapat teman sebaya daripada orang tua atau guru disebut ...",
+      "opsi": [
+        "kemandirian dalam belajar",
+        "kematangan sosial dini",
+        "kecenderungan berprestasi",
+        "konformitas kelompok sebaya"
+      ],
+      "kunci": 3,
+      "bahasan": "Konformitas terhadap kelompok sebaya memuncak pada masa remaja. Guru memanfaatkannya melalui belajar berkelompok yang positif, bukan melawannya secara langsung."
+    },
+    {
+      "id": "PED-053",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik berasal dari keluarga yang kurang mendukung kegiatan belajar di rumah. Sikap guru yang paling tepat adalah ...",
+      "opsi": [
+        "menyerahkan sepenuhnya masalah tersebut kepada wali kelas",
+        "memberi pendampingan dan menjalin komunikasi santun dengan keluarga",
+        "menyampaikan bahwa keluarga bersalah atas keterlambatan belajar",
+        "menurunkan tuntutan belajar peserta didik tersebut secara tetap"
+      ],
+      "kunci": 1,
+      "bahasan": "Guru tidak dapat mengubah keadaan keluarga, tetapi dapat memberi dukungan belajar, menjalin komunikasi yang santun, dan bekerja sama dengan wali kelas maupun guru BK."
+    },
+    {
+      "id": "PED-054",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Keberagaman latar belakang sosial ekonomi peserta didik sebaiknya disikapi guru dengan ...",
+      "opsi": [
+        "membedakan perlakuan dan fasilitas menurut keadaan ekonomi keluarga",
+        "mengelompokkan peserta didik berdasarkan penghasilan orang tuanya",
+        "memberikan perlakuan adil dan menghargai setiap latar belakang peserta didik",
+        "mengabaikan perbedaan itu agar tidak menimbulkan kecemburuan"
+      ],
+      "kunci": 2,
+      "bahasan": "Prinsip keadilan menuntut guru memberi layanan setara bagi semua peserta didik tanpa membeda-bedakan latar belakang sosial ekonomi keluarganya."
+    },
+    {
+      "id": "PED-055",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pgk",
+      "teks": "Manakah DUA ciri perkembangan kognitif remaja awal yang perlu diperhatikan guru?",
+      "opsi": [
+        "Mulai mampu berpikir abstrak dan menguji hipotesis sederhana.",
+        "Pemahaman hal abstrak justru menurun dibandingkan masa kanak-kanak.",
+        "Menjadi kritis terhadap aturan yang tidak dijelaskan alasannya.",
+        "Seluruh pendapat orang dewasa diterima tanpa pertanyaan apa pun."
+      ],
+      "kunci": [
+        0,
+        2
+      ],
+      "bahasan": "Remaja awal memasuki tahap operasional formal sehingga mulai berpikir abstrak dan kritis. Guru perlu menyiapkan alasan yang logis dan memberi ruang diskusi yang terarah."
+    },
+    {
+      "id": "PED-056",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Guru menyadari ada peserta didik yang cepat memahami materi dan ada yang memerlukan waktu lebih lama. Prinsip yang tepat adalah ...",
+      "opsi": [
+        "melanjutkan materi dengan kecepatan rata-rata tanpa memperhatikan keduanya",
+        "meminta peserta didik yang cepat mengajari temannya agar guru hemat waktu",
+        "menyesuaikan tempo dan memberi kesempatan sesuai kebutuhan peserta didik",
+        "menyeragamkan capaian tanpa mempertimbangkan kesiapan awal peserta didik"
+      ],
+      "kunci": 2,
+      "bahasan": "Guru menghargai keragaman kesiapan belajar dengan mengatur tempo, memberi bantuan tambahan, dan menyiapkan pengayaan bagi peserta didik yang lebih cepat."
+    },
+    {
+      "id": "PED-057",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Kematangan sosial peserta didik MTs tampak pada perilaku ...",
+      "opsi": [
+        "selalu ingin menang sendiri dalam setiap kegiatan",
+        "menolak setiap pendapat yang berbeda dengan pendapatnya",
+        "mampu bekerja sama dan menghargai aturan kelompok",
+        "menghindari kegiatan kelompok karena merasa tidak nyaman"
+      ],
+      "kunci": 2,
+      "bahasan": "Kematangan sosial ditandai kemampuan bekerja sama, menaati kesepakatan, dan menghargai perbedaan. Kegiatan kelompok yang terarah menjadi sarana pembinaannya."
+    },
+    {
+      "id": "PED-058",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Guru menghadapi peserta didik yang sering terlambat masuk kelas. Langkah paling tepat untuk memahami penyebabnya adalah ...",
+      "opsi": [
+        "memberi sanksi maksimal agar tidak mengulangi perbuatannya",
+        "mengajak peserta didik berdialog dan mencari akar penyebabnya",
+        "melaporkan langsung kepada kepala madrasah tanpa mencari keterangan",
+        "membiarkan karena keterlambatan dianggap biasa bagi remaja"
+      ],
+      "kunci": 1,
+      "bahasan": "Perilaku bermasalah perlu dipahami penyebabnya lebih dahulu melalui dialog. Hukuman tanpa penelusuran penyebab tidak menyelesaikan masalah dan dapat merusak hubungan."
+    },
+    {
+      "id": "PED-059",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Teori perkembangan yang membagi kehidupan manusia menjadi delapan tahap psikososial dikemukakan oleh ...",
+      "opsi": [
+        "Sigmund Freud",
+        "Jean Piaget",
+        "Erik Erikson",
+        "Lawrence Kohlberg"
+      ],
+      "kunci": 2,
+      "bahasan": "Erikson menyusun delapan tahap perkembangan psikososial, mulai dari kepercayaan versus kecurigaan hingga integritas versus keputusasaan."
+    },
+    {
+      "id": "PED-060",
+      "topik": "Karakteristik Peserta Didik",
+      "tipe": "pg",
+      "teks": "Peserta didik sulit berkonsentrasi pada pelajaran karena bermain gim daring hingga larut malam. Penanganan yang paling tepat adalah ...",
+      "opsi": [
+        "menyita ponsel peserta didik tanpa penjelasan apa pun",
+        "melibatkan orang tua dan menyepakati pengaturan waktu belajar",
+        "menegur dengan keras di depan teman sekelas agar jera",
+        "mengabaikan karena berada di luar tanggung jawab madrasah"
+      ],
+      "kunci": 1,
+      "bahasan": "Masalah kebiasaan belajar perlu diselesaikan melalui kerja sama madrasah dan keluarga dengan kesepakatan yang jelas, bukan tindakan sepihak atau pembiaran."
+    },
+    {
+      "id": "PED-061",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Peserta didik belajar dengan cara mengamati perilaku guru lalu menirunya. Proses belajar semacam ini ditekankan dalam teori ...",
+      "opsi": [
+        "sosial dari Bandura",
+        "behavioristik dari Skinner",
+        "kognitivistik dari Piaget",
+        "humanistik dari Rogers"
+      ],
+      "kunci": 0,
+      "bahasan": "Teori belajar sosial Bandura menekankan belajar melalui pengamatan dan peniruan model. Karena itu keteladanan guru menjadi sangat berpengaruh dalam pendidikan akhlak."
+    },
+    {
+      "id": "PED-062",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kemampuan yang dapat dicapai peserta didik dengan bantuan orang lain, tetapi belum dapat dicapai sendiri, disebut ...",
+      "opsi": [
+        "zona perkembangan proksimal",
+        "kematangan kognitif bawaan",
+        "skema awal pengetahuan",
+        "operasi formal sempurna"
+      ],
+      "kunci": 0,
+      "bahasan": "Zona perkembangan proksimal (ZPD) adalah jarak antara kemampuan aktual dan kemampuan potensial yang dapat diraih dengan bantuan (scaffolding)."
+    },
+    {
+      "id": "PED-063",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA implikasi teori behavioristik dalam pembelajaran Akidah Akhlak?",
+      "opsi": [
+        "Memberi penguatan dan apresiasi ketika peserta didik membiasakan perilaku terpuji.",
+        "Membiarkan peserta didik menemukan konsep tanpa arahan dari guru.",
+        "Menyusun latihan bertahap untuk membentuk kebiasaan yang diharapkan.",
+        "Menilai keberhasilan hanya dari hafalan tanpa memperhatikan perilaku."
+      ],
+      "kunci": [
+        0,
+        2
+      ],
+      "bahasan": "Behavioristik memandang belajar sebagai pembentukan perilaku melalui stimulus, respons, dan penguatan. Pembiasaan akhlak dan pemberian apresiasi adalah penerapannya."
+    },
+    {
+      "id": "PED-064",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru mengawali pelajaran dengan mengaitkan materi akhlak baru pada pengalaman pribadi peserta didik. Langkah ini paling sejalan dengan teori ...",
+      "opsi": [
+        "behavioristik melalui penguatan",
+        "sosial melalui peniruan model",
+        "kognitivistik belajar bermakna",
+        "humanistik melalui pembebasan"
+      ],
+      "kunci": 2,
+      "bahasan": "Ausubel menegaskan belajar menjadi bermakna ketika informasi baru dihubungkan dengan pengetahuan dan pengalaman yang telah dimiliki peserta didik."
+    },
+    {
+      "id": "PED-065",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Praktik pembelajaran berikut yang paling bertentangan dengan prinsip berpusat pada peserta didik adalah ...",
+      "opsi": [
+        "guru mendominasi seluruh kegiatan dan peserta didik hanya mendengar",
+        "guru memfasilitasi diskusi dan kerja kelompok peserta didik",
+        "guru membimbing peserta didik menemukan konsep secara bertahap",
+        "guru memberi umpan balik perbaikan kepada setiap peserta didik"
+      ],
+      "kunci": 0,
+      "bahasan": "Pembelajaran berpusat pada peserta didik menempatkan guru sebagai fasilitator; dominasi guru sepanjang waktu membuat peserta didik pasif dan tidak membangun pemahaman."
+    },
+    {
+      "id": "PED-066",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Menurut Gagne, langkah pertama dalam rangkaian peristiwa pembelajaran adalah ...",
+      "opsi": [
+        "menarik perhatian peserta didik",
+        "menyajikan seluruh materi secara lengkap",
+        "memberikan tes akhir pembelajaran",
+        "memberikan tugas rumah kepada peserta didik"
+      ],
+      "kunci": 0,
+      "bahasan": "Gagne menyusun sembilan peristiwa pembelajaran yang dimulai dari menarik perhatian, menyampaikan tujuan, mengingatkan prasyarat, hingga memberi umpan balik dan menilai."
+    },
+    {
+      "id": "PED-067",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Motivasi intrinsik peserta didik tampak apabila ia belajar karena ...",
+      "opsi": [
+        "takut mendapat hukuman dari guru",
+        "mengharapkan hadiah dari orang tua",
+        "kesadaran manfaat dan rasa ingin tahu dari dalam diri",
+        "ingin mendapat pujian dari teman sekelas"
+      ],
+      "kunci": 2,
+      "bahasan": "Motivasi intrinsik tumbuh dari kesadaran dan minat dalam diri peserta didik, sedangkan hukuman, hadiah, dan pujian termasuk motivasi ekstrinsik."
+    },
+    {
+      "id": "PED-068",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Peserta didik yakin dapat menyelesaikan tugas karena pernah berhasil pada tugas serupa. Keyakinan ini menunjukkan adanya ...",
+      "opsi": [
+        "motivasi ekstrinsik tinggi",
+        "kecemasan belajar berat",
+        "ketergantungan pada teman",
+        "efikasi diri yang kuat"
+      ],
+      "kunci": 3,
+      "bahasan": "Efikasi diri adalah keyakinan atas kemampuan menyelesaikan tugas. Pengalaman berhasil, pujian tepat, dan contoh keberhasilan teman dapat memperkuatnya."
+    },
+    {
+      "id": "PED-069",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pg",
+      "teks": "Siklus belajar yang dimulai dari pengalaman langsung, perenungan, pembentukan konsep, lalu penerapan dikemukakan oleh ...",
+      "opsi": [
+        "Jean Piaget",
+        "B. F. Skinner",
+        "Edward Thorndike",
+        "David Kolb"
+      ],
+      "kunci": 3,
+      "bahasan": "Kolb mengembangkan model belajar berbasis pengalaman dengan empat tahap yang berputar. Model ini dekat dengan pendekatan kontekstual dalam pembelajaran Akidah Akhlak."
+    },
+    {
+      "id": "PED-070",
+      "topik": "Teori Belajar dan Prinsip Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA ciri pembelajaran yang benar-benar berpusat pada peserta didik?",
+      "opsi": [
+        "Peserta didik aktif bertanya, berdiskusi, dan membangun pemahaman sendiri.",
+        "Guru menjelaskan materi satu arah selama seluruh jam pelajaran.",
+        "Peserta didik duduk mendengarkan lalu menghafal tanpa kegiatan lain.",
+        "Guru menyediakan beragam pengalaman belajar sesuai kebutuhan peserta didik."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "Pembelajaran berpusat pada peserta didik menuntut keaktifan mereka dan variasi pengalaman belajar yang dirancang guru, bukan penyampaian satu arah yang membuat peserta didik pasif."
+    },
+    {
+      "id": "PED-071",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kegiatan yang paling mencerminkan penerapan prinsip kontinuitas kurikulum adalah ...",
+      "opsi": [
+        "menyusun materi secara berjenjang dari kelas VII sampai kelas IX",
+        "mengulang materi yang sama persis pada setiap tingkat kelas",
+        "menyisipkan materi pilihan sesuai kesukaan guru pengampu",
+        "menyesuaikan materi dengan tren di media sosial tanpa perencanaan"
+      ],
+      "kunci": 0,
+      "bahasan": "Kontinuitas berarti materi dan pengalaman belajar tersusun berkelanjutan dan saling menopang antartingkat, bukan sekadar mengulang materi yang sama."
+    },
+    {
+      "id": "PED-072",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Capaian pembelajaran pada Kurikulum Merdeka memuat dua unsur utama, yaitu ...",
+      "opsi": [
+        "tujuan pembelajaran dan metode mengajar",
+        "media pembelajaran dan sumber belajar",
+        "alokasi waktu dan bentuk asesmen",
+        "kompetensi yang dituju dan lingkup materi"
+      ],
+      "kunci": 3,
+      "bahasan": "Capaian pembelajaran memuat kompetensi yang harus dicapai peserta didik beserta lingkup materi pokoknya pada setiap akhir fase."
+    },
+    {
+      "id": "PED-073",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Fungsi utama alur tujuan pembelajaran dalam perencanaan pembelajaran adalah ...",
+      "opsi": [
+        "menjadi daftar kegiatan harian guru di luar jam mengajar",
+        "menjadi catatan nilai peserta didik sepanjang semester berjalan",
+        "menjadi bukti administrasi yang tidak berkaitan dengan pembelajaran",
+        "menjadi urutan pencapaian tujuan pembelajaran yang logis dan sistematis"
+      ],
+      "kunci": 3,
+      "bahasan": "Alur tujuan pembelajaran (ATP) mengurutkan tujuan pembelajaran dari yang paling dasar menuju kompleks agar capaian akhir fase terwujud secara bertahap."
+    },
+    {
+      "id": "PED-074",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Contoh asesmen diagnostik nonkognitif yang dapat dilakukan guru pada awal tahun pelajaran adalah ...",
+      "opsi": [
+        "memberikan tes pilihan ganda tentang materi pelajaran baru",
+        "menyelenggarakan ujian tengah semester tanpa pemberitahuan",
+        "menilai laporan praktikum yang dikerjakan peserta didik",
+        "menyebar angket kebiasaan belajar dan latar belakang keluarga"
+      ],
+      "kunci": 3,
+      "bahasan": "Asesmen diagnostik nonkognitif memetakan kondisi sosial, emosi, kebiasaan belajar, dan latar belakang peserta didik sebagai dasar penyesuaian pembelajaran."
+    },
+    {
+      "id": "PED-075",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kesesuaian isi kurikulum dengan perkembangan ilmu dan kebutuhan masyarakat mencerminkan prinsip ...",
+      "opsi": [
+        "relevansi",
+        "efisiensi",
+        "praktikalitas",
+        "administratif"
+      ],
+      "kunci": 0,
+      "bahasan": "Prinsip relevansi menuntut kurikulum selaras dengan kebutuhan peserta didik, perkembangan ilmu, dan tuntutan kehidupan masyarakat."
+    },
+    {
+      "id": "PED-076",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA pertimbangan utama guru dalam memilih materi Akidah Akhlak untuk satu semester?",
+      "opsi": [
+        "Kesesuaian materi dengan capaian pembelajaran dan fase peserta didik.",
+        "Banyaknya halaman buku teks yang harus diselesaikan tepat waktu.",
+        "Kedekatan materi dengan pengalaman nyata peserta didik sehari-hari.",
+        "Popularitas materi di media sosial tanpa memperhatikan capaian."
+      ],
+      "kunci": [
+        0,
+        2
+      ],
+      "bahasan": "Pemilihan materi mendasarkan diri pada capaian pembelajaran dan konteks nyata peserta didik, bukan pada jumlah halaman buku atau tren media sosial."
+    },
+    {
+      "id": "PED-077",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru mendapati buku teks yang tersedia kurang lengkap untuk mencapai tujuan pembelajaran. Tindakan paling tepat adalah ...",
+      "opsi": [
+        "membiarkan materi yang sulit dan mengajar seadanya saja",
+        "melengkapi sumber belajar dari referensi yang sahih dan relevan",
+        "menuntut pihak madrasah tanpa berusaha mencari alternatif",
+        "meminta peserta didik menyalin buku dari madrasah lain"
+      ],
+      "kunci": 1,
+      "bahasan": "Guru kreatif melengkapi keterbatasan sumber dengan referensi sahih yang sesuai kurikulum, termasuk bahan dari lingkungan dan media yang dapat dipertanggungjawabkan."
+    },
+    {
+      "id": "PED-078",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Program pembiasaan membaca Al-Quran sebelum jam pelajaran di madrasah berfungsi sebagai ...",
+      "opsi": [
+        "pengganti jam pelajaran mata pelajaran Al-Quran Hadis",
+        "beban tambahan yang tidak berkaitan dengan capaian belajar",
+        "kegiatan pembinaan karakter yang mendukung pembelajaran",
+        "kegiatan seremonial tanpa makna bagi peserta didik"
+      ],
+      "kunci": 2,
+      "bahasan": "Pembiasaan keagamaan merupakan bagian pengembangan karakter dan budaya madrasah yang memperkuat ketercapaian pembelajaran serta pembentukan kebiasaan baik."
+    },
+    {
+      "id": "PED-079",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Pengembangan kurikulum pada tingkat satuan pendidikan bertujuan ...",
+      "opsi": [
+        "menyesuaikan kurikulum dengan karakteristik peserta didik dan kondisi madrasah",
+        "mengganti seluruh isi kurikulum nasional sesuai keinginan guru",
+        "menyeragamkan seluruh madrasah agar identik satu dengan yang lain",
+        "menambah jam pelajaran tanpa memperhatikan daya dukung yang ada"
+      ],
+      "kunci": 0,
+      "bahasan": "Kurikulum operasional madrasah dikembangkan agar kurikulum nasional dapat dijalankan sesuai konteks peserta didik, tenaga pendidik, dan sarana yang tersedia."
+    },
+    {
+      "id": "PED-080",
+      "topik": "Kurikulum dan Perencanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Keterkaitan capaian pembelajaran, tujuan pembelajaran, dan asesmen terlihat ketika ...",
+      "opsi": [
+        "asesmen disusun lebih dahulu baru tujuan pembelajaran ditentukan",
+        "tujuan pembelajaran menjadi acuan penyusunan kegiatan dan asesmen",
+        "capaian pembelajaran diabaikan agar materi cepat terselesaikan",
+        "guru menyusun tujuan tanpa mempertimbangkan kemampuan awal peserta didik"
+      ],
+      "kunci": 1,
+      "bahasan": "Tujuan pembelajaran diturunkan dari capaian pembelajaran dan sekaligus menjadi dasar penyusunan kegiatan belajar serta asesmen sehingga semuanya selaras."
+    },
+    {
+      "id": "PED-081",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kegiatan menanya dalam pendekatan saintifik sebaiknya diarahkan agar peserta didik ...",
+      "opsi": [
+        "menghafal daftar pertanyaan yang dituliskan guru di papan",
+        "menjawab pertanyaan yang sudah disiapkan di buku tanpa berpikir",
+        "menyalin pertanyaan teman yang dinilai paling pandai",
+        "menyusun pertanyaan sendiri berdasarkan hasil pengamatan"
+      ],
+      "kunci": 3,
+      "bahasan": "Tahap menanya melatih rasa ingin tahu dan kemampuan merumuskan masalah, sehingga pertanyaan perlu tumbuh dari pengamatan peserta didik sendiri."
+    },
+    {
+      "id": "PED-082",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru membagi kelas menjadi kelompok kecil, setiap anggota mendalami bagian materi tertentu, lalu saling mengajarkan. Model kooperatif ini disebut ...",
+      "opsi": [
+        "think pair share",
+        "ceramah bervariasi",
+        "jigsaw",
+        "penugasan mandiri"
+      ],
+      "kunci": 2,
+      "bahasan": "Jigsaw membagi materi menjadi beberapa bagian dan setiap peserta didik bertanggung jawab menguasai lalu mengajarkannya kepada anggota kelompok lain."
+    },
+    {
+      "id": "PED-083",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA ciri pelaksanaan pembelajaran yang mendidik?",
+      "opsi": [
+        "Guru memperhatikan keragaman kesiapan dan gaya belajar peserta didik.",
+        "Guru menegur keras peserta didik yang salah menjawab agar berhati-hati.",
+        "Peserta didik diberi kesempatan bertanya dan berpendapat secara terbuka.",
+        "Peserta didik hanya diam mendengar agar suasana kelas tetap tenang."
+      ],
+      "kunci": [
+        0,
+        2
+      ],
+      "bahasan": "Pembelajaran yang mendidik memuliakan peserta didik: keragaman mereka difasilitasi dan ruang bertanya dibuka, bukan ditutup dengan teguran keras atau pembatasan."
+    },
+    {
+      "id": "PED-084",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Kegiatan penutup pembelajaran yang efektif sebaiknya memuat ...",
+      "opsi": [
+        "penjelasan materi baru yang panjang agar tidak ada waktu terbuang",
+        "simpulan bersama dan refleksi keterkaitan materi dengan pengamalan",
+        "pemberian tugas rumah sebanyak mungkin kepada peserta didik",
+        "pengumuman nilai tanpa penjelasan tindak lanjut perbaikan"
+      ],
+      "kunci": 1,
+      "bahasan": "Penutup yang bermakna memantapkan pemahaman melalui simpulan bersama, refleksi, dan pengaitan materi dengan pengamalan sehari-hari, bukan menambah beban tanpa arah."
+    },
+    {
+      "id": "PED-085",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Model pembelajaran yang paling tepat untuk melatih penerapan adab berbicara santun kepada orang tua adalah ...",
+      "opsi": [
+        "menghafal dalil tentang adab berbicara",
+        "mencatat definisi santun di buku",
+        "mendengarkan ceramah guru sepanjang jam",
+        "bermain peran percakapan sehari-hari"
+      ],
+      "kunci": 3,
+      "bahasan": "Bermain peran memberi pengalaman langsung menerapkan adab dalam situasi nyata, lalu dikuatkan refleksi dan umpan balik dari guru."
+    },
+    {
+      "id": "PED-086",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Ketika diskusi kelompok hanya didominasi satu peserta didik, tindakan guru yang paling tepat adalah ...",
+      "opsi": [
+        "membiarkan karena yang penting diskusi berjalan lancar dan cepat",
+        "mengganti seluruh anggota kelompok agar komposisinya berubah",
+        "membagi peran dan memastikan setiap anggota mendapat kesempatan bicara",
+        "menutup diskusi lalu memberi ceramah untuk menghemat waktu"
+      ],
+      "kunci": 2,
+      "bahasan": "Guru mengatur peran dan giliran berbicara agar setiap peserta didik terlibat, misalnya dengan pembagian tugas dan pemantauan kontribusi anggota kelompok."
+    },
+    {
+      "id": "PED-087",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Pemberian pertanyaan pemantik pada awal pembelajaran bertujuan ...",
+      "opsi": [
+        "menguji hafalan peserta didik atas materi pertemuan sebelumnya",
+        "menumbuhkan rasa ingin tahu dan mengaitkan materi dengan pengalaman",
+        "mengisi waktu luang sebelum guru menyampaikan materi inti",
+        "menentukan nilai awal peserta didik untuk dijadikan peringkat"
+      ],
+      "kunci": 1,
+      "bahasan": "Pertanyaan pemantik membangkitkan minat dan menghubungkan pengetahuan awal peserta didik dengan materi yang akan dipelajari sehingga pembelajaran lebih bermakna."
+    },
+    {
+      "id": "PED-088",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Untuk menjelaskan konsep sifat Allah yang tidak boleh digambarkan menyerupai makhluk, pilihan yang paling tepat adalah ...",
+      "opsi": [
+        "menayangkan ilustrasi sosok yang menyerupai manusia",
+        "meminta peserta didik menggambar wujud Allah sesuai imajinasi",
+        "menggunakan analogi verbal dan bagan konsep yang jelas",
+        "menyuruh peserta didik menyalin definisi tanpa penjelasan"
+      ],
+      "kunci": 2,
+      "bahasan": "Tanzih diajarkan melalui analogi verbal dan bagan yang menegaskan perbedaan Allah dari makhluk, sekaligus menghindari penggambaran yang menyesatkan."
+    },
+    {
+      "id": "PED-089",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pg",
+      "teks": "Guru ingin seluruh kelompok menyampaikan hasil kerjanya dalam waktu terbatas. Cara yang paling adil adalah ...",
+      "opsi": [
+        "memilih hanya kelompok yang paling cepat selesai bekerja",
+        "menunjuk wakil dari satu kelompok saja untuk mewakili semua",
+        "meminta seluruh kelompok berbicara bersamaan di depan kelas",
+        "memberi kesempatan bergiliran dengan pembagian waktu yang jelas"
+      ],
+      "kunci": 3,
+      "bahasan": "Pengaturan giliran dengan alokasi waktu yang jelas memberi kesempatan setara bagi setiap kelompok, sehingga semua peserta didik merasakan pengalaman mengomunikasikan hasil."
+    },
+    {
+      "id": "PED-090",
+      "topik": "Desain dan Pelaksanaan Pembelajaran",
+      "tipe": "pgk",
+      "teks": "Manakah DUA langkah pengelolaan kelas yang bersifat preventif?",
+      "opsi": [
+        "Menunggu pelanggaran terjadi, baru kemudian menindak pelakunya.",
+        "Menyusun kesepakatan aturan dan rutinitas bersama peserta didik sejak awal.",
+        "Mengumumkan hukuman berat kepada seluruh peserta didik hari pertama.",
+        "Menata tempat duduk dan sumber belajar agar mudah dijangkau peserta didik."
+      ],
+      "kunci": [
+        1,
+        3
+      ],
+      "bahasan": "Pengelolaan kelas preventif mencegah masalah melalui kesepakatan aturan dan penataan lingkungan belajar. Tindakan sesudah pelanggaran bersifat kuratif, bukan preventif."
+    },
+    {
+      "id": "PED-091",
+      "topik": "Pengembangan Potensi Peserta Didik",
+      "tipe": "pg",
+      "teks": "Kegiatan pengayaan bagi peserta didik yang telah mencapai tujuan pembelajaran sebaiknya berupa ...",
+      "opsi": [
+        "mengulang seluruh materi yang sama secara berulang-ulang",
+        "tugas tambahan yang tidak berkaitan dengan materi pelajaran",
+        "kegiatan bebas tanpa pendampingan dari guru pengampu",
+        "tugas yang lebih menantang dan kesempatan membantu teman belajar"
+      ],
+      "kunci": 3,
+      "bahasan": "Pengayaan memperdalam dan memperluas capaian peserta didik melalui tugas menantang, proyek, atau peran sebagai tutor sebaya, bukan pengulangan yang membosankan."
+    },
+    {
+      "id": "PED-092",
+      "topik": "Pengembangan Potensi Peserta Didik",
+      "tipe": "pg",
+      "teks": "Peserta didik yang belum mencapai tujuan pembelajaran sebaiknya diberi ...",
+      "opsi": [
+        "hukuman agar menyadari bahwa dirinya tertinggal dari teman",
+        "kesempatan mengulang kelas tanpa pendampingan khusus",
+        "nilai tambahan agar seluruh kelas dinyatakan tuntas belajar",
+        "pendampingan dan tugas terarah sesuai kesulitan yang dihadapi"
+      ],
+      "kunci": 3,
+      "bahasan": "Remedial yang efektif bersifat terarah pada kesulitan spesifik peserta didik dan disertai pendampingan, bukan hukuman atau pemberian nilai tanpa perbaikan kompetensi."
+    },
+    {
+      "id": "PED-093",
+      "topik": "Pengembangan Potensi Peserta Didik",
+      "tipe": "pg",
+      "teks": "Guru mengizinkan peserta didik yang berbakat tilawah mengikuti lomba meskipun harus menyesuaikan jadwal belajar. Sikap guru tersebut menunjukkan ...",
+      "opsi": [
+        "pembiaran terhadap pelajaran yang ditinggalkan peserta didik",
+        "pilih kasih kepada peserta didik yang berprestasi saja",
+        "pengembangan bakat dan minat sesuai potensi peserta didik",
+        "pengurangan beban belajar yang menjadi kewajiban peserta didik"
+      ],
+      "kunci": 2,
+      "bahasan": "Dukungan terhadap lomba dengan penyesuaian jadwal merupakan bentuk pengembangan bakat, serta tetap disertai tanggung jawab menyelesaikan kewajiban belajar."
+    },
+    {
+      "id": "PED-094",
+      "topik": "Pengembangan Potensi Peserta Didik",
+      "tipe": "pg",
+      "teks": "Kegiatan ekstrakurikuler di madrasah sebaiknya dirancang untuk ...",
+      "opsi": [
+        "menambah beban kerja guru di luar jam mengajar wajib",
+        "mengisi waktu luang tanpa memperhatikan tujuan pembinaan",
+        "mengumpulkan dana dari peserta didik untuk kepentingan madrasah",
+        "menyalurkan dan mengembangkan minat, bakat, serta potensi peserta didik"
+      ],
+      "kunci": 3,
+      "bahasan": "Ekstrakurikuler merupakan wahana pembinaan bakat dan minat yang terencana dan terarah, mendukung terbentuknya karakter serta keterampilan peserta didik."
+    },
+    {
+      "id": "PED-095",
+      "topik": "Pengembangan Potensi Peserta Didik",
+      "tipe": "pg",
+      "teks": "Peserta didik yang gemar menulis diberi kesempatan mengelola mading dan menghasilkan karya tulis. Langkah ini memperkuat ...",
+      "opsi": [
+        "kemampuan menghafal materi pelajaran secara lebih cepat",
+        "kedisiplinan peserta didik dalam mengikuti upacara bendera",
+        "kebiasaan peserta didik menuntut fasilitas kepada madrasah",
+        "kreativitas dan aktualisasi potensi yang dimiliki peserta didik"
+      ],
+      "kunci": 3,
+      "bahasan": "Pemberian ruang berkarya mengembangkan kreativitas sekaligus menumbuhkan rasa percaya diri dan tanggung jawab peserta didik atas hasil kerjanya."
+    },
+    {
+      "id": "PED-096",
+      "topik": "Komunikasi dengan Peserta Didik",
+      "tipe": "pgk",
+      "teks": "Manakah DUA cara guru memberikan umpan balik yang membangun?",
+      "opsi": [
+        "Mengumumkan kesalahan peserta didik di depan seluruh kelas.",
+        "Menyebutkan bagian yang sudah baik, lalu bagian yang perlu diperbaiki.",
+        "Menyampaikan saran perbaikan dengan santun dan fokus pada karya.",
+        "Menyatakan hasil kerja peserta didik buruk tanpa menjelaskan perbaikan."
+      ],
+      "kunci": [
+        1,
+        2
+      ],
+      "bahasan": "Umpan balik yang membangun bersifat spesifik, santun, dan berorientasi perbaikan. Mempermalukan atau menghakimi hasil kerja melukai peserta didik dan menutup peluang belajar."
+    },
+    {
+      "id": "PED-097",
+      "topik": "Komunikasi dengan Peserta Didik",
+      "tipe": "pg",
+      "teks": "Seorang peserta didik bercerita tentang masalah keluarganya. Respons awal guru yang paling tepat adalah ...",
+      "opsi": [
+        "memotong cerita karena guru memiliki urusan lain",
+        "mendengarkan dengan penuh perhatian dan menjaga kerahasiaan",
+        "membahas masalah tersebut bersama seluruh kelas",
+        "menasihati panjang lebar sebelum peserta didik selesai bicara"
+      ],
+      "kunci": 1,
+      "bahasan": "Mendengar aktif dan menjaga kerahasiaan membuat peserta didik merasa aman. Nasihat dan tindakan lanjutan diberikan setelah permasalahan dipahami dengan baik."
+    },
+    {
+      "id": "PED-098",
+      "topik": "Komunikasi dengan Peserta Didik",
+      "tipe": "pg",
+      "teks": "Bahasa yang digunakan guru ketika menegur peserta didik sebaiknya ...",
+      "opsi": [
+        "keras dan pedas agar peserta didik merasa malu",
+        "santun, jelas, dan mengarah pada perbaikan perilaku",
+        "panjang dan berbelit agar peserta didik berpikir lama",
+        "diam-diam saja agar peserta didik tidak tersinggung"
+      ],
+      "kunci": 1,
+      "bahasan": "Teguran yang mendidik menyasar perilaku, bukan pribadi, disampaikan dengan bahasa yang santun, jelas, dan disertai arahan perbaikan yang dapat dilakukan peserta didik."
+    },
+    {
+      "id": "PED-099",
+      "topik": "Komunikasi dengan Peserta Didik",
+      "tipe": "pg",
+      "teks": "Peserta didik berani bertanya namun isi pertanyaannya menyimpang dari materi. Respons guru yang paling tepat adalah ...",
+      "opsi": [
+        "menyatakan pertanyaannya salah di depan semua peserta didik",
+        "menolak menjawab dan meminta ia bertanya di luar kelas saja",
+        "mengabaikan pertanyaan dan langsung melanjutkan materi",
+        "mengapresiasi keberaniannya lalu mengarahkan kembali pada tujuan"
+      ],
+      "kunci": 3,
+      "bahasan": "Keberanian bertanya perlu dipelihara. Guru mengapresiasi lalu membimbing pertanyaan agar kembali relevan, sehingga peserta didik tetap merasa dihargai."
+    },
+    {
+      "id": "PED-100",
+      "topik": "Komunikasi dengan Peserta Didik",
+      "tipe": "pg",
+      "teks": "Hubungan guru dan peserta didik yang ideal dalam pembelajaran adalah ...",
+      "opsi": [
+        "akrab tanpa batas agar peserta didik merasa bebas sepenuhnya",
+        "formal dan berjarak agar wibawa guru tidak berkurang",
+        "longgar agar peserta didik tidak terbebani tuntutan belajar",
+        "hangat namun tetap menjaga keteladanan dan batas kesantunan"
+      ],
+      "kunci": 3,
+      "bahasan": "Hubungan yang hangat dan tetap menjunjung etika menciptakan iklim belajar yang aman sekaligus memelihara keteladanan serta wibawa guru."
+    }
+  ]
+}

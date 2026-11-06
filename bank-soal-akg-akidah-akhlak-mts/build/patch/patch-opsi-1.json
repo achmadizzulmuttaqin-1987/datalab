@@ -1,0 +1,143 @@
+{
+  "keterangan": "Penyeimbang panjang opsi: opsi kunci diringkas dan distraktor disetarakan panjangnya. Urutan opsi tetap, indeks kunci tidak berubah pada tahap ini.",
+  "items": [
+    { "file": "pedagogik-p1", "id": "PED-023", "opsi": [
+      "menyampaikan definisi panjang untuk dihafal",
+      "menggunakan analogi dan contoh peran malaikat dalam kehidupan",
+      "memberikan tes lisan tanpa penjelasan konsep",
+      "menugaskan membaca buku sebanyak mungkin tanpa pendampingan"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-037", "opsi": [
+      "jumlah butir soal yang digunakan pada setiap ulangan",
+      "tujuan dan waktu pelaksanaannya di dalam proses belajar",
+      "tingkat kesulitan butir soal yang digunakan",
+      "ada tidaknya pengawas saat asesmen dilaksanakan"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-042", "opsi": [
+      "menggantikan seluruh pelaksanaan asesmen sumatif",
+      "menentukan ketuntasan tujuan pembelajaran beserta tindak lanjutnya",
+      "menetapkan peringkat hasil belajar seluruh peserta didik di kelas",
+      "menentukan standar biaya pendidikan madrasah"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-046", "opsi": [
+      "bertujuan menguji teori untuk dipublikasikan secara luas",
+      "dilakukan guru untuk memperbaiki mutu pembelajaran di kelasnya",
+      "menggunakan sampel acak berskala besar dan luas",
+      "memerlukan laboratorium khusus serta peralatan canggih"
+    ]},
+    { "file": "pedagogik-p2", "id": "PED-050", "opsi": [
+      "membatalkan penggunaan media dan kembali berceramah penuh waktu",
+      "menyiapkan media luring yang telah diunduh lalu merancang aktivitas tanpa jaringan",
+      "meminta peserta didik membeli paket data sendiri di rumah",
+      "mengganti mata pelajaran Akidah Akhlak dengan mata pelajaran lain yang praktis"
+    ]},
+    { "file": "profesional-p1", "id": "PRO-001", "opsi": [
+      "kebiasaan yang dilakukan berulang-ulang dan tanpa sadar",
+      "keyakinan teguh dalam hati yang terwujud dalam ucapan dan perbuatan",
+      "kumpulan aturan hukum ibadah dan muamalah harian",
+      "ilmu tentang tata cara membaca Al-Quran dengan tartil"
+    ]},
+    { "file": "profesional-p1", "id": "PRO-002", "opsi": [
+      "hanya sejarah para nabi dan tokoh Islam",
+      "rukun iman, akhlak terpuji dan tercela, adab, serta kisah teladan",
+      "keterampilan berbahasa Arab dan menulis kaligrafi",
+      "hukum fikih ibadah dan muamalah secara rinci dan luas"
+    ]},
+    { "file": "profesional-p1", "id": "PRO-003", "opsi": [
+      "menambah hafalan dalil sebanyak mungkin setiap pekan",
+      "membentuk pribadi muslim yang beriman dan berakhlak mulia",
+      "menyiapkan peserta didik menjadi ulama besar di masa depan",
+      "menguasai sejarah kebudayaan Islam secara menyeluruh dan rinci"
+    ]},
+    { "file": "profesional-p2", "id": "PRO-040", "opsi": [
+      "kiamat sugra bersifat sebagian, sedangkan kiamat kubra menghancurkan seluruh alam",
+      "kiamat sugra selalu terjadi setelah kiamat kubra",
+      "kiamat sugra hanya terjadi pada orang beriman, sedangkan kiamat kubra pada semua makhluk",
+      "kiamat sugra tidak diyakini dalam ajaran Islam mana pun"
+    ]},
+    { "file": "profesional-p2", "id": "PRO-041", "opsi": [
+      "menunda tobat karena merasa masih muda",
+      "rajin beramal saleh dan menjauhi perbuatan tercela",
+      "mengumpulkan harta sebanyak mungkin tanpa memperhatikan cara",
+      "bersikap pesimis terhadap kehidupan dunia yang sementara"
+    ]},
+    { "file": "profesional-p2", "id": "PRO-044", "opsi": [
+      "cukup mendoakan nilai yang bagus tanpa perlu belajar",
+      "takdir mualak menuntut ikhtiar maksimal disertai doa dan tawakal",
+      "takdir tidak berkaitan dengan usaha manusia sama sekali",
+      "belajar hanya perlu dilakukan jika ingin dipuji guru"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-051", "opsi": [
+      "sifat tertanam kuat dalam jiwa yang melahirkan perbuatan dengan mudah",
+      "kebiasaan yang dilakukan karena paksaan orang lain semata",
+      "perbuatan baik yang hanya tampak di hadapan orang banyak",
+      "pengetahuan tentang aturan hukum yang bersifat wajib dan sunah"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-054", "opsi": [
+      "menghitung dan mengeluhkan segala kekurangan yang dialami setiap hari",
+      "memuji Allah dengan lisan, mengakui nikmat di hati, dan memanfaatkannya untuk kebaikan",
+      "menyimpan segala nikmat untuk diri sendiri tanpa digunakan",
+      "memamerkan nikmat kepada orang yang tidak mampu"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-069", "opsi": [
+      "menyalahkan keadaan lalu berhenti mencoba sama sekali",
+      "melakukan evaluasi diri, memperbaiki cara belajar, dan tetap berdoa",
+      "menyebarkan kabar kegagalan orang lain agar terlihat sama",
+      "menyembunyikan kegagalan dengan berdusta kepada orang tua"
+    ]},
+    { "file": "profesional-p3", "id": "PRO-071", "opsi": [
+      "menghormati guru sebagaimana menghormati orang tua sendiri",
+      "berbakti kepada kedua orang tua dengan hormat dan kasih sayang",
+      "menyayangi saudara kandung dan kerabat dekat setiap waktu",
+      "menjaga hubungan baik dengan tetangga di sekitar rumah"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-087", "opsi": [
+      "menghafalkan urutan asmaul husna dengan lagu setiap pagi",
+      "menuliskan arti semua asmaul husna di buku catatan",
+      "membiasakan berbagi kasih sayang dan membantu teman",
+      "menghitung jumlah asmaul husna yang telah dihafal"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-088", "opsi": [
+      "menjelaskan sifat mukhalafatu lil hawadisi dengan bahasa yang sesuai usia peserta didik",
+      "menyuruh peserta didik menghafalkan sifat mustahil tanpa penjelasan apa pun",
+      "menjawab bahwa hal tersebut tidak perlu dipikirkan karena dilarang bertanya",
+      "menyakinkan bahwa bayangan itu benar karena tergambar indah dalam angan"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-089", "opsi": [
+      "minta peserta didik menyebutkan lima macam akhlak tercela beserta artinya",
+      "menyajikan kasus nyata perilaku siswa untuk dianalisis dan diperbaiki",
+      "minta peserta didik menyalin definisi ghibah dari buku teks pelajaran",
+      "berikan tebak-tebakan istilah akhlak tanpa konteks yang jelas"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-090", "opsi": [
+      "menampilkan gambar azab yang mengerikan terus-menerus agar peserta didik ketakutan",
+      "menyampaikan gambaran hari akhir secara seimbang dan kontekstual",
+      "cukup menyuruh menghafal urutan peristiwa akhirat tanpa pembahasan",
+      "menghindari topik hari akhir karena menakutkan bagi remaja"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-095", "opsi": [
+      "membalas ejekan dengan kata-kata yang lebih kasar lagi",
+      "menahan amarah dan menempuh cara yang santun atau melapor kepada guru",
+      "merusak barang milik teman yang mengejek tersebut",
+      "berhenti membawa bekal dan meminta uang lebih banyak kepada orang tua"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-098", "opsi": [
+      "menyarankan ayahnya berhenti bekerja agar anak tidak merasa malu",
+      "menjelaskan keutamaan bekerja halal dan besarnya bakti kepada orang tua",
+      "menyuruh peserta didik menghindari pertemuan dengan orang tua di depan teman",
+      "menyampaikan bahwa pekerjaan orang tuanya memang pantas disesali"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-099", "opsi": [
+      "menyampaikan materi tentang kejujuran tanpa perlu menerapkannya di luar kelas",
+      "menampilkan konsistensi ucapan dan perbuatan, misalnya datang tepat waktu",
+      "mengharuskan peserta didik menghafal dalil tentang akhlak mulia setiap hari",
+      "memberikan banyak tugas tertulis agar peserta didik tetap sibuk"
+    ]},
+    { "file": "profesional-p5", "id": "PRO-100", "opsi": [
+      "pembiasaan lebih dahulu, lalu pengetahuan dan pengalaman",
+      "penanaman pengetahuan, penumbuhan sikap melalui keteladanan, lalu pembiasaan",
+      "hukuman, pengawasan ketat, lalu pemberian sanksi yang keras",
+      "hafalan, ujian tulis, lalu pemberian nilai akhir"
+    ]}
+  ]
+}

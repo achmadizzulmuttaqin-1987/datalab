@@ -1,0 +1,146 @@
+{
+  "berkas": "profesional-p4",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-076",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Sejak muda, Nabi Muhammad shallallahu alaihi wasallam dipercaya penduduk Mekah menjaga barang titipan mereka sehingga mendapat gelar ...",
+      "opsi": [
+        "Al-Fatih",
+        "As-Sabir",
+        "Al-Hakim",
+        "Al-Amin"
+      ],
+      "kunci": 3,
+      "bahasan": "Al-Amin berarti yang terpercaya. Kejujuran Nabi Muhammad sejak muda menjadi teladan akhlak dalam menjaga amanah, termasuk sebelum beliau diangkat menjadi rasul."
+    },
+    {
+      "id": "PRO-077",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Peristiwa peletakan kembali Hajar Aswad setelah renovasi Kabah diselesaikan Nabi Muhammad dengan cara ...",
+      "opsi": [
+        "memilih kabilah paling kaya untuk mengangkat batu itu",
+        "memberi keputusan bahwa seluruh kabilah mengangkat batu tersebut bersama melalui kain",
+        "menyerahkan urusan kepada kabilah Quraisy yang paling berkuasa",
+        "membiarkan batu tersebut hingga terjadi perang saudara"
+      ],
+      "kunci": 1,
+      "bahasan": "Nabi Muhammad, yang saat itu belum menjadi rasul, berhasil mencegah pertikaian dengan usulan bijak: Hajar Aswad diletakkan di atas kain dan diangkat bersama seluruh kabilah. Ini teladan berpikir jernih dan adil."
+    },
+    {
+      "id": "PRO-078",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Abu Bakar ash-Shiddiq langsung mempercayai peristiwa Isra Miraj yang disampaikan Nabi Muhammad, sehingga ia mendapat gelar ash-Shiddiq yang berarti ...",
+      "opsi": [
+        "yang membenarkan",
+        "yang berani",
+        "yang dermawan",
+        "yang zuhud"
+      ],
+      "kunci": 0,
+      "bahasan": "Ash-Shiddiq berarti yang membenarkan. Keteguhan iman Abu Bakar tanpa keraguan menjadi teladan kesetiaan dan kepercayaan penuh kepada Rasulullah."
+    },
+    {
+      "id": "PRO-079",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Kisah Umar bin Khattab yang mengangkat sendiri karung gandum untuk keluarga yang kelaparan menunjukkan keteladanan ...",
+      "opsi": [
+        "keberanian dalam berperang",
+        "kedermawanan menginfakkan seluruh hartanya",
+        "tanggung jawab pemimpin terhadap rakyatnya",
+        "keteguhan dalam beribadah malam"
+      ],
+      "kunci": 2,
+      "bahasan": "Umar bin Khattab menunjukkan bahwa pemimpin bertanggung jawab langsung atas kesejahteraan rakyatnya, bukan sekadar memerintah dari jauh."
+    },
+    {
+      "id": "PRO-080",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Utsman bin Affan membeli sumur Raumah dan mewakafkannya untuk kaum muslimin. Keteladanan yang tampak dari kisah tersebut adalah ...",
+      "opsi": [
+        "keberanian menghadapi musuh",
+        "kedermawanan menggunakan harta untuk kepentingan umat",
+        "kecerdasan menyusun strategi perang",
+        "kesabaran menghadapi ujian dakwah"
+      ],
+      "kunci": 1,
+      "bahasan": "Utsman bin Affan dikenal sebagai sahabat yang paling dermawan; wakaf sumur Raumah menjadi bukti pemanfaatan harta untuk kemaslahatan umat."
+    },
+    {
+      "id": "PRO-081",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Ketika hijrah ke Madinah, Ali bin Abi Thalib bersedia tidur di tempat tidur Nabi Muhammad shallallahu alaihi wasallam. Kisah ini meneladankan ...",
+      "opsi": [
+        "kedermawanan membagi harta",
+        "kecerdasan berdebat dengan musuh",
+        "kesabaran mengurus keluarga",
+        "keberanian dan pengorbanan membela Rasulullah"
+      ],
+      "kunci": 3,
+      "bahasan": "Ali bin Abi Thalib menunjukkan keberanian dan pengorbanan luar biasa ketika bersedia menanggung risiko berbahaya demi keselamatan Rasulullah."
+    },
+    {
+      "id": "PRO-082",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Bilal bin Rabah tetap menyatakan keesaan Allah meskipun disiksa di padang pasir. Keteladanan yang dapat ditiru peserta didik adalah ...",
+      "opsi": [
+        "kecerdasan menulis dan menghitung",
+        "kemampuan berdagang dengan jujur",
+        "keteguhan iman dan kesabaran menghadapi ujian",
+        "keberanian memimpin pasukan perang"
+      ],
+      "kunci": 2,
+      "bahasan": "Bilal bin Rabah meneladankan keteguhan akidah dan kesabaran luar biasa dalam mempertahankan iman meskipun menghadapi siksaan."
+    },
+    {
+      "id": "PRO-083",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Salman Al-Farisi mengusulkan penggalian parit sebagai pertahanan dalam Perang Khandaq. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "kedermawanan membagi harta rampasan",
+        "kecerdasan berpikir dan pengabdian kepada umat",
+        "keberanian berduel dengan musuh",
+        "kefasihan berbahasa Arab"
+      ],
+      "kunci": 1,
+      "bahasan": "Salman Al-Farisi meneladankan kecerdasan dan dedikasi; gagasannya menyelamatkan kaum muslimin dan menunjukkan bahwa kebaikan boleh diambil dari pengalaman siapa pun selama selaras syariat."
+    },
+    {
+      "id": "PRO-084",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Khadijah binti Khuwailid mengorbankan harta untuk menopang dakwah Rasulullah. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "kemurahan hati mendukung perjuangan kebaikan",
+        "keberanian tampil di medan perang",
+        "kecerdasan menghafal hadis",
+        "ketegasan menegakkan hukum"
+      ],
+      "kunci": 0,
+      "bahasan": "Khadijah meneladankan kemurahan hati, kesetiaan, dan dukungan moril serta materiil bagi perjuangan dakwah di masa awal."
+    },
+    {
+      "id": "PRO-085",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Aisyah binti Abu Bakar dikenal sebagai perawi hadis dan guru bagi para sahabat. Keteladanan yang dapat ditiru peserta didik adalah ...",
+      "opsi": [
+        "semangat menuntut ilmu dan mengamalkannya untuk orang lain",
+        "kegemaran mengumpulkan harta kekayaan",
+        "keberanian memimpin pasukan berkuda",
+        "kesukaan mengasingkan diri dari masyarakat"
+      ],
+      "kunci": 0,
+      "bahasan": "Aisyah meneladankan kecintaan pada ilmu, ketekunan meriwayatkan hadis, dan kesediaan mengajarkannya, sehingga bermanfaat bagi umat setelah Rasulullah wafat."
+    }
+  ]
+}

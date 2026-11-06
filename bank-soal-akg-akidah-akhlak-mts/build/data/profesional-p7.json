@@ -1,0 +1,371 @@
+{
+  "berkas": "profesional-p7",
+  "kategori": "profesional",
+  "items": [
+    {
+      "id": "PRO-126",
+      "topik": "Ilmu Kalam dan Tokoh Pemikir Islam",
+      "tipe": "pg",
+      "teks": "Manfaat mempelajari ilmu kalam bagi guru Akidah Akhlak adalah ...",
+      "opsi": [
+        "memahami dasar keyakinan beserta dalil dan mampu menjelaskannya",
+        "menghafal perbedaan pendapat para ulama tanpa memahaminya",
+        "menghindari diskusi akidah agar tidak salah berbicara",
+        "memilih aliran yang paling banyak pengikutnya di masyarakat"
+      ],
+      "kunci": 0,
+      "bahasan": "Ilmu kalam membekali guru dengan kemampuan menjelaskan akidah secara argumentatif dan bertanggung jawab, sekaligus menjaga sikap moderat dalam menghadapi perbedaan."
+    },
+    {
+      "id": "PRO-127",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Ikhlas dalam beramal berarti ...",
+      "opsi": [
+        "beramal agar dipuji sebagai orang yang saleh",
+        "beribadah hanya ketika berada di dekat guru",
+        "melakukan amal semata-mata mengharap keridaan Allah",
+        "bersedekah supaya hartanya bertambah berlipat"
+      ],
+      "kunci": 2,
+      "bahasan": "Ikhlas adalah memurnikan niat sehingga amal hanya ditujukan kepada Allah, bukan untuk pujian, popularitas, atau keuntungan duniawi."
+    },
+    {
+      "id": "PRO-128",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Bentuk mahabbah atau cinta kepada Allah yang benar diwujudkan dengan ...",
+      "opsi": [
+        "menaati perintah-Nya dan menjauhi larangan-Nya dengan penuh cinta",
+        "berzikir panjang tanpa menjalankan kewajiban sehari-hari",
+        "menyebut nama Allah hanya ketika menghadapi kesulitan",
+        "menempatkan keridaan manusia di atas perintah Allah"
+      ],
+      "kunci": 0,
+      "bahasan": "Cinta kepada Allah dibuktikan dengan ketaatan dan kesediaan menjalankan perintah-Nya. Pengakuan cinta tanpa ketaatan maupun mendahulukan keridaan manusia merupakan kekeliruan."
+    },
+    {
+      "id": "PRO-129",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Sikap seimbang antara khauf dan raja dalam beribadah berarti ...",
+      "opsi": [
+        "putus asa dari rahmat Allah karena banyaknya dosa",
+        "takut kepada azab Allah sekaligus berharap rahmat-Nya",
+        "merasa aman dari azab Allah karena banyaknya amal",
+        "tidak peduli kepada azab dan rahmat Allah"
+      ],
+      "kunci": 1,
+      "bahasan": "Seorang muslim menjaga keseimbangan antara rasa takut akan azab dan harapan akan rahmat, sehingga tidak berputus asa dan tidak pula merasa aman dari hukuman Allah."
+    },
+    {
+      "id": "PRO-130",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pgk",
+      "teks": "Manakah DUA ciri sikap zuhud yang benar?",
+      "opsi": [
+        "Tidak berlebihan mencintai dunia dan lebih mendahulukan akhirat.",
+        "Tetap bekerja dan berusaha tanpa diperbudak oleh harta.",
+        "Meninggalkan pekerjaan dan menggantungkan diri pada orang lain.",
+        "Mengumpulkan harta sebanyak mungkin tanpa memedulikan halal-haram."
+      ],
+      "kunci": [
+        0,
+        1
+      ],
+      "bahasan": "Zuhud berarti tidak diperbudak dunia, bukan meninggalkan usaha. Seorang zahid tetap bekerja, mencari rezeki halal, dan tidak menjadikan harta tujuan hidup."
+    },
+    {
+      "id": "PRO-131",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Kesadaran bahwa Allah selalu mengawasi setiap perbuatan dinamakan ...",
+      "opsi": [
+        "mujahadah",
+        "muraqabah",
+        "mukafaah",
+        "musyawarah"
+      ],
+      "kunci": 1,
+      "bahasan": "Muraqabah adalah kesadaran diri bahwa Allah senantiasa mengawasi, sehingga seorang muslim menjaga perilakunya baik saat tampak maupun saat tersembunyi."
+    },
+    {
+      "id": "PRO-132",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Muhasabah diri dalam kehidupan sehari-hari dilakukan dengan cara ...",
+      "opsi": [
+        "menghitung jumlah amal orang lain untuk dibandingkan",
+        "meminta orang lain menilai seluruh kekurangan kita",
+        "menghitung dan menilai amal sendiri untuk perbaikan",
+        "mencatat kebaikan diri agar dikenal masyarakat"
+      ],
+      "kunci": 2,
+      "bahasan": "Muhasabah adalah evaluasi diri atas amal yang telah dilakukan, sebagai bahan perbaikan menuju keadaan yang lebih baik di masa berikutnya."
+    },
+    {
+      "id": "PRO-133",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Sikap syajaah atau berani yang dibenarkan dalam Islam ditunjukkan dengan ...",
+      "opsi": [
+        "berani membela kebenaran dengan cara yang bertanggung jawab",
+        "berani melawan siapa pun tanpa memikirkan akibatnya",
+        "menantang bahaya untuk menunjukkan keberanian diri",
+        "menyembunyikan kebenaran agar terhindar dari masalah"
+      ],
+      "kunci": 0,
+      "bahasan": "Syajaah adalah keberanian yang dilandasi kebenaran dan kesadaran akan tanggung jawab, bukan keberanian tanpa perhitungan atau sikap menantang bahaya karena pamer."
+    },
+    {
+      "id": "PRO-134",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Menjaga kehormatan diri dari perbuatan tercela dan berupaya mencukupi diri dengan cara halal disebut ...",
+      "opsi": [
+        "sakha",
+        "iffah",
+        "hilm",
+        "karam"
+      ],
+      "kunci": 1,
+      "bahasan": "Iffah adalah menjaga kehormatan diri dengan menahan diri dari perbuatan hina dan perkara haram, termasuk memelihara pandangan dan pergaulan."
+    },
+    {
+      "id": "PRO-135",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Sikap tawazun dalam kehidupan muslim diwujudkan dengan ...",
+      "opsi": [
+        "menyeimbangkan urusan dunia dan akhirat secara proporsional",
+        "mengutamakan akhirat dan meninggalkan urusan dunia",
+        "mengutamakan dunia karena menjadi bekal akhirat",
+        "memisahkan urusan dunia dari tuntunan agama"
+      ],
+      "kunci": 0,
+      "bahasan": "Tawazun berarti seimbang: bekerja untuk kebutuhan dunia tanpa melalaikan kewajiban akhirat, sebagaimana tuntunan agar manusia tidak melupakan bagiannya di dunia maupun akhirat."
+    },
+    {
+      "id": "PRO-136",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pgk",
+      "teks": "Manakah DUA amalan yang dapat menumbuhkan kebiasaan muhasabah diri?",
+      "opsi": [
+        "Menyalahkan orang lain atas kekurangan diri sendiri.",
+        "Membiasakan menilai kualitas ibadah harian sendiri.",
+        "Berbangga diri atas amal yang telah dikerjakan.",
+        "Bertaubat dan memperbaiki kesalahan setelah menyadarinya."
+      ],
+      "kunci": [
+        1,
+        3
+      ],
+      "bahasan": "Muhasabah tumbuh dari kebiasaan menilai diri, menyadari kekurangan, dan memperbaikinya melalui tobat. Menyalahkan orang lain dan berbangga diri justru mematikan evaluasi diri."
+    },
+    {
+      "id": "PRO-137",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Hakikat ajaran tasawuf pada dasarnya menekankan ...",
+      "opsi": [
+        "penambahan harta dan jabatan untuk kepentingan dakwah",
+        "penyucian jiwa dan pembinaan akhlak menuju rida Allah",
+        "penghafalan istilah-istilah tasawuf tanpa pengamalan",
+        "pengasingan diri dari masyarakat untuk selama-lamanya"
+      ],
+      "kunci": 1,
+      "bahasan": "Tasawuf menekankan tazkiyatun nafs: membersihkan hati dari penyakit dan membina akhlak mulia untuk mendekatkan diri kepada Allah, bukan mengasingkan diri dari kehidupan."
+    },
+    {
+      "id": "PRO-138",
+      "topik": "Akhlak dan Tasawuf",
+      "tipe": "pg",
+      "teks": "Menjenguk tetangga yang sakit dan menghibur keluarga yang terkena musibah termasuk ...",
+      "opsi": [
+        "akhlak mulia terhadap tetangga yang dianjurkan agama",
+        "kewajiban yang hanya dilakukan pada bulan Ramadan",
+        "kegiatan sosial yang tidak bernilai ibadah sama sekali",
+        "tradisi masyarakat yang bertentangan dengan ajaran Islam"
+      ],
+      "kunci": 0,
+      "bahasan": "Islam memperintahkan menjaga hak tetangga, antara lain menjenguk yang sakit, menghibur yang tertimpa musibah, dan memberi bantuan sesuai kemampuan."
+    },
+    {
+      "id": "PRO-139",
+      "topik": "Adab dan Akhlak Kontemporer",
+      "tipe": "pg",
+      "teks": "Menjaga kata sandi dan tidak menyebarkan data pribadi orang lain merupakan wujud ...",
+      "opsi": [
+        "sikap berhati-hati yang berlebihan tanpa manfaat",
+        "menjaga amanah dan kehormatan diri di ruang digital",
+        "kebiasaan yang tidak berkaitan dengan akhlak Islam",
+        "tindakan yang hanya perlu dilakukan oleh orang dewasa"
+      ],
+      "kunci": 1,
+      "bahasan": "Ruang digital juga menjadi medan akhlak. Menjaga data dan kehormatan diri maupun orang lain termasuk amanah serta bagian dari menjaga kehormatan."
+    },
+    {
+      "id": "PRO-140",
+      "topik": "Adab dan Akhlak Kontemporer",
+      "tipe": "pg",
+      "teks": "Menjual barang dengan menyembunyikan cacatnya termasuk perbuatan ...",
+      "opsi": [
+        "kebiasaan dagang yang dibolehkan demi keuntungan",
+        "strategi pemasaran yang dianjurkan dalam Islam",
+        "ghisy yang diharamkan karena merugikan pembeli",
+        "praktik jual beli yang diperselisihkan para ulama"
+      ],
+      "kunci": 2,
+      "bahasan": "Ghisy atau menipu dengan menyembunyikan cacat barang termasuk perbuatan haram. Rasulullah menegaskan bahwa siapa yang menipu tidak termasuk golongan beliau."
+    },
+    {
+      "id": "PRO-141",
+      "topik": "Adab dan Akhlak Kontemporer",
+      "tipe": "pgk",
+      "teks": "Manakah DUA adab bermedia sosial sesuai ajaran Islam?",
+      "opsi": [
+        "Berkata baik atau diam, termasuk ketika menulis komentar.",
+        "Menyebarkan aib seseorang agar menjadi pelajaran publik.",
+        "Menggunakan akun anonim untuk memarahi orang lain.",
+        "Meminta izin sebelum menyebarkan foto atau informasi orang lain."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "Adab bermedia sosial menuntut perkataan yang baik, penghormatan privasi, dan pertanggungjawaban atas unggahan. Menyebarkan aib dan memaki lewat akun anonim bertentangan dengan ajaran Islam."
+    },
+    {
+      "id": "PRO-142",
+      "topik": "Adab dan Akhlak Kontemporer",
+      "tipe": "pg",
+      "teks": "Kebiasaan mengeluh di media sosial sebaiknya diganti dengan sikap ...",
+      "opsi": [
+        "bersyukur dan membagikan hal baik yang bermanfaat",
+        "menyampaikan keluhan dengan kata-kata yang lebih keras",
+        "berpura-pura bahagia meskipun hati penuh kebencian",
+        "menutup diri dari pergaulan agar tidak mengeluh"
+      ],
+      "kunci": 0,
+      "bahasan": "Syukur dan berbagi kebaikan membawa manfaat bagi diri dan orang lain, sedangkan mengeluh berlebihan di ruang publik dapat menimbulkan dampak buruk bagi banyak pihak."
+    },
+    {
+      "id": "PRO-143",
+      "topik": "Adab dan Akhlak Kontemporer",
+      "tipe": "pg",
+      "teks": "Bermain gim atau menonton tayangan tanpa batas waktu berdampak ...",
+      "opsi": [
+        "menambah wawasan dan keterampilan tanpa dampak buruk",
+        "meningkatkan prestasi belajar jika dilakukan setiap hari",
+        "menjadi sarana silaturahim yang wajib dilakukan",
+        "melalaikan ibadah dan belajar sehingga perlu pengendalian diri"
+      ],
+      "kunci": 3,
+      "bahasan": "Segala sesuatu yang berlebihan melalaikan kewajiban. Pengendalian waktu dan pemanfaatan teknologi secara bijak sejalan dengan tuntunan akhlak."
+    },
+    {
+      "id": "PRO-144",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Nabi Ibrahim menghancurkan berhala dan berani berhadapan dengan Namrud. Keteladanan yang tampak pada kisah tersebut adalah ...",
+      "opsi": [
+        "kesabaran menghadapi penyakit yang berkepanjangan",
+        "kedermawanan membagikan harta kepada kaum fakir",
+        "keberanian membela tauhid di hadapan penguasa zalim",
+        "ketelitian dalam meriwayatkan hadis nabi"
+      ],
+      "kunci": 2,
+      "bahasan": "Nabi Ibrahim meneladankan keteguhan akidah dan keberanian menyampaikan kebenaran, tidak goyah meskipun menghadapi ancaman pembakaran oleh penguasa."
+    },
+    {
+      "id": "PRO-145",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Nabi Ayyub mengalami sakit berkepanjangan namun tetap bertakwa dan tidak mengeluh kepada manusia. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "keberanian menghancurkan berhala kaumnya",
+        "kecerdasan menyusun strategi pertahanan kota",
+        "kesabaran luar biasa dalam menghadapi ujian berat",
+        "kemurahan hati membiayai perjuangan dakwah"
+      ],
+      "kunci": 2,
+      "bahasan": "Kisah Nabi Ayyub menjadi teladan kesabaran paripurna: tetap beriman, berzikir, dan tidak berkeluh kesah kepada manusia sepanjang ujian yang menimpanya."
+    },
+    {
+      "id": "PRO-146",
+      "topik": "Kisah Teladan",
+      "tipe": "pgk",
+      "teks": "Manakah DUA keteladanan yang dapat diambil dari kisah Nabi Yusuf?",
+      "opsi": [
+        "Membalas dendam kepada orang yang bersalah kepadanya.",
+        "Memamerkan jabatan dan kemewahan yang dimilikinya.",
+        "Menjaga kehormatan diri meskipun menghadapi godaan.",
+        "Memaafkan saudara yang pernah berbuat zalim kepadanya."
+      ],
+      "kunci": [
+        2,
+        3
+      ],
+      "bahasan": "Kisah Nabi Yusuf meneladankan menjaga kehormatan diri saat digoda serta memaafkan saudara-saudaranya setelah berkuasa, bukan balas dendam atau memamerkan jabatan."
+    },
+    {
+      "id": "PRO-147",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Nabi Nuh berdakwah selama ratusan tahun dengan pengikut yang tidak banyak. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "kesabaran dan keteguhan dalam menjalankan dakwah",
+        "keberanian menghancurkan patung sesembahan kaum",
+        "kecerdasan menafsirkan mimpi raja yang memerintah",
+        "ketelitian memeriksa sanad hadis sebelum menulis"
+      ],
+      "kunci": 0,
+      "bahasan": "Keteguhan Nabi Nuh dalam berdakwah mengajarkan bahwa keberhasilan dakwah bukan diukur dari banyaknya pengikut, melainkan dari kesungguhan dan kesabaran menjalankan amanah."
+    },
+    {
+      "id": "PRO-148",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Umar bin Abdul Aziz memadamkan lampu milik negara ketika membahas urusan pribadi. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "adil dan amanah dalam memisahkan hak pribadi dari jabatan",
+        "berani berperang melawan pasukan yang lebih besar",
+        "dermawan membagikan seluruh harta miliknya sendiri",
+        "sabar menerima penyakit selama bertahun-tahun"
+      ],
+      "kunci": 0,
+      "bahasan": "Sikap Umar bin Abdul Aziz meneladankan integritas pemimpin: fasilitas jabatan tidak digunakan untuk kepentingan pribadi, sekecil apa pun bentuknya."
+    },
+    {
+      "id": "PRO-149",
+      "topik": "Kisah Teladan",
+      "tipe": "pg",
+      "teks": "Imam Bukhari menempuh perjalanan jauh dan memeriksa perawi hadis dengan sangat teliti. Keteladanan yang tampak adalah ...",
+      "opsi": [
+        "ketelitian dan kesungguhan menjaga keotentikan hadis",
+        "keberanian memimpin pasukan pada masa perang",
+        "kemurahan hati membangun fasilitas umum",
+        "kecerdasan mengatur strategi pemerintahan"
+      ],
+      "kunci": 0,
+      "bahasan": "Kesungguhan Imam Bukhari dalam mengumpulkan dan menyeleksi hadis meneladankan jiwa ilmiah: teliti, sabar, dan menjunjung kejujuran demi menjaga kemurnian ajaran."
+    },
+    {
+      "id": "PRO-150",
+      "topik": "Kisah Teladan",
+      "tipe": "pgk",
+      "teks": "Manakah DUA keteladanan dari kisah Imam Syafii dalam menuntut ilmu?",
+      "opsi": [
+        "Memanfaatkan masa muda untuk menuntut ilmu dan berguru.",
+        "Menunggu perintah guru sebelum memulai belajar sendiri.",
+        "Merasa cukup dengan ilmu yang diperoleh tanpa mendalaminya.",
+        "Tekun mempelajari berbagai disiplin ilmu di banyak tempat."
+      ],
+      "kunci": [
+        0,
+        3
+      ],
+      "bahasan": "Imam Syafii dikenal gigih menuntut ilmu sejak muda, berpindah dari satu guru ke guru lain, dan menguasai beragam disiplin keilmuan sehingga menjadi teladan semangat belajar."
+    }
+  ]
+}

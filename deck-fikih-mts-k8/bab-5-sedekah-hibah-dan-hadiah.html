@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAB V: Sedekah, Hibah, dan Hadiah — Fikih Kelas VIII MTs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #070d19;
+      --bg-card: #0f192c;
+      --bg-card-subtle: #16243d;
+      --text-main: #ffffff;
+      --text-muted: #e2e8f0;
+      --text-light: #cbd5e1;
+      --primary: #ec4899;
+      --primary-light: #f472b6;
+      --primary-subtle: rgba(236, 72, 153, 0.16);
+      --accent: #38bdf8;
+      --border-card: #273e66;
+      --shadow-card: 0 25px 60px -10px rgba(0, 0, 0, 0.85);
+      --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+      --font-arabic: 'Amiri', 'Scheherazade New', serif;
+      --radius-card: 24px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: radial-gradient(circle at 50% 15%, #831843 0%, var(--bg-canvas) 85%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      font-size: 22pt;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .deck-topbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 70px; padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      z-index: 100;
+      background: rgba(7, 13, 25, 0.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+      color: #ffffff;
+    }
+
+    .brand-group { display: flex; align-items: center; gap: 16px; font-size: 20pt; font-weight: 700; }
+    .brand-badge {
+      background: linear-gradient(135deg, #db2777, #f472b6);
+      color: #ffffff; padding: 6px 16px; border-radius: 999px;
+      font-size: 18pt; font-weight: 800; text-transform: uppercase;
+      box-shadow: 0 3px 12px rgba(236, 72, 153, 0.4);
+    }
+
+    .deck-controls { display: flex; align-items: center; gap: 12px; }
+    .icon-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff; width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 22pt; transition: all 0.2s ease;
+    }
+    .icon-btn:hover { background: rgba(255, 255, 255, 0.25); transform: translateY(-2px); }
+
+    .deck-viewport {
+      width: 100vw; height: 100vh;
+      padding-top: 80px; padding-bottom: 96px;
+      display: flex; align-items: center; justify-content: center;
+      position: relative;
+    }
+
+    .slide-stage {
+      width: min(94vw, 1320px); height: min(82vh, 760px);
+      position: relative; perspective: 1200px;
+    }
+
+    .slide-card {
+      position: absolute; inset: 0;
+      background: var(--bg-card);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+      border: 2px solid var(--border-card);
+      padding: 44px 52px;
+      display: flex; flex-direction: column;
+      opacity: 0; visibility: hidden;
+      transform: translateX(60px) scale(0.97);
+      transition: opacity 0.38s ease, transform 0.38s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0.38s;
+      overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--primary) transparent;
+      color: var(--text-main);
+      font-size: 22pt;
+    }
+
+    .slide-card.active { opacity: 1; visibility: visible; transform: translateX(0) scale(1); z-index: 10; }
+    .slide-card.prev { transform: translateX(-60px) scale(0.97); }
+
+    .slide-meta {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; border-bottom: 2px dashed var(--border-card); padding-bottom: 14px;
+    }
+
+    .slide-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 19pt; font-weight: 700; color: var(--primary-light);
+      text-transform: uppercase; letter-spacing: 0.06em;
+      background: var(--primary-subtle); padding: 6px 18px; border-radius: 999px;
+      border: 1px solid rgba(244, 114, 182, 0.35);
+    }
+
+    .slide-num-indicator { font-size: 20pt; font-weight: 700; color: var(--text-light); }
+    .slide-title {
+      font-size: 32pt; font-weight: 800; line-height: 1.25;
+      color: #ffffff; margin-bottom: 20px; letter-spacing: -0.02em;
+    }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 10px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 10px; }
+
+    .card-box {
+      background: var(--bg-card-subtle); border: 1px solid var(--border-card);
+      border-radius: 18px; padding: 26px;
+      color: var(--text-main); font-size: 22pt;
+    }
+    .card-box h3, .card-box h4 { font-size: 24pt; font-weight: 700; color: #ffffff; margin-bottom: 10px; }
+    .card-box p, .card-box li { font-size: 22pt; line-height: 1.6; color: var(--text-muted); }
+
+    .arabic-card {
+      background: linear-gradient(145deg, #381226, #0d1a2d);
+      border: 2px solid var(--primary);
+      border-right: 6px solid var(--primary-light);
+      border-radius: 18px; padding: 26px 30px; margin: 18px 0 24px;
+    }
+    .arabic-text {
+      font-family: var(--font-arabic); font-size: 32pt; line-height: 2;
+      direction: rtl; text-align: right; color: #f472b6; font-weight: 700; margin-bottom: 14px;
+      text-shadow: 0 0 16px rgba(244, 114, 182, 0.3);
+    }
+    .arabic-translation { font-size: 22pt; line-height: 1.6; color: #f8fafc; font-style: italic; border-top: 1px solid var(--border-card); padding-top: 14px; }
+    .arabic-source { margin-top: 10px; font-size: 19pt; font-weight: 700; color: var(--accent); text-align: right; }
+
+    .bullet-list { list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 22pt; }
+    .bullet-list li { position: relative; padding-left: 36px; font-size: 22pt; line-height: 1.55; color: var(--text-muted); }
+    .bullet-list li::before { content: "✔"; position: absolute; left: 0; top: 0; color: var(--primary); font-weight: 800; font-size: 22pt; }
+
+    .deck-table {
+      width: 100%; border-collapse: separate; border-spacing: 0;
+      margin: 18px 0; border-radius: 16px; overflow: hidden;
+      border: 1px solid var(--border-card); font-size: 21pt;
+    }
+    .deck-table th { background: #3b172a; color: #ffffff; font-weight: 700; text-align: left; padding: 14px 20px; border-bottom: 2px solid var(--border-card); font-size: 22pt; }
+    .deck-table td { padding: 14px 20px; border-bottom: 1px solid var(--border-card); color: var(--text-muted); line-height: 1.5; background: rgba(255, 255, 255, 0.02); font-size: 21pt; }
+    .deck-table tr:last-child td { border-bottom: none; }
+    .deck-table tr:nth-child(even) td { background: rgba(255, 255, 255, 0.04); }
+
+    .cover-container {
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      text-align: center; height: 100%; gap: 24px;
+    }
+    .cover-badge {
+      background: linear-gradient(135deg, #db2777, #f472b6);
+      color: #ffffff; padding: 8px 24px; border-radius: 999px;
+      font-size: 20pt; font-weight: 800; letter-spacing: 0.06em;
+    }
+    .cover-title { font-size: 42pt; font-weight: 800; color: #ffffff; line-height: 1.2; letter-spacing: -0.03em; }
+    .cover-title span { background: linear-gradient(135deg, #f472b6, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .cover-desc { max-width: 950px; font-size: 24pt; line-height: 1.6; color: var(--text-muted); }
+    .cover-meta { display: flex; gap: 32px; margin-top: 20px; font-size: 20pt; color: var(--text-light); font-weight: 600; border-top: 1px solid var(--border-card); padding-top: 20px; }
+
+    .deck-nav {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      height: 90px; background: rgba(7, 13, 25, 0.94);
+      backdrop-filter: blur(16px); border-top: 1px solid rgba(255, 255, 255, 0.14);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 36px; z-index: 100; color: #ffffff;
+    }
+    .nav-progress-wrap { flex: 1; max-width: 520px; margin: 0 28px; display: flex; flex-direction: column; gap: 8px; }
+    .nav-progress-bar { width: 100%; height: 8px; background: rgba(255, 255, 255, 0.15); border-radius: 999px; overflow: hidden; }
+    .nav-progress-fill { height: 100%; width: 5%; background: linear-gradient(90deg, #f472b6, #38bdf8); border-radius: 999px; transition: width 0.3s ease; }
+    .nav-meta-text { display: flex; justify-content: space-between; font-size: 19pt; color: #94a3b8; font-weight: 600; }
+    .nav-buttons { display: flex; align-items: center; gap: 14px; }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; border-radius: 14px;
+      background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #ffffff; font-weight: 700; font-size: 20pt; cursor: pointer; transition: all 0.2s ease;
+    }
+    .nav-btn:hover:not(:disabled) { background: rgba(255, 255, 255, 0.25); transform: translateY(-2px); }
+    .nav-btn.primary { background: linear-gradient(135deg, #db2777, #f472b6); color: #ffffff; border: none; font-weight: 800; box-shadow: 0 4px 16px rgba(236, 72, 153, 0.4); }
+    .nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    .drawer-overlay {
+      position: fixed; inset: 0; background: rgba(0, 0, 0, 0.88); backdrop-filter: blur(10px);
+      z-index: 200; opacity: 0; visibility: hidden; transition: all 0.25s ease;
+      display: flex; align-items: center; justify-content: center; padding: 36px;
+    }
+    .drawer-overlay.open { opacity: 1; visibility: visible; }
+    .drawer-content {
+      background: var(--bg-card); width: min(92vw, 1080px); max-height: 85vh; border-radius: 24px;
+      padding: 36px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9); border: 2px solid var(--border-card);
+      display: flex; flex-direction: column; color: #ffffff;
+    }
+    .drawer-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; border-bottom: 1px solid var(--border-card); padding-bottom: 16px; }
+    .drawer-title { font-size: 26pt; font-weight: 800; color: #ffffff; }
+    .drawer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; overflow-y: auto; padding: 10px 4px; }
+    .drawer-item {
+      padding: 16px; background: var(--bg-card-subtle); border: 1px solid var(--border-card);
+      border-radius: 14px; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; gap: 8px;
+    }
+    .drawer-item:hover, .drawer-item.active { border-color: var(--primary); background: var(--primary-subtle); transform: translateY(-2px); }
+    .drawer-item-num { font-size: 18pt; font-weight: 800; color: var(--primary); }
+    .drawer-item-title { font-size: 20pt; font-weight: 700; color: #ffffff; line-height: 1.35; }
+  </style>
+</head>
+<body>
+
+  <header class="deck-topbar">
+    <div class="brand-group">
+      <span class="brand-badge">KMA 183</span>
+      <span class="brand-title">Fikih Kelas VIII MTs &bull; Bab V Sedekah, Hibah, Hadiah</span>
+    </div>
+    <div class="deck-controls">
+      <button class="icon-btn" id="btn-drawer" title="Daftar Slide (M)">📑</button>
+      <button class="icon-btn" id="btn-fullscreen" title="Layar Penuh (F)">⛶</button>
+      <button class="icon-btn" id="btn-print" title="Cetak / Simpan PDF">🖨️</button>
+    </div>
+  </header>
+
+  <main class="deck-viewport">
+    <div class="slide-stage" id="slide-stage">
+
+      <!-- SLIDE 1: COVER -->
+      <article class="slide-card active" data-slide="1" data-title="Sampul & Pembuka">
+        <div class="cover-container">
+          <div class="cover-badge">BAB V &bull; SEMESTER GENAP</div>
+          <h1 class="cover-title">INDAHNYA BERBAGI <span>SEDEKAH, HIBAH, HADIAH</span></h1>
+          <p class="cover-desc">
+            Panduan Syar'i Menebar Kebaikan: Ketentuan Sedekah (Materiil & Non-Materiil), Hibah (Rukun & Hukum Mencabut Hibah), Hadiah, Serta Perbedaan Mendasar Ketiganya.
+          </p>
+          <div class="cover-meta">
+            <span>📖 Modul Fikih Kelas VIII MTs</span>
+            <span>✨ Font 22pt+ Ekstra Jelas</span>
+            <span>🌙 Mode Gelap Eksklusif</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 2: PERBANDINGAN TIGA AMALAN -->
+      <article class="slide-card" data-slide="2" data-title="Perbandingan 3 Amalan">
+        <div class="slide-meta">
+          <span class="slide-tag">Tabel Komparasi</span>
+          <span class="slide-num-indicator">02 / 10</span>
+        </div>
+        <h2 class="slide-title">Perbandingan Sedekah, Hibah, dan Hadiah</h2>
+        <table class="deck-table">
+          <thead>
+            <tr>
+              <th>Pembeda</th>
+              <th>Sedekah</th>
+              <th>Hibah</th>
+              <th>Hadiah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tujuan</strong></td>
+              <td>Mencari pahala & ridha Allah</td>
+              <td>Kasih sayang & tolong menolong</td>
+              <td>Apresiasi prestasi / hormat</td>
+            </tr>
+            <tr>
+              <td><strong>Sasaran</strong></td>
+              <td>Fakir miskin / orang lemah</td>
+              <td>Siapapun tanpa pandang status</td>
+              <td>Orang yang berprestasi/dihormati</td>
+            </tr>
+            <tr>
+              <td><strong>Bentuk</strong></td>
+              <td>Harta maupun non-harta (senyum)</td>
+              <td>Harus berupa barang nyata</td>
+              <td>Berupa barang / bingkisan</td>
+            </tr>
+            <tr>
+              <td><strong>Tarik Kembali</strong></td>
+              <td>Haram mutlak</td>
+              <td>Haram (kecuali orang tua ke anak)</td>
+              <td>Haram mutlak</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- SLIDE 3: KETENTUAN SEDEKAH -->
+      <article class="slide-card" data-slide="3" data-title="Ketentuan Sedekah">
+        <div class="slide-meta">
+          <span class="slide-tag">Amalan Sedekah</span>
+          <span class="slide-num-indicator">03 / 10</span>
+        </div>
+        <h2 class="slide-title">Ketentuan & Bentuk Sedekah</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            مَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ كَمَثَلِ حَبَّةٍ أَنْبَتَتْ سَبْعَ سَنَابِلَ فِي كُلِّ سُنْبُلَةٍ مِائَةُ حَبَّةٍ
+          </div>
+          <div class="arabic-translation">
+            "Perumpamaan orang yang menginfakkan hartanya di jalan Allah seperti sebutir biji yang menumbuhkan tujuh tangkai, pada setiap tangkai ada seratus biji..."
+          </div>
+          <div class="arabic-source">QS. Al-Baqarah [2]: Ayat 261</div>
+        </div>
+        <div class="card-box">
+          <p><strong>Bentuk Sedekah:</strong> Sedekah tidak terbatas pada materiil/uang, melainkan mencakup setiap kebaikan: tersenyum ramah, berdzikir (tasbih, tahmid, tahlil), amar ma'ruf nahi munkar, serta menyingkirkan duri di jalanan.</p>
+        </div>
+      </article>
+
+      <!-- SLIDE 4: KETENTUAN HIBAH -->
+      <article class="slide-card" data-slide="4" data-title="Ketentuan Hibah">
+        <div class="slide-meta">
+          <span class="slide-tag">Akad Hibah</span>
+          <span class="slide-num-indicator">04 / 10</span>
+        </div>
+        <h2 class="slide-title">Rukun dan Syarat Hibah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color:var(--primary-light);">Pengertian & Rukun Hibah:</h3>
+            <p>Pemberian hak milik barang dari seseorang kepada orang lain semasa hidupnya secara sukarela tanpa mengharapkan ganti rugi.</p>
+            <ul class="bullet-list" style="margin-top:12px;">
+              <li><strong>Wahib:</strong> Pemberi hibah (dewasa & berakal).</li>
+              <li><strong>Mauhub lahu:</strong> Penerima hibah.</li>
+              <li><strong>Mauhub:</strong> Barang yang dihibahkan.</li>
+              <li><strong>Shighat:</strong> Ijab dan Qabul serah terima.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="color:var(--accent);">Larangan Menarik Kembali:</h3>
+            <p>Haram mencabut kembali hibah yang telah diserahkan. Rasulullah saw. bersabda bahwa orang yang menarik kembali hibahnya ibarat <em>anjing yang muntah lalu menelan kembali muntahannya</em> (HR. Bukhari).</p>
+            <p style="margin-top:10px; color:#38bdf8;"><strong>Pengecualian:</strong> Orang tua BOLEH menarik kembali hibah yang diberikan kepada anak kandungnya sendiri.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 5: KETENTUAN HADIAH -->
+      <article class="slide-card" data-slide="5" data-title="Ketentuan Hadiah">
+        <div class="slide-meta">
+          <span class="slide-tag">Adab Hadiah</span>
+          <span class="slide-num-indicator">05 / 10</span>
+        </div>
+        <h2 class="slide-title">Ketentuan dan Sunnah Hadiah</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            تَهَادَوْا تَحَابُّوا
+          </div>
+          <div class="arabic-translation">
+            "Saling memberilah hadiah kalian, niscaya kalian akan saling mencintai."
+          </div>
+          <div class="arabic-source">HR. Al-Bukhari dalam Al-Adab Al-Mufrad (No. 594)</div>
+        </div>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color:var(--primary-light);">Tujuan Pemberian Hadiah:</h3>
+            <ul class="bullet-list">
+              <li>Menghargai jerih payah / prestasi kebaikan.</li>
+              <li>Mempererat tali kasih sayang dan persaudaraan sesama muslim.</li>
+              <li>Menghilangkan rasa dengki dan permusuhan di hati.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="color:var(--accent);">Catatan Syar'i:</h3>
+            <p>Hadiah yang diberikan kepada pejabat/hakim terkait wewenang jabatannya dapat berubah menjadi <strong>risywah (suap/gratifikasi)</strong> yang diharamkan secara tegas dalam syariat Islam.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 6: EVALUASI PG -->
+      <article class="slide-card" data-slide="6" data-title="Uji Pemahaman PG">
+        <div class="slide-meta">
+          <span class="slide-tag">Evaluasi Bab V</span>
+          <span class="slide-num-indicator">06 / 10</span>
+        </div>
+        <h2 class="slide-title">Uji Pemahaman: Sedekah, Hibah, Hadiah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <p><strong>1. Pemberian barang kepada seseorang sebagai bentuk penghargaan atas prestasinya disebut:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:8px;">
+              B. Hadiah ✅
+            </p>
+            <hr style="margin:14px 0; border:none; border-top:1px solid var(--border-card);">
+            <p><strong>2. Menarik kembali barang hibah hukumnya haram, KECUALI hibah dari:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:8px;">
+              C. Orang tua kepada anaknya sendiri ✅
+            </p>
+          </div>
+          <div class="card-box">
+            <p><strong>3. Salah satu bentuk sedekah non-materiil yang paling mudah dilakukan setiap hari adalah:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:8px;">
+              A. Tersenyum ramah kepada sesama saudara muslim ✅
+            </p>
+            <hr style="margin:14px 0; border:none; border-top:1px solid var(--border-card);">
+            <p><strong>4. Pahala orang yang bersedekah di jalan Allah diumpamakan dalam QS. Al-Baqarah: 261 dilipatgandakan hingga:</strong></p>
+            <p style="color:var(--primary-light); font-weight:700; margin-top:8px;">
+              D. 700 Kali Lipat ✅
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="deck-nav">
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-prev"><span>◀</span> Sebelum</button>
+      <button class="nav-btn primary" id="btn-next">Lanjut <span>▶</span></button>
+    </div>
+    <div class="nav-progress-wrap">
+      <div class="nav-progress-bar">
+        <div class="nav-progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="nav-meta-text">
+        <span id="slide-title-display">Sampul & Pembuka</span>
+        <span id="slide-counter-display">Slide 01 / 06</span>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-first">⏮️ Awal</button>
+      <button class="nav-btn" id="btn-last">⏭️ Akhir</button>
+    </div>
+  </footer>
+
+  <div class="drawer-overlay" id="drawer-overlay">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <h3 class="drawer-title">📑 Daftar Slide Bab V — Fikih Kelas VIII</h3>
+        <button class="icon-btn" id="btn-close-drawer">✕</button>
+      </div>
+      <div class="drawer-grid" id="drawer-grid"></div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const slides = document.querySelectorAll('.slide-card');
+      const totalSlides = slides.length;
+      let currentIndex = 0;
+
+      const btnPrev = document.getElementById('btn-prev');
+      const btnNext = document.getElementById('btn-next');
+      const btnFirst = document.getElementById('btn-first');
+      const btnLast = document.getElementById('btn-last');
+      const progressFill = document.getElementById('progress-fill');
+      const slideTitleDisplay = document.getElementById('slide-title-display');
+      const slideCounterDisplay = document.getElementById('slide-counter-display');
+      const btnFullscreen = document.getElementById('btn-fullscreen');
+      const btnPrint = document.getElementById('btn-print');
+      const btnDrawer = document.getElementById('btn-drawer');
+      const btnCloseDrawer = document.getElementById('btn-close-drawer');
+      const drawerOverlay = document.getElementById('drawer-overlay');
+      const drawerGrid = document.getElementById('drawer-grid');
+
+      slides.forEach((slide, idx) => {
+        const item = document.createElement('div');
+        item.className = 'drawer-item' + (idx === 0 ? ' active' : '');
+        item.dataset.index = idx;
+        const num = String(idx + 1).padStart(2, '0');
+        const title = slide.dataset.title || `Slide ${num}`;
+        item.innerHTML = `<span class="drawer-item-num">Slide ${num}</span><span class="drawer-item-title">${title}</span>`;
+        item.addEventListener('click', () => { goToSlide(idx); closeDrawer(); });
+        drawerGrid.appendChild(item);
+      });
+
+      function updateSlide(newIndex) {
+        if (newIndex < 0) newIndex = 0;
+        if (newIndex >= totalSlides) newIndex = totalSlides - 1;
+
+        slides.forEach((slide, idx) => {
+          slide.classList.remove('active', 'prev');
+          if (idx === newIndex) {
+            slide.classList.add('active');
+            slide.scrollTop = 0;
+          } else if (idx < newIndex) {
+            slide.classList.add('prev');
+          }
+        });
+
+        currentIndex = newIndex;
+        const currNum = String(currentIndex + 1).padStart(2, '0');
+        const totalNum = String(totalSlides).padStart(2, '0');
+        slideCounterDisplay.textContent = `Slide ${currNum} / ${totalNum}`;
+        slideTitleDisplay.textContent = slides[currentIndex].dataset.title || `Slide ${currNum}`;
+
+        const pct = ((currentIndex + 1) / totalSlides) * 100;
+        progressFill.style.width = pct + '%';
+
+        btnPrev.disabled = currentIndex === 0;
+        btnNext.disabled = currentIndex === totalSlides - 1;
+
+        const drawerItems = drawerGrid.querySelectorAll('.drawer-item');
+        drawerItems.forEach((dItem, idx) => {
+          dItem.classList.toggle('active', idx === currentIndex);
+        });
+      }
+
+      function goToSlide(index) { updateSlide(index); }
+      function nextSlide() { if (currentIndex < totalSlides - 1) updateSlide(currentIndex + 1); }
+      function prevSlide() { if (currentIndex > 0) updateSlide(currentIndex - 1); }
+      function openDrawer() { drawerOverlay.classList.add('open'); }
+      function closeDrawer() { drawerOverlay.classList.remove('open'); }
+
+      btnNext.addEventListener('click', nextSlide);
+      btnPrev.addEventListener('click', prevSlide);
+      btnFirst.addEventListener('click', () => goToSlide(0));
+      btnLast.addEventListener('click', () => goToSlide(totalSlides - 1));
+
+      btnDrawer.addEventListener('click', openDrawer);
+      btnCloseDrawer.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', (e) => {
+        if (e.target === drawerOverlay) closeDrawer();
+      });
+
+      window.addEventListener('keydown', (e) => {
+        if (drawerOverlay.classList.contains('open')) {
+          if (e.key === 'Escape') closeDrawer();
+          return;
+        }
+        if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+          e.preventDefault(); nextSlide();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+          e.preventDefault(); prevSlide();
+        } else if (e.key === 'Home') {
+          e.preventDefault(); goToSlide(0);
+        } else if (e.key === 'End') {
+          e.preventDefault(); goToSlide(totalSlides - 1);
+        } else if (e.key === 'f' || e.key === 'F') {
+          toggleFullscreen();
+        } else if (e.key === 'm' || e.key === 'M') {
+          openDrawer();
+        }
+      });
+
+      let touchStartX = 0, touchEndX = 0;
+      const stage = document.getElementById('slide-stage');
+      stage.addEventListener('touchstart', (e) => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
+      stage.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        const threshold = 50;
+        if (touchEndX < touchStartX - threshold) nextSlide();
+        else if (touchEndX > touchStartX + threshold) prevSlide();
+      }, { passive: true });
+
+      function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(() => {});
+        } else {
+          document.exitFullscreen().catch(() => {});
+        }
+      }
+      btnFullscreen.addEventListener('click', toggleFullscreen);
+      btnPrint.addEventListener('click', () => { window.print(); });
+
+      updateSlide(0);
+    })();
+  </script>
+</body>
+</html>

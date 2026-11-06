@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAB I: Kurban dan Akikah — Fikih Kelas IX MTs (Slide Deck Presentation)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-canvas: #0b1329;
+      --bg-card: #ffffff;
+      --bg-card-subtle: #f8fafc;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #94a3b8;
+      --primary: #047857;
+      --primary-light: #10b981;
+      --primary-subtle: #ecfdf5;
+      --accent: #b45309;
+      --accent-subtle: #fef3c7;
+      --border-card: #e2e8f0;
+      --shadow-card: 0 20px 45px -10px rgba(0, 0, 0, 0.35), 0 8px 16px -6px rgba(0, 0, 0, 0.2);
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-arabic: 'Amiri', 'Scheherazade New', serif;
+      --radius-card: 22px;
+      --transition-speed: 0.38s;
+    }
+
+    [data-theme="dark"] {
+      --bg-canvas: #060913;
+      --bg-card: #0f172a;
+      --bg-card-subtle: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --text-light: #64748b;
+      --primary: #10b981;
+      --primary-light: #34d399;
+      --primary-subtle: rgba(16, 185, 129, 0.12);
+      --accent: #f59e0b;
+      --accent-subtle: rgba(245, 158, 11, 0.12);
+      --border-card: #334155;
+      --shadow-card: 0 20px 50px -10px rgba(0, 0, 0, 0.65);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 20%, #1e293b 0%, var(--bg-canvas) 85%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    /* Top Utility Bar */
+    .deck-topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 56px;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 100;
+      background: rgba(11, 19, 41, 0.65);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      color: #f8fafc;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .brand-badge {
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      box-shadow: 0 2px 8px rgba(16, 185, 129, 0.35);
+    }
+
+    .deck-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .icon-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #f1f5f9;
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+    }
+
+    .icon-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    /* Deck Viewport */
+    .deck-viewport {
+      width: 100vw;
+      height: 100vh;
+      padding-top: 60px;
+      padding-bottom: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    /* Slide Card */
+    .slide-stage {
+      width: min(92vw, 1220px);
+      height: min(80vh, 690px);
+      position: relative;
+      perspective: 1200px;
+    }
+
+    .slide-card {
+      position: absolute;
+      inset: 0;
+      background: var(--bg-card);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+      border: 1px solid var(--border-card);
+      padding: 42px 48px;
+      display: flex;
+      flex-direction: column;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(50px) scale(0.97);
+      transition: opacity var(--transition-speed) ease,
+                  transform var(--transition-speed) cubic-bezier(0.2, 0.8, 0.2, 1),
+                  visibility var(--transition-speed);
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary) transparent;
+    }
+
+    .slide-card.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0) scale(1);
+      z-index: 10;
+    }
+
+    .slide-card.prev {
+      transform: translateX(-50px) scale(0.97);
+    }
+
+    /* Slide Headers */
+    .slide-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      border-bottom: 1px dashed var(--border-card);
+      padding-bottom: 12px;
+    }
+
+    .slide-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: var(--primary-subtle);
+      padding: 4px 12px;
+      border-radius: 999px;
+    }
+
+    .slide-num-indicator {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-light);
+      font-feature-settings: "tnum";
+    }
+
+    .slide-title {
+      font-size: 1.85rem;
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .slide-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    /* Content Layouts */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 8px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 8px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 8px;
+    }
+
+    .card-box {
+      background: var(--bg-card-subtle);
+      border: 1px solid var(--border-card);
+      border-radius: 16px;
+      padding: 22px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card-box:hover {
+      border-color: var(--primary-light);
+      transform: translateY(-2px);
+    }
+
+    .card-box-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .card-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
+    .card-box-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .card-box p, .card-box li {
+      font-size: 0.92rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    /* Arabic Box */
+    .arabic-card {
+      background: linear-gradient(145deg, var(--bg-card-subtle), var(--primary-subtle));
+      border: 1px solid var(--primary-light);
+      border-right: 4px solid var(--primary);
+      border-radius: 16px;
+      padding: 24px;
+      margin: 14px 0 20px;
+    }
+
+    .arabic-text {
+      font-family: var(--font-arabic);
+      font-size: 1.6rem;
+      line-height: 2.3;
+      direction: rtl;
+      text-align: right;
+      color: #065f46;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    [data-theme="dark"] .arabic-text {
+      color: #6ee7b7;
+    }
+
+    .arabic-translation {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      color: var(--text-main);
+      font-style: italic;
+      border-top: 1px solid var(--border-card);
+      padding-top: 12px;
+    }
+
+    .arabic-source {
+      margin-top: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-align: right;
+    }
+
+    /* Bullet List */
+    .bullet-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .bullet-list li {
+      position: relative;
+      padding-left: 28px;
+      font-size: 0.96rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+    }
+
+    .bullet-list li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 0.85rem;
+    }
+
+    .bullet-list.warning li::before {
+      content: "✖";
+      color: #ef4444;
+    }
+
+    /* Styled Tables */
+    .deck-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 16px 0;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border-card);
+      font-size: 0.9rem;
+    }
+
+    .deck-table th {
+      background: var(--bg-card-subtle);
+      color: var(--text-main);
+      font-weight: 700;
+      text-align: left;
+      padding: 12px 16px;
+      border-bottom: 2px solid var(--border-card);
+    }
+
+    .deck-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-card);
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .deck-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .deck-table tr:nth-child(even) td {
+      background: rgba(0, 0, 0, 0.015);
+    }
+
+    /* Cover Slide Specific */
+    .cover-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      gap: 20px;
+    }
+
+    .cover-badge {
+      background: linear-gradient(135deg, #059669, #047857);
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .cover-title {
+      font-size: 3.2rem;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+
+    .cover-title span {
+      background: linear-gradient(135deg, #059669, #10b981);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .cover-desc {
+      max-width: 680px;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    .cover-meta {
+      display: flex;
+      gap: 24px;
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: var(--text-light);
+      font-weight: 600;
+      border-top: 1px solid var(--border-card);
+      padding-top: 16px;
+    }
+
+    /* Bottom Navigation Bar */
+    .deck-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      background: rgba(11, 19, 41, 0.85);
+      backdrop-filter: blur(14px);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      z-index: 100;
+      color: #fff;
+    }
+
+    .nav-progress-wrap {
+      flex: 1;
+      max-width: 440px;
+      margin: 0 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .nav-progress-bar {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .nav-progress-fill {
+      height: 100%;
+      width: 3%;
+      background: linear-gradient(90deg, #10b981, #34d399);
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    .nav-meta-text {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      background: rgba(255, 255, 255, 0.22);
+      transform: translateY(-1px);
+    }
+
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #059669, #10b981);
+      border: none;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+    }
+
+    .nav-btn.primary:hover {
+      background: linear-gradient(135deg, #047857, #059669);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    /* Modal Drawer for Slide Overview */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.25s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .drawer-content {
+      background: var(--bg-card);
+      width: min(90vw, 980px);
+      max-height: 80vh;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+      border: 1px solid var(--border-card);
+      display: flex;
+      flex-direction: column;
+      transform: translateY(20px);
+      transition: transform 0.25s ease;
+    }
+
+    .drawer-overlay.open .drawer-content {
+      transform: translateY(0);
+    }
+
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border-card);
+      padding-bottom: 14px;
+    }
+
+    .drawer-title {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .drawer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 14px;
+      overflow-y: auto;
+      padding: 8px 4px;
+    }
+
+    .drawer-item {
+      padding: 14px;
+      background: var(--bg-card-subtle);
+      border: 1px solid var(--border-card);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .drawer-item:hover, .drawer-item.active {
+      border-color: var(--primary);
+      background: var(--primary-subtle);
+      transform: translateY(-2px);
+    }
+
+    .drawer-item-num {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+
+    .drawer-item-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+        overflow: visible !important;
+      }
+      .deck-topbar, .deck-nav, .drawer-overlay {
+        display: none !important;
+      }
+      .deck-viewport {
+        padding: 0 !important;
+        height: auto !important;
+        width: auto !important;
+        display: block !important;
+      }
+      .slide-stage {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+      }
+      .slide-card {
+        position: relative !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        margin-bottom: 40px !important;
+        page-break-after: always !important;
+        height: 100vh !important;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .slide-stage {
+        width: 95vw;
+        height: 82vh;
+      }
+      .slide-card {
+        padding: 24px 20px;
+      }
+      .slide-title {
+        font-size: 1.35rem;
+      }
+      .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+      .deck-topbar span.brand-title {
+        display: none;
+      }
+      .arabic-text {
+        font-size: 1.3rem;
+        line-height: 2;
+      }
+      .cover-title {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="deck-topbar">
+    <div class="brand-group">
+      <span class="brand-badge">KMA 1503 / 2025</span>
+      <span class="brand-title">Fikih Kelas IX MTs &bull; Buku Teks Utama</span>
+    </div>
+    <div class="deck-controls">
+      <button class="icon-btn" id="btn-theme" title="Ubah Tema Gelap/Terang">🌓</button>
+      <button class="icon-btn" id="btn-drawer" title="Daftar Semua Slide (Overview)">📑</button>
+      <button class="icon-btn" id="btn-fullscreen" title="Layar Penuh (F)">⛶</button>
+      <button class="icon-btn" id="btn-print" title="Cetak / Simpan PDF">🖨️</button>
+    </div>
+  </header>
+
+  <!-- Main Viewport -->
+  <main class="deck-viewport">
+    <div class="slide-stage" id="slide-stage">
+
+      <!-- SLIDE 1: COVER -->
+      <article class="slide-card active" data-slide="1" data-title="Sampul & Pembuka">
+        <div class="cover-container">
+          <div class="cover-badge">BAB I &bull; FIKIH MADRASAH TSANAWIYAH</div>
+          <h1 class="cover-title">KURBAN DAN <span>AKIKAH</span></h1>
+          <p class="cover-desc">
+            Panduan Lengkap Syariat Kurban dan Akikah Berdasarkan Al-Qur’an, As-Sunnah, dan Pendekatan Kurikulum Berbasis Cinta (KBC).
+          </p>
+          <div class="cover-meta">
+            <span>📖 Penulis: Midahwati, MA</span>
+            <span>🏛️ Kementerian Agama RI (2025)</span>
+            <span>🎓 Kelas IX Semester Ganjil</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 2: CP & TUJUAN PEMBELAJARAN -->
+      <article class="slide-card" data-slide="2" data-title="Capaian & Tujuan Belajar">
+        <div class="slide-meta">
+          <span class="slide-tag">Kurikulum & Fondasi</span>
+          <span class="slide-num-indicator">02 / 35</span>
+        </div>
+        <h2 class="slide-title">Capaian & Tujuan Pembelajaran</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon">CP</div>
+              <h3 class="card-box-title">Capaian Pembelajaran (Fikih Ibadah)</h3>
+            </div>
+            <p>
+              Memahami tata cara beribadah yang baik dan benar melalui kajian <em>naqli</em> dan <em>aqli</em> yang meliputi ketentuan kurban dan akikah, taharah, salat, sujud, puasa, zakat, haji-umrah, makanan halal-haram, dan pemulasaraan jenazah.
+            </p>
+          </div>
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon">TP</div>
+              <h3 class="card-box-title">Tujuan & Kurikulum Berbasis Cinta (KBC)</h3>
+            </div>
+            <p>
+              Peserta didik memahami ketentuan kurban dan akikah sebagai bentuk ketaatan, syukur, dan kasih sayang kepada sesama.
+            </p>
+            <div style="margin-top: 12px; padding: 10px; background: var(--primary-subtle); border-radius: 8px; font-size: 0.85rem; color: var(--primary); font-weight: 600;">
+              ❤️ Panca Cinta: Cinta Allah & Rasul-Nya, Cinta Diri & Sesama, serta Cinta Lingkungan (sembelihan bersih & higienis).
+            </div>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 16px;">
+          <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 6px;">🔑 Kata Kunci Utama Bab I:</h4>
+          <p style="color: var(--primary); font-weight: 700;">
+            Hewan Kurban &bull; Penyembelihan &bull; <em>Mudlahhi</em> (Orang yang Berkurban) &bull; Iduladha &bull; Hari Tasyrik &bull; Akikah &bull; <em>Tahnik</em> &bull; Tasmiyah
+          </p>
+        </div>
+      </article>
+
+      <!-- SLIDE 3: PETA KONSEP -->
+      <article class="slide-card" data-slide="3" data-title="Peta Konsep Bab I">
+        <div class="slide-meta">
+          <span class="slide-tag">Peta Konsep</span>
+          <span class="slide-num-indicator">03 / 35</span>
+        </div>
+        <h2 class="slide-title">Peta Konsep Materi Bab I</h2>
+        <div class="grid-2">
+          <div class="card-box" style="border-top: 4px solid var(--primary);">
+            <h3 style="font-size: 1.15rem; color: var(--primary); font-weight: 800; margin-bottom: 12px;">A. KETENTUAN KURBAN</h3>
+            <ul class="bullet-list">
+              <li><strong>Definisi & Sejarah:</strong> Habil-Qabil & Pengorbanan Nabi Ibrahim as.</li>
+              <li><strong>Dasar Hukum:</strong> Sunah Muakkad (QS. Al-Kautsar: 1-3 & HR. Ahmad).</li>
+              <li><strong>Hewan Kurban:</strong> Jenis An'am, syarat sehat/tidak cacat, batasan umur & kuota patungan.</li>
+              <li><strong>Waktu & Tempat:</strong> 10 Zulhijjah s.d. 13 Zulhijjah (Hari Tasyrik).</li>
+              <li><strong>Tata Cara & Sunah:</strong> Niat, adab pisau, doa, putus 3 saluran leher.</li>
+              <li><strong>Pemanfaatan Daging:</strong> Daging mentah, kurban sunah vs kurban nazar.</li>
+              <li><strong>Hikmah:</strong> Bagi mudlahhi, fakir miskin, dan masyarakat umum.</li>
+            </ul>
+          </div>
+          <div class="card-box" style="border-top: 4px solid var(--accent);">
+            <h3 style="font-size: 1.15rem; color: var(--accent); font-weight: 800; margin-bottom: 12px;">B. KETENTUAN AKIKAH</h3>
+            <ul class="bullet-list">
+              <li><strong>Definisi & Sejarah:</strong> Rambut bayi & pelurusan tradisi Jahiliyah.</li>
+              <li><strong>Dasar Hukum & Dalil:</strong> Sunah Muakkad (HR. At-Tirmidzi & Ibnu Majah).</li>
+              <li><strong>Ketentuan Hewan:</strong> Laki-laki (2 kambing), Perempuan (1 kambing).</li>
+              <li><strong>Waktu Pelaksanaan:</strong> Utama hari ke-7 (atau 14, 21, atau kapan saja).</li>
+              <li><strong>Amalan Terkait:</strong> Cukur rambut, sedekah perak/emas, <em>tasmiyah</em>, <em>tahnik</em>.</li>
+              <li><strong>Pengolahan Daging:</strong> Sunah dibagikan dalam keadaan telah dimasak.</li>
+              <li><strong>Tabel Perbedaan:</strong> 6 Aspek komparasi kurban vs akikah.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 4: APERSEPSI 5W+1H -->
+      <article class="slide-card" data-slide="4" data-title="Apersepsi & Refleksi Awal">
+        <div class="slide-meta">
+          <span class="slide-tag">Apersepsi Kontekstual</span>
+          <span class="slide-num-indicator">04 / 35</span>
+        </div>
+        <h2 class="slide-title">Apersepsi: Pengamatan & Analisis 5W+1H</h2>
+        <p class="slide-subtitle">Perhatikan fenomena pelaksanaan ibadah kurban dan akikah di sekitar kita:</p>
+        <div class="grid-3">
+          <div class="card-box">
+            <div class="card-icon" style="background:#0284c7;">1</div>
+            <h4 style="font-weight: 700; margin: 10px 0 6px;">Penyembelihan Hewan Kurban</h4>
+            <p>Bagaimana perlakuan kita terhadap hewan kurban saat akan disembelih? Apakah kita menenangkan hewan dan mengasah pisau jauh dari pandangannya?</p>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background:#059669;">2</div>
+            <h4 style="font-weight: 700; margin: 10px 0 6px;">Pengulitan & Distribusi</h4>
+            <p>Bagaimana limbah kurban (darah, isi perut) dikelola agar lingkungan masjid tetap higienis, bersih, dan tidak mencemari warga sekitar?</p>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background:#d97706;">3</div>
+            <h4 style="font-weight: 700; margin: 10px 0 6px;">Pencukuran Rambut Akikah</h4>
+            <p>Mengapa kelahiran seorang anak dirayakan dengan mencukur rambut, memberi nama yang baik, dan berbagi hidangan masak kepada kerabat?</p>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 18px; background: var(--accent-subtle); border-color: var(--accent);">
+          <strong>Pertanyaan Pemantik (5W+1H):</strong> Siapa yang berkewajiban berkurban? Kapan batas akhir penyembelihannya? Mengapa daging kurban dibagikan mentah sedangkan akikah matang?
+        </div>
+      </article>
+
+      <!-- SLIDE 5: SEJARAH KURBAN -->
+      <article class="slide-card" data-slide="5" data-title="Asal Usul & Sejarah Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Sejarah Syariat</span>
+          <span class="slide-num-indicator">05 / 35</span>
+        </div>
+        <h2 class="slide-title">Asal Usul & Sejarah Ibadah Kurban</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon">1</div>
+              <h3 class="card-box-title">Kisah Habil dan Qabil (Masa Nabi Adam as.)</h3>
+            </div>
+            <p>
+              Ibadah kurban berakar sejak zaman putra Nabi Adam as. Habil mempersembahkan ternak terbaiknya dengan penuh ketulusan, sedangkan Qabil mempersembahkan hasil pertanian yang buruk tanpa keikhlasan.
+            </p>
+            <p style="margin-top: 8px; font-weight: 600; color: var(--primary);">
+              💡 Pelajaran: Nilai kurban tidak semata terletak pada fisiknya, melainkan pada ketulusan dan ketakwaan di hadapan Allah Swt.
+            </p>
+          </div>
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon">2</div>
+              <h3 class="card-box-title">Ujian Nabi Ibrahim & Nabi Ismail as.</h3>
+            </div>
+            <p>
+              Perintah kurban yang disyariatkan saat ini berakar dari ujian keimanan Nabi Ibrahim as. yang diperintahkan melalui mimpi untuk menyembelih putra tercintanya, Ismail as.
+            </p>
+            <p style="margin-top: 8px;">
+              Keduanya menerima perintah dengan tawakal mutlak. Ketika ketulusan terbukti, Allah menggantikan Ismail dengan seekor sembelihan besar (domba).
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 6: DALIL QS AS-SAFFAT 102 -->
+      <article class="slide-card" data-slide="6" data-title="Dalil Sejarah Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Dalil Naqli</span>
+          <span class="slide-num-indicator">06 / 35</span>
+        </div>
+        <h2 class="slide-title">Ketaatan Nabi Ibrahim & Ismail as.</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ قَالَ يَا بُنَيَّ إِنِّي أَرَىٰ فِي الْمَنَامِ أَنِّي أَذْبَحُكَ فَانظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَا أَبَتِ افْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِي إِن شَاءَ اللَّهُ مِنَ الصَّابِرِينَ
+          </div>
+          <div class="arabic-translation">
+            "Maka tatkala anak itu sampai (pada umur sanggup) berusaha bersama-sama Ibrahim, Ibrahim berkata: 'Hai anakku! Sesungguhnya aku melihat dalam mimpi bahwa aku menyembelihmu. Maka pikirkanlah apa pendapatmu!' Ia menjawab: 'Hai bapakku! Kerjakanlah apa yang diperintahkan kepadamu; insya Allah kamu akan mendapatiku termasuk orang-orang yang sabar.'"
+          </div>
+          <div class="arabic-source">QS. As-Saffat [37]: Ayat 102</div>
+        </div>
+        <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+          Peristiwa pengorbanan ini diabadikan sebagai syariat abadi umat Islam melalui tuntunan Rasulullah saw. pada Hari Raya Iduladha dan hari-hari Tasyrik.
+        </p>
+      </article>
+
+      <!-- SLIDE 7: DEFINISI KURBAN -->
+      <article class="slide-card" data-slide="7" data-title="Definisi Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Konsep Fikih</span>
+          <span class="slide-num-indicator">07 / 35</span>
+        </div>
+        <h2 class="slide-title">Definisi Kurban (Bahasa, Istilah, Syariat)</h2>
+        <div class="grid-3">
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">1. Makna Bahasa (Etimologi)</h3>
+            <p>
+              Berasal dari kata Arab <em>qariba – yaqrabu – qurbanan</em> (قَرُبَ - يَقْرُبُ - قُرْبَانًا) yang berarti <strong>dekat</strong>.
+            </p>
+            <p style="margin-top: 8px; font-size: 0.88rem;">
+              Artinya: upaya mendekatkan diri kepada Allah Swt. dengan menjalankan perintah-Nya.
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">2. Istilah Fikih (Udhhiyyah)</h3>
+            <p>
+              Disebut <strong>Al-Udhhiyyah</strong> (اُضْحِيَّةٌ), yaitu hewan ternak tertentu yang disembelih pada Hari Raya Iduladha dan hari Tasyrik karena ibadah kepada Allah Swt.
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">3. Ketentuan Syariat</h3>
+            <p>
+              Penyembelihan hewan ternak (unta, sapi, kerbau, kambing, domba) pada tanggal <strong>10 Zulhijjah</strong> dan tiga hari Tasyrik (<strong>11, 12, 13 Zulhijjah</strong>) setelah salat Iduladha oleh muslim yang mampu.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 8: DASAR HUKUM KURBAN -->
+      <article class="slide-card" data-slide="8" data-title="Dasar Hukum & Dalil Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Hukum & Landasan</span>
+          <span class="slide-num-indicator">08 / 35</span>
+        </div>
+        <h2 class="slide-title">Hukum Kurban: Sunah Muakkad</h2>
+        <p class="slide-subtitle">
+          Kurban hukumnya <strong>sunah muakkad</strong> (sangat dianjurkan) bagi muslim yang dewasa, berakal, dan mampu (memiliki kelebihan harta setelah mencukupi kebutuhan pokok diri dan tanggungannya).
+        </p>
+        <div class="grid-2">
+          <div class="arabic-card" style="margin: 0;">
+            <div class="arabic-text" style="font-size: 1.35rem; line-height: 2;">
+              إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ﴿١﴾ فَصَلِّ لِرَبِّكَ وَانْحَرْ ﴿٢﴾
+            </div>
+            <div class="arabic-translation" style="font-size: 0.88rem;">
+              "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak. Maka dirikanlah salat karena Tuhanmu dan berkorbanlah!"
+            </div>
+            <div class="arabic-source">QS. Al-Kautsar [108]: 1-2</div>
+          </div>
+          <div class="arabic-card" style="margin: 0;">
+            <div class="arabic-text" style="font-size: 1.35rem; line-height: 2;">
+              وَلِكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا لِّيَذْكُرُوا اسْمَ اللَّهِ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ الْأَنْعَامِ
+            </div>
+            <div class="arabic-translation" style="font-size: 0.88rem;">
+              "Dan bagi tiap-tiap umat telah Kami syariatkan penyembelihan (kurban), supaya mereka menyebut nama Allah terhadap binatang ternak yang telah direzekikan-Nya."
+            </div>
+            <div class="arabic-source">QS. Al-Hajj [22]: 34</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 9: HADIS ANCAMAN KURBAN -->
+      <article class="slide-card" data-slide="9" data-title="Peringatan Rasulullah saw.">
+        <div class="slide-meta">
+          <span class="slide-tag">Dalil Sunnah</span>
+          <span class="slide-num-indicator">09 / 35</span>
+        </div>
+        <h2 class="slide-title">Ancaman bagi yang Mampu tapi Enggan Berkurban</h2>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ، أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «مَنْ وَجَدَ سَعَةً وَلَمْ يُضَحِّ، فَلَا يَقْرَبَنَّ مُصَلَّانَا»
+          </div>
+          <div class="arabic-translation">
+            "Dari Abu Hurairah r.a., Rasulullah saw. bersabda: 'Barang siapa yang mempunyai kemampuan (kelapangan harta) tetapi ia tidak berkurban, maka janganlah sekali-kali ia menghampiri tempat salat kami!'"
+          </div>
+          <div class="arabic-source">HR. Ahmad dan Ibnu Majah</div>
+        </div>
+        <div class="card-box" style="margin-top: 14px;">
+          <h4 style="font-weight: 700; margin-bottom: 6px; color: var(--accent);">📌 Makna Hadis:</h4>
+          <p>
+            Hadis ini menegaskan betapa ditekankannya syariat kurban bagi mereka yang berkecukupan. Keengganan berkurban padahal mampu dipandang sebagai sikap kikir dan tidak mensyukuri nikmat rezeki yang Allah karuniakan.
+          </p>
+        </div>
+      </article>
+
+      <!-- SLIDE 10: JENIS HEWAN KURBAN -->
+      <article class="slide-card" data-slide="10" data-title="Jenis Hewan Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Syarat Sembelihan</span>
+          <span class="slide-num-indicator">10 / 35</span>
+        </div>
+        <h2 class="slide-title">Jenis Hewan Ternak yang Sah (Bahimatul An'am)</h2>
+        <p class="slide-subtitle">Hewan yang sah dijadikan kurban secara ijma ulama hanyalah hewan ternak berkaki empat:</p>
+        <div class="grid-3">
+          <div class="card-box" style="text-align: center;">
+            <div style="font-size: 2.2rem; margin-bottom: 8px;">🐪</div>
+            <h3 style="font-weight: 800; color: var(--text-main);">Unta (Ibil)</h3>
+            <p style="font-size: 0.88rem; margin-top: 6px;">Minimal berusia <strong>5 tahun</strong> masuk tahun ke-6. Sah mewakili hingga <strong>7 orang</strong>.</p>
+          </div>
+          <div class="card-box" style="text-align: center;">
+            <div style="font-size: 2.2rem; margin-bottom: 8px;">🐂</div>
+            <h3 style="font-weight: 800; color: var(--text-main);">Sapi & Kerbau (Baqar)</h3>
+            <p style="font-size: 0.88rem; margin-top: 6px;">Minimal berusia <strong>2 tahun</strong> masuk tahun ke-3. Sah mewakili hingga <strong>7 orang</strong>.</p>
+          </div>
+          <div class="card-box" style="text-align: center;">
+            <div style="font-size: 2.2rem; margin-bottom: 8px;">🐐</div>
+            <h3 style="font-weight: 800; color: var(--text-main);">Kambing & Domba (Ghanam)</h3>
+            <p style="font-size: 0.88rem; margin-top: 6px;">Kambing (2 thn), Domba (1 thn/berganti gigi). Mewakili <strong>1 orang</strong>.</p>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 18px;">
+          <p><strong>Catatan Fikih:</strong> Hewan liar (seperti rusa atau kijang) atau unggas (ayam, bebek) <em>tidak sah</em> dijadikan hewan kurban walaupun bernilai ekonomis tinggi.</p>
+        </div>
+      </article>
+
+      <!-- SLIDE 11: 4 CACAT HEWAN KURBAN -->
+      <article class="slide-card" data-slide="11" data-title="Syarat Fisik & 4 Cacat">
+        <div class="slide-meta">
+          <span class="slide-tag">Syarat Fisik</span>
+          <span class="slide-num-indicator">11 / 35</span>
+        </div>
+        <h2 class="slide-title">Syarat Fisik & 4 Cacat yang Tidak Boleh Ada</h2>
+        <div class="arabic-card">
+          <div class="arabic-text" style="font-size: 1.35rem; line-height: 2;">
+            «أَرْبَعٌ لَا تَجُوزُ فِي الْأَضَاحِيِّ: الْعَوْرَاءُ الْبَيِّنُ عَوَرُهَا، وَالْمَرِيضَةُ الْبَيِّنُ مَرَضُهَا، وَالْعَرْجَاءُ الْبَيِّنُ ظَلْعُهَا، وَالْكَسِيرَةُ الَّتِي لَا تُنْقِي»
+          </div>
+          <div class="arabic-translation" style="font-size: 0.85rem;">
+            "Empat sifat/kondisi yang tidak boleh ada pada hewan kurban: (1) buta yang jelas kebutaannya, (2) sakit yang jelas penyakitnya, (3) pincang yang jelas kepincangannya, dan (4) kurus kering hingga tidak bersumsum." (HR. Ahmad & Empat Imam Mazhab)
+          </div>
+        </div>
+        <div class="grid-4">
+          <div class="card-box" style="border-left: 3px solid #ef4444;">
+            <h4 style="font-weight: 700; color:#ef4444;">1. Buta Sebelah / Total</h4>
+            <p style="font-size: 0.85rem;">Mata buta nyata sehingga kesulitan mencari makan.</p>
+          </div>
+          <div class="card-box" style="border-left: 3px solid #ef4444;">
+            <h4 style="font-weight: 700; color:#ef4444;">2. Sakit Parah</h4>
+            <p style="font-size: 0.85rem;">Penyakit nyata yang mengurangi mutu dan daging hewan.</p>
+          </div>
+          <div class="card-box" style="border-left: 3px solid #ef4444;">
+            <h4 style="font-weight: 700; color:#ef4444;">3. Pincang Jelas</h4>
+            <p style="font-size: 0.85rem;">Tidak sanggup berjalan bersama kawanannya.</p>
+          </div>
+          <div class="card-box" style="border-left: 3px solid #ef4444;">
+            <h4 style="font-weight: 700; color:#ef4444;">4. Sangat Kurus</h4>
+            <p style="font-size: 0.85rem;">Kurang gizi berat hingga hilang sumsum tulangnya.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 12: TABEL UMUR & KUOTA PATUNGAN -->
+      <article class="slide-card" data-slide="12" data-title="Tabel Ketentuan Umur & Kuota">
+        <div class="slide-meta">
+          <span class="slide-tag">Ketentuan Teknis</span>
+          <span class="slide-num-indicator">12 / 35</span>
+        </div>
+        <h2 class="slide-title">Tabel Ketentuan Umur & Kuota Patungan</h2>
+        <table class="deck-table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Jenis Hewan</th>
+              <th>Umur Minimal Sah Kurban</th>
+              <th>Kuota Peruntukan</th>
+              <th>Keterangan / Dalil</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><strong>Unta</strong></td>
+              <td>5 Tahun masuk tahun ke-6</td>
+              <td><strong>7 Orang</strong></td>
+              <td>HR. Muslim dari Jabir bin Abdillah r.a.</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><strong>Sapi / Kerbau</strong></td>
+              <td>2 Tahun masuk tahun ke-3</td>
+              <td><strong>7 Orang</strong></td>
+              <td>Boleh patungan 7 orang dalam 1 ekor sapi</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><strong>Kambing (Ma'iz)</strong></td>
+              <td>2 Tahun</td>
+              <td><strong>1 Orang</strong></td>
+              <td>Mewakili 1 orang (dan pahala keluarganya)</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><strong>Domba / Biri-biri (Dha'n)</strong></td>
+              <td>1 Tahun atau sudah tanggal gigi (jadza'ah)</td>
+              <td><strong>1 Orang</strong></td>
+              <td>Bila belum 1 tahun, minimal 6 bulan dan berganti gigi</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="arabic-card" style="padding: 14px 20px; margin: 10px 0 0;">
+          <div class="arabic-text" style="font-size: 1.15rem; line-height: 1.8;">
+            نَحَرْنَا مَعَ رَسُولِ اللهِ ﷺ عَامَ الْحُدَيْبِيَةِ: الْبَدَنَةَ عَنْ سَبْعَةٍ، وَالْبَقَرَةَ عَنْ سَبْعَةٍ
+          </div>
+          <div class="arabic-translation" style="font-size: 0.85rem;">
+            "Kami menyembelih bersama Rasulullah saw. pada tahun Hudaibiyah: seekor unta untuk tujuh orang dan seekor sapi untuk tujuh orang." (HR. Muslim)
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 13: WAKTU PENYEMBELIHAN -->
+      <article class="slide-card" data-slide="13" data-title="Waktu Penyembelihan Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Waktu & Tempat</span>
+          <span class="slide-num-indicator">13 / 35</span>
+        </div>
+        <h2 class="slide-title">Waktu Sah Penyembelihan Kurban</h2>
+        <div class="grid-2">
+          <div class="card-box" style="border-top: 4px solid var(--primary);">
+            <h3 style="font-size: 1.1rem; color: var(--primary); font-weight: 700; margin-bottom: 8px;">1. Awal Waktu Penyembelihan</h3>
+            <p>
+              Dimulai pada <strong>10 Zulhijjah setelah selesai salat Iduladha</strong> dan dua khutbahnya.
+            </p>
+            <p style="margin-top: 10px; font-size: 0.88rem; color: #dc2626; font-weight: 600;">
+              ⚠️ Peringatan: Hewan yang disembelih sebelum salat Iduladha statusnya HANYA daging biasa untuk keluarga, bukan ibadah kurban!
+            </p>
+          </div>
+          <div class="card-box" style="border-top: 4px solid var(--accent);">
+            <h3 style="font-size: 1.1rem; color: var(--accent); font-weight: 700; margin-bottom: 8px;">2. Akhir Waktu (Hari Tasyrik)</h3>
+            <p>
+              Berlangsung sepanjang hari-hari Tasyrik: <strong>tanggal 11, 12, dan berakhir saat matahari terbenam pada 13 Zulhijjah</strong>.
+            </p>
+            <p style="margin-top: 10px; font-size: 0.88rem;">
+              Total durasi kurban adalah <strong>4 hari penuh</strong> (10, 11, 12, dan 13 Zulhijjah).
+            </p>
+          </div>
+        </div>
+        <div class="arabic-card" style="margin-top: 14px;">
+          <div class="arabic-text" style="font-size: 1.25rem; line-height: 1.9;">
+            مَنْ ذَبَحَ قَبْلَ الصَّلَاةِ فَإِنَّمَا ذَبَحَ لِنَفْسِهِ، وَمَنْ ذَبَحَ بَعْدَ الصَّلَاةِ فَقَدْ تَمَّ نُسُكُهُ وَأَصَابَ سُنَّةَ الْمُسْلِمِينَ
+          </div>
+          <div class="arabic-translation" style="font-size: 0.85rem;">
+            "Barang siapa menyembelih sebelum salat, maka ia hanya menyembelih untuk dirinya sendiri. Dan barang siapa menyembelih setelah salat, maka sempurna ibadahnya dan mengikuti sunah kaum muslimin." (HR. Bukhari)
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 14: TEMPAT PENYEMBELIHAN -->
+      <article class="slide-card" data-slide="14" data-title="Tempat Penyembelihan Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Tempat & Sanitasi</span>
+          <span class="slide-num-indicator">14 / 35</span>
+        </div>
+        <h2 class="slide-title">Tempat Pelaksanaan Penyembelihan Kurban</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--primary); margin-bottom: 8px;">🏛️ Lokasi yang Disunahkan</h3>
+            <p>
+              Disunahkan menyembelih di dekat area tempat salat Iduladha dilaksanakan (lapangan atau halaman masjid).
+            </p>
+            <p style="margin-top: 8px; font-size: 0.88rem;">
+              Mencontoh Rasulullah saw. yang menyembelih di musala (tempat salat terbuka) sebagai syiar dan sarana pembelajaran langsung bagi masyarakat.
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--accent); margin-bottom: 8px;">🏡 Lokasi Alternatif yang Sah</h3>
+            <p>
+              Boleh dilakukan di halaman rumah, Rumah Potong Hewan (RPH), atau tanah lapang lainnya.
+            </p>
+            <p style="margin-top: 8px; font-size: 0.88rem;">
+              <strong>Syarat Utama:</strong> Tempat harus memenuhi adab penyembelihan, memiliki sanitasi air bersih yang cukup, serta tidak menimbulkan bau atau gangguan bagi lingkungan sekitar.
+            </p>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 16px; background: var(--primary-subtle);">
+          <strong>Prinsip Syiar:</strong> Penyembelihan kurban dilakukan secara terbuka dan transparan agar masyarakat fakir miskin dapat merasakan syiar kegembiraan Iduladha.
+        </div>
+      </article>
+
+      <!-- SLIDE 15: SUNAH-SUNAH PENYEMBELIHAN -->
+      <article class="slide-card" data-slide="15" data-title="Sunah-Sunah Penyembelihan">
+        <div class="slide-meta">
+          <span class="slide-tag">Adab & Sunah</span>
+          <span class="slide-num-indicator">15 / 35</span>
+        </div>
+        <h2 class="slide-title">Sunah-Sunah dalam Penyembelihan Kurban</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--primary); margin-bottom: 12px;">Bagi Orang yang Berkurban (Mudlahhi)</h3>
+            <ul class="bullet-list">
+              <li>Menyembelih hewan kurbannya sendiri jika mampu dan memiliki keterampilan syar'i.</li>
+              <li>Jika tidak mampu menyembelih sendiri, boleh mewakilkan kepada laki-laki muslim yang ahli.</li>
+              <li>Disunahkan hadir langsung menyaksikan proses penyembelihan kurbannya bersama keluarga.</li>
+              <li>Tidak memotong kuku dan mencukur rambut sejak masuk 1 Zulhijjah sampai kurbannya disembelih.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--accent); margin-bottom: 12px;">Etika & Perlakuan terhadap Hewan</h3>
+            <ul class="bullet-list">
+              <li>Mengasah pisau setajam mungkin sebelum digunakan, tetapi <strong>dilarang mengasah pisau di depan mata hewan</strong>.</li>
+              <li>Memperlakukan hewan secara lembut, tidak menyeret dengan kasar ke tempat jagal.</li>
+              <li>Tidak menyembelih satu hewan di depan pandangan hewan kurban lainnya.</li>
+              <li>Memberi makan dan minum yang cukup sebelum disembelih.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 16: PEMANFAATAN DAGING KURBAN -->
+      <article class="slide-card" data-slide="16" data-title="Pemanfaatan & Distribusi">
+        <div class="slide-meta">
+          <span class="slide-tag">Distribusi Daging</span>
+          <span class="slide-num-indicator">16 / 35</span>
+        </div>
+        <h2 class="slide-title">Distribusi Daging: Mentah, Sunah vs Nazar</h2>
+        <div class="grid-2">
+          <div class="card-box" style="border-top: 4px solid #059669;">
+            <h3 style="color: #059669; font-weight: 700;">1. Kurban Sunah</h3>
+            <p>Daging dibagikan dalam keadaan <strong>mentah</strong>.</p>
+            <ul class="bullet-list" style="margin-top: 10px;">
+              <li><strong>Fakir Miskin:</strong> Hak utama (sedekah wajib/prioritas).</li>
+              <li><strong>Masyarakat & Kerabat:</strong> Diberikan sebagai hadiah silaturahmi.</li>
+              <li><strong>Mudlahhi (Pekurban):</strong> Boleh memakan sebagian (maksimal 1/3) untuk mengambil berkah (QS. Al-Hajj: 28).</li>
+            </ul>
+          </div>
+          <div class="card-box" style="border-top: 4px solid #dc2626;">
+            <h3 style="color: #dc2626; font-weight: 700;">2. Kurban Nazar (Wajib)</h3>
+            <p>Jika berkurban karena bernazar:</p>
+            <ul class="bullet-list warning" style="margin-top: 10px;">
+              <li>Mudlahhi dan orang yang berada di bawah tanggungannya <strong>HARAM memakan</strong> sedikit pun dari daging kurban nazarnya.</li>
+              <li>Seluruh daging, kulit, dan bagiannya wajib disedekahkan kepada fakir miskin.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 14px; background: #fff1f2; border-color: #fecdd3;">
+          <p style="color: #9f1239; font-size: 0.9rem; font-weight: 600;">
+            🚫 <strong>LARANGAN KERAS:</strong> Dilarang menjual daging, kulit, tanduk, atau bagian apa pun dari hewan kurban, atau menjadikannya sebagai upah jagal! (HR. Ahmad: <em>"La tabi'u luhumal hadyi wal adhahi... wastamti'u bijuludiha wa la tabi'uha"</em>).
+          </p>
+        </div>
+      </article>
+
+      <!-- SLIDE 17: TATA CARA PENYEMBELIHAN -->
+      <article class="slide-card" data-slide="17" data-title="Tata Cara Penyembelihan">
+        <div class="slide-meta">
+          <span class="slide-tag">Prosedur Praktik</span>
+          <span class="slide-num-indicator">17 / 35</span>
+        </div>
+        <h2 class="slide-title">Tata Cara Penyembelihan Sesuai Syariat</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">Tahapan Pelaksanaan Teknis:</h4>
+            <ol style="padding-left: 20px; font-size: 0.9rem; line-height: 1.6; color: var(--text-muted);">
+              <li>Hewan dibaringkan di atas rusuk kirinya, menghadap kiblat.</li>
+              <li>Penyembelih menyiapkan niat, hati tenang, dan pisau yang sangat tajam.</li>
+              <li>Membaca <em>Basmalah</em>, <em>Takbir</em>, dan selawat atas Nabi saw.</li>
+              <li>Membaca doa kurban: <em>"Bismillahi wallahu akbar, Allahumma hadza minka wa ilaika fataqabbal minni"</em>.</li>
+              <li>Menarik kulit leher ke arah kepala dan memotong dengan gerakan cepat bertenaga.</li>
+            </ol>
+          </div>
+          <div class="card-box">
+            <h4 style="color: var(--accent); font-weight: 700; margin-bottom: 8px;">3 Saluran yang Wajib Putus Sempurna:</h4>
+            <ul class="bullet-list">
+              <li><strong>Hulqum (حُلْقُوم):</strong> Saluran pernapasan (tenggorokan).</li>
+              <li><strong>Mari' (مَرِيء):</strong> Saluran makanan dan minuman (kerongkongan).</li>
+              <li><strong>Wadajain (وَدَجَيْن):</strong> Dua urat nadi/pembuluh darah di sisi leher.</li>
+            </ul>
+            <div style="margin-top: 10px; font-size: 0.85rem; padding: 8px; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-card);">
+              ⚠️ Biarkan darah keluar tuntas sampai hewan lemas dan mati sempurna. Dilarang menguliti atau memotong kaki sebelum hewan benar-benar mati!
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 18: KEGIATAN 1.2 KURBAN RAMAH LINGKUNGAN -->
+      <article class="slide-card" data-slide="18" data-title="Kegiatan 1.2: Kurban Ramah Lingkungan">
+        <div class="slide-meta">
+          <span class="slide-tag">Studi Kasus & Lingkungan</span>
+          <span class="slide-num-indicator">18 / 35</span>
+        </div>
+        <h2 class="slide-title">Kegiatan 1.2: Kurban Bersih & Ramah Lingkungan</h2>
+        <div class="card-box" style="margin-bottom: 14px; background: #fefce8; border-color: #fef08a;">
+          <h4 style="color: #854d0e; font-weight: 700; margin-bottom: 4px;">📰 Kasus Lingkungan:</h4>
+          <p style="font-size: 0.9rem; color: #713f12;">
+            Di sebuah masjid kota besar disembelih 20 sapi dan 35 kambing. Setelah acara, darah dan limbah isi perut tercecer di selokan, bau busuk menyengat, serta kantong plastik menumpuk. Warga mengeluh, sementara panitia beralasan sibuk membagikan daging.
+          </p>
+        </div>
+        <div class="grid-3">
+          <div class="card-box">
+            <h4 style="font-weight: 700; color: var(--primary);">1. Pengolahan Limbah</h4>
+            <p style="font-size: 0.88rem;">Membuat lubang galian penampungan darah dan isi perut untuk ditimbun tanah atau diolah menjadi pupuk kompos organik.</p>
+          </div>
+          <div class="card-box">
+            <h4 style="font-weight: 700; color: var(--primary);">2. Alternatif Plastik</h4>
+            <p style="font-size: 0.88rem;">Menggunakan besek bambu, daun pisang, daun jati, atau wadah makanan (food container) yang dibawa sendiri oleh warga penerima.</p>
+          </div>
+          <div class="card-box">
+            <h4 style="font-weight: 700; color: var(--primary);">3. Manajemen Panitia</h4>
+            <p style="font-size: 0.88rem;">Membagi divisi khusus kebersihan (sanitasi) agar penanganan daging dan kebersihan lingkungan berjalan beriringan.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 19: HIKMAH IBADAH KURBAN -->
+      <article class="slide-card" data-slide="19" data-title="Hikmah Ibadah Kurban">
+        <div class="slide-meta">
+          <span class="slide-tag">Hikmah & Nilai</span>
+          <span class="slide-num-indicator">19 / 35</span>
+        </div>
+        <h2 class="slide-title">Hikmah Ibadah Kurban</h2>
+        <div class="grid-3">
+          <div class="card-box">
+            <div class="card-icon">1</div>
+            <h3 style="font-weight: 700; margin: 8px 0; color: var(--text-main);">Bagi Mudlahhi (Pekurban)</h3>
+            <ul class="bullet-list">
+              <li>Meningkatkan ketakwaan kepada Allah Swt.</li>
+              <li>Meneladani keikhlasan Nabi Ibrahim & Ismail as.</li>
+              <li>Menyucikan harta dari sifat kikir dan cinta duniawi.</li>
+              <li>Ungkapan rasa syukur atas nikmat rezeki titipan Allah.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background: #0284c7;">2</div>
+            <h3 style="font-weight: 700; margin: 8px 0; color: var(--text-main);">Bagi Kaum Dhuafa</h3>
+            <ul class="bullet-list">
+              <li>Merasakan kebahagiaan dan kebersamaan di hari raya.</li>
+              <li>Menikmati hidangan daging bergizi tinggi.</li>
+              <li>Mengurangi kesenjangan sosial dan rasa terasing.</li>
+              <li>Mendoakan keberkahan bagi orang yang berkurban.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background: #d97706;">3</div>
+            <h3 style="font-weight: 700; margin: 8px 0; color: var(--text-main);">Bagi Umat & Masyarakat</h3>
+            <ul class="bullet-list">
+              <li>Menumbuhkan ukhuwah Islamiyah dan kepedulian sosial.</li>
+              <li>Memperkuat semangat gotong royong warga madrasah.</li>
+              <li>Menyemarakkan syiar Islam di ruang publik.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 20: TRANSISI BAGIAN B: AKIKAH -->
+      <article class="slide-card" data-slide="20" data-title="Bagian B: Akikah">
+        <div class="cover-container">
+          <div class="cover-badge" style="background: linear-gradient(135deg, #d97706, #b45309);">BAGIAN B &bull; FIKIH KELUARGA</div>
+          <h2 class="cover-title">KETENTUAN <span>AKIKAH</span></h2>
+          <p class="cover-desc">
+            Ungkapan Syukur atas Anugerah Kelahiran Anak, Menghidupkan Sunah Nabi, dan Menanamkan Karakter Mulia Sejak Dini.
+          </p>
+        </div>
+      </article>
+
+      <!-- SLIDE 21: DEFINISI & SEJARAH AKIKAH -->
+      <article class="slide-card" data-slide="21" data-title="Definisi & Sejarah Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Konsep & Sejarah</span>
+          <span class="slide-num-indicator">21 / 35</span>
+        </div>
+        <h2 class="slide-title">Definisi & Sejarah Syariat Akikah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">Definisi Bahasa & Istilah</h3>
+            <p>
+              Secara bahasa, <em>akikah</em> (عَقِيقَةٌ) berasal dari kata <em>'aqqa – ya'uqqu</em> (عَقَّ - يَعُقُّ) yang berarti memotong, atau bermakna:
+            </p>
+            <div style="font-family: var(--font-arabic); font-size: 1.3rem; color: var(--primary); text-align: center; margin: 10px 0;">
+              الشَّعْرُ الَّذِي عَلَى رَأْسِ الْمَوْلُودِ
+            </div>
+            <p style="font-size: 0.9rem;">
+              Artinya: <em>rambut kepala bayi yang baru lahir</em> (karena rambut tersebut dipotong saat akikah).
+            </p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+              <strong>Menurut Istilah Syariat:</strong> Penyembelihan hewan ternak sebagai wujud rasa syukur orang tua kepada Allah Swt. atas kelahiran anaknya, disertai mencukur rambut dan memberi nama baik.
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="color: var(--accent); font-weight: 700; margin-bottom: 8px;">Pelurusan Tradisi Jahiliyah</h3>
+            <p>
+              Pada masa Jahiliyah, bangsa Arab biasa menyembelih kambing saat bayi lahir, namun darahnya <strong>dioleskan ke kepala bayi</strong> sebagai tolak bala dan persembahan berhala.
+            </p>
+            <p style="margin-top: 10px;">
+              Islam datang menghapus tradisi syirik tersebut: darah diganti dengan wewangian (minyak zafaran/kasturi), niat dimurnikan hanya untuk Allah, rambut dicukur dan ditimbang nilainya untuk disedekahkan.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 22: HUKUM & DALIL AKIKAH -->
+      <article class="slide-card" data-slide="22" data-title="Hukum & Dalil Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Dasar Hukum</span>
+          <span class="slide-num-indicator">22 / 35</span>
+        </div>
+        <h2 class="slide-title">Hukum Akikah: Sunah Muakkad</h2>
+        <p class="slide-subtitle">
+          Hukum akikah adalah <strong>sunah muakkad</strong> bagi orang tua yang mampu menafkahi. Dilaksanakan terutama pada hari ke-7 setelah kelahiran bayi.
+        </p>
+        <div class="arabic-card">
+          <div class="arabic-text">
+            عَنْ سَمُرَةَ رَضِيَ اللَّهُ عَنْهُ، أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «كُلُّ غُلَامٍ مُرْتَهَنٌ بِعَقِيقَتِهِ، تُذْبَحُ عَنْهُ يَوْمَ سَابِعِهِ، وَيُحْلَقُ رَأْسُهُ، وَيُسَمَّى»
+          </div>
+          <div class="arabic-translation">
+            "Dari Samurah r.a., sesungguhnya Rasulullah saw. bersabda: 'Setiap anak yang dilahirkan tergadaikan dengan akikahnya, disembelih untuknya pada hari ketujuh, dicukur rambutnya, dan diberi nama.'"
+          </div>
+          <div class="arabic-source">HR. At-Tirmidzi, Abu Dawud, dan Ibnu Majah (Hadis Shahih)</div>
+        </div>
+        <div class="card-box" style="margin-top: 12px;">
+          <p style="font-size: 0.9rem;">
+            <strong>Makna "Tergadaikan":</strong> Para ulama seperti Imam Ahmad dan Al-Khatthabi menjelaskan bahwa syafaat anak bagi orang tuanya kelak di akhirat tertahan sampai ia diakikahi, serta akikah menjadi sebab terlepasnya anak dari gangguan setan.
+          </p>
+        </div>
+      </article>
+
+      <!-- SLIDE 23: KETENTUAN AKIKAH -->
+      <article class="slide-card" data-slide="23" data-title="Ketentuan Teknis Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Ketentuan & Syarat</span>
+          <span class="slide-num-indicator">23 / 35</span>
+        </div>
+        <h2 class="slide-title">Ketentuan Jumlah Hewan & Waktu Akikah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--primary); margin-bottom: 8px;">1. Jumlah Hewan Akikah</h3>
+            <p>Berdasarkan hadis Aisyah r.a. (HR. At-Tirmidzi dan Ibnu Majah):</p>
+            <ul class="bullet-list" style="margin-top: 8px;">
+              <li><strong>Anak Laki-Laki:</strong> Disunahkan <strong>2 ekor kambing/domba</strong> yang setara.</li>
+              <li><strong>Anak Perempuan:</strong> Disunahkan <strong>1 ekor kambing/domba</strong>.</li>
+            </ul>
+            <p style="margin-top: 8px; font-size: 0.85rem; color: var(--text-muted);">
+              Jika orang tua anak laki-laki hanya mampu 1 ekor kambing, akikahnya tetap sah menurut jumhur ulama.
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--accent); margin-bottom: 8px;">2. Waktu Pelaksanaan</h3>
+            <ul class="bullet-list">
+              <li><strong>Paling Utama:</strong> Hari ke-7 setelah kelahiran bayi.</li>
+              <li><strong>Alternatif Sunah:</strong> Hari ke-14 atau ke-21 jika hari ke-7 belum mampu.</li>
+              <li><strong>Keluwesan Waktu:</strong> Boleh dilaksanakan kapan saja hingga sebelum anak mencapai usia balig.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 14px; background: var(--primary-subtle);">
+          <strong>Syarat Hewan Akikah:</strong> Sama persis dengan syarat hewan kurban (hewan sehat, cukup umur, dan bebas dari cacat fisik yang nyata).
+        </div>
+      </article>
+
+      <!-- SLIDE 24: PENGOLAHAN DAGING AKIKAH -->
+      <article class="slide-card" data-slide="24" data-title="Pengolahan Daging Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Adab Pemanfaatan</span>
+          <span class="slide-num-indicator">24 / 35</span>
+        </div>
+        <h2 class="slide-title">Pemanfaatan Daging Akikah: Dimasak Matang</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--primary); margin-bottom: 10px;">🍲 Sunah Dimasak Manis & Siap Saji</h3>
+            <p>
+              Berbeda dengan kurban yang dibagikan mentah, daging akikah disunahkan <strong>dimasak terlebih dahulu</strong> sebelum disedekahkan atau dibagikan.
+            </p>
+            <p style="margin-top: 8px; font-size: 0.9rem;">
+              Para ulama menganjurkan memasaknya dengan olahan yang lezat dan manis (seperti gulai manis/semur) sebagai simbol harapan akan manis dan indahnya akhlak anak di masa depan (<em>tafa'ul bil-khair</em>).
+            </p>
+          </div>
+          <div class="card-box">
+            <h3 style="font-weight: 700; color: var(--accent); margin-bottom: 10px;">🎁 Sasaran Pembagian</h3>
+            <ul class="bullet-list">
+              <li>Fakir miskin di sekitar tempat tinggal.</li>
+              <li>Keluarga besar, tetangga, sahabat, dan kerabat handai tolan.</li>
+              <li>Orang tua dan keluarga yang berakikah boleh ikut memakan hidangan akikah tersebut untuk menikmati hidangan syukuran.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 16px;">
+          <strong>Nilai Sosial:</strong> Mengirimkan masakan matang memudahkan fakir miskin dan tetangga untuk langsung menyantapnya tanpa terbebani biaya bumbu dan bahan bakar memasak.
+        </div>
+      </article>
+
+      <!-- SLIDE 25: 3 AMALAN KELAHIRAN -->
+      <article class="slide-card" data-slide="25" data-title="3 Amalan Terkait Kelahiran">
+        <div class="slide-meta">
+          <span class="slide-tag">Amalan Sunnah</span>
+          <span class="slide-num-indicator">25 / 35</span>
+        </div>
+        <h2 class="slide-title">Amalan yang Disyariatkan Terkait Akikah</h2>
+        <div class="grid-3">
+          <div class="card-box">
+            <div class="card-icon">1</div>
+            <h3 style="font-weight: 700; margin: 8px 0;">Mencukur Rambut</h3>
+            <p style="font-size: 0.88rem; line-height: 1.55;">
+              Mencukur seluruh rambut kepala bayi hingga bersih (bukan hanya beberapa helai). Rambutnya ditimbang, lalu orang tua bersedekah perak seberat timbangan rambut tersebut kepada fakir miskin.
+            </p>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background:#0284c7;">2</div>
+            <h3 style="font-weight: 700; margin: 8px 0;">Memberi Nama Baik (Tasmiyah)</h3>
+            <p style="font-size: 0.88rem; line-height: 1.55;">
+              Memberikan nama yang indah dan bermakna doa (seperti Abdullah, Abdurrahman, atau nama-nama nabi/shalihin). Nama adalah doa dan identitas kehormatan anak di dunia dan akhirat.
+            </p>
+          </div>
+          <div class="card-box">
+            <div class="card-icon" style="background:#d97706;">3</div>
+            <h3 style="font-weight: 700; margin: 8px 0;">Mentahnik Bayi</h3>
+            <p style="font-size: 0.88rem; line-height: 1.55;">
+              Mengunyah sebutir kurma manis hingga lembut, lalu mengusapkannya perlahan ke langit-langit mulut bayi seraya mendoakan keberkahan hidup, kesehatan, dan ketakwaan.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 26: HIKMAH AKIKAH -->
+      <article class="slide-card" data-slide="26" data-title="Hikmah Ibadah Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Hikmah & Manfaat</span>
+          <span class="slide-num-indicator">26 / 35</span>
+        </div>
+        <h2 class="slide-title">Hikmah & Nilai Spiritual Ibadah Akikah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 10px;">Dimensi Spiritual & Keluarga</h3>
+            <ul class="bullet-list">
+              <li>Wujud syukur orang tua atas anugerah dan amanah anak dari Allah Swt.</li>
+              <li>Menghidupkan sunah Rasulullah saw. dalam menyambut generasi baru.</li>
+              <li>Bentuk <em>taqarrub</em> (mendekatkan diri) kepada Allah sejak hari-hari awal kehidupan anak.</li>
+              <li>Mendoakan keselamatan dan keberkahan bagi masa depan anak.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="color: var(--accent); font-weight: 700; margin-bottom: 10px;">Dimensi Sosial & Kemanusiaan</h3>
+            <ul class="bullet-list">
+              <li>Mempererat <em>ukhuwah Islamiyah</em> dan <em>ukhuwah basyariyah</em> (persaudaraan antar-manusia).</li>
+              <li>Menebarkan kebahagiaan kelahiran bayi kepada tetangga dan fakir miskin.</li>
+              <li>Sarana sedekah bergizi bagi orang yang membutuhkan.</li>
+              <li>Menghindarkan keluarga dari sifat kikir dan egois.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 27: TABEL PERBEDAAN KURBAN & AKIKAH -->
+      <article class="slide-card" data-slide="27" data-title="Tabel Perbedaan Kurban & Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Komparasi Fikih</span>
+          <span class="slide-num-indicator">27 / 35</span>
+        </div>
+        <h2 class="slide-title">Tabel Perbedaan Kurban dan Akikah</h2>
+        <table class="deck-table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Aspek Pembeda</th>
+              <th>Ibadah Kurban (Udhhiyyah)</th>
+              <th>Ibadah Akikah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td><strong>Tujuan Pokok</strong></td>
+              <td>Mendekatkan diri kepada Allah & meneladani Nabi Ibrahim as.</td>
+              <td>Rasa syukur atas kelahiran anak & penebusan gadai anak</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><strong>Hukum</strong></td>
+              <td>Sunah muakkad bagi muslim yang mampu</td>
+              <td>Sunah muakkad bagi orang tua yang melahirkan</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><strong>Waktu Pelaksanaan</strong></td>
+              <td>10 Zulhijjah & Hari Tasyrik (11, 12, 13 Zulhijjah)</td>
+              <td>Hari ke-7, 14, 21, atau kapan saja sebelum anak balig</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><strong>Frekuensi</strong></td>
+              <td>Dianjurkan setiap tahun bila mampu</td>
+              <td>Dilaksanakan sekali seumur hidup untuk setiap anak</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><strong>Kondisi Daging</strong></td>
+              <td>Dibagikan dalam keadaan <strong>MENTAH</strong></td>
+              <td>Disunahkan dibagikan dalam keadaan <strong>MATANG</strong></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td><strong>Ketentuan Hewan</strong></td>
+              <td>Kambing (1 org), Sapi/Unta (7 org)</td>
+              <td>Laki-laki 2 kambing, Perempuan 1 kambing</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- SLIDE 28: LEMBAR KERJA DISKUSI AKIKAH -->
+      <article class="slide-card" data-slide="28" data-title="Diskusi Kasus Akikah">
+        <div class="slide-meta">
+          <span class="slide-tag">Studi Kasus & Analisis</span>
+          <span class="slide-num-indicator">28 / 35</span>
+        </div>
+        <h2 class="slide-title">Lembar Kerja: Analisis 3 Kasus Akikah</h2>
+        <div class="grid-3">
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-weight: 700; margin-bottom: 6px;">Kasus 1: Sapi untuk Anak Perempuan</h4>
+            <p style="font-size: 0.88rem; line-height: 1.5;">
+              Pak Rafi mengakikahi anak perempuannya dengan 1 ekor sapi karena ingin yang terbaik. <strong>Apakah boleh?</strong>
+            </p>
+            <div style="margin-top: 8px; font-size: 0.82rem; background: var(--bg-card); padding: 8px; border-radius: 8px; border: 1px solid var(--border-card);">
+              <em>Jawaban Fikih:</em> Boleh dan sah menurut sebagian besar ulama, karena sapi nilainya melebihi kambing, asalkan ikhlas dan tidak riya.
+            </div>
+          </div>
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-weight: 700; margin-bottom: 6px;">Kasus 2: Anak Kembar Laki-Laki</h4>
+            <p style="font-size: 0.88rem; line-height: 1.5;">
+              Pak Zainal punya anak kembar laki-laki, hanya mampu membeli 2 ekor kambing (seharusnya 4). <strong>Apakah sah?</strong>
+            </p>
+            <div style="margin-top: 8px; font-size: 0.82rem; background: var(--bg-card); padding: 8px; border-radius: 8px; border: 1px solid var(--border-card);">
+              <em>Jawaban Fikih:</em> Tetap sah. Masing-masing anak dihitung mendapat 1 ekor kambing sesuai kemampuan orang tua (prinsip kemudahan syariat).
+            </div>
+          </div>
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-weight: 700; margin-bottom: 6px;">Kasus 3: Akikah Diri Sendiri Dewasa</h4>
+            <p style="font-size: 0.88rem; line-height: 1.5;">
+              Farhan sudah bekerja dan mampu, orang tuanya dahulu belum mengakikahkannya. <strong>Bolehkah ia berakikah untuk dirinya?</strong>
+            </p>
+            <div style="margin-top: 8px; font-size: 0.82rem; background: var(--bg-card); padding: 8px; border-radius: 8px; border: 1px solid var(--border-card);">
+              <em>Jawaban Fikih:</em> Boleh dan dianjurkan menurut pendapat Imam Syafi'i (sebagaimana riwayat Nabi saw. berakikah untuk dirinya saat kenabian).
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 29: RANGKUMAN ESENSIAL -->
+      <article class="slide-card" data-slide="29" data-title="Rangkuman Materi Bab I">
+        <div class="slide-meta">
+          <span class="slide-tag">Rangkuman</span>
+          <span class="slide-num-indicator">29 / 35</span>
+        </div>
+        <h2 class="slide-title">Rangkuman Esensial Materi Bab I</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">Kurban (Udhhiyyah)</h3>
+            <ul class="bullet-list">
+              <li>Hukum sunah muakkad setiap tahun bagi muslim yang mampu.</li>
+              <li>Waktu: 10 Zulhijjah (usai salat) s.d. terbenam matahari 13 Zulhijjah.</li>
+              <li>Hewan ternak sehat (unta, sapi/kerbau, kambing/domba), bebas cacat, cukup umur.</li>
+              <li>Daging dibagikan mentah; kurban nazar haram dimakan oleh pekurban.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <h3 style="color: var(--accent); font-weight: 700; margin-bottom: 8px;">Akikah</h3>
+            <ul class="bullet-list">
+              <li>Hukum sunah muakkad bagi orang tua saat dikaruniai anak.</li>
+              <li>Waktu utama hari ke-7 kelahiran (atau 14, 21, atau sebelum balig).</li>
+              <li>Ketentuan: Laki-laki 2 kambing, Perempuan 1 kambing.</li>
+              <li>Disunahkan memasak dagingnya sebelum dibagikan, disertai mencukur rambut dan memberi nama baik.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-box" style="margin-top: 14px; text-align: center; background: var(--primary-subtle); color: var(--primary); font-weight: 700;">
+          "Ibadah kurban dan akikah menyatukan cinta vertikal kepada Allah Swt. dan cinta horizontal kepada sesama makhluk serta kelestarian lingkungan."
+        </div>
+      </article>
+
+      <!-- SLIDE 30: UJI KOMPETENSI PG 1-5 -->
+      <article class="slide-card" data-slide="30" data-title="Uji Kompetensi PG (1-5)">
+        <div class="slide-meta">
+          <span class="slide-tag">Evaluasi Pengetahuan</span>
+          <span class="slide-num-indicator">30 / 35</span>
+        </div>
+        <h2 class="slide-title">Uji Kompetensi: Pilihan Ganda (1 - 5)</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <p><strong>1. Kambing kurban kabur & jatuh ke selokan dalam:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              A. Dibiarkan | B. Dipukul keras lalu disembelih | C. Harus dibawa kembali | <strong>D. Segera disembelih di tempat ia jatuh sesuai syariat</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>2. Hukum nazar kurban Riski (hajat tercapai) & Slamet (gagal):</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>D. Wajib bagi Riski karena keinginannya tercapai, sedangkan Slamet tidak wajib</strong> ✅
+            </p>
+          </div>
+          <div class="card-box">
+            <p><strong>3. Arti lafaz hadis Samurah yang digarisbawahi <em>"wa yuhlaqu ra'suh"</em>:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>A. Mencukur rambut bayi</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>4. Pernyataan yang sah sesuai syarat hewan kurban:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>D. Nomor (1) & (4):</strong> Kambing jantan sehat >1 thn & Sapi patungan 7 orang ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>5. Amalan akikah anak laki-laki di hari ke-7 selain sembelihan:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>B. Mencukur rambut anak dan memberi nama yang baik</strong> ✅
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 31: UJI KOMPETENSI PG 6-10 -->
+      <article class="slide-card" data-slide="31" data-title="Uji Kompetensi PG (6-10)">
+        <div class="slide-meta">
+          <span class="slide-tag">Evaluasi Pengetahuan</span>
+          <span class="slide-num-indicator">31 / 35</span>
+        </div>
+        <h2 class="slide-title">Uji Kompetensi: Pilihan Ganda (6 - 10)</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <p><strong>6. Perbedaan kurban dan akikah yang tepat pada tabel:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>D. Nomor 4:</strong> Kurban disyariatkan setahun sekali, sedangkan akikah sekali seumur hidup ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>7. Budiman mengakikahi 2 anak laki-laki & 1 perempuan:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Hitungan: (2 x 2) + (1 x 1) = 5 ekor kambing &rarr; <strong>B. 5 ekor</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>8. Bagas bernazar akikah jika punya anak:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>A. Wajib, karena mereka telah bernazar untuk melaksanakannya</strong> ✅
+            </p>
+          </div>
+          <div class="card-box">
+            <p><strong>9. Syarat utama hewan kurban yang boleh disembelih:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>C. (3) Tidak cacat dan cukup umur</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>10. Kambing gemuk tetapi buta sebelah mata:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>D. Tidak sah, karena hewannya cacat</strong> (berdasarkan hadis 4 cacat hewan) ✅
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 32: UJI KOMPETENSI PG 11-15 -->
+      <article class="slide-card" data-slide="32" data-title="Uji Kompetensi PG (11-15)">
+        <div class="slide-meta">
+          <span class="slide-tag">Evaluasi Pengetahuan</span>
+          <span class="slide-num-indicator">32 / 35</span>
+        </div>
+        <h2 class="slide-title">Uji Kompetensi: Pilihan Ganda (11 - 15)</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <p><strong>11. Sembelih kurban pada 9 Zulhijjah setelah Asar:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>C. Salah, karena penyembelihan kurban harus dilakukan setelah salat Iduladha (10 Zulhijjah)</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>12. Rentang hari yang diperbolehkan kurban:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>D. 10 Zulhijjah serta hari Tasyrik (11, 12, dan 13 Zulhijjah)</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>13. Pilihan kambing kurban paling utama bagi Ramdani:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>C. Dua tahun dengan kondisi prima</strong> (cukup umur & sehat sempurna) ✅
+            </p>
+          </div>
+          <div class="card-box">
+            <p><strong>14. Perbandingan status Rafi (nazar) dan Rina (tanpa nazar):</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>C. Akikah Rafi menjadi wajib karena nazar, sementara akikah Rina tetap sunah muakkad</strong> ✅
+            </p>
+            <hr style="margin: 8px 0; border: none; border-top: 1px solid var(--border-card);">
+            <p><strong>15. Makna lafaz hadis yang digarisbawahi <em>"wa yusamma"</em>:</strong></p>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              <strong>B. Memberi nama kepada anaknya saat acara akikah</strong> ✅
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 33: UJI KOMPETENSI SOAL URAIAN -->
+      <article class="slide-card" data-slide="33" data-title="Uji Kompetensi Uraian">
+        <div class="slide-meta">
+          <span class="slide-tag">Analisis Masalah Fikih</span>
+          <span class="slide-num-indicator">33 / 35</span>
+        </div>
+        <h2 class="slide-title">Uji Kompetensi: Jawaban Soal Uraian</h2>
+        <div class="card-box" style="margin-bottom: 12px;">
+          <h4 style="color: var(--primary); font-size: 0.95rem;">1. Rahman berutang untuk kurban?</h4>
+          <p style="font-size: 0.86rem; color: var(--text-muted);">
+            Kurban hanya disunahkan bagi yang mampu. Berutang tidak dianjurkan jika memberatkan pelunasan. Namun jika ia yakin mampu membayar (ada gaji pasti), berkurbannya sah.
+          </p>
+        </div>
+        <div class="card-box" style="margin-bottom: 12px;">
+          <h4 style="color: var(--primary); font-size: 0.95rem;">2. Syauqi batal kurban sapi karena bangkrut, hanya mampu kambing?</h4>
+          <p style="font-size: 0.86rem; color: var(--text-muted);">
+            Syauqi sebaiknya tetap berkurban dengan seekor kambing sesuai kemampuannya saat ini. Niat baiknya berkurban sapi telah dicatat pahalanya oleh Allah Swt.
+          </p>
+        </div>
+        <div class="grid-2">
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-size: 0.9rem;">3. Kambing tertabrak mobil patah kaki?</h4>
+            <p style="font-size: 0.83rem;">
+              Tidak sah untuk kurban karena pincang parah/patah kaki termasuk cacat yang membatalkan keabsahan kurban (HR. Ahmad). Boleh disembelih sebagai konsumsi biasa.
+            </p>
+          </div>
+          <div class="card-box">
+            <h4 style="color: var(--primary); font-size: 0.9rem;">4 & 5. Akikah diri sendiri & sedekah uang?</h4>
+            <p style="font-size: 0.83rem;">
+              Anak yang sudah balig boleh berakikah untuk dirinya sendiri. Namun menyedekahkan uang seharga kambing TIDAK MENGGUGURKAN akikah, karena substansi akikah adalah menyembelih hewan ternak.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 34: ASESMEN KETERAMPILAN & PROYEK -->
+      <article class="slide-card" data-slide="34" data-title="Asesmen Keterampilan">
+        <div class="slide-meta">
+          <span class="slide-tag">Unjuk Kerja & Proyek</span>
+          <span class="slide-num-indicator">34 / 35</span>
+        </div>
+        <h2 class="slide-title">Asesmen Keterampilan & Proyek Mandiri</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon">1</div>
+              <h3 class="card-box-title">Unjuk Kerja Simulasi</h3>
+            </div>
+            <ul class="bullet-list">
+              <li><strong>Kegiatan 1.5:</strong> Skenario simulasi kepanitiaan kurban madrasah (anggaran, persiapan hewan, dan alur distribusi ramah lingkungan).</li>
+              <li><strong>Kegiatan 1.6:</strong> Simulasi prosesi akikah: niat, demonstrasi pemotongan, doa <em>tahnik</em>, pencukuran rambut, dan pembagian makanan.</li>
+            </ul>
+          </div>
+          <div class="card-box">
+            <div class="card-box-header">
+              <div class="card-icon" style="background: var(--accent);">2</div>
+              <h3 class="card-box-title">Proyek & Literasi Lapangan</h3>
+            </div>
+            <ul class="bullet-list">
+              <li><strong>Kegiatan 1.7:</strong> Membuat poster digital atau video edukasi bertema <em>"Berkurban dengan Hati, Berbagi dengan Ikhlas"</em>.</li>
+              <li><strong>Kegiatan 1.8:</strong> Wawancara tokoh agama/orang tua mengenai pengalaman akikah dan maknanya bagi keluarga.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- SLIDE 35: MUHASABAH & MUTIARA HIKMAH -->
+      <article class="slide-card" data-slide="35" data-title="Muhasabah & Mutiara Hikmah">
+        <div class="slide-meta">
+          <span class="slide-tag">Refleksi Akhir</span>
+          <span class="slide-num-indicator">35 / 35</span>
+        </div>
+        <h2 class="slide-title">Muhasabah Diri & Mutiara Hikmah</h2>
+        <div class="grid-2">
+          <div class="card-box">
+            <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 8px;">Refleksi Sikap (10 Indikator)</h3>
+            <ul class="bullet-list" style="font-size: 0.86rem;">
+              <li>Menyadari berkurban dan akikah adalah wujud cinta dan syukur kepada Allah.</li>
+              <li>Membangun kepedulian sosial kepada fakir miskin dan tetangga.</li>
+              <li>Menjaga adab terhadap hewan dan kebersihan lingkungan sekitar.</li>
+              <li>Meneladani ketabahan dan keikhlasan Nabi Ibrahim & Ismail as.</li>
+            </ul>
+          </div>
+          <div class="arabic-card" style="margin: 0; display: flex; flex-direction: column; justify-content: center;">
+            <div class="arabic-text" style="font-size: 1.2rem; line-height: 2;">
+              «مَنْ أَحَبَّ أَنْ يَفْتَحَ اللَّهُ لَهُ قَلْبَهُ أَوْ يُنَوِّرَهُ، فَعَلَيْهِ بِتَرْكِ الْكَلَامِ فِيمَا لَا يَعْنِيهِ، وَتَرْكِ الذُّنُوبِ، وَاجْتِنَابِ الْمَعَاصِي، وَيَكُونُ لَهُ خَبِيئَةٌ مِنْ عَمَلٍ فِيمَا بَيْنَهُ وَبَيْنَ اللَّهِ تَعَالَى»
+            </div>
+            <div class="arabic-translation" style="font-size: 0.88rem;">
+              "Barang siapa ingin Allah membukakan hatinya dan menerangi pandangannya, hendaklah ia meninggalkan pembicaraan yang tidak bermanfaat, menjauhi dosa, dan memiliki amalan tersembunyi antara dirinya dengan Allah."
+            </div>
+            <div class="arabic-source">&mdash; Imam Syafi'i (Manaqib Asy-Syafi'i, Juz 2, hlm. 171)</div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <footer class="deck-nav">
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-prev"><span>◀</span> Sebelumnya</button>
+      <button class="nav-btn primary" id="btn-next">Selanjutnya <span>▶</span></button>
+    </div>
+
+    <div class="nav-progress-wrap">
+      <div class="nav-progress-bar">
+        <div class="nav-progress-fill" id="progress-fill"></div>
+      </div>
+      <div class="nav-meta-text">
+        <span id="slide-title-display">Sampul & Pembuka</span>
+        <span id="slide-counter-display">Slide 01 / 35</span>
+      </div>
+    </div>
+
+    <div class="nav-buttons">
+      <button class="nav-btn" id="btn-first" title="Ke Slide Pertama">⏮️ Awal</button>
+      <button class="nav-btn" id="btn-last" title="Ke Slide Terakhir">⏭️ Akhir</button>
+    </div>
+  </footer>
+
+  <!-- Slide Overview Drawer Modal -->
+  <div class="drawer-overlay" id="drawer-overlay">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <h3 class="drawer-title">📑 Daftar Isi Slide Deck — Bab I: Kurban dan Akikah</h3>
+        <button class="icon-btn" id="btn-close-drawer" style="color: var(--text-main);">✕</button>
+      </div>
+      <div class="drawer-grid" id="drawer-grid">
+        <!-- populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const slides = document.querySelectorAll('.slide-card');
+      const totalSlides = slides.length;
+      let currentIndex = 0;
+
+      const btnPrev = document.getElementById('btn-prev');
+      const btnNext = document.getElementById('btn-next');
+      const btnFirst = document.getElementById('btn-first');
+      const btnLast = document.getElementById('btn-last');
+      const progressFill = document.getElementById('progress-fill');
+      const slideTitleDisplay = document.getElementById('slide-title-display');
+      const slideCounterDisplay = document.getElementById('slide-counter-display');
+      const btnTheme = document.getElementById('btn-theme');
+      const btnFullscreen = document.getElementById('btn-fullscreen');
+      const btnPrint = document.getElementById('btn-print');
+      const btnDrawer = document.getElementById('btn-drawer');
+      const btnCloseDrawer = document.getElementById('btn-close-drawer');
+      const drawerOverlay = document.getElementById('drawer-overlay');
+      const drawerGrid = document.getElementById('drawer-grid');
+
+      // Populate Drawer Grid
+      slides.forEach((slide, idx) => {
+        const item = document.createElement('div');
+        item.className = 'drawer-item' + (idx === 0 ? ' active' : '');
+        item.dataset.index = idx;
+        const num = String(idx + 1).padStart(2, '0');
+        const title = slide.dataset.title || `Slide ${num}`;
+        item.innerHTML = `<span class="drawer-item-num">Slide ${num}</span><span class="drawer-item-title">${title}</span>`;
+        item.addEventListener('click', () => {
+          goToSlide(idx);
+          closeDrawer();
+        });
+        drawerGrid.appendChild(item);
+      });
+
+      function updateSlide(newIndex) {
+        if (newIndex < 0) newIndex = 0;
+        if (newIndex >= totalSlides) newIndex = totalSlides - 1;
+
+        slides.forEach((slide, idx) => {
+          slide.classList.remove('active', 'prev');
+          if (idx === newIndex) {
+            slide.classList.add('active');
+            slide.scrollTop = 0;
+          } else if (idx < newIndex) {
+            slide.classList.add('prev');
+          }
+        });
+
+        currentIndex = newIndex;
+
+        // Update Nav UI
+        const currNum = String(currentIndex + 1).padStart(2, '0');
+        const totalNum = String(totalSlides).padStart(2, '0');
+        slideCounterDisplay.textContent = `Slide ${currNum} / ${totalNum}`;
+        slideTitleDisplay.textContent = slides[currentIndex].dataset.title || `Slide ${currNum}`;
+
+        const pct = ((currentIndex + 1) / totalSlides) * 100;
+        progressFill.style.width = pct + '%';
+
+        btnPrev.disabled = currentIndex === 0;
+        btnNext.disabled = currentIndex === totalSlides - 1;
+
+        // Update Drawer Highlight
+        const drawerItems = drawerGrid.querySelectorAll('.drawer-item');
+        drawerItems.forEach((dItem, idx) => {
+          dItem.classList.toggle('active', idx === currentIndex);
+        });
+      }
+
+      function goToSlide(index) {
+        updateSlide(index);
+      }
+
+      function nextSlide() {
+        if (currentIndex < totalSlides - 1) {
+          updateSlide(currentIndex + 1);
+        }
+      }
+
+      function prevSlide() {
+        if (currentIndex > 0) {
+          updateSlide(currentIndex - 1);
+        }
+      }
+
+      function openDrawer() {
+        drawerOverlay.classList.add('open');
+      }
+
+      function closeDrawer() {
+        drawerOverlay.classList.remove('open');
+      }
+
+      // Event Listeners
+      btnNext.addEventListener('click', nextSlide);
+      btnPrev.addEventListener('click', prevSlide);
+      btnFirst.addEventListener('click', () => goToSlide(0));
+      btnLast.addEventListener('click', () => goToSlide(totalSlides - 1));
+
+      btnDrawer.addEventListener('click', openDrawer);
+      btnCloseDrawer.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', (e) => {
+        if (e.target === drawerOverlay) closeDrawer();
+      });
+
+      // Keyboard Navigation
+      window.addEventListener('keydown', (e) => {
+        if (drawerOverlay.classList.contains('open')) {
+          if (e.key === 'Escape') closeDrawer();
+          return;
+        }
+
+        if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+          e.preventDefault();
+          nextSlide();
+        } else if (e.key === 'ArrowLeft' || e.key === 'PageUp' || e.key === 'Backspace') {
+          e.preventDefault();
+          prevSlide();
+        } else if (e.key === 'Home') {
+          e.preventDefault();
+          goToSlide(0);
+        } else if (e.key === 'End') {
+          e.preventDefault();
+          goToSlide(totalSlides - 1);
+        } else if (e.key === 'f' || e.key === 'F') {
+          toggleFullscreen();
+        } else if (e.key === 'd' || e.key === 'D') {
+          toggleTheme();
+        } else if (e.key === 'm' || e.key === 'M') {
+          openDrawer();
+        }
+      });
+
+      // Touch Swipe
+      let touchStartX = 0;
+      let touchEndX = 0;
+      const stage = document.getElementById('slide-stage');
+
+      stage.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      stage.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      }, { passive: true });
+
+      function handleSwipe() {
+        const threshold = 50;
+        if (touchEndX < touchStartX - threshold) {
+          nextSlide();
+        } else if (touchEndX > touchStartX + threshold) {
+          prevSlide();
+        }
+      }
+
+      // Theme Toggle
+      function toggleTheme() {
+        const currentTheme = document.body.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('deck-theme', newTheme);
+      }
+
+      btnTheme.addEventListener('click', toggleTheme);
+      const savedTheme = localStorage.getItem('deck-theme') || 'light';
+      document.body.setAttribute('data-theme', savedTheme);
+
+      // Fullscreen Toggle
+      function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(() => {});
+        } else {
+          document.exitFullscreen().catch(() => {});
+        }
+      }
+
+      btnFullscreen.addEventListener('click', toggleFullscreen);
+
+      // Print / PDF
+      btnPrint.addEventListener('click', () => {
+        window.print();
+      });
+
+      // Init
+      updateSlide(0);
+    })();
+  </script>
+</body>
+</html>
